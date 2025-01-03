@@ -1,0 +1,1210 @@
+{
+  "metrics": [
+    {
+      "geographyId": "world",
+      "metricId": "ous",
+      "classId": "energy",
+      "sketchId": "23746",
+      "groupId": null,
+      "value": 16810646.307129,
+      "extra": {
+        "sketchName": "mpa-collection",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "ous",
+      "classId": "energy",
+      "sketchId": "23746",
+      "groupId": "HIGH_PROTECTION",
+      "value": 16810646.307129,
+      "extra": {
+        "sketchName": "mpa-collection",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "ous",
+      "classId": "energy",
+      "sketchId": "23746",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa-collection",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "ous",
+      "classId": "energy",
+      "sketchId": "23747",
+      "groupId": null,
+      "value": 16810646.307129,
+      "extra": {
+        "sketchName": "coastal"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "ous",
+      "classId": "energy",
+      "sketchId": "23747",
+      "groupId": "HIGH_PROTECTION",
+      "value": 16810646.307129,
+      "extra": {
+        "sketchName": "coastal"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "ous",
+      "classId": "energy",
+      "sketchId": "23748",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "offshore"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "ous",
+      "classId": "energy",
+      "sketchId": "23748",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 0,
+      "extra": {
+        "sketchName": "offshore"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "ous",
+      "classId": "energy",
+      "sketchId": "23749",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "turneffe"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "ous",
+      "classId": "energy",
+      "sketchId": "23749",
+      "groupId": "HIGH_PROTECTION",
+      "value": 0,
+      "extra": {
+        "sketchName": "turneffe"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "ous",
+      "classId": "energy",
+      "sketchId": "23750",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "souther"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "ous",
+      "classId": "energy",
+      "sketchId": "23750",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 0,
+      "extra": {
+        "sketchName": "souther"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "ous",
+      "classId": "fisheries_aquaculture",
+      "sketchId": "23746",
+      "groupId": null,
+      "value": 4768957.220449,
+      "extra": {
+        "sketchName": "mpa-collection",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "ous",
+      "classId": "fisheries_aquaculture",
+      "sketchId": "23746",
+      "groupId": "HIGH_PROTECTION",
+      "value": 4768701.174016,
+      "extra": {
+        "sketchName": "mpa-collection",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "ous",
+      "classId": "fisheries_aquaculture",
+      "sketchId": "23746",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 256.046433,
+      "extra": {
+        "sketchName": "mpa-collection",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "ous",
+      "classId": "fisheries_aquaculture",
+      "sketchId": "23747",
+      "groupId": null,
+      "value": 4513083.681467,
+      "extra": {
+        "sketchName": "coastal"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "ous",
+      "classId": "fisheries_aquaculture",
+      "sketchId": "23747",
+      "groupId": "HIGH_PROTECTION",
+      "value": 4513083.681467,
+      "extra": {
+        "sketchName": "coastal"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "ous",
+      "classId": "fisheries_aquaculture",
+      "sketchId": "23748",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "offshore"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "ous",
+      "classId": "fisheries_aquaculture",
+      "sketchId": "23748",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 0,
+      "extra": {
+        "sketchName": "offshore"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "ous",
+      "classId": "fisheries_aquaculture",
+      "sketchId": "23749",
+      "groupId": null,
+      "value": 255617.492549,
+      "extra": {
+        "sketchName": "turneffe"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "ous",
+      "classId": "fisheries_aquaculture",
+      "sketchId": "23749",
+      "groupId": "HIGH_PROTECTION",
+      "value": 255617.492549,
+      "extra": {
+        "sketchName": "turneffe"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "ous",
+      "classId": "fisheries_aquaculture",
+      "sketchId": "23750",
+      "groupId": null,
+      "value": 256.046433,
+      "extra": {
+        "sketchName": "souther"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "ous",
+      "classId": "fisheries_aquaculture",
+      "sketchId": "23750",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 256.046433,
+      "extra": {
+        "sketchName": "souther"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "ous",
+      "classId": "general_use",
+      "sketchId": "23746",
+      "groupId": null,
+      "value": 5943038922.15043,
+      "extra": {
+        "sketchName": "mpa-collection",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "ous",
+      "classId": "general_use",
+      "sketchId": "23746",
+      "groupId": "HIGH_PROTECTION",
+      "value": 5942040486.132605,
+      "extra": {
+        "sketchName": "mpa-collection",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "ous",
+      "classId": "general_use",
+      "sketchId": "23746",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 998436.054693,
+      "extra": {
+        "sketchName": "mpa-collection",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "ous",
+      "classId": "general_use",
+      "sketchId": "23747",
+      "groupId": null,
+      "value": 5940486059.984764,
+      "extra": {
+        "sketchName": "coastal"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "ous",
+      "classId": "general_use",
+      "sketchId": "23747",
+      "groupId": "HIGH_PROTECTION",
+      "value": 5940486059.984764,
+      "extra": {
+        "sketchName": "coastal"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "ous",
+      "classId": "general_use",
+      "sketchId": "23748",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "offshore"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "ous",
+      "classId": "general_use",
+      "sketchId": "23748",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 0,
+      "extra": {
+        "sketchName": "offshore"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "ous",
+      "classId": "general_use",
+      "sketchId": "23749",
+      "groupId": null,
+      "value": 1554426.143897,
+      "extra": {
+        "sketchName": "turneffe"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "ous",
+      "classId": "general_use",
+      "sketchId": "23749",
+      "groupId": "HIGH_PROTECTION",
+      "value": 1554426.143897,
+      "extra": {
+        "sketchName": "turneffe"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "ous",
+      "classId": "general_use",
+      "sketchId": "23750",
+      "groupId": null,
+      "value": 998436.054693,
+      "extra": {
+        "sketchName": "souther"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "ous",
+      "classId": "general_use",
+      "sketchId": "23750",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 998436.054693,
+      "extra": {
+        "sketchName": "souther"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "ous",
+      "classId": "marine_coastal_development",
+      "sketchId": "23746",
+      "groupId": null,
+      "value": 85605.509452,
+      "extra": {
+        "sketchName": "mpa-collection",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "ous",
+      "classId": "marine_coastal_development",
+      "sketchId": "23746",
+      "groupId": "HIGH_PROTECTION",
+      "value": 57454.999349,
+      "extra": {
+        "sketchName": "mpa-collection",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "ous",
+      "classId": "marine_coastal_development",
+      "sketchId": "23746",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 28150.510103,
+      "extra": {
+        "sketchName": "mpa-collection",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "ous",
+      "classId": "marine_coastal_development",
+      "sketchId": "23747",
+      "groupId": null,
+      "value": 5996.461027,
+      "extra": {
+        "sketchName": "coastal"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "ous",
+      "classId": "marine_coastal_development",
+      "sketchId": "23747",
+      "groupId": "HIGH_PROTECTION",
+      "value": 5996.461027,
+      "extra": {
+        "sketchName": "coastal"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "ous",
+      "classId": "marine_coastal_development",
+      "sketchId": "23748",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "offshore"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "ous",
+      "classId": "marine_coastal_development",
+      "sketchId": "23748",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 0,
+      "extra": {
+        "sketchName": "offshore"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "ous",
+      "classId": "marine_coastal_development",
+      "sketchId": "23749",
+      "groupId": null,
+      "value": 51458.538322,
+      "extra": {
+        "sketchName": "turneffe"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "ous",
+      "classId": "marine_coastal_development",
+      "sketchId": "23749",
+      "groupId": "HIGH_PROTECTION",
+      "value": 51458.538322,
+      "extra": {
+        "sketchName": "turneffe"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "ous",
+      "classId": "marine_coastal_development",
+      "sketchId": "23750",
+      "groupId": null,
+      "value": 28150.510103,
+      "extra": {
+        "sketchName": "souther"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "ous",
+      "classId": "marine_coastal_development",
+      "sketchId": "23750",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 28150.510103,
+      "extra": {
+        "sketchName": "souther"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "ous",
+      "classId": "marine_coastal_ecosystems",
+      "sketchId": "23746",
+      "groupId": null,
+      "value": 1741732598.839378,
+      "extra": {
+        "sketchName": "mpa-collection",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "ous",
+      "classId": "marine_coastal_ecosystems",
+      "sketchId": "23746",
+      "groupId": "HIGH_PROTECTION",
+      "value": 1734657650.721452,
+      "extra": {
+        "sketchName": "mpa-collection",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "ous",
+      "classId": "marine_coastal_ecosystems",
+      "sketchId": "23746",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 7074948.133193,
+      "extra": {
+        "sketchName": "mpa-collection",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "ous",
+      "classId": "marine_coastal_ecosystems",
+      "sketchId": "23747",
+      "groupId": null,
+      "value": 1730927017.769708,
+      "extra": {
+        "sketchName": "coastal"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "ous",
+      "classId": "marine_coastal_ecosystems",
+      "sketchId": "23747",
+      "groupId": "HIGH_PROTECTION",
+      "value": 1730927017.769708,
+      "extra": {
+        "sketchName": "coastal"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "ous",
+      "classId": "marine_coastal_ecosystems",
+      "sketchId": "23748",
+      "groupId": null,
+      "value": 25530.346666,
+      "extra": {
+        "sketchName": "offshore"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "ous",
+      "classId": "marine_coastal_ecosystems",
+      "sketchId": "23748",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 25530.346666,
+      "extra": {
+        "sketchName": "offshore"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "ous",
+      "classId": "marine_coastal_ecosystems",
+      "sketchId": "23749",
+      "groupId": null,
+      "value": 3730632.952744,
+      "extra": {
+        "sketchName": "turneffe"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "ous",
+      "classId": "marine_coastal_ecosystems",
+      "sketchId": "23749",
+      "groupId": "HIGH_PROTECTION",
+      "value": 3730632.952744,
+      "extra": {
+        "sketchName": "turneffe"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "ous",
+      "classId": "marine_coastal_ecosystems",
+      "sketchId": "23750",
+      "groupId": null,
+      "value": 7049417.786527,
+      "extra": {
+        "sketchName": "souther"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "ous",
+      "classId": "marine_coastal_ecosystems",
+      "sketchId": "23750",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 7049417.786527,
+      "extra": {
+        "sketchName": "souther"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "ous",
+      "classId": "maritime_administration",
+      "sketchId": "23746",
+      "groupId": null,
+      "value": 646259927.237186,
+      "extra": {
+        "sketchName": "mpa-collection",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "ous",
+      "classId": "maritime_administration",
+      "sketchId": "23746",
+      "groupId": "HIGH_PROTECTION",
+      "value": 646259927.237186,
+      "extra": {
+        "sketchName": "mpa-collection",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "ous",
+      "classId": "maritime_administration",
+      "sketchId": "23746",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa-collection",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "ous",
+      "classId": "maritime_administration",
+      "sketchId": "23747",
+      "groupId": null,
+      "value": 636407283.527849,
+      "extra": {
+        "sketchName": "coastal"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "ous",
+      "classId": "maritime_administration",
+      "sketchId": "23747",
+      "groupId": "HIGH_PROTECTION",
+      "value": 636407283.527849,
+      "extra": {
+        "sketchName": "coastal"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "ous",
+      "classId": "maritime_administration",
+      "sketchId": "23748",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "offshore"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "ous",
+      "classId": "maritime_administration",
+      "sketchId": "23748",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 0,
+      "extra": {
+        "sketchName": "offshore"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "ous",
+      "classId": "maritime_administration",
+      "sketchId": "23749",
+      "groupId": null,
+      "value": 9852643.709337,
+      "extra": {
+        "sketchName": "turneffe"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "ous",
+      "classId": "maritime_administration",
+      "sketchId": "23749",
+      "groupId": "HIGH_PROTECTION",
+      "value": 9852643.709337,
+      "extra": {
+        "sketchName": "turneffe"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "ous",
+      "classId": "maritime_administration",
+      "sketchId": "23750",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "souther"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "ous",
+      "classId": "maritime_administration",
+      "sketchId": "23750",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 0,
+      "extra": {
+        "sketchName": "souther"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "ous",
+      "classId": "tourism",
+      "sketchId": "23746",
+      "groupId": null,
+      "value": 265914116.736497,
+      "extra": {
+        "sketchName": "mpa-collection",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "ous",
+      "classId": "tourism",
+      "sketchId": "23746",
+      "groupId": "HIGH_PROTECTION",
+      "value": 259490893.46829,
+      "extra": {
+        "sketchName": "mpa-collection",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "ous",
+      "classId": "tourism",
+      "sketchId": "23746",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 6423223.268208,
+      "extra": {
+        "sketchName": "mpa-collection",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "ous",
+      "classId": "tourism",
+      "sketchId": "23747",
+      "groupId": null,
+      "value": 214722376.933146,
+      "extra": {
+        "sketchName": "coastal"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "ous",
+      "classId": "tourism",
+      "sketchId": "23747",
+      "groupId": "HIGH_PROTECTION",
+      "value": 214722376.933146,
+      "extra": {
+        "sketchName": "coastal"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "ous",
+      "classId": "tourism",
+      "sketchId": "23748",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "offshore"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "ous",
+      "classId": "tourism",
+      "sketchId": "23748",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 0,
+      "extra": {
+        "sketchName": "offshore"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "ous",
+      "classId": "tourism",
+      "sketchId": "23749",
+      "groupId": null,
+      "value": 44768516.535143,
+      "extra": {
+        "sketchName": "turneffe"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "ous",
+      "classId": "tourism",
+      "sketchId": "23749",
+      "groupId": "HIGH_PROTECTION",
+      "value": 44768516.535143,
+      "extra": {
+        "sketchName": "turneffe"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "ous",
+      "classId": "tourism",
+      "sketchId": "23750",
+      "groupId": null,
+      "value": 6423223.268208,
+      "extra": {
+        "sketchName": "souther"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "ous",
+      "classId": "tourism",
+      "sketchId": "23750",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 6423223.268208,
+      "extra": {
+        "sketchName": "souther"
+      }
+    }
+  ],
+  "sketch": {
+    "id": 23746,
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "id": 23750,
+        "bbox": [
+          -87.977865619,
+          16.219737962,
+          -87.45353766,
+          16.685260273
+        ],
+        "type": "Feature",
+        "properties": {
+          "2931": "VI",
+          "2932": "souther",
+          "2934": "abby",
+          "id": "23750",
+          "name": "souther",
+          "postId": null,
+          "userId": "531",
+          "authors": "abby",
+          "comments": null,
+          "userSlug": "Abby",
+          "createdAt": "2023-12-13T23:03:14.823323+00:00",
+          "updatedAt": "2023-12-13T23:03:17.679221+00:00",
+          "designation": "VI",
+          "collectionId": "23746",
+          "isCollection": false,
+          "sharedInForum": false,
+          "sketchClassId": "196",
+          "userAttributes": [
+            {
+              "label": "Comments",
+              "value": null,
+              "exportId": "comments",
+              "fieldType": "TextArea",
+              "valueLabel": null,
+              "formElementId": 2933,
+              "alternateLanguages": {
+                "es": {
+                  "label": "Comentarios",
+                  "valueLabel": null
+                }
+              }
+            },
+            {
+              "label": "Author(s)",
+              "value": "abby",
+              "exportId": "authors",
+              "fieldType": "ShortText",
+              "valueLabel": null,
+              "formElementId": 2934,
+              "alternateLanguages": {
+                "es": {
+                  "label": "Autor(es)",
+                  "valueLabel": null
+                }
+              }
+            },
+            {
+              "label": "Designation",
+              "value": "VI",
+              "exportId": "designation",
+              "fieldType": "ComboBox",
+              "valueLabel": "IUCN VI: Protected Area with Sustainable Use",
+              "formElementId": 2931,
+              "alternateLanguages": {
+                "es": {
+                  "label": "Designación",
+                  "valueLabel": "UICN VI: Área Protegida con Uso Sostenible"
+                }
+              }
+            }
+          ]
+        },
+        "geometry": null
+      },
+      {
+        "id": 23749,
+        "bbox": [
+          -88.020667901,
+          17.151063399,
+          -87.614046219,
+          17.620800089
+        ],
+        "type": "Feature",
+        "properties": {
+          "2931": "III",
+          "2932": "turneffe",
+          "2934": "abby",
+          "id": "23749",
+          "name": "turneffe",
+          "postId": null,
+          "userId": "531",
+          "authors": "abby",
+          "comments": null,
+          "userSlug": "Abby",
+          "createdAt": "2023-12-13T23:02:52.63869+00:00",
+          "updatedAt": "2023-12-14T00:46:50.891222+00:00",
+          "designation": "III",
+          "collectionId": "23746",
+          "isCollection": false,
+          "sharedInForum": false,
+          "sketchClassId": "196",
+          "userAttributes": [
+            {
+              "label": "Comments",
+              "value": null,
+              "exportId": "comments",
+              "fieldType": "TextArea",
+              "valueLabel": null,
+              "formElementId": 2933,
+              "alternateLanguages": {
+                "es": {
+                  "label": "Comentarios",
+                  "valueLabel": null
+                }
+              }
+            },
+            {
+              "label": "Author(s)",
+              "value": "abby",
+              "exportId": "authors",
+              "fieldType": "ShortText",
+              "valueLabel": null,
+              "formElementId": 2934,
+              "alternateLanguages": {
+                "es": {
+                  "label": "Autor(es)",
+                  "valueLabel": null
+                }
+              }
+            },
+            {
+              "label": "Designation",
+              "value": "III",
+              "exportId": "designation",
+              "fieldType": "ComboBox",
+              "valueLabel": "IUCN III: Natural Monument or Feature",
+              "formElementId": 2931,
+              "alternateLanguages": {
+                "es": {
+                  "label": "Designación",
+                  "valueLabel": "UICN III: Monumento o Característica Natural"
+                }
+              }
+            }
+          ]
+        },
+        "geometry": null
+      },
+      {
+        "id": 23748,
+        "bbox": [
+          -86.798948507,
+          17.228289079,
+          -86.205663618,
+          17.823345696
+        ],
+        "type": "Feature",
+        "properties": {
+          "2931": "V",
+          "2932": "offshore",
+          "2934": "abby",
+          "id": "23748",
+          "name": "offshore",
+          "postId": null,
+          "userId": "531",
+          "authors": "abby",
+          "comments": null,
+          "userSlug": "Abby",
+          "createdAt": "2023-12-13T23:02:34.911638+00:00",
+          "updatedAt": "2023-12-13T23:02:37.230936+00:00",
+          "designation": "V",
+          "collectionId": "23746",
+          "isCollection": false,
+          "sharedInForum": false,
+          "sketchClassId": "196",
+          "userAttributes": [
+            {
+              "label": "Comments",
+              "value": null,
+              "exportId": "comments",
+              "fieldType": "TextArea",
+              "valueLabel": null,
+              "formElementId": 2933,
+              "alternateLanguages": {
+                "es": {
+                  "label": "Comentarios",
+                  "valueLabel": null
+                }
+              }
+            },
+            {
+              "label": "Author(s)",
+              "value": "abby",
+              "exportId": "authors",
+              "fieldType": "ShortText",
+              "valueLabel": null,
+              "formElementId": 2934,
+              "alternateLanguages": {
+                "es": {
+                  "label": "Autor(es)",
+                  "valueLabel": null
+                }
+              }
+            },
+            {
+              "label": "Designation",
+              "value": "V",
+              "exportId": "designation",
+              "fieldType": "ComboBox",
+              "valueLabel": "IUCN V: Protected Landscape or Seascape",
+              "formElementId": 2931,
+              "alternateLanguages": {
+                "es": {
+                  "label": "Designación",
+                  "valueLabel": "UICN V: Paisaje o Paisaje Marino Protegido"
+                }
+              }
+            }
+          ]
+        },
+        "geometry": null
+      },
+      {
+        "id": 23747,
+        "bbox": [
+          -88.207927887,
+          17.513684019,
+          -87.951114192,
+          17.972303524
+        ],
+        "type": "Feature",
+        "properties": {
+          "2931": "Ia",
+          "2932": "coastal",
+          "2934": "abby",
+          "id": "23747",
+          "name": "coastal",
+          "postId": null,
+          "userId": "531",
+          "authors": "abby",
+          "comments": null,
+          "userSlug": "Abby",
+          "createdAt": "2023-12-13T23:02:20.132533+00:00",
+          "updatedAt": "2023-12-13T23:02:23.405725+00:00",
+          "designation": "Ia",
+          "collectionId": "23746",
+          "isCollection": false,
+          "sharedInForum": false,
+          "sketchClassId": "196",
+          "userAttributes": [
+            {
+              "label": "Comments",
+              "value": null,
+              "exportId": "comments",
+              "fieldType": "TextArea",
+              "valueLabel": null,
+              "formElementId": 2933,
+              "alternateLanguages": {
+                "es": {
+                  "label": "Comentarios",
+                  "valueLabel": null
+                }
+              }
+            },
+            {
+              "label": "Author(s)",
+              "value": "abby",
+              "exportId": "authors",
+              "fieldType": "ShortText",
+              "valueLabel": null,
+              "formElementId": 2934,
+              "alternateLanguages": {
+                "es": {
+                  "label": "Autor(es)",
+                  "valueLabel": null
+                }
+              }
+            },
+            {
+              "label": "Designation",
+              "value": "Ia",
+              "exportId": "designation",
+              "fieldType": "ComboBox",
+              "valueLabel": "IUCN Ia: Strict Nature Reserve",
+              "formElementId": 2931,
+              "alternateLanguages": {
+                "es": {
+                  "label": "Designación",
+                  "valueLabel": "UICN Ia: Reserva Natural Estricta"
+                }
+              }
+            }
+          ]
+        },
+        "geometry": null
+      }
+    ],
+    "properties": {
+      "3094": "mpa-collection",
+      "id": "23746",
+      "name": "mpa-collection",
+      "postId": null,
+      "userId": "531",
+      "authors": null,
+      "comments": null,
+      "userSlug": "Abby",
+      "createdAt": "2023-12-13T23:02:00.449408+00:00",
+      "updatedAt": "2024-02-21T16:41:02.895404+00:00",
+      "collectionId": null,
+      "isCollection": true,
+      "sharedInForum": false,
+      "sketchClassId": "232",
+      "userAttributes": [
+        {
+          "label": "Comments",
+          "value": null,
+          "exportId": "comments",
+          "fieldType": "TextArea",
+          "valueLabel": null,
+          "formElementId": 5784,
+          "alternateLanguages": {}
+        },
+        {
+          "label": "Author(s)",
+          "value": null,
+          "exportId": "authors",
+          "fieldType": "TextArea",
+          "valueLabel": null,
+          "formElementId": 5785,
+          "alternateLanguages": {}
+        }
+      ]
+    }
+  }
+}

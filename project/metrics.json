@@ -1,0 +1,529 @@
+[
+  {
+    "metricId": "size",
+    "type": "areaOverlap",
+    "layerId": "UU0vApkb2",
+    "objectiveId": "ocean_space_protected",
+    "classes": [
+      {
+        "classId": "belize_ocean_space",
+        "display": "Ocean Space",
+        "datasourceId": "belize_ocean_space",
+        "objectiveId": "ocean_space_highly_protected"
+      }
+    ]
+  },
+  {
+    "metricId": "protection",
+    "type": "countOverlap",
+    "datasourceId": "",
+    "classes": [
+      {
+        "classId": "high_protection",
+        "display": "High Protection"
+      },
+      {
+        "classId": "medium_protection",
+        "display": "Medium Protection"
+      }
+    ]
+  },
+  {
+    "metricId": "humanStressors",
+    "type": "areaOverlap",
+    "classes": [
+      {
+        "classId": "ag_runoff",
+        "display": "Agricultural Runoff",
+        "datasourceId": "ag_runoff",
+        "layerId": "Z1_qaJDQE"
+      },
+      {
+        "classId": "coastal_dev",
+        "display": "Coastal Development",
+        "datasourceId": "coastal_dev",
+        "layerId": "ChVZwiIrm"
+      },
+      {
+        "classId": "marine_dredging",
+        "display": "Marine Dredging",
+        "datasourceId": "marine_dredging",
+        "layerId": "TpiORi4XX"
+      },
+      {
+        "classId": "marine_trans",
+        "display": "Marine Transportation",
+        "datasourceId": "marine_trans",
+        "layerId": "5LDhFkMrU"
+      }
+    ]
+  },
+  {
+    "metricId": "bathymetry",
+    "type": "valueOverlap",
+    "layerId": "6jgkBTCkU",
+    "classes": [
+      {
+        "classId": "depth",
+        "display": "Depth",
+        "datasourceId": "bathymetry"
+      }
+    ]
+  },
+  {
+    "metricId": "mangroveAreaOverlap",
+    "type": "areaOverlap",
+    "classes": [
+      {
+        "classKey": "C2019",
+        "classId": "Mangrove",
+        "display": "Mangroves",
+        "datasourceId": "mangroves",
+        "objectiveId": "Mangrove",
+        "layerId": "5xlX0KoC8"
+      },
+      {
+        "classId": "mangrove_priority",
+        "display": "Priority Mangrove Areas",
+        "datasourceId": "mangroves_priority",
+        "layerId": "7SuJXuc04"
+      },
+      {
+        "classKey": "C2019",
+        "classId": "Non-mangrove",
+        "display": "Cleared Mangroves",
+        "datasourceId": "mangroves",
+        "layerId": "5xlX0KoC8"
+      }
+    ]
+  },
+  {
+    "metricId": "littoralAreaOverlap",
+    "type": "areaOverlap",
+    "layerId": "5xlX0KoC8",
+    "classes": [
+      {
+        "classKey": "C2019",
+        "classId": "Littoral",
+        "objectiveId": "littoral",
+        "display": "Littoral Forests",
+        "datasourceId": "mangroves"
+      }
+    ]
+  },
+  {
+    "metricId": "seagrassValueOverlap",
+    "type": "areaOverlap",
+    "layerId": "7nN0k9nsx",
+    "classes": [
+      {
+        "classId": "seagrass",
+        "display": "Seagrass",
+        "datasourceId": "seagrass"
+      }
+    ]
+  },
+  {
+    "metricId": "coralValueOverlap",
+    "type": "valueOverlap",
+    "layerId": "UtnjYN9f1",
+    "classes": [
+      {
+        "classId": "coral",
+        "display": "Coral Reef",
+        "objectiveId": "coral",
+        "datasourceId": "coral"
+      }
+    ]
+  },
+  {
+    "metricId": "geomorphAreaOverlap",
+    "type": "areaOverlap",
+    "classes": [
+      {
+        "classId": "abyss",
+        "display": "Abyss",
+        "datasourceId": "abyss",
+        "layerId": "9012Y19bD"
+      },
+      {
+        "classId": "basins",
+        "display": "Basin",
+        "datasourceId": "basins",
+        "layerId": "k0JrKvsgH"
+      },
+      {
+        "classId": "canyons",
+        "display": "Canyon",
+        "datasourceId": "canyons",
+        "layerId": "qXN2Ziwey"
+      },
+      {
+        "classId": "escarpments",
+        "display": "Escarpment",
+        "datasourceId": "escarpments",
+        "layerId": "arlQe_aZS"
+      },
+      {
+        "classId": "plateaus",
+        "display": "Plateau",
+        "datasourceId": "plateaus",
+        "layerId": "fVky1Pg8Y"
+      },
+      {
+        "classId": "rises",
+        "display": "Rise",
+        "datasourceId": "rises",
+        "layerId": "2PIxIaBEX"
+      },
+      {
+        "classId": "shelf",
+        "display": "Shelf",
+        "datasourceId": "shelf",
+        "layerId": "cYNNpTDh4"
+      },
+      {
+        "classId": "shelf_valleys",
+        "display": "Shelf Valley",
+        "datasourceId": "shelf_valleys",
+        "layerId": "mE7UiIgbH"
+      },
+      {
+        "classId": "sills",
+        "display": "Sill",
+        "datasourceId": "sills",
+        "layerId": "YXTpjv0UE"
+      },
+      {
+        "classId": "slope",
+        "display": "Slope",
+        "datasourceId": "slope",
+        "layerId": "3twa1FdjU"
+      }
+    ]
+  },
+  {
+    "metricId": "ousOverallDemographicOverlap",
+    "type": "countOverlap",
+    "classes": [
+      {
+        "classId": "ousPeopleCount_all",
+        "display": "Total",
+        "datasourceId": "ous_demographics.fgb",
+        "layerId": ""
+      }
+    ]
+  },
+  {
+    "metricId": "ousSectorDemographicOverlap",
+    "type": "countOverlap",
+    "classes": [
+      {
+        "classId": "Tourism",
+        "display": "Tourism",
+        "datasourceId": "ous_demographics.fgb",
+        "layerId": ""
+      },
+      {
+        "classId": "Fisheries & Aquaculture",
+        "display": "Fisheries & Aquaculture",
+        "datasourceId": "ous_demographics.fgb",
+        "layerId": ""
+      },
+      {
+        "classId": "General Use",
+        "display": "General Use",
+        "datasourceId": "ous_demographics.fgb",
+        "layerId": ""
+      },
+      {
+        "classId": "Marine & Coastal Ecosystems",
+        "display": "Marine & Coastal Ecosystems",
+        "datasourceId": "ous_demographics.fgb",
+        "layerId": ""
+      },
+      {
+        "classId": "Maritime Administration",
+        "display": "Maritime Administration",
+        "datasourceId": "ous_demographics.fgb",
+        "layerId": ""
+      },
+      {
+        "classId": "Marine & Coastal Development",
+        "display": "Marine & Coastal Development",
+        "datasourceId": "ous_demographics.fgb",
+        "layerId": ""
+      },
+      {
+        "classId": "Energy",
+        "display": "Energy",
+        "datasourceId": "ous_demographics.fgb",
+        "layerId": ""
+      }
+    ]
+  },
+  {
+    "metricId": "ousCommunityDemographicOverlap",
+    "type": "countOverlap",
+    "classes": [
+      {
+        "classId": "barranco_village",
+        "display": "Barranco Village",
+        "datasourceId": "ous_demographics.fgb",
+        "layerId": ""
+      },
+      {
+        "classId": "belize_city",
+        "display": "Belize City",
+        "datasourceId": "ous_demographics.fgb",
+        "layerId": ""
+      },
+      {
+        "classId": "cattle_landing_village",
+        "display": "Cattle Landing Village",
+        "datasourceId": "ous_demographics.fgb",
+        "layerId": ""
+      },
+      {
+        "classId": "caye_caulker_village",
+        "display": "Caye Caulker Village",
+        "datasourceId": "ous_demographics.fgb",
+        "layerId": ""
+      },
+      {
+        "classId": "chunox_village",
+        "display": "Chunox Village",
+        "datasourceId": "ous_demographics.fgb",
+        "layerId": ""
+      },
+      {
+        "classId": "consejo_village",
+        "display": "Consejo Village",
+        "datasourceId": "ous_demographics.fgb",
+        "layerId": ""
+      },
+      {
+        "classId": "copper_bank_village",
+        "display": "Copper Bank Village",
+        "datasourceId": "ous_demographics.fgb",
+        "layerId": ""
+      },
+      {
+        "classId": "corozal_town",
+        "display": "Corozal Town",
+        "datasourceId": "ous_demographics.fgb",
+        "layerId": ""
+      },
+      {
+        "classId": "dangriga_town",
+        "display": "Dangriga Town",
+        "datasourceId": "ous_demographics.fgb",
+        "layerId": ""
+      },
+      {
+        "classId": "forest_home_village",
+        "display": "Forest Home Village",
+        "datasourceId": "ous_demographics.fgb",
+        "layerId": ""
+      },
+      {
+        "classId": "gales_point_village",
+        "display": "Gales Point Village",
+        "datasourceId": "ous_demographics.fgb",
+        "layerId": ""
+      },
+      {
+        "classId": "hopkins_village",
+        "display": "Hopkins Village",
+        "datasourceId": "ous_demographics.fgb",
+        "layerId": ""
+      },
+      {
+        "classId": "independence_village",
+        "display": "Independence Village",
+        "datasourceId": "ous_demographics.fgb",
+        "layerId": ""
+      },
+      {
+        "classId": "ladyville_village",
+        "display": "Ladyville Village",
+        "datasourceId": "ous_demographics.fgb",
+        "layerId": ""
+      },
+      {
+        "classId": "mango_creek_village",
+        "display": "Mango Creek Village",
+        "datasourceId": "ous_demographics.fgb",
+        "layerId": ""
+      },
+      {
+        "classId": "maya_beach_community",
+        "display": "Maya Beach Community",
+        "datasourceId": "ous_demographics.fgb",
+        "layerId": ""
+      },
+      {
+        "classId": "monkey_river_village",
+        "display": "Monkey River Village",
+        "datasourceId": "ous_demographics.fgb",
+        "layerId": ""
+      },
+      {
+        "classId": "mullins_river_village",
+        "display": "Mullins River Village",
+        "datasourceId": "ous_demographics.fgb",
+        "layerId": ""
+      },
+      {
+        "classId": "other",
+        "display": "Other",
+        "datasourceId": "ous_demographics.fgb",
+        "layerId": ""
+      },
+      {
+        "classId": "placencia_village",
+        "display": "Placencia Village",
+        "datasourceId": "ous_demographics.fgb",
+        "layerId": ""
+      },
+      {
+        "classId": "punta_gorda_town",
+        "display": "Punta Gorda Town",
+        "datasourceId": "ous_demographics.fgb",
+        "layerId": ""
+      },
+      {
+        "classId": "punta_negra_village",
+        "display": "Punta Negra Village",
+        "datasourceId": "ous_demographics.fgb",
+        "layerId": ""
+      },
+      {
+        "classId": "riversdale_village",
+        "display": "Riversdale Village",
+        "datasourceId": "ous_demographics.fgb",
+        "layerId": ""
+      },
+      {
+        "classId": "san_pedro_town",
+        "display": "San Pedro Town",
+        "datasourceId": "ous_demographics.fgb",
+        "layerId": ""
+      },
+      {
+        "classId": "sarteneja_village",
+        "display": "Sarteneja Village",
+        "datasourceId": "ous_demographics.fgb",
+        "layerId": ""
+      },
+      {
+        "classId": "seine_bight_village",
+        "display": "Seine Bight Village",
+        "datasourceId": "ous_demographics.fgb",
+        "layerId": ""
+      },
+      {
+        "classId": "sittee_river_village",
+        "display": "Sittee River Village",
+        "datasourceId": "ous_demographics.fgb",
+        "layerId": ""
+      },
+      {
+        "classId": "st_george_s_caye",
+        "display": "St George's Caye",
+        "datasourceId": "ous_demographics.fgb",
+        "layerId": ""
+      },
+      {
+        "classId": "unknown_community",
+        "display": "Unknown community",
+        "datasourceId": "ous_demographics.fgb",
+        "layerId": ""
+      }
+    ]
+  },
+  {
+    "metricId": "ousGearDemographicOverlap",
+    "type": "countOverlap",
+    "classes": [
+      {
+        "classId": "Diving",
+        "display": "Diving",
+        "datasourceId": "ous_demographics.fgb",
+        "layerId": ""
+      },
+      {
+        "classId": "Lines",
+        "display": "Lines",
+        "datasourceId": "ous_demographics.fgb",
+        "layerId": ""
+      },
+      {
+        "classId": "Net",
+        "display": "Net",
+        "datasourceId": "ous_demographics.fgb",
+        "layerId": ""
+      },
+      {
+        "classId": "Spears",
+        "display": "Spears",
+        "datasourceId": "ous_demographics.fgb",
+        "layerId": ""
+      },
+      {
+        "classId": "Traps",
+        "display": "Traps",
+        "datasourceId": "ous_demographics.fgb",
+        "layerId": ""
+      }
+    ]
+  },
+  {
+    "metricId": "ous",
+    "type": "valueOverlap",
+    "classes": [
+      {
+        "classId": "energy",
+        "display": "Energy",
+        "datasourceId": "energy",
+        "layerId": "VcGFLeyKU"
+      },
+      {
+        "classId": "fisheries_aquaculture",
+        "display": "Fisheries & Aquaculture",
+        "datasourceId": "fisheries_aquaculture",
+        "layerId": "iC8F0FLdG"
+      },
+      {
+        "classId": "general_use",
+        "display": "General Use",
+        "datasourceId": "general_use",
+        "layerId": "pcuGfJ9gu"
+      },
+      {
+        "classId": "marine_coastal_development",
+        "display": "Marine & Coastal Development",
+        "datasourceId": "marine_coastal_development",
+        "layerId": "rF6a1e99E"
+      },
+      {
+        "classId": "marine_coastal_ecosystems",
+        "display": "Marine & Coastal Ecosystems",
+        "datasourceId": "marine_coastal_ecosystems",
+        "layerId": "sYNx2N4tV"
+      },
+      {
+        "classId": "maritime_administration",
+        "display": "Maritime Administration",
+        "datasourceId": "maritime_administration",
+        "layerId": "BnOH_vZyq"
+      },
+      {
+        "classId": "tourism",
+        "display": "Tourism",
+        "datasourceId": "tourism",
+        "layerId": "TpyjYN4LY"
+      }
+    ]
+  }
+]

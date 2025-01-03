@@ -1,0 +1,47 @@
+[
+  {
+    "objectiveId": "ocean_space_protected",
+    "shortDesc": "Ocean Space Objective",
+    "target": 0.3,
+    "countsToward": {
+      "HIGH_PROTECTION": "yes",
+      "MEDIUM_PROTECTION": "yes"
+    }
+  },
+  {
+    "objectiveId": "ocean_space_highly_protected",
+    "shortDesc": "Ocean Space High Protection Objective",
+    "target": 0.15,
+    "countsToward": {
+      "HIGH_PROTECTION": "yes",
+      "MEDIUM_PROTECTION": "no"
+    }
+  },
+  {
+    "objectiveId": "coral",
+    "shortDesc": "coral reefs in High Protection Biodiversity Zones",
+    "target": 0.2,
+    "countsToward": {
+      "HIGH_PROTECTION": "yes",
+      "MEDIUM_PROTECTION": "no"
+    }
+  },
+  {
+    "objectiveId": "Mangrove",
+    "shortDesc": "mangrove forests in High or Medium Protection Biodiversity Zones",
+    "target": 0.3,
+    "countsToward": {
+      "HIGH_PROTECTION": "yes",
+      "MEDIUM_PROTECTION": "yes"
+    }
+  },
+  {
+    "objectiveId": "littoral",
+    "shortDesc": "littoral forests in High Protection Biodiversity Zones",
+    "target": 0.9,
+    "countsToward": {
+      "HIGH_PROTECTION": "yes",
+      "MEDIUM_PROTECTION": "no"
+    }
+  }
+]

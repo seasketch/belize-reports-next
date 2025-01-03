@@ -1,0 +1,12 @@
+{
+  "author": "Abby Vath Meyer <avmey@ucsb.edu>",
+  "organization": "",
+  "region": "us-east-1",
+  "clients": [],
+  "preprocessingFunctions": [],
+  "geoprocessingFunctions": [
+    "src/functions/coralValueOverlap.ts",
+    "src/functions/humanStressors.ts",
+    "src/functions/ous.ts"
+  ]
+}

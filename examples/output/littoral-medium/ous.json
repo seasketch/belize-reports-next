@@ -1,0 +1,309 @@
+{
+  "metrics": [
+    {
+      "geographyId": "world",
+      "metricId": "ous",
+      "classId": "energy",
+      "sketchId": "23569",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "littoral-medium"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "ous",
+      "classId": "energy",
+      "sketchId": "23569",
+      "groupId": "HIGH_PROTECTION",
+      "value": 0,
+      "extra": {
+        "sketchName": "littoral-medium"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "ous",
+      "classId": "energy",
+      "sketchId": "23569",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 0,
+      "extra": {
+        "sketchName": "littoral-medium"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "ous",
+      "classId": "fisheries_aquaculture",
+      "sketchId": "23569",
+      "groupId": null,
+      "value": 68229.26196,
+      "extra": {
+        "sketchName": "littoral-medium"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "ous",
+      "classId": "fisheries_aquaculture",
+      "sketchId": "23569",
+      "groupId": "HIGH_PROTECTION",
+      "value": 0,
+      "extra": {
+        "sketchName": "littoral-medium"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "ous",
+      "classId": "fisheries_aquaculture",
+      "sketchId": "23569",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 68229.26196,
+      "extra": {
+        "sketchName": "littoral-medium"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "ous",
+      "classId": "general_use",
+      "sketchId": "23569",
+      "groupId": null,
+      "value": 2029087.802847,
+      "extra": {
+        "sketchName": "littoral-medium"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "ous",
+      "classId": "general_use",
+      "sketchId": "23569",
+      "groupId": "HIGH_PROTECTION",
+      "value": 0,
+      "extra": {
+        "sketchName": "littoral-medium"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "ous",
+      "classId": "general_use",
+      "sketchId": "23569",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 2029087.802847,
+      "extra": {
+        "sketchName": "littoral-medium"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "ous",
+      "classId": "marine_coastal_development",
+      "sketchId": "23569",
+      "groupId": null,
+      "value": 6286.953524,
+      "extra": {
+        "sketchName": "littoral-medium"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "ous",
+      "classId": "marine_coastal_development",
+      "sketchId": "23569",
+      "groupId": "HIGH_PROTECTION",
+      "value": 0,
+      "extra": {
+        "sketchName": "littoral-medium"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "ous",
+      "classId": "marine_coastal_development",
+      "sketchId": "23569",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 6286.953524,
+      "extra": {
+        "sketchName": "littoral-medium"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "ous",
+      "classId": "marine_coastal_ecosystems",
+      "sketchId": "23569",
+      "groupId": null,
+      "value": 1615.882009,
+      "extra": {
+        "sketchName": "littoral-medium"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "ous",
+      "classId": "marine_coastal_ecosystems",
+      "sketchId": "23569",
+      "groupId": "HIGH_PROTECTION",
+      "value": 0,
+      "extra": {
+        "sketchName": "littoral-medium"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "ous",
+      "classId": "marine_coastal_ecosystems",
+      "sketchId": "23569",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 1615.882009,
+      "extra": {
+        "sketchName": "littoral-medium"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "ous",
+      "classId": "maritime_administration",
+      "sketchId": "23569",
+      "groupId": null,
+      "value": 7625906.29248,
+      "extra": {
+        "sketchName": "littoral-medium"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "ous",
+      "classId": "maritime_administration",
+      "sketchId": "23569",
+      "groupId": "HIGH_PROTECTION",
+      "value": 0,
+      "extra": {
+        "sketchName": "littoral-medium"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "ous",
+      "classId": "maritime_administration",
+      "sketchId": "23569",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 7625906.29248,
+      "extra": {
+        "sketchName": "littoral-medium"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "ous",
+      "classId": "tourism",
+      "sketchId": "23569",
+      "groupId": null,
+      "value": 48967834.723364,
+      "extra": {
+        "sketchName": "littoral-medium"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "ous",
+      "classId": "tourism",
+      "sketchId": "23569",
+      "groupId": "HIGH_PROTECTION",
+      "value": 0,
+      "extra": {
+        "sketchName": "littoral-medium"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "ous",
+      "classId": "tourism",
+      "sketchId": "23569",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 48967834.723364,
+      "extra": {
+        "sketchName": "littoral-medium"
+      }
+    }
+  ],
+  "sketch": {
+    "id": 23569,
+    "bbox": [
+      -87.628784232,
+      17.151979459,
+      -87.490116882,
+      17.257949333
+    ],
+    "type": "Feature",
+    "properties": {
+      "2931": "IV",
+      "2932": "littoral-medium",
+      "2934": "abby",
+      "id": "23569",
+      "name": "littoral-medium",
+      "postId": null,
+      "userId": "531",
+      "authors": "abby",
+      "comments": null,
+      "userSlug": "Abby",
+      "createdAt": "2023-12-05T22:02:59.617023+00:00",
+      "updatedAt": "2023-12-05T22:02:59.617023+00:00",
+      "designation": "IV",
+      "collectionId": null,
+      "isCollection": false,
+      "sharedInForum": false,
+      "sketchClassId": "196",
+      "userAttributes": [
+        {
+          "label": "Comments",
+          "value": null,
+          "exportId": "comments",
+          "fieldType": "TextArea",
+          "valueLabel": null,
+          "formElementId": 2933,
+          "alternateLanguages": {
+            "es": {
+              "label": "Comentarios",
+              "valueLabel": null
+            }
+          }
+        },
+        {
+          "label": "Author(s)",
+          "value": "abby",
+          "exportId": "authors",
+          "fieldType": "ShortText",
+          "valueLabel": null,
+          "formElementId": 2934,
+          "alternateLanguages": {
+            "es": {
+              "label": "Autor(es)",
+              "valueLabel": null
+            }
+          }
+        },
+        {
+          "label": "Designation",
+          "value": "IV",
+          "exportId": "designation",
+          "fieldType": "ComboBox",
+          "valueLabel": "IUCN IV: Habitat/Species Management Area",
+          "formElementId": 2931,
+          "alternateLanguages": {
+            "es": {
+              "label": "Designación",
+              "valueLabel": "UICN IV: Área de Manejo de Hábitat/Especies"
+            }
+          }
+        }
+      ]
+    },
+    "geometry": null
+  }
+}

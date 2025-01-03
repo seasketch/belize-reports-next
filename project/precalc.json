@@ -1,0 +1,786 @@
+[
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "abyss-Hills",
+    "sketchId": null,
+    "groupId": null,
+    "value": 10641515635.250725
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "abyss-Mountains",
+    "sketchId": null,
+    "groupId": null,
+    "value": 3116548174.7878876
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "abyss-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 13758063810.038612
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "ag_runoff-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 9311697479.5962
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "basins-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 1756376676.3848724
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "bathymetry-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 152087750108.683
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "belize_ocean_space-Exclusive Economic Zone",
+    "sketchId": null,
+    "groupId": null,
+    "value": 14820598926.92899
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "belize_ocean_space-Internal Waters",
+    "sketchId": null,
+    "groupId": null,
+    "value": 12588351233.1688
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "belize_ocean_space-Territorial Seas",
+    "sketchId": null,
+    "groupId": null,
+    "value": 6436870238.385875
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "belize_ocean_space-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 33845820398.48366
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "canyons-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 3163606112.00644
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "coastal_dev-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 74793942.74582438
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "coral_vector-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 2741761006.560144
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "coral-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 2741761006.560144
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "energy-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 34361910.183046
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "escarpments-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 5475348669.751471
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "fisheries_aquaculture-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 15116596382.187813
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "general_use-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 23482751302.705814
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "mangroves_priority-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 775029416.8317865
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "mangroves-Littoral",
+    "sketchId": null,
+    "groupId": null,
+    "value": 6341418.2603750145
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "mangroves-Mangrove",
+    "sketchId": null,
+    "groupId": null,
+    "value": 197332732.46098477
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "mangroves-Non-mangrove",
+    "sketchId": null,
+    "groupId": null,
+    "value": 4949138.158827461
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "mangroves-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 208623288.88018727
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "marine_coastal_development-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 19339631491.28459
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "marine_coastal_ecosystems-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 32459619639.952908
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "marine_dredging-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 1027655726.9153023
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "marine_trans-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 8845774917.740896
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "maritime_administration-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 10190212614.971457
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "plateaus-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 230924928.9363998
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "rises-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 13528058547.705807
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "seagrass_vector-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 4563979020.596944
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "seagrass-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 2274629653.423466
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "shelf_valleys-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 311441170.33698934
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "shelf-high",
+    "sketchId": null,
+    "groupId": null,
+    "value": 4266529687.606421
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "shelf-low",
+    "sketchId": null,
+    "groupId": null,
+    "value": 1123552784.344219
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "shelf-medium",
+    "sketchId": null,
+    "groupId": null,
+    "value": 4692778552.68381
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "shelf-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 10082861024.634453
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "sills-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 76034607.51843087
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "slope-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 9242289294.879944
+  },
+  {
+    "geographyId": "world",
+    "metricId": "area",
+    "classId": "tourism-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 17507718306.486217
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "abyss-Hills",
+    "sketchId": null,
+    "groupId": null,
+    "value": 1
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "abyss-Mountains",
+    "sketchId": null,
+    "groupId": null,
+    "value": 6
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "abyss-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 7
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "ag_runoff-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 263
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "basins-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 18
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "bathymetry-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 689520
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "belize_ocean_space-Exclusive Economic Zone",
+    "sketchId": null,
+    "groupId": null,
+    "value": 1
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "belize_ocean_space-Internal Waters",
+    "sketchId": null,
+    "groupId": null,
+    "value": 2
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "belize_ocean_space-Territorial Seas",
+    "sketchId": null,
+    "groupId": null,
+    "value": 1
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "belize_ocean_space-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 4
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "canyons-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 12
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "coastal_dev-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 2889
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "coral_vector-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 10632
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "coral-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 10632
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "energy-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 315414
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "escarpments-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 6
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "fisheries_aquaculture-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 5420192
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "general_use-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 6116502
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "mangroves_priority-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 476
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "mangroves-Littoral",
+    "sketchId": null,
+    "groupId": null,
+    "value": 199
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "mangroves-Mangrove",
+    "sketchId": null,
+    "groupId": null,
+    "value": 3306
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "mangroves-Non-mangrove",
+    "sketchId": null,
+    "groupId": null,
+    "value": 373
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "mangroves-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 3878
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "marine_coastal_development-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 5578023
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "marine_coastal_ecosystems-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 8965330
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "marine_dredging-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 28
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "marine_trans-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 23
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "maritime_administration-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 4288254
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "plateaus-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 1
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "rises-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 1
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "seagrass_vector-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 32885
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "seagrass-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 45982394
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "shelf_valleys-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 1
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "shelf-high",
+    "sketchId": null,
+    "groupId": null,
+    "value": 20
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "shelf-low",
+    "sketchId": null,
+    "groupId": null,
+    "value": 18
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "shelf-medium",
+    "sketchId": null,
+    "groupId": null,
+    "value": 27
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "shelf-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 65
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "sills-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 1
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "slope-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 1
+  },
+  {
+    "geographyId": "world",
+    "metricId": "count",
+    "classId": "tourism-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 4404174
+  },
+  {
+    "geographyId": "world",
+    "metricId": "sum",
+    "classId": "bathymetry-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": -737997802
+  },
+  {
+    "geographyId": "world",
+    "metricId": "sum",
+    "classId": "energy-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 25609963.637817
+  },
+  {
+    "geographyId": "world",
+    "metricId": "sum",
+    "classId": "fisheries_aquaculture-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 11700916.08038
+  },
+  {
+    "geographyId": "world",
+    "metricId": "sum",
+    "classId": "general_use-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 10991479742.7782
+  },
+  {
+    "geographyId": "world",
+    "metricId": "sum",
+    "classId": "marine_coastal_development-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 598536700.251719
+  },
+  {
+    "geographyId": "world",
+    "metricId": "sum",
+    "classId": "marine_coastal_ecosystems-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 1934856942.703955
+  },
+  {
+    "geographyId": "world",
+    "metricId": "sum",
+    "classId": "maritime_administration-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 925983274.123097
+  },
+  {
+    "geographyId": "world",
+    "metricId": "sum",
+    "classId": "seagrass-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 2254204
+  },
+  {
+    "geographyId": "world",
+    "metricId": "sum",
+    "classId": "tourism-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 16875154312.452654
+  },
+  {
+    "geographyId": "world",
+    "metricId": "valid",
+    "classId": "bathymetry-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 689520
+  },
+  {
+    "geographyId": "world",
+    "metricId": "valid",
+    "classId": "energy-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 14729
+  },
+  {
+    "geographyId": "world",
+    "metricId": "valid",
+    "classId": "fisheries_aquaculture-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 1522515
+  },
+  {
+    "geographyId": "world",
+    "metricId": "valid",
+    "classId": "general_use-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 2403763
+  },
+  {
+    "geographyId": "world",
+    "metricId": "valid",
+    "classId": "marine_coastal_development-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 1966386
+  },
+  {
+    "geographyId": "world",
+    "metricId": "valid",
+    "classId": "marine_coastal_ecosystems-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 3519567
+  },
+  {
+    "geographyId": "world",
+    "metricId": "valid",
+    "classId": "maritime_administration-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 999076
+  },
+  {
+    "geographyId": "world",
+    "metricId": "valid",
+    "classId": "seagrass-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 2254204
+  },
+  {
+    "geographyId": "world",
+    "metricId": "valid",
+    "classId": "tourism-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 1739569
+  }
+]
