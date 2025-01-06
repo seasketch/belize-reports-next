@@ -11,8 +11,8 @@ import {
 } from "@seasketch/geoprocessing/client-ui";
 import { ReportResult } from "@seasketch/geoprocessing/client-core";
 import project from "../../project/projectClient.js";
-import { Download } from "@styled-icons/bootstrap/Download";
 import Translator from "./TranslatorAsync.js";
+import { Download } from "@styled-icons/bootstrap/Download";
 import {
   genAreaGroupLevelTable,
   genAreaSketchTable,
@@ -21,12 +21,12 @@ import {
 } from "../util/ProtectionLevelOverlapReports.js";
 
 /**
- * Coral component
+ * Seagrass component
  *
  * @param props - geographyId
  * @returns A react component which displays an overlap report
  */
-export const Coral: React.FunctionComponent<{
+export const Seagrass: React.FunctionComponent<{
   geographyId?: string;
   printing: boolean;
 }> = (props) => {
@@ -37,7 +37,7 @@ export const Coral: React.FunctionComponent<{
   });
 
   // Metrics
-  const metricGroup = project.getMetricGroup("coralValueOverlap", t);
+  const metricGroup = project.getMetricGroup("seagrass", t);
   const precalcMetrics = project.getPrecalcMetrics(
     metricGroup,
     "area",
@@ -45,15 +45,14 @@ export const Coral: React.FunctionComponent<{
   );
 
   // Labels
+  const titleLabel = t("Seagrass");
   const mapLabel = t("Map");
-  const titleLabel = t("Coral Reef");
-  const layerId = metricGroup.layerId;
 
   return (
     <div style={{ breakInside: "avoid" }}>
       <ResultsCard
         title={titleLabel}
-        functionName="coralValueOverlap"
+        functionName="seagrass"
         extraParams={{ geographyIds: [curGeography.geographyId] }}
         useChildCard
       >
@@ -61,12 +60,16 @@ export const Coral: React.FunctionComponent<{
           return (
             <ReportError>
               <ToolbarCard
-                title={titleLabel}
+                title={t("Seagrass")}
                 items={
                   <>
-                    <LayerToggle label={mapLabel} layerId={layerId} simple />
+                    <LayerToggle
+                      label={mapLabel}
+                      layerId={metricGroup.layerId}
+                      simple
+                    />
                     <DataDownload
-                      filename="coral"
+                      filename="seagrass"
                       data={data.metrics}
                       formats={["csv", "json"]}
                       titleElement={
@@ -81,14 +84,12 @@ export const Coral: React.FunctionComponent<{
                 }
               >
                 <p>
-                  <Trans i18nKey="Coral Card 1">
-                    This planning process has the goal of promoting the growth
-                    and survival of coral species. This report shows progress
-                    towards the objective of 20% of coral reefs highly
-                    protected.
+                  <Trans i18nKey="Seagrass Card 1">
+                    Seagrass beds are a key marine ecosystem, providing food and
+                    shelter for many marine organisms. This report shows the
+                    total seagrass area protected by this plan.
                   </Trans>
                 </p>
-
                 <Translator>
                   {isCollection
                     ? groupedCollectionReport(
@@ -103,8 +104,8 @@ export const Coral: React.FunctionComponent<{
                     <>
                       <Collapse
                         title={t("Show by Protection Level")}
-                        collapsed={!false}
-                        key={String(false) + "Protection"}
+                        collapsed={!props.printing}
+                        key={String(props.printing) + "Protection"}
                       >
                         {genAreaGroupLevelTable(
                           data,
@@ -115,41 +116,30 @@ export const Coral: React.FunctionComponent<{
                       </Collapse>
                       <Collapse
                         title={t("Show by MPA")}
-                        collapsed={!false}
-                        key={String(false) + "MPA"}
+                        collapsed={!props.printing}
+                        key={String(props.printing) + "MPA"}
                       >
                         {genAreaSketchTable(
                           data,
                           precalcMetrics,
                           metricGroup,
                           t,
-                          childProperties!,
-                          false,
+                          childProperties || [],
+                          props.printing,
                         )}
                       </Collapse>
                     </>
                   )}
                 </Translator>
 
-                {!false && (
+                {!props.printing && (
                   <Collapse title={t("Learn more")}>
-                    <Trans i18nKey="Coral Card - learn more">
+                    <Trans i18nKey="Seagrass Card - learn more">
                       <p>
-                        ℹ️ Overview: Coral reef restoration is the intentional
-                        and active process of assisting the recovery and
-                        regeneration of coral reefs that have been damaged or
-                        degraded. It involves various techniques and
-                        interventions aimed at promoting the growth and survival
-                        of coral species, enhancing reef structure, and
-                        restoring ecosystem functionality. 7% of Belizean coral
-                        reefs are currently within HBPZs.
+                        🎯 Planning Objective: No specific planning objective
+                        for seagrass.
                       </p>
-                      <p>🎯 Planning Objective: 20% of coral reefs in HBPZs</p>
-                      <p>
-                        🗺️ Source Data: Coral cover for 2021 from the Smart
-                        Coasts project, derived from the GEOBON project from
-                        CZMAI.
-                      </p>
+                      <p>🗺️ Source Data: ?</p>
                       <p>
                         📈 Report: The percentage of each feature type within
                         this plan is calculated by finding the overlap of each

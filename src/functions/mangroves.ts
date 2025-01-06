@@ -8,8 +8,8 @@ import {
   DefaultExtraParams,
   Feature,
   isVectorDatasource,
-  overlapFeatures,
   getFeaturesForSketchBBoxes,
+  overlapPolygonArea,
 } from "@seasketch/geoprocessing";
 import project from "../../project/projectClient.js";
 import {
@@ -20,19 +20,19 @@ import {
   toNullSketch,
 } from "@seasketch/geoprocessing/client-core";
 import { clipToGeography } from "../util/clipToGeography.js";
+import { overlapFeaturesGroupMetrics } from "./coral.js";
 import {
   getMpaProtectionLevels,
   protectionLevels,
 } from "../util/getMpaProtectionLevel.js";
-import { overlapFeaturesGroupMetrics } from "./coral.js";
 
 /**
- * humanStressors: A geoprocessing function that calculates overlap metrics for vector datasources
+ * mangroves: A geoprocessing function that calculates overlap metrics for vector datasources
  * @param sketch - A sketch or collection of sketches
  * @param extraParams
  * @returns Calculated metrics and a null sketch
  */
-export async function humanStressors(
+export async function mangroves(
   sketch:
     | Sketch<Polygon | MultiPolygon>
     | SketchCollection<Polygon | MultiPolygon>,
@@ -47,9 +47,10 @@ export async function humanStressors(
   const clippedSketch = await clipToGeography(sketch, curGeography);
 
   const featuresByDatasource: Record<string, Feature<Polygon>[]> = {};
+  const featuresByClass: Record<string, Feature<Polygon>[]> = {};
 
   // Calculate overlap metrics for each class in metric group
-  const metricGroup = project.getMetricGroup("humanStressors");
+  const metricGroup = project.getMetricGroup("mangroves");
   const metrics = (
     await Promise.all(
       metricGroup.classes.map(async (curClass) => {
@@ -64,6 +65,7 @@ export async function humanStressors(
         const features =
           featuresByDatasource[ds.datasourceId] ||
           (await getFeaturesForSketchBBoxes(sketch, url));
+        featuresByDatasource[curClass.classId] = features;
 
         // Get classKey for current data class
         const classKey = project.getMetricGroupClassKey(metricGroup, {
@@ -84,10 +86,10 @@ export async function humanStressors(
           );
         }
 
-        featuresByDatasource[ds.datasourceId] = finalFeatures;
+        featuresByClass[curClass.classId] = finalFeatures;
 
         // Calculate overlap metrics
-        const overlapResult = await overlapFeatures(
+        const overlapResult = await overlapPolygonArea(
           metricGroup.metricId,
           finalFeatures,
           clippedSketch,
@@ -115,7 +117,7 @@ export async function humanStressors(
     sketch: sketch as Sketch<Polygon> | SketchCollection<Polygon>,
     metricToGroup,
     metrics: metrics,
-    featuresByClass: featuresByDatasource,
+    featuresByClass,
   });
 
   return {
@@ -124,8 +126,8 @@ export async function humanStressors(
   };
 }
 
-export default new GeoprocessingHandler(humanStressors, {
-  title: "humanStressors",
+export default new GeoprocessingHandler(mangroves, {
+  title: "mangroves",
   description: "",
   timeout: 500, // seconds
   memory: 1024, // megabytes

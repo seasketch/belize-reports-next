@@ -1,0 +1,467 @@
+{
+  "metrics": [
+    {
+      "geographyId": "world",
+      "metricId": "littoralForest",
+      "classId": "Littoral",
+      "sketchId": "23746",
+      "groupId": null,
+      "value": 1007464.254776,
+      "extra": {
+        "sketchName": "mpa-collection",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "littoralForest",
+      "classId": "Littoral",
+      "sketchId": "23746",
+      "groupId": "HIGH_PROTECTION",
+      "value": 1007464.254776,
+      "extra": {
+        "sketchName": "mpa-collection",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "littoralForest",
+      "classId": "Littoral",
+      "sketchId": "23746",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa-collection",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "littoralForest",
+      "classId": "Littoral",
+      "sketchId": "23747",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "coastal"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "littoralForest",
+      "classId": "Littoral",
+      "sketchId": "23747",
+      "groupId": "HIGH_PROTECTION",
+      "value": 0,
+      "extra": {
+        "sketchName": "coastal"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "littoralForest",
+      "classId": "Littoral",
+      "sketchId": "23748",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "offshore"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "littoralForest",
+      "classId": "Littoral",
+      "sketchId": "23748",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 0,
+      "extra": {
+        "sketchName": "offshore"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "littoralForest",
+      "classId": "Littoral",
+      "sketchId": "23749",
+      "groupId": null,
+      "value": 1007464.254776,
+      "extra": {
+        "sketchName": "turneffe"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "littoralForest",
+      "classId": "Littoral",
+      "sketchId": "23749",
+      "groupId": "HIGH_PROTECTION",
+      "value": 1007464.254776,
+      "extra": {
+        "sketchName": "turneffe"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "littoralForest",
+      "classId": "Littoral",
+      "sketchId": "23750",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "souther"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "littoralForest",
+      "classId": "Littoral",
+      "sketchId": "23750",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 0,
+      "extra": {
+        "sketchName": "souther"
+      }
+    }
+  ],
+  "sketch": {
+    "properties": {
+      "3094": "mpa-collection",
+      "id": "23746",
+      "name": "mpa-collection",
+      "postId": null,
+      "userId": "531",
+      "authors": null,
+      "comments": null,
+      "userSlug": "Abby",
+      "createdAt": "2023-12-13T23:02:00.449408+00:00",
+      "updatedAt": "2024-02-21T16:41:02.895404+00:00",
+      "collectionId": null,
+      "isCollection": true,
+      "sharedInForum": false,
+      "sketchClassId": "232",
+      "userAttributes": [
+        {
+          "label": "Comments",
+          "value": null,
+          "exportId": "comments",
+          "fieldType": "TextArea",
+          "valueLabel": null,
+          "formElementId": 5784,
+          "alternateLanguages": {}
+        },
+        {
+          "label": "Author(s)",
+          "value": null,
+          "exportId": "authors",
+          "fieldType": "TextArea",
+          "valueLabel": null,
+          "formElementId": 5785,
+          "alternateLanguages": {}
+        }
+      ]
+    },
+    "bbox": [
+      -88.207927887,
+      16.219737962,
+      -86.205663618,
+      17.972303524
+    ],
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "id": 23750,
+        "bbox": [
+          -87.977865619,
+          16.219737962,
+          -87.45353766,
+          16.685260273
+        ],
+        "type": "Feature",
+        "properties": {
+          "2931": "VI",
+          "2932": "souther",
+          "2934": "abby",
+          "id": "23750",
+          "name": "souther",
+          "postId": null,
+          "userId": "531",
+          "authors": "abby",
+          "comments": null,
+          "userSlug": "Abby",
+          "createdAt": "2023-12-13T23:03:14.823323+00:00",
+          "updatedAt": "2023-12-13T23:03:17.679221+00:00",
+          "designation": "VI",
+          "collectionId": "23746",
+          "isCollection": false,
+          "sharedInForum": false,
+          "sketchClassId": "196",
+          "userAttributes": [
+            {
+              "label": "Comments",
+              "value": null,
+              "exportId": "comments",
+              "fieldType": "TextArea",
+              "valueLabel": null,
+              "formElementId": 2933,
+              "alternateLanguages": {
+                "es": {
+                  "label": "Comentarios",
+                  "valueLabel": null
+                }
+              }
+            },
+            {
+              "label": "Author(s)",
+              "value": "abby",
+              "exportId": "authors",
+              "fieldType": "ShortText",
+              "valueLabel": null,
+              "formElementId": 2934,
+              "alternateLanguages": {
+                "es": {
+                  "label": "Autor(es)",
+                  "valueLabel": null
+                }
+              }
+            },
+            {
+              "label": "Designation",
+              "value": "VI",
+              "exportId": "designation",
+              "fieldType": "ComboBox",
+              "valueLabel": "IUCN VI: Protected Area with Sustainable Use",
+              "formElementId": 2931,
+              "alternateLanguages": {
+                "es": {
+                  "label": "Designación",
+                  "valueLabel": "UICN VI: Área Protegida con Uso Sostenible"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 23749,
+        "bbox": [
+          -88.020667901,
+          17.151063399,
+          -87.614046219,
+          17.620800089
+        ],
+        "type": "Feature",
+        "properties": {
+          "2931": "III",
+          "2932": "turneffe",
+          "2934": "abby",
+          "id": "23749",
+          "name": "turneffe",
+          "postId": null,
+          "userId": "531",
+          "authors": "abby",
+          "comments": null,
+          "userSlug": "Abby",
+          "createdAt": "2023-12-13T23:02:52.63869+00:00",
+          "updatedAt": "2023-12-14T00:46:50.891222+00:00",
+          "designation": "III",
+          "collectionId": "23746",
+          "isCollection": false,
+          "sharedInForum": false,
+          "sketchClassId": "196",
+          "userAttributes": [
+            {
+              "label": "Comments",
+              "value": null,
+              "exportId": "comments",
+              "fieldType": "TextArea",
+              "valueLabel": null,
+              "formElementId": 2933,
+              "alternateLanguages": {
+                "es": {
+                  "label": "Comentarios",
+                  "valueLabel": null
+                }
+              }
+            },
+            {
+              "label": "Author(s)",
+              "value": "abby",
+              "exportId": "authors",
+              "fieldType": "ShortText",
+              "valueLabel": null,
+              "formElementId": 2934,
+              "alternateLanguages": {
+                "es": {
+                  "label": "Autor(es)",
+                  "valueLabel": null
+                }
+              }
+            },
+            {
+              "label": "Designation",
+              "value": "III",
+              "exportId": "designation",
+              "fieldType": "ComboBox",
+              "valueLabel": "IUCN III: Natural Monument or Feature",
+              "formElementId": 2931,
+              "alternateLanguages": {
+                "es": {
+                  "label": "Designación",
+                  "valueLabel": "UICN III: Monumento o Característica Natural"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 23748,
+        "bbox": [
+          -86.798948507,
+          17.228289079,
+          -86.205663618,
+          17.823345696
+        ],
+        "type": "Feature",
+        "properties": {
+          "2931": "V",
+          "2932": "offshore",
+          "2934": "abby",
+          "id": "23748",
+          "name": "offshore",
+          "postId": null,
+          "userId": "531",
+          "authors": "abby",
+          "comments": null,
+          "userSlug": "Abby",
+          "createdAt": "2023-12-13T23:02:34.911638+00:00",
+          "updatedAt": "2023-12-13T23:02:37.230936+00:00",
+          "designation": "V",
+          "collectionId": "23746",
+          "isCollection": false,
+          "sharedInForum": false,
+          "sketchClassId": "196",
+          "userAttributes": [
+            {
+              "label": "Comments",
+              "value": null,
+              "exportId": "comments",
+              "fieldType": "TextArea",
+              "valueLabel": null,
+              "formElementId": 2933,
+              "alternateLanguages": {
+                "es": {
+                  "label": "Comentarios",
+                  "valueLabel": null
+                }
+              }
+            },
+            {
+              "label": "Author(s)",
+              "value": "abby",
+              "exportId": "authors",
+              "fieldType": "ShortText",
+              "valueLabel": null,
+              "formElementId": 2934,
+              "alternateLanguages": {
+                "es": {
+                  "label": "Autor(es)",
+                  "valueLabel": null
+                }
+              }
+            },
+            {
+              "label": "Designation",
+              "value": "V",
+              "exportId": "designation",
+              "fieldType": "ComboBox",
+              "valueLabel": "IUCN V: Protected Landscape or Seascape",
+              "formElementId": 2931,
+              "alternateLanguages": {
+                "es": {
+                  "label": "Designación",
+                  "valueLabel": "UICN V: Paisaje o Paisaje Marino Protegido"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 23747,
+        "bbox": [
+          -88.207927887,
+          17.513684019,
+          -87.951114192,
+          17.972303524
+        ],
+        "type": "Feature",
+        "properties": {
+          "2931": "Ia",
+          "2932": "coastal",
+          "2934": "abby",
+          "id": "23747",
+          "name": "coastal",
+          "postId": null,
+          "userId": "531",
+          "authors": "abby",
+          "comments": null,
+          "userSlug": "Abby",
+          "createdAt": "2023-12-13T23:02:20.132533+00:00",
+          "updatedAt": "2023-12-13T23:02:23.405725+00:00",
+          "designation": "Ia",
+          "collectionId": "23746",
+          "isCollection": false,
+          "sharedInForum": false,
+          "sketchClassId": "196",
+          "userAttributes": [
+            {
+              "label": "Comments",
+              "value": null,
+              "exportId": "comments",
+              "fieldType": "TextArea",
+              "valueLabel": null,
+              "formElementId": 2933,
+              "alternateLanguages": {
+                "es": {
+                  "label": "Comentarios",
+                  "valueLabel": null
+                }
+              }
+            },
+            {
+              "label": "Author(s)",
+              "value": "abby",
+              "exportId": "authors",
+              "fieldType": "ShortText",
+              "valueLabel": null,
+              "formElementId": 2934,
+              "alternateLanguages": {
+                "es": {
+                  "label": "Autor(es)",
+                  "valueLabel": null
+                }
+              }
+            },
+            {
+              "label": "Designation",
+              "value": "Ia",
+              "exportId": "designation",
+              "fieldType": "ComboBox",
+              "valueLabel": "IUCN Ia: Strict Nature Reserve",
+              "formElementId": 2931,
+              "alternateLanguages": {
+                "es": {
+                  "label": "Designación",
+                  "valueLabel": "UICN Ia: Reserva Natural Estricta"
+                }
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

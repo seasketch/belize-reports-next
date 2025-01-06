@@ -71,7 +71,7 @@
     ]
   },
   {
-    "metricId": "mangroveAreaOverlap",
+    "metricId": "mangroves",
     "type": "areaOverlap",
     "classes": [
       {
@@ -98,7 +98,7 @@
     ]
   },
   {
-    "metricId": "littoralAreaOverlap",
+    "metricId": "littoralForest",
     "type": "areaOverlap",
     "layerId": "5xlX0KoC8",
     "classes": [
@@ -112,7 +112,7 @@
     ]
   },
   {
-    "metricId": "seagrassValueOverlap",
+    "metricId": "seagrass",
     "type": "areaOverlap",
     "layerId": "7nN0k9nsx",
     "classes": [

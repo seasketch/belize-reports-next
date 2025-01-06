@@ -3,18 +3,18 @@ import {
   writeResultOutput,
 } from "@seasketch/geoprocessing/scripts/testing";
 import { describe, test, expect } from "vitest";
-import { coral } from "./coral.js";
+import { seagrass } from "./seagrass.js";
 
 describe("Basic smoke tests", () => {
   test("handler function is present", () => {
-    expect(typeof coral).toBe("function");
+    expect(typeof seagrass).toBe("function");
   });
-  test("coral - tests run against all examples", async () => {
+  test("seagrass - tests run against all examples", async () => {
     const examples = await getExamplePolygonSketchAll();
     for (const example of examples) {
-      const result = await coral(example);
+      const result = await seagrass(example);
       expect(result).toBeTruthy();
-      writeResultOutput(result, "coral", example.properties.name);
+      writeResultOutput(result, "seagrass", example.properties.name);
     }
   }, 120_000);
 });

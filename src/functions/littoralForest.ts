@@ -27,12 +27,12 @@ import {
 import { overlapFeaturesGroupMetrics } from "./coral.js";
 
 /**
- * humanStressors: A geoprocessing function that calculates overlap metrics for vector datasources
+ * littoralForest: A geoprocessing function that calculates overlap metrics for vector datasources
  * @param sketch - A sketch or collection of sketches
  * @param extraParams
  * @returns Calculated metrics and a null sketch
  */
-export async function humanStressors(
+export async function littoralForest(
   sketch:
     | Sketch<Polygon | MultiPolygon>
     | SketchCollection<Polygon | MultiPolygon>,
@@ -47,9 +47,10 @@ export async function humanStressors(
   const clippedSketch = await clipToGeography(sketch, curGeography);
 
   const featuresByDatasource: Record<string, Feature<Polygon>[]> = {};
+  const featuresByClass: Record<string, Feature<Polygon>[]> = {};
 
   // Calculate overlap metrics for each class in metric group
-  const metricGroup = project.getMetricGroup("humanStressors");
+  const metricGroup = project.getMetricGroup("littoralForest");
   const metrics = (
     await Promise.all(
       metricGroup.classes.map(async (curClass) => {
@@ -64,6 +65,7 @@ export async function humanStressors(
         const features =
           featuresByDatasource[ds.datasourceId] ||
           (await getFeaturesForSketchBBoxes(sketch, url));
+        featuresByDatasource[ds.datasourceId] = features;
 
         // Get classKey for current data class
         const classKey = project.getMetricGroupClassKey(metricGroup, {
@@ -84,7 +86,7 @@ export async function humanStressors(
           );
         }
 
-        featuresByDatasource[ds.datasourceId] = finalFeatures;
+        featuresByClass[curClass.classId] = finalFeatures;
 
         // Calculate overlap metrics
         const overlapResult = await overlapFeatures(
@@ -115,7 +117,7 @@ export async function humanStressors(
     sketch: sketch as Sketch<Polygon> | SketchCollection<Polygon>,
     metricToGroup,
     metrics: metrics,
-    featuresByClass: featuresByDatasource,
+    featuresByClass,
   });
 
   return {
@@ -124,8 +126,8 @@ export async function humanStressors(
   };
 }
 
-export default new GeoprocessingHandler(humanStressors, {
-  title: "humanStressors",
+export default new GeoprocessingHandler(littoralForest, {
+  title: "littoralForest",
   description: "",
   timeout: 500, // seconds
   memory: 1024, // megabytes

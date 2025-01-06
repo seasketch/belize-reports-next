@@ -56,22 +56,24 @@ export const ProtectionCard: React.FunctionComponent<{ printing: boolean }> = (
   const { t } = useTranslation();
 
   return (
-    <ResultsCard title={t("Protection Level")} functionName="protection">
-      {(data: ReportResult) => {
-        return (
-          <ReportError>
-            {isCollection
-              ? sketchCollectionReport(
-                  childProperties || [],
-                  data.metrics,
-                  t,
-                  props.printing,
-                )
-              : sketchReport(data.metrics, t, props.printing)}
-          </ReportError>
-        );
-      }}
-    </ResultsCard>
+    <div style={{ breakInside: "avoid" }}>
+      <ResultsCard title={t("Protection Level")} functionName="protection">
+        {(data: ReportResult) => {
+          return (
+            <ReportError>
+              {isCollection
+                ? sketchCollectionReport(
+                    childProperties || [],
+                    data.metrics,
+                    t,
+                    props.printing,
+                  )
+                : sketchReport(data.metrics, t, props.printing)}
+            </ReportError>
+          );
+        }}
+      </ResultsCard>
+    </div>
   );
 };
 

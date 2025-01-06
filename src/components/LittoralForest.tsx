@@ -10,8 +10,8 @@ import {
   useSketchProperties,
 } from "@seasketch/geoprocessing/client-ui";
 import { ReportResult } from "@seasketch/geoprocessing/client-core";
-import project from "../../project/projectClient.js";
 import { Download } from "@styled-icons/bootstrap/Download";
+import project from "../../project/projectClient.js";
 import Translator from "./TranslatorAsync.js";
 import {
   genAreaGroupLevelTable,
@@ -21,12 +21,12 @@ import {
 } from "../util/ProtectionLevelOverlapReports.js";
 
 /**
- * Coral component
+ * LittoralForest component
  *
  * @param props - geographyId
  * @returns A react component which displays an overlap report
  */
-export const Coral: React.FunctionComponent<{
+export const LittoralForest: React.FunctionComponent<{
   geographyId?: string;
   printing: boolean;
 }> = (props) => {
@@ -37,7 +37,7 @@ export const Coral: React.FunctionComponent<{
   });
 
   // Metrics
-  const metricGroup = project.getMetricGroup("coralValueOverlap", t);
+  const metricGroup = project.getMetricGroup("littoralForest", t);
   const precalcMetrics = project.getPrecalcMetrics(
     metricGroup,
     "area",
@@ -45,15 +45,14 @@ export const Coral: React.FunctionComponent<{
   );
 
   // Labels
+  const titleLabel = t("LittoralForest");
   const mapLabel = t("Map");
-  const titleLabel = t("Coral Reef");
-  const layerId = metricGroup.layerId;
 
   return (
     <div style={{ breakInside: "avoid" }}>
       <ResultsCard
         title={titleLabel}
-        functionName="coralValueOverlap"
+        functionName="littoralForest"
         extraParams={{ geographyIds: [curGeography.geographyId] }}
         useChildCard
       >
@@ -61,12 +60,16 @@ export const Coral: React.FunctionComponent<{
           return (
             <ReportError>
               <ToolbarCard
-                title={titleLabel}
+                title={t("Littoral Forests")}
                 items={
                   <>
-                    <LayerToggle label={mapLabel} layerId={layerId} simple />
+                    <LayerToggle
+                      label={mapLabel}
+                      layerId={metricGroup.layerId}
+                      simple
+                    />
                     <DataDownload
-                      filename="coral"
+                      filename="littoral-forest"
                       data={data.metrics}
                       formats={["csv", "json"]}
                       titleElement={
@@ -81,11 +84,10 @@ export const Coral: React.FunctionComponent<{
                 }
               >
                 <p>
-                  <Trans i18nKey="Coral Card 1">
-                    This planning process has the goal of promoting the growth
-                    and survival of coral species. This report shows progress
-                    towards the objective of 20% of coral reefs highly
-                    protected.
+                  <Trans i18nKey="Littoral Forests Card 1">
+                    This report summarizes the amount of littoral forests within
+                    this plan, measuring progress to the target of 90% high
+                    protection of littoral forests by 2035.
                   </Trans>
                 </p>
 
@@ -103,8 +105,8 @@ export const Coral: React.FunctionComponent<{
                     <>
                       <Collapse
                         title={t("Show by Protection Level")}
-                        collapsed={!false}
-                        key={String(false) + "Protection"}
+                        collapsed={!props.printing}
+                        key={String(props.printing) + "Protection"}
                       >
                         {genAreaGroupLevelTable(
                           data,
@@ -115,43 +117,42 @@ export const Coral: React.FunctionComponent<{
                       </Collapse>
                       <Collapse
                         title={t("Show by MPA")}
-                        collapsed={!false}
-                        key={String(false) + "MPA"}
+                        collapsed={!props.printing}
+                        key={String(props.printing) + "MPA"}
                       >
                         {genAreaSketchTable(
                           data,
                           precalcMetrics,
                           metricGroup,
                           t,
-                          childProperties!,
-                          false,
+                          childProperties || [],
+                          props.printing,
                         )}
                       </Collapse>
                     </>
                   )}
                 </Translator>
 
-                {!false && (
+                {!props.printing && (
                   <Collapse title={t("Learn more")}>
-                    <Trans i18nKey="Coral Card - learn more">
+                    <Trans i18nKey="Littoral Forests Card - learn more">
                       <p>
-                        ℹ️ Overview: Coral reef restoration is the intentional
-                        and active process of assisting the recovery and
-                        regeneration of coral reefs that have been damaged or
-                        degraded. It involves various techniques and
-                        interventions aimed at promoting the growth and survival
-                        of coral species, enhancing reef structure, and
-                        restoring ecosystem functionality. 7% of Belizean coral
-                        reefs are currently within HBPZs.
-                      </p>
-                      <p>🎯 Planning Objective: 20% of coral reefs in HBPZs</p>
-                      <p>
-                        🗺️ Source Data: Coral cover for 2021 from the Smart
-                        Coasts project, derived from the GEOBON project from
-                        CZMAI.
+                        ℹ️ Overview: Littoral forest was identified comparing
+                        data from 1980 and 2019.
                       </p>
                       <p>
-                        📈 Report: The percentage of each feature type within
+                        🎯 Planning Objective: Littoral forest extent in HPZ is
+                        increased by 14.5% in 2025. Littoral forest extent in
+                        HPZ is increased to 60% in 2030. Littoral forest extent
+                        in HPZ is increased to 90% in 2035.
+                      </p>
+                      <p>
+                        🗺️ Source Data: Littoral Forest data from Cherrington &
+                        Griffin (2020).
+                      </p>
+                      <p>
+                        📈 Report: Only features within the Belize Ocean Space
+                        are counted. The percentage of each feature type within
                         this plan is calculated by finding the overlap of each
                         feature type with the plan, summing its area, then
                         dividing it by the total area of each feature type found

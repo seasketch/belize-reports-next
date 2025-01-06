@@ -8,6 +8,9 @@
     "src/functions/coralValueOverlap.ts",
     "src/functions/humanStressors.ts",
     "src/functions/ous.ts",
-    "src/functions/geomorphAreaOverlap.ts"
+    "src/functions/geomorphAreaOverlap.ts",
+    "src/functions/mangroves.ts",
+    "src/functions/littoralAreaOverlap.ts",
+    "src/functions/seagrass.ts"
   ]
 }

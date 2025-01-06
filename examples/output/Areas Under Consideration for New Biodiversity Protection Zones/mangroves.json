@@ -1,0 +1,994 @@
+{
+  "metrics": [
+    {
+      "geographyId": "world",
+      "metricId": "mangroves",
+      "classId": "Mangrove",
+      "sketchId": "29116",
+      "groupId": null,
+      "value": 25368995.083406,
+      "extra": {
+        "sketchName": "Areas Under Consideration for New Biodiversity Protection Zones",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "mangroves",
+      "classId": "Mangrove",
+      "sketchId": "29116",
+      "groupId": "HIGH_PROTECTION",
+      "value": 22285822.822553,
+      "extra": {
+        "sketchName": "Areas Under Consideration for New Biodiversity Protection Zones",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "mangroves",
+      "classId": "Mangrove",
+      "sketchId": "29116",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 3083172.260853,
+      "extra": {
+        "sketchName": "Areas Under Consideration for New Biodiversity Protection Zones",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "mangroves",
+      "classId": "Mangrove",
+      "sketchId": "29117",
+      "groupId": null,
+      "value": 3083172.260853,
+      "extra": {
+        "sketchName": "Lighthouse Atoll"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "mangroves",
+      "classId": "Mangrove",
+      "sketchId": "29117",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 3083172.260853,
+      "extra": {
+        "sketchName": "Lighthouse Atoll"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "mangroves",
+      "classId": "Mangrove",
+      "sketchId": "29118",
+      "groupId": null,
+      "value": 575587.158947,
+      "extra": {
+        "sketchName": "Glover's Atoll"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "mangroves",
+      "classId": "Mangrove",
+      "sketchId": "29118",
+      "groupId": "HIGH_PROTECTION",
+      "value": 575587.158947,
+      "extra": {
+        "sketchName": "Glover's Atoll"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "mangroves",
+      "classId": "Mangrove",
+      "sketchId": "29119",
+      "groupId": null,
+      "value": 20901016.435876,
+      "extra": {
+        "sketchName": "Goff's Caye"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "mangroves",
+      "classId": "Mangrove",
+      "sketchId": "29119",
+      "groupId": "HIGH_PROTECTION",
+      "value": 20901016.435876,
+      "extra": {
+        "sketchName": "Goff's Caye"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "mangroves",
+      "classId": "Mangrove",
+      "sketchId": "29120",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Belize Transboundary"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "mangroves",
+      "classId": "Mangrove",
+      "sketchId": "29120",
+      "groupId": "HIGH_PROTECTION",
+      "value": 0,
+      "extra": {
+        "sketchName": "Belize Transboundary"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "mangroves",
+      "classId": "Mangrove",
+      "sketchId": "29121",
+      "groupId": null,
+      "value": 809219.227729,
+      "extra": {
+        "sketchName": "Placenia Lagoon"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "mangroves",
+      "classId": "Mangrove",
+      "sketchId": "29121",
+      "groupId": "HIGH_PROTECTION",
+      "value": 809219.227729,
+      "extra": {
+        "sketchName": "Placenia Lagoon"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "mangroves",
+      "classId": "Mangrove",
+      "sketchId": "29122",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Cayman Crown"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "mangroves",
+      "classId": "Mangrove",
+      "sketchId": "29122",
+      "groupId": "HIGH_PROTECTION",
+      "value": 0,
+      "extra": {
+        "sketchName": "Cayman Crown"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "mangroves",
+      "classId": "mangrove_priority",
+      "sketchId": "29116",
+      "groupId": null,
+      "value": 107452310.752425,
+      "extra": {
+        "sketchName": "Areas Under Consideration for New Biodiversity Protection Zones",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "mangroves",
+      "classId": "mangrove_priority",
+      "sketchId": "29116",
+      "groupId": "HIGH_PROTECTION",
+      "value": 52680066.64478,
+      "extra": {
+        "sketchName": "Areas Under Consideration for New Biodiversity Protection Zones",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "mangroves",
+      "classId": "mangrove_priority",
+      "sketchId": "29116",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 54772244.107645,
+      "extra": {
+        "sketchName": "Areas Under Consideration for New Biodiversity Protection Zones",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "mangroves",
+      "classId": "mangrove_priority",
+      "sketchId": "29117",
+      "groupId": null,
+      "value": 54772244.107645,
+      "extra": {
+        "sketchName": "Lighthouse Atoll"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "mangroves",
+      "classId": "mangrove_priority",
+      "sketchId": "29117",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 54772244.107645,
+      "extra": {
+        "sketchName": "Lighthouse Atoll"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "mangroves",
+      "classId": "mangrove_priority",
+      "sketchId": "29118",
+      "groupId": null,
+      "value": 556304.087699,
+      "extra": {
+        "sketchName": "Glover's Atoll"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "mangroves",
+      "classId": "mangrove_priority",
+      "sketchId": "29118",
+      "groupId": "HIGH_PROTECTION",
+      "value": 556304.087699,
+      "extra": {
+        "sketchName": "Glover's Atoll"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "mangroves",
+      "classId": "mangrove_priority",
+      "sketchId": "29119",
+      "groupId": null,
+      "value": 23916785.187029,
+      "extra": {
+        "sketchName": "Goff's Caye"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "mangroves",
+      "classId": "mangrove_priority",
+      "sketchId": "29119",
+      "groupId": "HIGH_PROTECTION",
+      "value": 23916785.187029,
+      "extra": {
+        "sketchName": "Goff's Caye"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "mangroves",
+      "classId": "mangrove_priority",
+      "sketchId": "29120",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Belize Transboundary"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "mangroves",
+      "classId": "mangrove_priority",
+      "sketchId": "29120",
+      "groupId": "HIGH_PROTECTION",
+      "value": 0,
+      "extra": {
+        "sketchName": "Belize Transboundary"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "mangroves",
+      "classId": "mangrove_priority",
+      "sketchId": "29121",
+      "groupId": null,
+      "value": 28206977.370052,
+      "extra": {
+        "sketchName": "Placenia Lagoon"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "mangroves",
+      "classId": "mangrove_priority",
+      "sketchId": "29121",
+      "groupId": "HIGH_PROTECTION",
+      "value": 28206977.370052,
+      "extra": {
+        "sketchName": "Placenia Lagoon"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "mangroves",
+      "classId": "mangrove_priority",
+      "sketchId": "29122",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Cayman Crown"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "mangroves",
+      "classId": "mangrove_priority",
+      "sketchId": "29122",
+      "groupId": "HIGH_PROTECTION",
+      "value": 0,
+      "extra": {
+        "sketchName": "Cayman Crown"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "mangroves",
+      "classId": "Non-mangrove",
+      "sketchId": "29116",
+      "groupId": null,
+      "value": 643625.941339,
+      "extra": {
+        "sketchName": "Areas Under Consideration for New Biodiversity Protection Zones",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "mangroves",
+      "classId": "Non-mangrove",
+      "sketchId": "29116",
+      "groupId": "HIGH_PROTECTION",
+      "value": 643625.941339,
+      "extra": {
+        "sketchName": "Areas Under Consideration for New Biodiversity Protection Zones",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "mangroves",
+      "classId": "Non-mangrove",
+      "sketchId": "29116",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 0,
+      "extra": {
+        "sketchName": "Areas Under Consideration for New Biodiversity Protection Zones",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "mangroves",
+      "classId": "Non-mangrove",
+      "sketchId": "29117",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Lighthouse Atoll"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "mangroves",
+      "classId": "Non-mangrove",
+      "sketchId": "29117",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 0,
+      "extra": {
+        "sketchName": "Lighthouse Atoll"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "mangroves",
+      "classId": "Non-mangrove",
+      "sketchId": "29118",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Glover's Atoll"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "mangroves",
+      "classId": "Non-mangrove",
+      "sketchId": "29118",
+      "groupId": "HIGH_PROTECTION",
+      "value": 0,
+      "extra": {
+        "sketchName": "Glover's Atoll"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "mangroves",
+      "classId": "Non-mangrove",
+      "sketchId": "29119",
+      "groupId": null,
+      "value": 633516.332057,
+      "extra": {
+        "sketchName": "Goff's Caye"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "mangroves",
+      "classId": "Non-mangrove",
+      "sketchId": "29119",
+      "groupId": "HIGH_PROTECTION",
+      "value": 633516.332057,
+      "extra": {
+        "sketchName": "Goff's Caye"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "mangroves",
+      "classId": "Non-mangrove",
+      "sketchId": "29120",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Belize Transboundary"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "mangroves",
+      "classId": "Non-mangrove",
+      "sketchId": "29120",
+      "groupId": "HIGH_PROTECTION",
+      "value": 0,
+      "extra": {
+        "sketchName": "Belize Transboundary"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "mangroves",
+      "classId": "Non-mangrove",
+      "sketchId": "29121",
+      "groupId": null,
+      "value": 10109.609282,
+      "extra": {
+        "sketchName": "Placenia Lagoon"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "mangroves",
+      "classId": "Non-mangrove",
+      "sketchId": "29121",
+      "groupId": "HIGH_PROTECTION",
+      "value": 10109.609282,
+      "extra": {
+        "sketchName": "Placenia Lagoon"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "mangroves",
+      "classId": "Non-mangrove",
+      "sketchId": "29122",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Cayman Crown"
+      }
+    },
+    {
+      "geographyId": "world",
+      "metricId": "mangroves",
+      "classId": "Non-mangrove",
+      "sketchId": "29122",
+      "groupId": "HIGH_PROTECTION",
+      "value": 0,
+      "extra": {
+        "sketchName": "Cayman Crown"
+      }
+    }
+  ],
+  "sketch": {
+    "properties": {
+      "3094": "Areas Under Consideration for New Biodiversity Protection Zones",
+      "5785": "DG",
+      "id": "29116",
+      "name": "Areas Under Consideration for New Biodiversity Protection Zones",
+      "postId": 1365,
+      "userId": "840",
+      "authors": "DG",
+      "comments": null,
+      "userSlug": "Delwin",
+      "createdAt": "2024-05-08T15:55:11.761702+00:00",
+      "updatedAt": "2024-08-22T16:50:28.010711+00:00",
+      "collectionId": null,
+      "isCollection": true,
+      "sharedInForum": true,
+      "sketchClassId": "232",
+      "userAttributes": [
+        {
+          "label": "Comments",
+          "value": null,
+          "exportId": "comments",
+          "fieldType": "TextArea",
+          "valueLabel": null,
+          "formElementId": 5784,
+          "alternateLanguages": {}
+        },
+        {
+          "label": "Author(s)",
+          "value": "DG",
+          "exportId": "authors",
+          "fieldType": "TextArea",
+          "valueLabel": null,
+          "formElementId": 5785,
+          "alternateLanguages": {}
+        }
+      ]
+    },
+    "bbox": [
+      -88.403175242,
+      15.915632801,
+      -87.347767167,
+      18.191514836
+    ],
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "id": 29122,
+        "bbox": [
+          -88.387587571,
+          15.915632801,
+          -88.132242902,
+          16.023297744
+        ],
+        "type": "Feature",
+        "properties": {
+          "2931": "Ia",
+          "2932": "Cayman Crown",
+          "2934": "CZMAI",
+          "id": "29122",
+          "name": "Cayman Crown",
+          "postId": 1365,
+          "userId": "840",
+          "authors": "CZMAI",
+          "comments": null,
+          "userSlug": "Delwin",
+          "createdAt": "2024-05-08T15:55:11.761702+00:00",
+          "updatedAt": "2024-05-08T15:55:16.655843+00:00",
+          "designation": "Ia",
+          "collectionId": "29116",
+          "isCollection": false,
+          "sharedInForum": true,
+          "sketchClassId": "196",
+          "userAttributes": [
+            {
+              "label": "Comments",
+              "value": null,
+              "exportId": "comments",
+              "fieldType": "TextArea",
+              "valueLabel": null,
+              "formElementId": 2933,
+              "alternateLanguages": {
+                "es": {
+                  "label": "Comentarios",
+                  "valueLabel": null
+                }
+              }
+            },
+            {
+              "label": "Author(s)",
+              "value": "CZMAI",
+              "exportId": "authors",
+              "fieldType": "ShortText",
+              "valueLabel": null,
+              "formElementId": 2934,
+              "alternateLanguages": {
+                "es": {
+                  "label": "Autor(es)",
+                  "valueLabel": null
+                }
+              }
+            },
+            {
+              "label": "Designation",
+              "value": "Ia",
+              "exportId": "designation",
+              "fieldType": "ComboBox",
+              "valueLabel": "IUCN Ia: Strict Nature Reserve",
+              "formElementId": 2931,
+              "alternateLanguages": {
+                "es": {
+                  "label": "Designación",
+                  "valueLabel": "UICN Ia: Reserva Natural Estricta"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 29118,
+        "bbox": [
+          -87.920785132,
+          16.677061742,
+          -87.651604553,
+          17.013378774
+        ],
+        "type": "Feature",
+        "properties": {
+          "2931": "Ia",
+          "2932": "Glover's Atoll",
+          "2934": "CZMAI",
+          "id": "29118",
+          "name": "Glover's Atoll",
+          "postId": 1365,
+          "userId": "840",
+          "authors": "CZMAI",
+          "comments": null,
+          "userSlug": "Delwin",
+          "createdAt": "2024-05-08T15:55:11.761702+00:00",
+          "updatedAt": "2024-05-08T15:55:16.655843+00:00",
+          "designation": "Ia",
+          "collectionId": "29116",
+          "isCollection": false,
+          "sharedInForum": true,
+          "sketchClassId": "196",
+          "userAttributes": [
+            {
+              "label": "Comments",
+              "value": null,
+              "exportId": "comments",
+              "fieldType": "TextArea",
+              "valueLabel": null,
+              "formElementId": 2933,
+              "alternateLanguages": {
+                "es": {
+                  "label": "Comentarios",
+                  "valueLabel": null
+                }
+              }
+            },
+            {
+              "label": "Author(s)",
+              "value": "CZMAI",
+              "exportId": "authors",
+              "fieldType": "ShortText",
+              "valueLabel": null,
+              "formElementId": 2934,
+              "alternateLanguages": {
+                "es": {
+                  "label": "Autor(es)",
+                  "valueLabel": null
+                }
+              }
+            },
+            {
+              "label": "Designation",
+              "value": "Ia",
+              "exportId": "designation",
+              "fieldType": "ComboBox",
+              "valueLabel": "IUCN Ia: Strict Nature Reserve",
+              "formElementId": 2931,
+              "alternateLanguages": {
+                "es": {
+                  "label": "Designación",
+                  "valueLabel": "UICN Ia: Reserva Natural Estricta"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 29117,
+        "bbox": [
+          -87.743118962,
+          17.015128329,
+          -87.347767167,
+          17.57338449
+        ],
+        "type": "Feature",
+        "properties": {
+          "2931": "VI",
+          "2932": "Lighthouse Atoll",
+          "2934": "CZMAI",
+          "id": "29117",
+          "name": "Lighthouse Atoll",
+          "postId": 1365,
+          "userId": "840",
+          "authors": "CZMAI",
+          "comments": null,
+          "userSlug": "Delwin",
+          "createdAt": "2024-05-08T15:55:11.761702+00:00",
+          "updatedAt": "2024-05-08T15:55:16.655843+00:00",
+          "designation": "VI",
+          "collectionId": "29116",
+          "isCollection": false,
+          "sharedInForum": true,
+          "sketchClassId": "196",
+          "userAttributes": [
+            {
+              "label": "Comments",
+              "value": null,
+              "exportId": "comments",
+              "fieldType": "TextArea",
+              "valueLabel": null,
+              "formElementId": 2933,
+              "alternateLanguages": {
+                "es": {
+                  "label": "Comentarios",
+                  "valueLabel": null
+                }
+              }
+            },
+            {
+              "label": "Author(s)",
+              "value": "CZMAI",
+              "exportId": "authors",
+              "fieldType": "ShortText",
+              "valueLabel": null,
+              "formElementId": 2934,
+              "alternateLanguages": {
+                "es": {
+                  "label": "Autor(es)",
+                  "valueLabel": null
+                }
+              }
+            },
+            {
+              "label": "Designation",
+              "value": "VI",
+              "exportId": "designation",
+              "fieldType": "ComboBox",
+              "valueLabel": "IUCN VI: Protected Area with Sustainable Use",
+              "formElementId": 2931,
+              "alternateLanguages": {
+                "es": {
+                  "label": "Designación",
+                  "valueLabel": "UICN VI: Área Protegida con Uso Sostenible"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 29120,
+        "bbox": [
+          -87.89324693,
+          17.905388121,
+          -87.404151585,
+          18.191514836
+        ],
+        "type": "Feature",
+        "properties": {
+          "2931": "Ia",
+          "2932": "Belize Transboundary",
+          "2934": "CZMAI",
+          "id": "29120",
+          "name": "Belize Transboundary",
+          "postId": 1365,
+          "userId": "840",
+          "authors": "CZMAI",
+          "comments": null,
+          "userSlug": "Delwin",
+          "createdAt": "2024-05-08T15:55:11.761702+00:00",
+          "updatedAt": "2024-05-08T16:17:06.258362+00:00",
+          "designation": "Ia",
+          "collectionId": "29116",
+          "isCollection": false,
+          "sharedInForum": true,
+          "sketchClassId": "196",
+          "userAttributes": [
+            {
+              "label": "Comments",
+              "value": null,
+              "exportId": "comments",
+              "fieldType": "TextArea",
+              "valueLabel": null,
+              "formElementId": 2933,
+              "alternateLanguages": {
+                "es": {
+                  "label": "Comentarios",
+                  "valueLabel": null
+                }
+              }
+            },
+            {
+              "label": "Author(s)",
+              "value": "CZMAI",
+              "exportId": "authors",
+              "fieldType": "ShortText",
+              "valueLabel": null,
+              "formElementId": 2934,
+              "alternateLanguages": {
+                "es": {
+                  "label": "Autor(es)",
+                  "valueLabel": null
+                }
+              }
+            },
+            {
+              "label": "Designation",
+              "value": "Ia",
+              "exportId": "designation",
+              "fieldType": "ComboBox",
+              "valueLabel": "IUCN Ia: Strict Nature Reserve",
+              "formElementId": 2931,
+              "alternateLanguages": {
+                "es": {
+                  "label": "Designación",
+                  "valueLabel": "UICN Ia: Reserva Natural Estricta"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 29121,
+        "bbox": [
+          -88.403175242,
+          16.503046998,
+          -88.312617489,
+          16.670719083
+        ],
+        "type": "Feature",
+        "properties": {
+          "2931": "Ia",
+          "2932": "Placenia Lagoon",
+          "2934": "CZMAI",
+          "id": "29121",
+          "name": "Placenia Lagoon",
+          "postId": 1365,
+          "userId": "840",
+          "authors": "CZMAI",
+          "comments": null,
+          "userSlug": "Delwin",
+          "createdAt": "2024-05-08T15:55:11.761702+00:00",
+          "updatedAt": "2024-05-08T15:55:16.655843+00:00",
+          "designation": "Ia",
+          "collectionId": "29116",
+          "isCollection": false,
+          "sharedInForum": true,
+          "sketchClassId": "196",
+          "userAttributes": [
+            {
+              "label": "Comments",
+              "value": null,
+              "exportId": "comments",
+              "fieldType": "TextArea",
+              "valueLabel": null,
+              "formElementId": 2933,
+              "alternateLanguages": {
+                "es": {
+                  "label": "Comentarios",
+                  "valueLabel": null
+                }
+              }
+            },
+            {
+              "label": "Author(s)",
+              "value": "CZMAI",
+              "exportId": "authors",
+              "fieldType": "ShortText",
+              "valueLabel": null,
+              "formElementId": 2934,
+              "alternateLanguages": {
+                "es": {
+                  "label": "Autor(es)",
+                  "valueLabel": null
+                }
+              }
+            },
+            {
+              "label": "Designation",
+              "value": "Ia",
+              "exportId": "designation",
+              "fieldType": "ComboBox",
+              "valueLabel": "IUCN Ia: Strict Nature Reserve",
+              "formElementId": 2931,
+              "alternateLanguages": {
+                "es": {
+                  "label": "Designación",
+                  "valueLabel": "UICN Ia: Reserva Natural Estricta"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 29119,
+        "bbox": [
+          -88.101944915,
+          17.235321512,
+          -88.026333461,
+          17.560087944
+        ],
+        "type": "Feature",
+        "properties": {
+          "2931": "Ia",
+          "2932": "Goff's Caye",
+          "2934": "CZMAI",
+          "id": "29119",
+          "name": "Goff's Caye",
+          "postId": 1365,
+          "userId": "840",
+          "authors": "CZMAI",
+          "comments": null,
+          "userSlug": "Delwin",
+          "createdAt": "2024-05-08T15:55:11.761702+00:00",
+          "updatedAt": "2024-05-08T15:55:16.655843+00:00",
+          "designation": "Ia",
+          "collectionId": "29116",
+          "isCollection": false,
+          "sharedInForum": true,
+          "sketchClassId": "196",
+          "userAttributes": [
+            {
+              "label": "Comments",
+              "value": null,
+              "exportId": "comments",
+              "fieldType": "TextArea",
+              "valueLabel": null,
+              "formElementId": 2933,
+              "alternateLanguages": {
+                "es": {
+                  "label": "Comentarios",
+                  "valueLabel": null
+                }
+              }
+            },
+            {
+              "label": "Author(s)",
+              "value": "CZMAI",
+              "exportId": "authors",
+              "fieldType": "ShortText",
+              "valueLabel": null,
+              "formElementId": 2934,
+              "alternateLanguages": {
+                "es": {
+                  "label": "Autor(es)",
+                  "valueLabel": null
+                }
+              }
+            },
+            {
+              "label": "Designation",
+              "value": "Ia",
+              "exportId": "designation",
+              "fieldType": "ComboBox",
+              "valueLabel": "IUCN Ia: Strict Nature Reserve",
+              "formElementId": 2931,
+              "alternateLanguages": {
+                "es": {
+                  "label": "Designación",
+                  "valueLabel": "UICN Ia: Reserva Natural Estricta"
+                }
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

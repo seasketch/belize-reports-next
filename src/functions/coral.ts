@@ -64,14 +64,13 @@ export async function coral(
         const features =
           featuresByDatasource[ds.datasourceId] ||
           (await getFeaturesForSketchBBoxes(sketch, url));
-        featuresByDatasource[ds.datasourceId] = features;
 
         // Get classKey for current data class
         const classKey = project.getMetricGroupClassKey(metricGroup, {
           classId: curClass.classId,
         });
 
-        let finalFeatures: Feature<Polygon | MultiPolygon>[] = [];
+        let finalFeatures: Feature<Polygon>[] = [];
         if (classKey === undefined)
           // Use all features
           finalFeatures = features;
@@ -84,6 +83,8 @@ export async function coral(
               feat.properties[classKey] === curClass.classId,
           );
         }
+
+        featuresByDatasource[ds.datasourceId] = finalFeatures;
 
         // Calculate overlap metrics
         const overlapResult = await overlapPolygonArea(

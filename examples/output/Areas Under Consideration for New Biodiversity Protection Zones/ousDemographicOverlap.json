@@ -1,0 +1,1099 @@
+{
+  "metrics": [
+    {
+      "geographyId": null,
+      "metricId": "ousPeopleCount",
+      "classId": "belize_city",
+      "sketchId": "29116",
+      "groupId": null,
+      "value": 115
+    },
+    {
+      "geographyId": null,
+      "metricId": "ousPeopleCount",
+      "classId": "cattle_landing_village",
+      "sketchId": "29116",
+      "groupId": null,
+      "value": 7
+    },
+    {
+      "geographyId": null,
+      "metricId": "ousPeopleCount",
+      "classId": "caye_caulker_village",
+      "sketchId": "29116",
+      "groupId": null,
+      "value": 32
+    },
+    {
+      "geographyId": null,
+      "metricId": "ousPeopleCount",
+      "classId": "chunox_village",
+      "sketchId": "29116",
+      "groupId": null,
+      "value": 145
+    },
+    {
+      "geographyId": null,
+      "metricId": "ousPeopleCount",
+      "classId": "copper_bank_village",
+      "sketchId": "29116",
+      "groupId": null,
+      "value": 81
+    },
+    {
+      "geographyId": null,
+      "metricId": "ousPeopleCount",
+      "classId": "corozal_town",
+      "sketchId": "29116",
+      "groupId": null,
+      "value": 4
+    },
+    {
+      "geographyId": null,
+      "metricId": "ousPeopleCount",
+      "classId": "dangriga_town",
+      "sketchId": "29116",
+      "groupId": null,
+      "value": 74
+    },
+    {
+      "geographyId": null,
+      "metricId": "ousPeopleCount",
+      "classId": "Diving",
+      "sketchId": "29116",
+      "groupId": null,
+      "value": 337
+    },
+    {
+      "geographyId": null,
+      "metricId": "ousPeopleCount",
+      "classId": "Fisheries & Aquaculture",
+      "sketchId": "29116",
+      "groupId": null,
+      "value": 589
+    },
+    {
+      "geographyId": null,
+      "metricId": "ousPeopleCount",
+      "classId": "forest_home_village",
+      "sketchId": "29116",
+      "groupId": null,
+      "value": 3
+    },
+    {
+      "geographyId": null,
+      "metricId": "ousPeopleCount",
+      "classId": "gales_point_village",
+      "sketchId": "29116",
+      "groupId": null,
+      "value": 2
+    },
+    {
+      "geographyId": null,
+      "metricId": "ousPeopleCount",
+      "classId": "General Use",
+      "sketchId": "29116",
+      "groupId": null,
+      "value": 95
+    },
+    {
+      "geographyId": null,
+      "metricId": "ousPeopleCount",
+      "classId": "hopkins_village",
+      "sketchId": "29116",
+      "groupId": null,
+      "value": 62
+    },
+    {
+      "geographyId": null,
+      "metricId": "ousPeopleCount",
+      "classId": "independence_village",
+      "sketchId": "29116",
+      "groupId": null,
+      "value": 70
+    },
+    {
+      "geographyId": null,
+      "metricId": "ousPeopleCount",
+      "classId": "ladyville_village",
+      "sketchId": "29116",
+      "groupId": null,
+      "value": 23
+    },
+    {
+      "geographyId": null,
+      "metricId": "ousPeopleCount",
+      "classId": "Lines",
+      "sketchId": "29116",
+      "groupId": null,
+      "value": 455
+    },
+    {
+      "geographyId": null,
+      "metricId": "ousPeopleCount",
+      "classId": "mango_creek_village",
+      "sketchId": "29116",
+      "groupId": null,
+      "value": 19
+    },
+    {
+      "geographyId": null,
+      "metricId": "ousPeopleCount",
+      "classId": "Marine & Coastal Development",
+      "sketchId": "29116",
+      "groupId": null,
+      "value": 2
+    },
+    {
+      "geographyId": null,
+      "metricId": "ousPeopleCount",
+      "classId": "Marine & Coastal Ecosystems",
+      "sketchId": "29116",
+      "groupId": null,
+      "value": 137
+    },
+    {
+      "geographyId": null,
+      "metricId": "ousPeopleCount",
+      "classId": "Maritime Administration",
+      "sketchId": "29116",
+      "groupId": null,
+      "value": 148
+    },
+    {
+      "geographyId": null,
+      "metricId": "ousPeopleCount",
+      "classId": "maya_beach_community",
+      "sketchId": "29116",
+      "groupId": null,
+      "value": 12
+    },
+    {
+      "geographyId": null,
+      "metricId": "ousPeopleCount",
+      "classId": "monkey_river_village",
+      "sketchId": "29116",
+      "groupId": null,
+      "value": 37
+    },
+    {
+      "geographyId": null,
+      "metricId": "ousPeopleCount",
+      "classId": "Net",
+      "sketchId": "29116",
+      "groupId": null,
+      "value": 118
+    },
+    {
+      "geographyId": null,
+      "metricId": "ousPeopleCount",
+      "classId": "other",
+      "sketchId": "29116",
+      "groupId": null,
+      "value": 78
+    },
+    {
+      "geographyId": null,
+      "metricId": "ousPeopleCount",
+      "classId": "ousPeopleCount_all",
+      "sketchId": "29116",
+      "groupId": null,
+      "value": 1050
+    },
+    {
+      "geographyId": null,
+      "metricId": "ousPeopleCount",
+      "classId": "placencia_village",
+      "sketchId": "29116",
+      "groupId": null,
+      "value": 47
+    },
+    {
+      "geographyId": null,
+      "metricId": "ousPeopleCount",
+      "classId": "punta_gorda_town",
+      "sketchId": "29116",
+      "groupId": null,
+      "value": 42
+    },
+    {
+      "geographyId": null,
+      "metricId": "ousPeopleCount",
+      "classId": "punta_negra_village",
+      "sketchId": "29116",
+      "groupId": null,
+      "value": 3
+    },
+    {
+      "geographyId": null,
+      "metricId": "ousPeopleCount",
+      "classId": "san_pedro_town",
+      "sketchId": "29116",
+      "groupId": null,
+      "value": 16
+    },
+    {
+      "geographyId": null,
+      "metricId": "ousPeopleCount",
+      "classId": "sarteneja_village",
+      "sketchId": "29116",
+      "groupId": null,
+      "value": 27
+    },
+    {
+      "geographyId": null,
+      "metricId": "ousPeopleCount",
+      "classId": "seine_bight_village",
+      "sketchId": "29116",
+      "groupId": null,
+      "value": 22
+    },
+    {
+      "geographyId": null,
+      "metricId": "ousPeopleCount",
+      "classId": "sittee_river_village",
+      "sketchId": "29116",
+      "groupId": null,
+      "value": 1
+    },
+    {
+      "geographyId": null,
+      "metricId": "ousPeopleCount",
+      "classId": "Spears",
+      "sketchId": "29116",
+      "groupId": null,
+      "value": 328
+    },
+    {
+      "geographyId": null,
+      "metricId": "ousPeopleCount",
+      "classId": "st_george_s_caye",
+      "sketchId": "29116",
+      "groupId": null,
+      "value": 16
+    },
+    {
+      "geographyId": null,
+      "metricId": "ousPeopleCount",
+      "classId": "Tourism",
+      "sketchId": "29116",
+      "groupId": null,
+      "value": 444
+    },
+    {
+      "geographyId": null,
+      "metricId": "ousPeopleCount",
+      "classId": "Traps",
+      "sketchId": "29116",
+      "groupId": null,
+      "value": 167
+    },
+    {
+      "geographyId": null,
+      "metricId": "ousPeopleCount",
+      "classId": "unknown_community",
+      "sketchId": "29116",
+      "groupId": null,
+      "value": 1
+    },
+    {
+      "geographyId": null,
+      "metricId": "ousPeopleCount",
+      "classId": "unknown-gear",
+      "sketchId": "29116",
+      "groupId": null,
+      "value": 741
+    },
+    {
+      "geographyId": null,
+      "metricId": "ousRespondentCount",
+      "classId": "belize_city",
+      "sketchId": "29116",
+      "groupId": null,
+      "value": 38
+    },
+    {
+      "geographyId": null,
+      "metricId": "ousRespondentCount",
+      "classId": "cattle_landing_village",
+      "sketchId": "29116",
+      "groupId": null,
+      "value": 2
+    },
+    {
+      "geographyId": null,
+      "metricId": "ousRespondentCount",
+      "classId": "caye_caulker_village",
+      "sketchId": "29116",
+      "groupId": null,
+      "value": 13
+    },
+    {
+      "geographyId": null,
+      "metricId": "ousRespondentCount",
+      "classId": "chunox_village",
+      "sketchId": "29116",
+      "groupId": null,
+      "value": 20
+    },
+    {
+      "geographyId": null,
+      "metricId": "ousRespondentCount",
+      "classId": "copper_bank_village",
+      "sketchId": "29116",
+      "groupId": null,
+      "value": 15
+    },
+    {
+      "geographyId": null,
+      "metricId": "ousRespondentCount",
+      "classId": "corozal_town",
+      "sketchId": "29116",
+      "groupId": null,
+      "value": 4
+    },
+    {
+      "geographyId": null,
+      "metricId": "ousRespondentCount",
+      "classId": "dangriga_town",
+      "sketchId": "29116",
+      "groupId": null,
+      "value": 10
+    },
+    {
+      "geographyId": null,
+      "metricId": "ousRespondentCount",
+      "classId": "Diving",
+      "sketchId": "29116",
+      "groupId": null,
+      "value": 41
+    },
+    {
+      "geographyId": null,
+      "metricId": "ousRespondentCount",
+      "classId": "Fisheries & Aquaculture",
+      "sketchId": "29116",
+      "groupId": null,
+      "value": 98
+    },
+    {
+      "geographyId": null,
+      "metricId": "ousRespondentCount",
+      "classId": "forest_home_village",
+      "sketchId": "29116",
+      "groupId": null,
+      "value": 2
+    },
+    {
+      "geographyId": null,
+      "metricId": "ousRespondentCount",
+      "classId": "gales_point_village",
+      "sketchId": "29116",
+      "groupId": null,
+      "value": 2
+    },
+    {
+      "geographyId": null,
+      "metricId": "ousRespondentCount",
+      "classId": "General Use",
+      "sketchId": "29116",
+      "groupId": null,
+      "value": 33
+    },
+    {
+      "geographyId": null,
+      "metricId": "ousRespondentCount",
+      "classId": "hopkins_village",
+      "sketchId": "29116",
+      "groupId": null,
+      "value": 12
+    },
+    {
+      "geographyId": null,
+      "metricId": "ousRespondentCount",
+      "classId": "independence_village",
+      "sketchId": "29116",
+      "groupId": null,
+      "value": 15
+    },
+    {
+      "geographyId": null,
+      "metricId": "ousRespondentCount",
+      "classId": "ladyville_village",
+      "sketchId": "29116",
+      "groupId": null,
+      "value": 13
+    },
+    {
+      "geographyId": null,
+      "metricId": "ousRespondentCount",
+      "classId": "Lines",
+      "sketchId": "29116",
+      "groupId": null,
+      "value": 61
+    },
+    {
+      "geographyId": null,
+      "metricId": "ousRespondentCount",
+      "classId": "mango_creek_village",
+      "sketchId": "29116",
+      "groupId": null,
+      "value": 8
+    },
+    {
+      "geographyId": null,
+      "metricId": "ousRespondentCount",
+      "classId": "Marine & Coastal Development",
+      "sketchId": "29116",
+      "groupId": null,
+      "value": 2
+    },
+    {
+      "geographyId": null,
+      "metricId": "ousRespondentCount",
+      "classId": "Marine & Coastal Ecosystems",
+      "sketchId": "29116",
+      "groupId": null,
+      "value": 15
+    },
+    {
+      "geographyId": null,
+      "metricId": "ousRespondentCount",
+      "classId": "Maritime Administration",
+      "sketchId": "29116",
+      "groupId": null,
+      "value": 19
+    },
+    {
+      "geographyId": null,
+      "metricId": "ousRespondentCount",
+      "classId": "maya_beach_community",
+      "sketchId": "29116",
+      "groupId": null,
+      "value": 1
+    },
+    {
+      "geographyId": null,
+      "metricId": "ousRespondentCount",
+      "classId": "monkey_river_village",
+      "sketchId": "29116",
+      "groupId": null,
+      "value": 4
+    },
+    {
+      "geographyId": null,
+      "metricId": "ousRespondentCount",
+      "classId": "Net",
+      "sketchId": "29116",
+      "groupId": null,
+      "value": 7
+    },
+    {
+      "geographyId": null,
+      "metricId": "ousRespondentCount",
+      "classId": "other",
+      "sketchId": "29116",
+      "groupId": null,
+      "value": 24
+    },
+    {
+      "geographyId": null,
+      "metricId": "ousRespondentCount",
+      "classId": "ousRespondentCount_all",
+      "sketchId": "29116",
+      "groupId": null,
+      "value": 179
+    },
+    {
+      "geographyId": null,
+      "metricId": "ousRespondentCount",
+      "classId": "placencia_village",
+      "sketchId": "29116",
+      "groupId": null,
+      "value": 13
+    },
+    {
+      "geographyId": null,
+      "metricId": "ousRespondentCount",
+      "classId": "punta_gorda_town",
+      "sketchId": "29116",
+      "groupId": null,
+      "value": 10
+    },
+    {
+      "geographyId": null,
+      "metricId": "ousRespondentCount",
+      "classId": "punta_negra_village",
+      "sketchId": "29116",
+      "groupId": null,
+      "value": 1
+    },
+    {
+      "geographyId": null,
+      "metricId": "ousRespondentCount",
+      "classId": "san_pedro_town",
+      "sketchId": "29116",
+      "groupId": null,
+      "value": 16
+    },
+    {
+      "geographyId": null,
+      "metricId": "ousRespondentCount",
+      "classId": "sarteneja_village",
+      "sketchId": "29116",
+      "groupId": null,
+      "value": 7
+    },
+    {
+      "geographyId": null,
+      "metricId": "ousRespondentCount",
+      "classId": "seine_bight_village",
+      "sketchId": "29116",
+      "groupId": null,
+      "value": 12
+    },
+    {
+      "geographyId": null,
+      "metricId": "ousRespondentCount",
+      "classId": "sittee_river_village",
+      "sketchId": "29116",
+      "groupId": null,
+      "value": 1
+    },
+    {
+      "geographyId": null,
+      "metricId": "ousRespondentCount",
+      "classId": "Spears",
+      "sketchId": "29116",
+      "groupId": null,
+      "value": 35
+    },
+    {
+      "geographyId": null,
+      "metricId": "ousRespondentCount",
+      "classId": "st_george_s_caye",
+      "sketchId": "29116",
+      "groupId": null,
+      "value": 5
+    },
+    {
+      "geographyId": null,
+      "metricId": "ousRespondentCount",
+      "classId": "Tourism",
+      "sketchId": "29116",
+      "groupId": null,
+      "value": 54
+    },
+    {
+      "geographyId": null,
+      "metricId": "ousRespondentCount",
+      "classId": "Traps",
+      "sketchId": "29116",
+      "groupId": null,
+      "value": 18
+    },
+    {
+      "geographyId": null,
+      "metricId": "ousRespondentCount",
+      "classId": "unknown_community",
+      "sketchId": "29116",
+      "groupId": null,
+      "value": 1
+    },
+    {
+      "geographyId": null,
+      "metricId": "ousRespondentCount",
+      "classId": "unknown-gear",
+      "sketchId": "29116",
+      "groupId": null,
+      "value": 120
+    }
+  ],
+  "sketch": {
+    "id": 29116,
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "id": 29122,
+        "bbox": [
+          -88.38759,
+          15.915633,
+          -88.13224,
+          16.023298
+        ],
+        "type": "Feature",
+        "properties": {
+          "2931": "Ia",
+          "2932": "Cayman Crown",
+          "2934": "CZMAI",
+          "id": "29122",
+          "name": "Cayman Crown",
+          "postId": 1365,
+          "userId": "840",
+          "authors": "CZMAI",
+          "comments": null,
+          "userSlug": "Delwin",
+          "createdAt": "2024-05-08T15:55:11.761702+00:00",
+          "updatedAt": "2024-05-08T15:55:16.655843+00:00",
+          "designation": "Ia",
+          "collectionId": "29116",
+          "isCollection": false,
+          "sharedInForum": true,
+          "sketchClassId": "196",
+          "userAttributes": [
+            {
+              "label": "Comments",
+              "value": null,
+              "exportId": "comments",
+              "fieldType": "TextArea",
+              "valueLabel": null,
+              "formElementId": 2933,
+              "alternateLanguages": {
+                "es": {
+                  "label": "Comentarios",
+                  "valueLabel": null
+                }
+              }
+            },
+            {
+              "label": "Author(s)",
+              "value": "CZMAI",
+              "exportId": "authors",
+              "fieldType": "ShortText",
+              "valueLabel": null,
+              "formElementId": 2934,
+              "alternateLanguages": {
+                "es": {
+                  "label": "Autor(es)",
+                  "valueLabel": null
+                }
+              }
+            },
+            {
+              "label": "Designation",
+              "value": "Ia",
+              "exportId": "designation",
+              "fieldType": "ComboBox",
+              "valueLabel": "IUCN Ia: Strict Nature Reserve",
+              "formElementId": 2931,
+              "alternateLanguages": {
+                "es": {
+                  "label": "Designación",
+                  "valueLabel": "UICN Ia: Reserva Natural Estricta"
+                }
+              }
+            }
+          ]
+        },
+        "geometry": null
+      },
+      {
+        "id": 29118,
+        "bbox": [
+          -87.920784,
+          16.677061,
+          -87.6516,
+          17.013378
+        ],
+        "type": "Feature",
+        "properties": {
+          "2931": "Ia",
+          "2932": "Glover's Atoll",
+          "2934": "CZMAI",
+          "id": "29118",
+          "name": "Glover's Atoll",
+          "postId": 1365,
+          "userId": "840",
+          "authors": "CZMAI",
+          "comments": null,
+          "userSlug": "Delwin",
+          "createdAt": "2024-05-08T15:55:11.761702+00:00",
+          "updatedAt": "2024-05-08T15:55:16.655843+00:00",
+          "designation": "Ia",
+          "collectionId": "29116",
+          "isCollection": false,
+          "sharedInForum": true,
+          "sketchClassId": "196",
+          "userAttributes": [
+            {
+              "label": "Comments",
+              "value": null,
+              "exportId": "comments",
+              "fieldType": "TextArea",
+              "valueLabel": null,
+              "formElementId": 2933,
+              "alternateLanguages": {
+                "es": {
+                  "label": "Comentarios",
+                  "valueLabel": null
+                }
+              }
+            },
+            {
+              "label": "Author(s)",
+              "value": "CZMAI",
+              "exportId": "authors",
+              "fieldType": "ShortText",
+              "valueLabel": null,
+              "formElementId": 2934,
+              "alternateLanguages": {
+                "es": {
+                  "label": "Autor(es)",
+                  "valueLabel": null
+                }
+              }
+            },
+            {
+              "label": "Designation",
+              "value": "Ia",
+              "exportId": "designation",
+              "fieldType": "ComboBox",
+              "valueLabel": "IUCN Ia: Strict Nature Reserve",
+              "formElementId": 2931,
+              "alternateLanguages": {
+                "es": {
+                  "label": "Designación",
+                  "valueLabel": "UICN Ia: Reserva Natural Estricta"
+                }
+              }
+            }
+          ]
+        },
+        "geometry": null
+      },
+      {
+        "id": 29117,
+        "bbox": [
+          -87.74312,
+          17.01513,
+          -87.34777,
+          17.573385
+        ],
+        "type": "Feature",
+        "properties": {
+          "2931": "VI",
+          "2932": "Lighthouse Atoll",
+          "2934": "CZMAI",
+          "id": "29117",
+          "name": "Lighthouse Atoll",
+          "postId": 1365,
+          "userId": "840",
+          "authors": "CZMAI",
+          "comments": null,
+          "userSlug": "Delwin",
+          "createdAt": "2024-05-08T15:55:11.761702+00:00",
+          "updatedAt": "2024-05-08T15:55:16.655843+00:00",
+          "designation": "VI",
+          "collectionId": "29116",
+          "isCollection": false,
+          "sharedInForum": true,
+          "sketchClassId": "196",
+          "userAttributes": [
+            {
+              "label": "Comments",
+              "value": null,
+              "exportId": "comments",
+              "fieldType": "TextArea",
+              "valueLabel": null,
+              "formElementId": 2933,
+              "alternateLanguages": {
+                "es": {
+                  "label": "Comentarios",
+                  "valueLabel": null
+                }
+              }
+            },
+            {
+              "label": "Author(s)",
+              "value": "CZMAI",
+              "exportId": "authors",
+              "fieldType": "ShortText",
+              "valueLabel": null,
+              "formElementId": 2934,
+              "alternateLanguages": {
+                "es": {
+                  "label": "Autor(es)",
+                  "valueLabel": null
+                }
+              }
+            },
+            {
+              "label": "Designation",
+              "value": "VI",
+              "exportId": "designation",
+              "fieldType": "ComboBox",
+              "valueLabel": "IUCN VI: Protected Area with Sustainable Use",
+              "formElementId": 2931,
+              "alternateLanguages": {
+                "es": {
+                  "label": "Designación",
+                  "valueLabel": "UICN VI: Área Protegida con Uso Sostenible"
+                }
+              }
+            }
+          ]
+        },
+        "geometry": null
+      },
+      {
+        "id": 29120,
+        "bbox": [
+          -87.89325,
+          17.905388,
+          -87.40415,
+          18.191515
+        ],
+        "type": "Feature",
+        "properties": {
+          "2931": "Ia",
+          "2932": "Belize Transboundary",
+          "2934": "CZMAI",
+          "id": "29120",
+          "name": "Belize Transboundary",
+          "postId": 1365,
+          "userId": "840",
+          "authors": "CZMAI",
+          "comments": null,
+          "userSlug": "Delwin",
+          "createdAt": "2024-05-08T15:55:11.761702+00:00",
+          "updatedAt": "2024-05-08T16:17:06.258362+00:00",
+          "designation": "Ia",
+          "collectionId": "29116",
+          "isCollection": false,
+          "sharedInForum": true,
+          "sketchClassId": "196",
+          "userAttributes": [
+            {
+              "label": "Comments",
+              "value": null,
+              "exportId": "comments",
+              "fieldType": "TextArea",
+              "valueLabel": null,
+              "formElementId": 2933,
+              "alternateLanguages": {
+                "es": {
+                  "label": "Comentarios",
+                  "valueLabel": null
+                }
+              }
+            },
+            {
+              "label": "Author(s)",
+              "value": "CZMAI",
+              "exportId": "authors",
+              "fieldType": "ShortText",
+              "valueLabel": null,
+              "formElementId": 2934,
+              "alternateLanguages": {
+                "es": {
+                  "label": "Autor(es)",
+                  "valueLabel": null
+                }
+              }
+            },
+            {
+              "label": "Designation",
+              "value": "Ia",
+              "exportId": "designation",
+              "fieldType": "ComboBox",
+              "valueLabel": "IUCN Ia: Strict Nature Reserve",
+              "formElementId": 2931,
+              "alternateLanguages": {
+                "es": {
+                  "label": "Designación",
+                  "valueLabel": "UICN Ia: Reserva Natural Estricta"
+                }
+              }
+            }
+          ]
+        },
+        "geometry": null
+      },
+      {
+        "id": 29121,
+        "bbox": [
+          -88.403175,
+          16.503048,
+          -88.312614,
+          16.67072
+        ],
+        "type": "Feature",
+        "properties": {
+          "2931": "Ia",
+          "2932": "Placenia Lagoon",
+          "2934": "CZMAI",
+          "id": "29121",
+          "name": "Placenia Lagoon",
+          "postId": 1365,
+          "userId": "840",
+          "authors": "CZMAI",
+          "comments": null,
+          "userSlug": "Delwin",
+          "createdAt": "2024-05-08T15:55:11.761702+00:00",
+          "updatedAt": "2024-05-08T15:55:16.655843+00:00",
+          "designation": "Ia",
+          "collectionId": "29116",
+          "isCollection": false,
+          "sharedInForum": true,
+          "sketchClassId": "196",
+          "userAttributes": [
+            {
+              "label": "Comments",
+              "value": null,
+              "exportId": "comments",
+              "fieldType": "TextArea",
+              "valueLabel": null,
+              "formElementId": 2933,
+              "alternateLanguages": {
+                "es": {
+                  "label": "Comentarios",
+                  "valueLabel": null
+                }
+              }
+            },
+            {
+              "label": "Author(s)",
+              "value": "CZMAI",
+              "exportId": "authors",
+              "fieldType": "ShortText",
+              "valueLabel": null,
+              "formElementId": 2934,
+              "alternateLanguages": {
+                "es": {
+                  "label": "Autor(es)",
+                  "valueLabel": null
+                }
+              }
+            },
+            {
+              "label": "Designation",
+              "value": "Ia",
+              "exportId": "designation",
+              "fieldType": "ComboBox",
+              "valueLabel": "IUCN Ia: Strict Nature Reserve",
+              "formElementId": 2931,
+              "alternateLanguages": {
+                "es": {
+                  "label": "Designación",
+                  "valueLabel": "UICN Ia: Reserva Natural Estricta"
+                }
+              }
+            }
+          ]
+        },
+        "geometry": null
+      },
+      {
+        "id": 29119,
+        "bbox": [
+          -88.101944,
+          17.235321,
+          -88.02634,
+          17.560087
+        ],
+        "type": "Feature",
+        "properties": {
+          "2931": "Ia",
+          "2932": "Goff's Caye",
+          "2934": "CZMAI",
+          "id": "29119",
+          "name": "Goff's Caye",
+          "postId": 1365,
+          "userId": "840",
+          "authors": "CZMAI",
+          "comments": null,
+          "userSlug": "Delwin",
+          "createdAt": "2024-05-08T15:55:11.761702+00:00",
+          "updatedAt": "2024-05-08T15:55:16.655843+00:00",
+          "designation": "Ia",
+          "collectionId": "29116",
+          "isCollection": false,
+          "sharedInForum": true,
+          "sketchClassId": "196",
+          "userAttributes": [
+            {
+              "label": "Comments",
+              "value": null,
+              "exportId": "comments",
+              "fieldType": "TextArea",
+              "valueLabel": null,
+              "formElementId": 2933,
+              "alternateLanguages": {
+                "es": {
+                  "label": "Comentarios",
+                  "valueLabel": null
+                }
+              }
+            },
+            {
+              "label": "Author(s)",
+              "value": "CZMAI",
+              "exportId": "authors",
+              "fieldType": "ShortText",
+              "valueLabel": null,
+              "formElementId": 2934,
+              "alternateLanguages": {
+                "es": {
+                  "label": "Autor(es)",
+                  "valueLabel": null
+                }
+              }
+            },
+            {
+              "label": "Designation",
+              "value": "Ia",
+              "exportId": "designation",
+              "fieldType": "ComboBox",
+              "valueLabel": "IUCN Ia: Strict Nature Reserve",
+              "formElementId": 2931,
+              "alternateLanguages": {
+                "es": {
+                  "label": "Designación",
+                  "valueLabel": "UICN Ia: Reserva Natural Estricta"
+                }
+              }
+            }
+          ]
+        },
+        "geometry": null
+      }
+    ],
+    "properties": {
+      "3094": "Areas Under Consideration for New Biodiversity Protection Zones",
+      "5785": "DG",
+      "id": "29116",
+      "name": "Areas Under Consideration for New Biodiversity Protection Zones",
+      "postId": 1365,
+      "userId": "840",
+      "authors": "DG",
+      "comments": null,
+      "userSlug": "Delwin",
+      "createdAt": "2024-05-08T15:55:11.761702+00:00",
+      "updatedAt": "2024-08-22T16:50:28.010711+00:00",
+      "collectionId": null,
+      "isCollection": true,
+      "sharedInForum": true,
+      "sketchClassId": "232",
+      "userAttributes": [
+        {
+          "label": "Comments",
+          "value": null,
+          "exportId": "comments",
+          "fieldType": "TextArea",
+          "valueLabel": null,
+          "formElementId": 5784,
+          "alternateLanguages": {}
+        },
+        {
+          "label": "Author(s)",
+          "value": "DG",
+          "exportId": "authors",
+          "fieldType": "TextArea",
+          "valueLabel": null,
+          "formElementId": 5785,
+          "alternateLanguages": {}
+        }
+      ]
+    }
+  }
+}

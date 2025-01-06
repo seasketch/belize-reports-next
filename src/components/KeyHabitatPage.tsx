@@ -1,8 +1,8 @@
 import React from "react";
-// import { Mangroves } from "./Mangroves";
-// import { Seagrass } from "./Seagrass";
 import { Coral } from "./Coral.js";
-// import { LittoralForests } from "./LittoralForests";
+import { Mangroves } from "./Mangroves.js";
+import { LittoralForest } from "./LittoralForest.js";
+import { Seagrass } from "./Seagrass.js";
 
 export const KeyHabitatPage: React.FunctionComponent<{ printing: boolean }> = (
   props,
@@ -10,9 +10,9 @@ export const KeyHabitatPage: React.FunctionComponent<{ printing: boolean }> = (
   return (
     <>
       <Coral printing={props.printing} />
-      {/* <Mangroves printing={props.printing} />
-      <LittoralForests printing={props.printing} />
-      <Seagrass printing={props.printing} /> */}
+      <Mangroves printing={props.printing} />
+      <LittoralForest printing={props.printing} />
+      <Seagrass printing={props.printing} />
     </>
   );
 };

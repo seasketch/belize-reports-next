@@ -253,7 +253,7 @@
     "classId": "seagrass-total",
     "sketchId": null,
     "groupId": null,
-    "value": 2274629653.423466
+    "value": 4563979020.596944
   },
   {
     "geographyId": "world",
@@ -573,7 +573,7 @@
     "classId": "seagrass-total",
     "sketchId": null,
     "groupId": null,
-    "value": 45982394
+    "value": 32885
   },
   {
     "geographyId": "world",
@@ -698,14 +698,6 @@
   {
     "geographyId": "world",
     "metricId": "sum",
-    "classId": "seagrass-total",
-    "sketchId": null,
-    "groupId": null,
-    "value": 2254204
-  },
-  {
-    "geographyId": "world",
-    "metricId": "sum",
     "classId": "tourism-total",
     "sketchId": null,
     "groupId": null,
@@ -766,14 +758,6 @@
     "sketchId": null,
     "groupId": null,
     "value": 999076
-  },
-  {
-    "geographyId": "world",
-    "metricId": "valid",
-    "classId": "seagrass-total",
-    "sketchId": null,
-    "groupId": null,
-    "value": 2254204
   },
   {
     "geographyId": "world",

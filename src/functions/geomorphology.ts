@@ -64,7 +64,6 @@ export async function geomorphology(
         const features =
           featuresByClass[ds.datasourceId] ||
           (await getFeaturesForSketchBBoxes(sketch, url));
-        featuresByClass[ds.datasourceId] = features;
 
         // Get classKey for current data class
         const classKey = project.getMetricGroupClassKey(metricGroup, {
@@ -84,6 +83,7 @@ export async function geomorphology(
               feat.properties[classKey] === curClass.classId,
           );
         }
+        featuresByClass[ds.datasourceId] = finalFeatures;
 
         // Calculate overlap metrics
         const overlapResult = await overlapPolygonArea(
