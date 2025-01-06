@@ -15,6 +15,7 @@ import { KeyHabitatPage } from "../components/KeyHabitatPage.js";
 import { Footer } from "../util/Footer.js";
 import { Settings } from "../util/Settings.js";
 import { SketchProperties } from "@seasketch/geoprocessing";
+import { RepresentationPage } from "../components/RepresentationPage.js";
 
 const BaseReport = () => {
   const { t } = useTranslation();
@@ -119,9 +120,9 @@ const BaseReport = () => {
         <ReportPage hidden={!isPrinting && tab !== viabilityId}>
           <ViabilityPage printing={isPrinting} />
         </ReportPage>
-        {/* <ReportPage hidden={!isPrinting && tab !== representationId}>
+        <ReportPage hidden={!isPrinting && tab !== representationId}>
           <RepresentationPage printing={isPrinting} />
-        </ReportPage> */}
+        </ReportPage>
         <ReportPage hidden={!isPrinting && tab !== keyHabitatId}>
           <KeyHabitatPage printing={isPrinting} />
         </ReportPage>

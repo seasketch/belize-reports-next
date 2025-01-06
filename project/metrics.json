@@ -137,7 +137,7 @@
     ]
   },
   {
-    "metricId": "geomorphAreaOverlap",
+    "metricId": "geomorphology",
     "type": "areaOverlap",
     "classes": [
       {

@@ -3,8 +3,6 @@ import { SizeCard } from "./SizeCard.js";
 import { SketchAttributesCard } from "@seasketch/geoprocessing/client-ui";
 import { ProtectionCard } from "./ProtectionCard.js";
 import { HumanStressorsCard } from "./HumanStressorsCard.js";
-// import { ReportProps } from "../util/ReportProp";
-// import { OusDemographics } from "./OusDemographic";
 import { OusCard } from "./OusCard.js";
 import { OusDemographics } from "./OusDemographic.js";
 

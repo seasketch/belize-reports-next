@@ -7,6 +7,7 @@
   "geoprocessingFunctions": [
     "src/functions/coralValueOverlap.ts",
     "src/functions/humanStressors.ts",
-    "src/functions/ous.ts"
+    "src/functions/ous.ts",
+    "src/functions/geomorphAreaOverlap.ts"
   ]
 }
