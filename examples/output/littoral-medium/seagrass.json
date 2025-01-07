@@ -6,7 +6,7 @@
       "classId": "seagrass",
       "sketchId": "23569",
       "groupId": null,
-      "value": 19397575.655939,
+      "value": 19397544.526221,
       "extra": {
         "sketchName": "littoral-medium"
       }
@@ -28,7 +28,7 @@
       "classId": "seagrass",
       "sketchId": "23569",
       "groupId": "MEDIUM_PROTECTION",
-      "value": 19397575.655939,
+      "value": 19397544.526221,
       "extra": {
         "sketchName": "littoral-medium"
       }

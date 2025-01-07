@@ -6,7 +6,7 @@
       "classId": "seagrass",
       "sketchId": "29116",
       "groupId": null,
-      "value": 290718579.258961,
+      "value": 290717914.080768,
       "extra": {
         "sketchName": "Areas Under Consideration for New Biodiversity Protection Zones",
         "isCollection": true
@@ -18,7 +18,7 @@
       "classId": "seagrass",
       "sketchId": "29116",
       "groupId": "HIGH_PROTECTION",
-      "value": 173912250.075072,
+      "value": 173911884.12651,
       "extra": {
         "sketchName": "Areas Under Consideration for New Biodiversity Protection Zones",
         "isCollection": true
@@ -30,7 +30,7 @@
       "classId": "seagrass",
       "sketchId": "29116",
       "groupId": "MEDIUM_PROTECTION",
-      "value": 116806329.183889,
+      "value": 116806029.954257,
       "extra": {
         "sketchName": "Areas Under Consideration for New Biodiversity Protection Zones",
         "isCollection": true
@@ -42,7 +42,7 @@
       "classId": "seagrass",
       "sketchId": "29117",
       "groupId": null,
-      "value": 116806329.183889,
+      "value": 116806029.954257,
       "extra": {
         "sketchName": "Lighthouse Atoll"
       }
@@ -53,7 +53,7 @@
       "classId": "seagrass",
       "sketchId": "29117",
       "groupId": "MEDIUM_PROTECTION",
-      "value": 116806329.183889,
+      "value": 116806029.954257,
       "extra": {
         "sketchName": "Lighthouse Atoll"
       }
@@ -64,7 +64,7 @@
       "classId": "seagrass",
       "sketchId": "29118",
       "groupId": null,
-      "value": 79986790.279608,
+      "value": 79986446.557655,
       "extra": {
         "sketchName": "Glover's Atoll"
       }
@@ -75,7 +75,7 @@
       "classId": "seagrass",
       "sketchId": "29118",
       "groupId": "HIGH_PROTECTION",
-      "value": 79986790.279608,
+      "value": 79986446.557655,
       "extra": {
         "sketchName": "Glover's Atoll"
       }
@@ -86,7 +86,7 @@
       "classId": "seagrass",
       "sketchId": "29119",
       "groupId": null,
-      "value": 71606506.538269,
+      "value": 71606479.605249,
       "extra": {
         "sketchName": "Goff's Caye"
       }
@@ -97,7 +97,7 @@
       "classId": "seagrass",
       "sketchId": "29119",
       "groupId": "HIGH_PROTECTION",
-      "value": 71606506.538269,
+      "value": 71606479.605249,
       "extra": {
         "sketchName": "Goff's Caye"
       }
@@ -130,7 +130,7 @@
       "classId": "seagrass",
       "sketchId": "29121",
       "groupId": null,
-      "value": 22318953.257194,
+      "value": 22318957.963605,
       "extra": {
         "sketchName": "Placenia Lagoon"
       }
@@ -141,7 +141,7 @@
       "classId": "seagrass",
       "sketchId": "29121",
       "groupId": "HIGH_PROTECTION",
-      "value": 22318953.257194,
+      "value": 22318957.963605,
       "extra": {
         "sketchName": "Placenia Lagoon"
       }

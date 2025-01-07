@@ -2,10 +2,7 @@
   {
     "datasourceId": "world",
     "geo_type": "vector",
-    "formats": [
-      "json",
-      "fgb"
-    ],
+    "formats": ["json", "fgb"],
     "precalc": false,
     "metadata": {
       "name": "World Outline Polygon",
@@ -22,28 +19,20 @@
   {
     "datasourceId": "belize_ocean_space",
     "geo_type": "vector",
-    "formats": [
-      "fgb"
-    ],
+    "formats": ["fgb"],
     "precalc": true,
     "layerName": "Belize Maritime Areas-IW, TS, EEZ",
-    "classKeys": [
-      "NAME"
-    ],
+    "classKeys": ["NAME"],
     "created": "2023-10-11T16:23:56.645Z",
     "lastUpdated": "2024-12-30T17:13:00.577Z",
     "src": "data/src/Data_Received/Administrative/Belize Maritime Areas/Belize Maritime Areas-IW, TS, EEZ.shp",
-    "propertiesToKeep": [
-      "NAME"
-    ],
+    "propertiesToKeep": ["NAME"],
     "explodeMulti": true
   },
   {
     "datasourceId": "belize_ocean_space_border",
     "geo_type": "vector",
-    "formats": [
-      "fgb"
-    ],
+    "formats": ["fgb"],
     "precalc": false,
     "layerName": "Belize Territorial Areas_Border_AOI",
     "classKeys": [],
@@ -56,28 +45,20 @@
   {
     "datasourceId": "abyss",
     "geo_type": "vector",
-    "formats": [
-      "fgb"
-    ],
+    "formats": ["fgb"],
     "precalc": true,
     "layerName": "Abyssal_Classification",
-    "classKeys": [
-      "Class"
-    ],
+    "classKeys": ["Class"],
     "created": "2023-10-12T21:27:26.949Z",
     "lastUpdated": "2024-12-30T17:13:00.735Z",
     "src": "data/src/Analytics/seafloor_features/Abyssal_Classification.geojson",
-    "propertiesToKeep": [
-      "Class"
-    ],
+    "propertiesToKeep": ["Class"],
     "explodeMulti": true
   },
   {
     "datasourceId": "basins",
     "geo_type": "vector",
-    "formats": [
-      "fgb"
-    ],
+    "formats": ["fgb"],
     "precalc": true,
     "layerName": "Basins",
     "classKeys": [],
@@ -90,9 +71,7 @@
   {
     "datasourceId": "canyons",
     "geo_type": "vector",
-    "formats": [
-      "fgb"
-    ],
+    "formats": ["fgb"],
     "precalc": true,
     "layerName": "Canyons",
     "classKeys": [],
@@ -105,9 +84,7 @@
   {
     "datasourceId": "escarpments",
     "geo_type": "vector",
-    "formats": [
-      "fgb"
-    ],
+    "formats": ["fgb"],
     "precalc": true,
     "layerName": "Escarpments",
     "classKeys": [],
@@ -120,9 +97,7 @@
   {
     "datasourceId": "plateaus",
     "geo_type": "vector",
-    "formats": [
-      "fgb"
-    ],
+    "formats": ["fgb"],
     "precalc": true,
     "layerName": "Plateaus",
     "classKeys": [],
@@ -135,9 +110,7 @@
   {
     "datasourceId": "rises",
     "geo_type": "vector",
-    "formats": [
-      "fgb"
-    ],
+    "formats": ["fgb"],
     "precalc": true,
     "layerName": "Rises",
     "classKeys": [],
@@ -150,28 +123,20 @@
   {
     "datasourceId": "shelf",
     "geo_type": "vector",
-    "formats": [
-      "fgb"
-    ],
+    "formats": ["fgb"],
     "precalc": true,
     "layerName": "Shelf_Classification",
-    "classKeys": [
-      "Class"
-    ],
+    "classKeys": ["Class"],
     "created": "2023-10-12T21:29:41.556Z",
     "lastUpdated": "2024-12-30T17:13:01.175Z",
     "src": "data/src/Analytics/seafloor_features/Shelf_Classification.geojson",
-    "propertiesToKeep": [
-      "Class"
-    ],
+    "propertiesToKeep": ["Class"],
     "explodeMulti": true
   },
   {
     "datasourceId": "shelf_valleys",
     "geo_type": "vector",
-    "formats": [
-      "fgb"
-    ],
+    "formats": ["fgb"],
     "precalc": true,
     "layerName": "Shelf_valleys",
     "classKeys": [],
@@ -184,9 +149,7 @@
   {
     "datasourceId": "sills",
     "geo_type": "vector",
-    "formats": [
-      "fgb"
-    ],
+    "formats": ["fgb"],
     "precalc": true,
     "layerName": "Sills",
     "classKeys": [],
@@ -199,9 +162,7 @@
   {
     "datasourceId": "slope",
     "geo_type": "vector",
-    "formats": [
-      "fgb"
-    ],
+    "formats": ["fgb"],
     "precalc": true,
     "layerName": "Slope",
     "classKeys": [],
@@ -214,9 +175,7 @@
   {
     "datasourceId": "mangroves_priority",
     "geo_type": "vector",
-    "formats": [
-      "fgb"
-    ],
+    "formats": ["fgb"],
     "precalc": true,
     "layerName": "priorityareas_mngvregs2018",
     "classKeys": [],
@@ -229,9 +188,7 @@
   {
     "datasourceId": "ag_runoff",
     "geo_type": "vector",
-    "formats": [
-      "fgb"
-    ],
+    "formats": ["fgb"],
     "precalc": true,
     "layerName": "Agricultural_Runoff 2020",
     "classKeys": [],
@@ -244,9 +201,7 @@
   {
     "datasourceId": "coastal_dev",
     "geo_type": "vector",
-    "formats": [
-      "fgb"
-    ],
+    "formats": ["fgb"],
     "precalc": true,
     "layerName": "Coastal Development 2020",
     "classKeys": [],
@@ -259,9 +214,7 @@
   {
     "datasourceId": "marine_dredging",
     "geo_type": "vector",
-    "formats": [
-      "fgb"
-    ],
+    "formats": ["fgb"],
     "precalc": true,
     "layerName": "Marine Dredging 2020",
     "classKeys": [],
@@ -274,9 +227,7 @@
   {
     "datasourceId": "marine_trans",
     "geo_type": "vector",
-    "formats": [
-      "fgb"
-    ],
+    "formats": ["fgb"],
     "precalc": true,
     "layerName": "Marine Transportation 2020",
     "classKeys": [],
@@ -289,9 +240,7 @@
   {
     "datasourceId": "bathymetry",
     "geo_type": "raster",
-    "formats": [
-      "tif"
-    ],
+    "formats": ["tif"],
     "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
@@ -303,29 +252,20 @@
   {
     "datasourceId": "mangroves",
     "geo_type": "vector",
-    "formats": [
-      "fgb",
-      "json"
-    ],
+    "formats": ["fgb", "json"],
     "precalc": true,
     "layerName": "mangroves_and_littoral_forests_cropped",
-    "classKeys": [
-      "C2019"
-    ],
+    "classKeys": ["C2019"],
     "created": "2023-11-09T00:04:01.009Z",
     "lastUpdated": "2024-12-30T17:13:28.933Z",
     "src": "data/src/Analytics/ecosystems/mangroves_and_littoral_forests_cropped.geojson",
-    "propertiesToKeep": [
-      "C2019"
-    ],
+    "propertiesToKeep": ["C2019"],
     "explodeMulti": true
   },
   {
     "datasourceId": "energy",
     "geo_type": "raster",
-    "formats": [
-      "tif"
-    ],
+    "formats": ["tif"],
     "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
@@ -337,9 +277,7 @@
   {
     "datasourceId": "fisheries_aquaculture",
     "geo_type": "raster",
-    "formats": [
-      "tif"
-    ],
+    "formats": ["tif"],
     "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
@@ -351,9 +289,7 @@
   {
     "datasourceId": "general_use",
     "geo_type": "raster",
-    "formats": [
-      "tif"
-    ],
+    "formats": ["tif"],
     "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
@@ -365,9 +301,7 @@
   {
     "datasourceId": "marine_coastal_development",
     "geo_type": "raster",
-    "formats": [
-      "tif"
-    ],
+    "formats": ["tif"],
     "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
@@ -379,9 +313,7 @@
   {
     "datasourceId": "marine_coastal_ecosystems",
     "geo_type": "raster",
-    "formats": [
-      "tif"
-    ],
+    "formats": ["tif"],
     "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
@@ -393,9 +325,7 @@
   {
     "datasourceId": "maritime_administration",
     "geo_type": "raster",
-    "formats": [
-      "tif"
-    ],
+    "formats": ["tif"],
     "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
@@ -407,9 +337,7 @@
   {
     "datasourceId": "tourism",
     "geo_type": "raster",
-    "formats": [
-      "tif"
-    ],
+    "formats": ["tif"],
     "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
@@ -421,9 +349,7 @@
   {
     "datasourceId": "coral",
     "geo_type": "vector",
-    "formats": [
-      "fgb"
-    ],
+    "formats": ["fgb"],
     "precalc": true,
     "layerName": "coral_subdivided",
     "classKeys": [],
@@ -436,15 +362,13 @@
   {
     "datasourceId": "seagrass",
     "geo_type": "vector",
-    "formats": [
-      "fgb"
-    ],
+    "formats": ["fgb"],
     "precalc": true,
-    "layerName": "belize_seagrass",
+    "layerName": "seagrass_subdivided",
     "classKeys": [],
     "created": "2025-01-02T17:17:10.936Z",
-    "lastUpdated": "2025-01-07T01:47:01.798Z",
-    "src": "data/src/Analytics/ecosystems/belize_seagrass.fgb",
+    "lastUpdated": "2025-01-07T21:40:09.259Z",
+    "src": "data/src/Analytics/ecosystems/seagrass_subdivided.fgb",
     "propertiesToKeep": [],
     "explodeMulti": true
   }

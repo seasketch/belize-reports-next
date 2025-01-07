@@ -15,6 +15,7 @@
     "src/functions/coral.ts",
     "src/functions/geomorphology.ts",
     "src/functions/humanStressors.ts",
+    "src/functions/humanStressorsWorker.ts",
     "src/functions/littoralForest.ts",
     "src/functions/mangroves.ts",
     "src/functions/ous.ts",
