@@ -45,6 +45,7 @@ export async function coral(
   });
 
   const featuresByDatasource: Record<string, Feature<Polygon>[]> = {};
+  const featuresByClass: Record<string, Feature<Polygon>[]> = {};
 
   // Calculate overlap metrics for each class in metric group
   const metricGroup = project.getMetricGroup("coral");
@@ -82,7 +83,7 @@ export async function coral(
           );
         }
 
-        featuresByDatasource[ds.datasourceId] = finalFeatures;
+        featuresByClass[ds.datasourceId] = finalFeatures;
 
         // Calculate overlap metrics
         const overlapResult = await overlapPolygonArea(
@@ -113,7 +114,7 @@ export async function coral(
     sketch: sketch as Sketch<Polygon> | SketchCollection<Polygon>,
     metricToGroup,
     metrics: metrics,
-    featuresByClass: featuresByDatasource,
+    featuresByClass,
   });
 
   return {

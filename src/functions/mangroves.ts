@@ -19,7 +19,6 @@ import {
   sortMetrics,
   toNullSketch,
 } from "@seasketch/geoprocessing/client-core";
-import { clipToGeography } from "../util/clipToGeography.js";
 import { overlapFeaturesGroupMetrics } from "./coral.js";
 import {
   getMpaProtectionLevels,
@@ -63,7 +62,7 @@ export async function mangroves(
         const features =
           featuresByDatasource[ds.datasourceId] ||
           (await getFeaturesForSketchBBoxes(sketch, url));
-        featuresByDatasource[curClass.classId] = features;
+        featuresByDatasource[ds.datasourceId] = features;
 
         // Get classKey for current data class
         const classKey = project.getMetricGroupClassKey(metricGroup, {

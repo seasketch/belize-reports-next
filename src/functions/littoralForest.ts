@@ -8,8 +8,8 @@ import {
   DefaultExtraParams,
   Feature,
   isVectorDatasource,
-  overlapFeatures,
   getFeaturesForSketchBBoxes,
+  overlapPolygonArea,
 } from "@seasketch/geoprocessing";
 import project from "../../project/projectClient.js";
 import {
@@ -19,7 +19,6 @@ import {
   sortMetrics,
   toNullSketch,
 } from "@seasketch/geoprocessing/client-core";
-import { clipToGeography } from "../util/clipToGeography.js";
 import {
   getMpaProtectionLevels,
   protectionLevels,
@@ -87,7 +86,7 @@ export async function littoralForest(
         featuresByClass[curClass.classId] = finalFeatures;
 
         // Calculate overlap metrics
-        const overlapResult = await overlapFeatures(
+        const overlapResult = await overlapPolygonArea(
           metricGroup.metricId,
           finalFeatures,
           sketch,

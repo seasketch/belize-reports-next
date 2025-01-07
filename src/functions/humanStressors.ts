@@ -8,8 +8,8 @@ import {
   DefaultExtraParams,
   Feature,
   isVectorDatasource,
-  overlapFeatures,
   getFeaturesForSketchBBoxes,
+  overlapPolygonArea,
 } from "@seasketch/geoprocessing";
 import project from "../../project/projectClient.js";
 import {
@@ -19,7 +19,6 @@ import {
   sortMetrics,
   toNullSketch,
 } from "@seasketch/geoprocessing/client-core";
-import { clipToGeography } from "../util/clipToGeography.js";
 import {
   getMpaProtectionLevels,
   protectionLevels,
@@ -44,7 +43,7 @@ export async function humanStressors(
     fallbackGroup: "default-boundary",
   });
 
-  const featuresByDatasource: Record<string, Feature<Polygon>[]> = {};
+  const featuresByClass: Record<string, Feature<Polygon>[]> = {};
 
   // Calculate overlap metrics for each class in metric group
   const metricGroup = project.getMetricGroup("humanStressors");
@@ -59,9 +58,7 @@ export async function humanStressors(
         const url = project.getDatasourceUrl(ds);
 
         // Fetch features overlapping with sketch, if not already fetched
-        const features =
-          featuresByDatasource[ds.datasourceId] ||
-          (await getFeaturesForSketchBBoxes(sketch, url));
+        const features = await getFeaturesForSketchBBoxes<Polygon>(sketch, url);
 
         // Get classKey for current data class
         const classKey = project.getMetricGroupClassKey(metricGroup, {
@@ -82,10 +79,10 @@ export async function humanStressors(
           );
         }
 
-        featuresByDatasource[ds.datasourceId] = finalFeatures;
+        featuresByClass[curClass.classId] = finalFeatures;
 
         // Calculate overlap metrics
-        const overlapResult = await overlapFeatures(
+        const overlapResult = await overlapPolygonArea(
           metricGroup.metricId,
           finalFeatures,
           sketch,
@@ -113,7 +110,7 @@ export async function humanStressors(
     sketch: sketch as Sketch<Polygon> | SketchCollection<Polygon>,
     metricToGroup,
     metrics: metrics,
-    featuresByClass: featuresByDatasource,
+    featuresByClass,
   });
 
   return {
