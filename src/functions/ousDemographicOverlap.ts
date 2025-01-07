@@ -26,7 +26,7 @@ export async function ousDemographicOverlap(
     | Sketch<Polygon | MultiPolygon>
     | SketchCollection<Polygon | MultiPolygon>,
 ): Promise<ReportResult> {
-  const url = `${project.dataBucketUrl()}/ous_demographics.fgb`;
+  const url = `${project.dataBucketUrl()}ous_demographics.fgb`;
   const sh = await getFeaturesForSketchBBoxes(sketch, url);
 
   const metrics = (
