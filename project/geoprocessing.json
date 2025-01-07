@@ -14,6 +14,7 @@
     "src/functions/bathymetry.ts",
     "src/functions/coral.ts",
     "src/functions/geomorphology.ts",
+    "src/functions/geomorphologyWorker.ts",
     "src/functions/humanStressors.ts",
     "src/functions/humanStressorsWorker.ts",
     "src/functions/littoralForest.ts",
