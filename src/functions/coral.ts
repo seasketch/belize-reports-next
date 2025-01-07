@@ -20,7 +20,6 @@ import {
   toNullSketch,
 } from "@seasketch/geoprocessing";
 import project from "../../project/projectClient.js";
-import { clipToGeography } from "../util/clipToGeography.js";
 import {
   getMpaProtectionLevels,
   protectionLevels,
@@ -103,6 +102,8 @@ export async function coral(
     )
   ).flat();
 
+  console.log("Single metrics finished");
+
   // Calculate group metrics - from individual sketch metrics
   const sketchCategoryMap = getMpaProtectionLevels(sketch);
   const metricToGroup = (sketchMetric: Metric) =>
@@ -116,6 +117,8 @@ export async function coral(
     metrics: metrics,
     featuresByClass,
   });
+
+  console.log("Group metrics finished");
 
   return {
     metrics: sortMetrics(rekeyMetrics([...metrics, ...groupMetrics])),
@@ -166,6 +169,6 @@ export default new GeoprocessingHandler(coral, {
   title: "coral",
   description: "coral overlap",
   timeout: 500, // seconds
-  memory: 1024, // megabytes
+  memory: 10240, // megabytes
   executionMode: "async",
 });

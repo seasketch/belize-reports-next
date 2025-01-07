@@ -425,11 +425,11 @@
       "fgb"
     ],
     "precalc": true,
-    "layerName": "belize_coral",
+    "layerName": "coral_subdivided",
     "classKeys": [],
     "created": "2025-01-02T17:16:29.341Z",
-    "lastUpdated": "2025-01-07T01:41:33.409Z",
-    "src": "data/src/Analytics/ecosystems/belize_coral.fgb",
+    "lastUpdated": "2025-01-07T17:52:44.520Z",
+    "src": "data/src/Analytics/ecosystems/coral_subdivided.fgb",
     "propertiesToKeep": [],
     "explodeMulti": true
   },

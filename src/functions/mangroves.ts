@@ -127,6 +127,6 @@ export default new GeoprocessingHandler(mangroves, {
   title: "mangroves",
   description: "",
   timeout: 500, // seconds
-  memory: 1024, // megabytes
+  memory: 10240, // megabytes
   executionMode: "async",
 });

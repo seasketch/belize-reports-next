@@ -45,7 +45,7 @@ export const LittoralForest: React.FunctionComponent<{
   );
 
   // Labels
-  const titleLabel = t("LittoralForest");
+  const titleLabel = t("Littoral Forests");
   const mapLabel = t("Map");
 
   return (
