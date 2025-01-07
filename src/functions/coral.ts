@@ -43,13 +43,11 @@ export async function coral(
   const curGeography = project.getGeographyById(geographyId, {
     fallbackGroup: "default-boundary",
   });
-  // Clip portion of sketch outside geography features
-  const clippedSketch = await clipToGeography(sketch, curGeography);
 
   const featuresByDatasource: Record<string, Feature<Polygon>[]> = {};
 
   // Calculate overlap metrics for each class in metric group
-  const metricGroup = project.getMetricGroup("coralValueOverlap");
+  const metricGroup = project.getMetricGroup("coral");
   const metrics = (
     await Promise.all(
       metricGroup.classes.map(async (curClass) => {
@@ -90,7 +88,7 @@ export async function coral(
         const overlapResult = await overlapPolygonArea(
           metricGroup.metricId,
           finalFeatures,
-          clippedSketch,
+          sketch,
         );
 
         return overlapResult.map(
@@ -120,7 +118,7 @@ export async function coral(
 
   return {
     metrics: sortMetrics(rekeyMetrics([...metrics, ...groupMetrics])),
-    sketch: toNullSketch(clippedSketch),
+    sketch: toNullSketch(sketch),
   };
 }
 

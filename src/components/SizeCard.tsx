@@ -59,7 +59,10 @@ export const SizeCard: React.FunctionComponent<{ printing: boolean }> = (
   const { t } = useTranslation();
   const [{ isCollection, id, childProperties }] = useSketchProperties();
   const mg = project.getMetricGroup("size", t);
-  const objectiveIds = [mg.objectiveId!];
+  const objectiveIds = [
+    "ocean_space_protected",
+    "ocean_space_highly_protected",
+  ];
 
   return (
     <div style={{ breakInside: "avoid" }}>
@@ -96,6 +99,7 @@ export const SizeCard: React.FunctionComponent<{ printing: boolean }> = (
                     filename="size"
                     data={data.metrics}
                     formats={["csv", "json"]}
+                    placement="left-end"
                     titleElement={
                       <Download
                         size={18}

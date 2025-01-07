@@ -2,15 +2,25 @@
   "author": "Abby Vath Meyer <avmey@ucsb.edu>",
   "organization": "",
   "region": "us-east-1",
-  "clients": [],
-  "preprocessingFunctions": [],
+  "clients": [
+    {
+      "name": "TabReport",
+      "description": "Report suite for MPA planning within EEZ with tab navigation",
+      "source": "src/clients/TabReport.tsx"
+    }
+  ],
+  "preprocessingFunctions": ["src/functions/clipToOceanEez.ts"],
   "geoprocessingFunctions": [
-    "src/functions/coralValueOverlap.ts",
+    "src/functions/bathymetry.ts",
+    "src/functions/coral.ts",
+    "src/functions/geomorphology.ts",
     "src/functions/humanStressors.ts",
-    "src/functions/ous.ts",
-    "src/functions/geomorphAreaOverlap.ts",
+    "src/functions/littoralForest.ts",
     "src/functions/mangroves.ts",
-    "src/functions/littoralAreaOverlap.ts",
-    "src/functions/seagrass.ts"
+    "src/functions/ous.ts",
+    "src/functions/ousDemographicOverlap.ts",
+    "src/functions/protection.ts",
+    "src/functions/seagrass.ts",
+    "src/functions/size.ts"
   ]
 }

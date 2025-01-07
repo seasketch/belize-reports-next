@@ -1,7 +1,7 @@
 {
   "metrics": [
     {
-      "geographyId": "world",
+      "geographyId": "belize_ocean_space",
       "metricId": "seagrass",
       "classId": "seagrass",
       "sketchId": "20652",
@@ -12,7 +12,7 @@
       }
     },
     {
-      "geographyId": "world",
+      "geographyId": "belize_ocean_space",
       "metricId": "seagrass",
       "classId": "seagrass",
       "sketchId": "20652",
@@ -37,10 +37,10 @@
   "sketch": {
     "id": 20652,
     "bbox": [
-      -88.023676693,
-      16.775733337,
-      -85.973087014,
-      17.890212453
+      -88.023674,
+      16.775734,
+      -85.97308,
+      17.890213
     ],
     "type": "Feature",
     "properties": {

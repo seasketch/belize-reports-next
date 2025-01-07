@@ -1,7 +1,7 @@
 {
   "metrics": [
     {
-      "geographyId": "world",
+      "geographyId": "belize_ocean_space",
       "metricId": "seagrass",
       "classId": "seagrass",
       "sketchId": "20646",
@@ -12,7 +12,7 @@
       }
     },
     {
-      "geographyId": "world",
+      "geographyId": "belize_ocean_space",
       "metricId": "seagrass",
       "classId": "seagrass",
       "sketchId": "20646",
@@ -23,7 +23,7 @@
       }
     },
     {
-      "geographyId": "world",
+      "geographyId": "belize_ocean_space",
       "metricId": "seagrass",
       "classId": "seagrass",
       "sketchId": "20647",
@@ -34,7 +34,7 @@
       }
     },
     {
-      "geographyId": "world",
+      "geographyId": "belize_ocean_space",
       "metricId": "seagrass",
       "classId": "seagrass",
       "sketchId": "20647",
@@ -45,7 +45,7 @@
       }
     },
     {
-      "geographyId": "world",
+      "geographyId": "belize_ocean_space",
       "metricId": "seagrass",
       "classId": "seagrass",
       "sketchId": "20648",
@@ -82,57 +82,16 @@
     }
   ],
   "sketch": {
-    "properties": {
-      "3094": "test-network",
-      "id": "20648",
-      "name": "test-network",
-      "postId": null,
-      "userId": "531",
-      "authors": null,
-      "comments": null,
-      "userSlug": "Abby",
-      "createdAt": "2023-10-10T21:22:41.550657+00:00",
-      "updatedAt": "2023-12-05T23:16:32.755845+00:00",
-      "collectionId": null,
-      "isCollection": true,
-      "sharedInForum": false,
-      "sketchClassId": "232",
-      "userAttributes": [
-        {
-          "label": "Comments",
-          "value": null,
-          "exportId": "comments",
-          "fieldType": "TextArea",
-          "valueLabel": null,
-          "formElementId": 5784,
-          "alternateLanguages": {}
-        },
-        {
-          "label": "Author(s)",
-          "value": null,
-          "exportId": "authors",
-          "fieldType": "TextArea",
-          "valueLabel": null,
-          "formElementId": 5785,
-          "alternateLanguages": {}
-        }
-      ]
-    },
-    "bbox": [
-      -88.186153957,
-      16.765120757,
-      -87.225609255,
-      17.798794598
-    ],
+    "id": 20648,
     "type": "FeatureCollection",
     "features": [
       {
         "id": 20647,
         "bbox": [
-          -87.65616737,
-          17.15125227,
-          -87.225609255,
-          17.798794598
+          -87.656166,
+          17.151253,
+          -87.22561,
+          17.798794
         ],
         "type": "Feature",
         "properties": {
@@ -202,10 +161,10 @@
       {
         "id": 20646,
         "bbox": [
-          -88.186153957,
-          16.765120757,
-          -87.609863898,
-          17.056586529
+          -88.18616,
+          16.765121,
+          -87.60986,
+          17.056587
         ],
         "type": "Feature",
         "properties": {
@@ -272,6 +231,42 @@
           ]
         }
       }
-    ]
+    ],
+    "properties": {
+      "3094": "test-network",
+      "id": "20648",
+      "name": "test-network",
+      "postId": null,
+      "userId": "531",
+      "authors": null,
+      "comments": null,
+      "userSlug": "Abby",
+      "createdAt": "2023-10-10T21:22:41.550657+00:00",
+      "updatedAt": "2023-12-05T23:16:32.755845+00:00",
+      "collectionId": null,
+      "isCollection": true,
+      "sharedInForum": false,
+      "sketchClassId": "232",
+      "userAttributes": [
+        {
+          "label": "Comments",
+          "value": null,
+          "exportId": "comments",
+          "fieldType": "TextArea",
+          "valueLabel": null,
+          "formElementId": 5784,
+          "alternateLanguages": {}
+        },
+        {
+          "label": "Author(s)",
+          "value": null,
+          "exportId": "authors",
+          "fieldType": "TextArea",
+          "valueLabel": null,
+          "formElementId": 5785,
+          "alternateLanguages": {}
+        }
+      ]
+    }
   }
 }

@@ -124,7 +124,7 @@
     ]
   },
   {
-    "metricId": "coralValueOverlap",
+    "metricId": "coral",
     "type": "valueOverlap",
     "layerId": "UtnjYN9f1",
     "classes": [

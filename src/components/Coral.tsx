@@ -37,7 +37,7 @@ export const Coral: React.FunctionComponent<{
   });
 
   // Metrics
-  const metricGroup = project.getMetricGroup("coralValueOverlap", t);
+  const metricGroup = project.getMetricGroup("coral", t);
   const precalcMetrics = project.getPrecalcMetrics(
     metricGroup,
     "area",
@@ -53,7 +53,7 @@ export const Coral: React.FunctionComponent<{
     <div style={{ breakInside: "avoid" }}>
       <ResultsCard
         title={titleLabel}
-        functionName="coralValueOverlap"
+        functionName="coral"
         extraParams={{ geographyIds: [curGeography.geographyId] }}
         useChildCard
       >
@@ -103,8 +103,8 @@ export const Coral: React.FunctionComponent<{
                     <>
                       <Collapse
                         title={t("Show by Protection Level")}
-                        collapsed={!false}
-                        key={String(false) + "Protection"}
+                        collapsed={!props.printing}
+                        key={String(props.printing) + "Protection"}
                       >
                         {genAreaGroupLevelTable(
                           data,
@@ -115,8 +115,8 @@ export const Coral: React.FunctionComponent<{
                       </Collapse>
                       <Collapse
                         title={t("Show by MPA")}
-                        collapsed={!false}
-                        key={String(false) + "MPA"}
+                        collapsed={!props.printing}
+                        key={String(props.printing) + "MPA"}
                       >
                         {genAreaSketchTable(
                           data,
@@ -124,14 +124,14 @@ export const Coral: React.FunctionComponent<{
                           metricGroup,
                           t,
                           childProperties!,
-                          false,
+                          props.printing,
                         )}
                       </Collapse>
                     </>
                   )}
                 </Translator>
 
-                {!false && (
+                {!props.printing && (
                   <Collapse title={t("Learn more")}>
                     <Trans i18nKey="Coral Card - learn more">
                       <p>

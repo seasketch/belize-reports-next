@@ -1,12 +1,12 @@
 {
   "metrics": [
     {
-      "geographyId": "world",
+      "geographyId": "belize_ocean_space",
       "metricId": "seagrass",
       "classId": "seagrass",
       "sketchId": "23746",
       "groupId": null,
-      "value": 506603999.254052,
+      "value": 506601759.282525,
       "extra": {
         "sketchName": "mpa-collection",
         "isCollection": true
@@ -18,7 +18,7 @@
       "classId": "seagrass",
       "sketchId": "23746",
       "groupId": "HIGH_PROTECTION",
-      "value": 506603999.254052,
+      "value": 506601759.282525,
       "extra": {
         "sketchName": "mpa-collection",
         "isCollection": true
@@ -37,29 +37,29 @@
       }
     },
     {
-      "geographyId": "world",
+      "geographyId": "belize_ocean_space",
       "metricId": "seagrass",
       "classId": "seagrass",
       "sketchId": "23747",
       "groupId": null,
-      "value": 387498081.019014,
+      "value": 387495841.047487,
       "extra": {
         "sketchName": "coastal"
       }
     },
     {
-      "geographyId": "world",
+      "geographyId": "belize_ocean_space",
       "metricId": "seagrass",
       "classId": "seagrass",
       "sketchId": "23747",
       "groupId": "HIGH_PROTECTION",
-      "value": 387498081.019014,
+      "value": 387495841.047487,
       "extra": {
         "sketchName": "coastal"
       }
     },
     {
-      "geographyId": "world",
+      "geographyId": "belize_ocean_space",
       "metricId": "seagrass",
       "classId": "seagrass",
       "sketchId": "23748",
@@ -70,7 +70,7 @@
       }
     },
     {
-      "geographyId": "world",
+      "geographyId": "belize_ocean_space",
       "metricId": "seagrass",
       "classId": "seagrass",
       "sketchId": "23748",
@@ -81,7 +81,7 @@
       }
     },
     {
-      "geographyId": "world",
+      "geographyId": "belize_ocean_space",
       "metricId": "seagrass",
       "classId": "seagrass",
       "sketchId": "23749",
@@ -92,7 +92,7 @@
       }
     },
     {
-      "geographyId": "world",
+      "geographyId": "belize_ocean_space",
       "metricId": "seagrass",
       "classId": "seagrass",
       "sketchId": "23749",
@@ -103,7 +103,7 @@
       }
     },
     {
-      "geographyId": "world",
+      "geographyId": "belize_ocean_space",
       "metricId": "seagrass",
       "classId": "seagrass",
       "sketchId": "23750",
@@ -114,7 +114,7 @@
       }
     },
     {
-      "geographyId": "world",
+      "geographyId": "belize_ocean_space",
       "metricId": "seagrass",
       "classId": "seagrass",
       "sketchId": "23750",
@@ -126,57 +126,16 @@
     }
   ],
   "sketch": {
-    "properties": {
-      "3094": "mpa-collection",
-      "id": "23746",
-      "name": "mpa-collection",
-      "postId": null,
-      "userId": "531",
-      "authors": null,
-      "comments": null,
-      "userSlug": "Abby",
-      "createdAt": "2023-12-13T23:02:00.449408+00:00",
-      "updatedAt": "2024-02-21T16:41:02.895404+00:00",
-      "collectionId": null,
-      "isCollection": true,
-      "sharedInForum": false,
-      "sketchClassId": "232",
-      "userAttributes": [
-        {
-          "label": "Comments",
-          "value": null,
-          "exportId": "comments",
-          "fieldType": "TextArea",
-          "valueLabel": null,
-          "formElementId": 5784,
-          "alternateLanguages": {}
-        },
-        {
-          "label": "Author(s)",
-          "value": null,
-          "exportId": "authors",
-          "fieldType": "TextArea",
-          "valueLabel": null,
-          "formElementId": 5785,
-          "alternateLanguages": {}
-        }
-      ]
-    },
-    "bbox": [
-      -88.207927887,
-      16.219737962,
-      -86.205663618,
-      17.972303524
-    ],
+    "id": 23746,
     "type": "FeatureCollection",
     "features": [
       {
         "id": 23750,
         "bbox": [
-          -87.977865619,
-          16.219737962,
-          -87.45353766,
-          16.685260273
+          -87.97787,
+          16.219738,
+          -87.45354,
+          16.68526
         ],
         "type": "Feature",
         "properties": {
@@ -246,10 +205,10 @@
       {
         "id": 23749,
         "bbox": [
-          -88.020667901,
-          17.151063399,
-          -87.614046219,
-          17.620800089
+          -88.02067,
+          17.151064,
+          -87.614044,
+          17.6208
         ],
         "type": "Feature",
         "properties": {
@@ -319,10 +278,10 @@
       {
         "id": 23748,
         "bbox": [
-          -86.798948507,
-          17.228289079,
-          -86.205663618,
-          17.823345696
+          -86.79895,
+          17.228289,
+          -86.205666,
+          17.823345
         ],
         "type": "Feature",
         "properties": {
@@ -392,10 +351,10 @@
       {
         "id": 23747,
         "bbox": [
-          -88.207927887,
-          17.513684019,
-          -87.951114192,
-          17.972303524
+          -88.20793,
+          17.513683,
+          -87.95111,
+          17.972303
         ],
         "type": "Feature",
         "properties": {
@@ -462,6 +421,42 @@
           ]
         }
       }
-    ]
+    ],
+    "properties": {
+      "3094": "mpa-collection",
+      "id": "23746",
+      "name": "mpa-collection",
+      "postId": null,
+      "userId": "531",
+      "authors": null,
+      "comments": null,
+      "userSlug": "Abby",
+      "createdAt": "2023-12-13T23:02:00.449408+00:00",
+      "updatedAt": "2024-02-21T16:41:02.895404+00:00",
+      "collectionId": null,
+      "isCollection": true,
+      "sharedInForum": false,
+      "sketchClassId": "232",
+      "userAttributes": [
+        {
+          "label": "Comments",
+          "value": null,
+          "exportId": "comments",
+          "fieldType": "TextArea",
+          "valueLabel": null,
+          "formElementId": 5784,
+          "alternateLanguages": {}
+        },
+        {
+          "label": "Author(s)",
+          "value": null,
+          "exportId": "authors",
+          "fieldType": "TextArea",
+          "valueLabel": null,
+          "formElementId": 5785,
+          "alternateLanguages": {}
+        }
+      ]
+    }
   }
 }

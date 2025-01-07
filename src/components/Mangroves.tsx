@@ -42,6 +42,7 @@ export const Mangroves: React.FunctionComponent<{
     "area",
     curGeography.geographyId,
   );
+  console.log(precalcMetrics);
 
   // Labels
   const titleLabel = t("Mangroves");

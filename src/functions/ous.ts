@@ -43,8 +43,6 @@ export async function ous(
   const curGeography = project.getGeographyById(geographyId, {
     fallbackGroup: "default-boundary",
   });
-  // Clip portion of sketch outside geography features
-  const clippedSketch = await clipToGeography(sketch, curGeography);
 
   const featuresByClass: Record<string, Georaster> = {};
 
@@ -68,7 +66,7 @@ export async function ous(
         // Run raster analysis
         const overlapResult = await rasterMetrics(raster, {
           metricId: metricGroup.metricId,
-          feature: clippedSketch,
+          feature: sketch,
           ...(ds.measurementType === "quantitative" && { stats: ["sum"] }),
           ...(ds.measurementType === "categorical" && {
             categorical: true,

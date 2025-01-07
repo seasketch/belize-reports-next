@@ -1,62 +1,62 @@
 [
   {
-    "geographyId": "world",
+    "geographyId": "belize_ocean_space",
     "metricId": "area",
     "classId": "abyss-Hills",
     "sketchId": null,
     "groupId": null,
-    "value": 10641515635.250725
+    "value": 10639650981.048836
   },
   {
-    "geographyId": "world",
+    "geographyId": "belize_ocean_space",
     "metricId": "area",
     "classId": "abyss-Mountains",
     "sketchId": null,
     "groupId": null,
-    "value": 3116548174.7878876
+    "value": 3114597200.790237
   },
   {
-    "geographyId": "world",
+    "geographyId": "belize_ocean_space",
     "metricId": "area",
     "classId": "abyss-total",
     "sketchId": null,
     "groupId": null,
-    "value": 13758063810.038612
+    "value": 13754248181.839073
   },
   {
-    "geographyId": "world",
+    "geographyId": "belize_ocean_space",
     "metricId": "area",
     "classId": "ag_runoff-total",
     "sketchId": null,
     "groupId": null,
-    "value": 9311697479.5962
+    "value": 7068239665.52962
   },
   {
-    "geographyId": "world",
+    "geographyId": "belize_ocean_space",
     "metricId": "area",
     "classId": "basins-total",
     "sketchId": null,
     "groupId": null,
-    "value": 1756376676.3848724
+    "value": 1755155140.1627085
   },
   {
-    "geographyId": "world",
+    "geographyId": "belize_ocean_space",
     "metricId": "area",
     "classId": "bathymetry-total",
     "sketchId": null,
     "groupId": null,
-    "value": 152087750108.683
+    "value": 33718166526.8798
   },
   {
-    "geographyId": "world",
+    "geographyId": "belize_ocean_space",
     "metricId": "area",
     "classId": "belize_ocean_space-Exclusive Economic Zone",
     "sketchId": null,
     "groupId": null,
-    "value": 14820598926.92899
+    "value": 14820598352.293226
   },
   {
-    "geographyId": "world",
+    "geographyId": "belize_ocean_space",
     "metricId": "area",
     "classId": "belize_ocean_space-Internal Waters",
     "sketchId": null,
@@ -64,55 +64,47 @@
     "value": 12588351233.1688
   },
   {
-    "geographyId": "world",
+    "geographyId": "belize_ocean_space",
     "metricId": "area",
     "classId": "belize_ocean_space-Territorial Seas",
     "sketchId": null,
     "groupId": null,
-    "value": 6436870238.385875
+    "value": 6436867343.704262
   },
   {
-    "geographyId": "world",
+    "geographyId": "belize_ocean_space",
     "metricId": "area",
     "classId": "belize_ocean_space-total",
     "sketchId": null,
     "groupId": null,
-    "value": 33845820398.48366
+    "value": 33845816929.166286
   },
   {
-    "geographyId": "world",
+    "geographyId": "belize_ocean_space",
     "metricId": "area",
     "classId": "canyons-total",
     "sketchId": null,
     "groupId": null,
-    "value": 3163606112.00644
+    "value": 3162681622.59937
   },
   {
-    "geographyId": "world",
+    "geographyId": "belize_ocean_space",
     "metricId": "area",
     "classId": "coastal_dev-total",
     "sketchId": null,
     "groupId": null,
-    "value": 74793942.74582438
+    "value": 7868671.642850474
   },
   {
-    "geographyId": "world",
-    "metricId": "area",
-    "classId": "coral_vector-total",
-    "sketchId": null,
-    "groupId": null,
-    "value": 2741761006.560144
-  },
-  {
-    "geographyId": "world",
+    "geographyId": "belize_ocean_space",
     "metricId": "area",
     "classId": "coral-total",
     "sketchId": null,
     "groupId": null,
-    "value": 2741761006.560144
+    "value": 1370083894.6859453
   },
   {
-    "geographyId": "world",
+    "geographyId": "belize_ocean_space",
     "metricId": "area",
     "classId": "energy-total",
     "sketchId": null,
@@ -120,143 +112,135 @@
     "value": 34361910.183046
   },
   {
-    "geographyId": "world",
+    "geographyId": "belize_ocean_space",
     "metricId": "area",
     "classId": "escarpments-total",
     "sketchId": null,
     "groupId": null,
-    "value": 5475348669.751471
+    "value": 5474692582.5166645
   },
   {
-    "geographyId": "world",
+    "geographyId": "belize_ocean_space",
     "metricId": "area",
     "classId": "fisheries_aquaculture-total",
     "sketchId": null,
     "groupId": null,
-    "value": 15116596382.187813
+    "value": 15113230552.50892
   },
   {
-    "geographyId": "world",
+    "geographyId": "belize_ocean_space",
     "metricId": "area",
     "classId": "general_use-total",
     "sketchId": null,
     "groupId": null,
-    "value": 23482751302.705814
+    "value": 23476547884.53305
   },
   {
-    "geographyId": "world",
+    "geographyId": "belize_ocean_space",
     "metricId": "area",
     "classId": "mangroves_priority-total",
     "sketchId": null,
     "groupId": null,
-    "value": 775029416.8317865
+    "value": 469586830.42019767
   },
   {
-    "geographyId": "world",
+    "geographyId": "belize_ocean_space",
     "metricId": "area",
     "classId": "mangroves-Littoral",
     "sketchId": null,
     "groupId": null,
-    "value": 6341418.2603750145
+    "value": 6341388.914717385
   },
   {
-    "geographyId": "world",
+    "geographyId": "belize_ocean_space",
     "metricId": "area",
     "classId": "mangroves-Mangrove",
     "sketchId": null,
     "groupId": null,
-    "value": 197332732.46098477
+    "value": 197332399.2098097
   },
   {
-    "geographyId": "world",
+    "geographyId": "belize_ocean_space",
     "metricId": "area",
     "classId": "mangroves-Non-mangrove",
     "sketchId": null,
     "groupId": null,
-    "value": 4949138.158827461
+    "value": 4949114.497052675
   },
   {
-    "geographyId": "world",
+    "geographyId": "belize_ocean_space",
     "metricId": "area",
     "classId": "mangroves-total",
     "sketchId": null,
     "groupId": null,
-    "value": 208623288.88018727
+    "value": 208622902.62157986
   },
   {
-    "geographyId": "world",
+    "geographyId": "belize_ocean_space",
     "metricId": "area",
     "classId": "marine_coastal_development-total",
     "sketchId": null,
     "groupId": null,
-    "value": 19339631491.28459
+    "value": 19339159405.787857
   },
   {
-    "geographyId": "world",
+    "geographyId": "belize_ocean_space",
     "metricId": "area",
     "classId": "marine_coastal_ecosystems-total",
     "sketchId": null,
     "groupId": null,
-    "value": 32459619639.952908
+    "value": 32448976739.54371
   },
   {
-    "geographyId": "world",
+    "geographyId": "belize_ocean_space",
     "metricId": "area",
     "classId": "marine_dredging-total",
     "sketchId": null,
     "groupId": null,
-    "value": 1027655726.9153023
+    "value": 783494554.4666576
   },
   {
-    "geographyId": "world",
+    "geographyId": "belize_ocean_space",
     "metricId": "area",
     "classId": "marine_trans-total",
     "sketchId": null,
     "groupId": null,
-    "value": 8845774917.740896
+    "value": 7730346258.865444
   },
   {
-    "geographyId": "world",
+    "geographyId": "belize_ocean_space",
     "metricId": "area",
     "classId": "maritime_administration-total",
     "sketchId": null,
     "groupId": null,
-    "value": 10190212614.971457
+    "value": 10185479983.366505
   },
   {
-    "geographyId": "world",
+    "geographyId": "belize_ocean_space",
     "metricId": "area",
     "classId": "plateaus-total",
     "sketchId": null,
     "groupId": null,
-    "value": 230924928.9363998
+    "value": 230646798.56120652
   },
   {
-    "geographyId": "world",
+    "geographyId": "belize_ocean_space",
     "metricId": "area",
     "classId": "rises-total",
     "sketchId": null,
     "groupId": null,
-    "value": 13528058547.705807
+    "value": 13524527961.719437
   },
   {
-    "geographyId": "world",
-    "metricId": "area",
-    "classId": "seagrass_vector-total",
-    "sketchId": null,
-    "groupId": null,
-    "value": 4563979020.596944
-  },
-  {
-    "geographyId": "world",
+    "geographyId": "belize_ocean_space",
     "metricId": "area",
     "classId": "seagrass-total",
     "sketchId": null,
     "groupId": null,
-    "value": 4563979020.596944
+    "value": 2282043552.4314766
   },
   {
-    "geographyId": "world",
+    "geographyId": "belize_ocean_space",
     "metricId": "area",
     "classId": "shelf_valleys-total",
     "sketchId": null,
@@ -264,39 +248,39 @@
     "value": 311441170.33698934
   },
   {
-    "geographyId": "world",
+    "geographyId": "belize_ocean_space",
     "metricId": "area",
     "classId": "shelf-high",
     "sketchId": null,
     "groupId": null,
-    "value": 4266529687.606421
+    "value": 4265876077.8477364
   },
   {
-    "geographyId": "world",
+    "geographyId": "belize_ocean_space",
     "metricId": "area",
     "classId": "shelf-low",
     "sketchId": null,
     "groupId": null,
-    "value": 1123552784.344219
+    "value": 1123409640.1022139
   },
   {
-    "geographyId": "world",
+    "geographyId": "belize_ocean_space",
     "metricId": "area",
     "classId": "shelf-medium",
     "sketchId": null,
     "groupId": null,
-    "value": 4692778552.68381
+    "value": 4690979768.813567
   },
   {
-    "geographyId": "world",
+    "geographyId": "belize_ocean_space",
     "metricId": "area",
     "classId": "shelf-total",
     "sketchId": null,
     "groupId": null,
-    "value": 10082861024.634453
+    "value": 10080265486.763523
   },
   {
-    "geographyId": "world",
+    "geographyId": "belize_ocean_space",
     "metricId": "area",
     "classId": "sills-total",
     "sketchId": null,
@@ -304,23 +288,23 @@
     "value": 76034607.51843087
   },
   {
-    "geographyId": "world",
+    "geographyId": "belize_ocean_space",
     "metricId": "area",
     "classId": "slope-total",
     "sketchId": null,
     "groupId": null,
-    "value": 9242289294.879944
+    "value": 9241126783.772839
   },
   {
-    "geographyId": "world",
+    "geographyId": "belize_ocean_space",
     "metricId": "area",
     "classId": "tourism-total",
     "sketchId": null,
     "groupId": null,
-    "value": 17507718306.486217
+    "value": 17501367670.063408
   },
   {
-    "geographyId": "world",
+    "geographyId": "belize_ocean_space",
     "metricId": "count",
     "classId": "abyss-Hills",
     "sketchId": null,
@@ -328,7 +312,7 @@
     "value": 1
   },
   {
-    "geographyId": "world",
+    "geographyId": "belize_ocean_space",
     "metricId": "count",
     "classId": "abyss-Mountains",
     "sketchId": null,
@@ -336,7 +320,7 @@
     "value": 6
   },
   {
-    "geographyId": "world",
+    "geographyId": "belize_ocean_space",
     "metricId": "count",
     "classId": "abyss-total",
     "sketchId": null,
@@ -344,15 +328,15 @@
     "value": 7
   },
   {
-    "geographyId": "world",
+    "geographyId": "belize_ocean_space",
     "metricId": "count",
     "classId": "ag_runoff-total",
     "sketchId": null,
     "groupId": null,
-    "value": 263
+    "value": 83
   },
   {
-    "geographyId": "world",
+    "geographyId": "belize_ocean_space",
     "metricId": "count",
     "classId": "basins-total",
     "sketchId": null,
@@ -360,15 +344,15 @@
     "value": 18
   },
   {
-    "geographyId": "world",
+    "geographyId": "belize_ocean_space",
     "metricId": "count",
     "classId": "bathymetry-total",
     "sketchId": null,
     "groupId": null,
-    "value": 689520
+    "value": 152868
   },
   {
-    "geographyId": "world",
+    "geographyId": "belize_ocean_space",
     "metricId": "count",
     "classId": "belize_ocean_space-Exclusive Economic Zone",
     "sketchId": null,
@@ -376,7 +360,7 @@
     "value": 1
   },
   {
-    "geographyId": "world",
+    "geographyId": "belize_ocean_space",
     "metricId": "count",
     "classId": "belize_ocean_space-Internal Waters",
     "sketchId": null,
@@ -384,7 +368,7 @@
     "value": 2
   },
   {
-    "geographyId": "world",
+    "geographyId": "belize_ocean_space",
     "metricId": "count",
     "classId": "belize_ocean_space-Territorial Seas",
     "sketchId": null,
@@ -392,7 +376,7 @@
     "value": 1
   },
   {
-    "geographyId": "world",
+    "geographyId": "belize_ocean_space",
     "metricId": "count",
     "classId": "belize_ocean_space-total",
     "sketchId": null,
@@ -400,7 +384,7 @@
     "value": 4
   },
   {
-    "geographyId": "world",
+    "geographyId": "belize_ocean_space",
     "metricId": "count",
     "classId": "canyons-total",
     "sketchId": null,
@@ -408,39 +392,31 @@
     "value": 12
   },
   {
-    "geographyId": "world",
+    "geographyId": "belize_ocean_space",
     "metricId": "count",
     "classId": "coastal_dev-total",
     "sketchId": null,
     "groupId": null,
-    "value": 2889
+    "value": 2734
   },
   {
-    "geographyId": "world",
-    "metricId": "count",
-    "classId": "coral_vector-total",
-    "sketchId": null,
-    "groupId": null,
-    "value": 10632
-  },
-  {
-    "geographyId": "world",
+    "geographyId": "belize_ocean_space",
     "metricId": "count",
     "classId": "coral-total",
     "sketchId": null,
     "groupId": null,
-    "value": 10632
+    "value": 5258
   },
   {
-    "geographyId": "world",
+    "geographyId": "belize_ocean_space",
     "metricId": "count",
     "classId": "energy-total",
     "sketchId": null,
     "groupId": null,
-    "value": 315414
+    "value": 299564
   },
   {
-    "geographyId": "world",
+    "geographyId": "belize_ocean_space",
     "metricId": "count",
     "classId": "escarpments-total",
     "sketchId": null,
@@ -448,31 +424,31 @@
     "value": 6
   },
   {
-    "geographyId": "world",
+    "geographyId": "belize_ocean_space",
     "metricId": "count",
     "classId": "fisheries_aquaculture-total",
     "sketchId": null,
     "groupId": null,
-    "value": 5420192
+    "value": 2662376
   },
   {
-    "geographyId": "world",
+    "geographyId": "belize_ocean_space",
     "metricId": "count",
     "classId": "general_use-total",
     "sketchId": null,
     "groupId": null,
-    "value": 6116502
+    "value": 2982882
   },
   {
-    "geographyId": "world",
+    "geographyId": "belize_ocean_space",
     "metricId": "count",
     "classId": "mangroves_priority-total",
     "sketchId": null,
     "groupId": null,
-    "value": 476
+    "value": 457
   },
   {
-    "geographyId": "world",
+    "geographyId": "belize_ocean_space",
     "metricId": "count",
     "classId": "mangroves-Littoral",
     "sketchId": null,
@@ -480,7 +456,7 @@
     "value": 199
   },
   {
-    "geographyId": "world",
+    "geographyId": "belize_ocean_space",
     "metricId": "count",
     "classId": "mangroves-Mangrove",
     "sketchId": null,
@@ -488,7 +464,7 @@
     "value": 3306
   },
   {
-    "geographyId": "world",
+    "geographyId": "belize_ocean_space",
     "metricId": "count",
     "classId": "mangroves-Non-mangrove",
     "sketchId": null,
@@ -496,7 +472,7 @@
     "value": 373
   },
   {
-    "geographyId": "world",
+    "geographyId": "belize_ocean_space",
     "metricId": "count",
     "classId": "mangroves-total",
     "sketchId": null,
@@ -504,47 +480,47 @@
     "value": 3878
   },
   {
-    "geographyId": "world",
+    "geographyId": "belize_ocean_space",
     "metricId": "count",
     "classId": "marine_coastal_development-total",
     "sketchId": null,
     "groupId": null,
-    "value": 5578023
+    "value": 3060505
   },
   {
-    "geographyId": "world",
+    "geographyId": "belize_ocean_space",
     "metricId": "count",
     "classId": "marine_coastal_ecosystems-total",
     "sketchId": null,
     "groupId": null,
-    "value": 8965330
+    "value": 3657616
   },
   {
-    "geographyId": "world",
+    "geographyId": "belize_ocean_space",
     "metricId": "count",
     "classId": "marine_dredging-total",
     "sketchId": null,
     "groupId": null,
-    "value": 28
+    "value": 25
   },
   {
-    "geographyId": "world",
+    "geographyId": "belize_ocean_space",
     "metricId": "count",
     "classId": "marine_trans-total",
     "sketchId": null,
     "groupId": null,
-    "value": 23
+    "value": 4
   },
   {
-    "geographyId": "world",
+    "geographyId": "belize_ocean_space",
     "metricId": "count",
     "classId": "maritime_administration-total",
     "sketchId": null,
     "groupId": null,
-    "value": 4288254
+    "value": 2054128
   },
   {
-    "geographyId": "world",
+    "geographyId": "belize_ocean_space",
     "metricId": "count",
     "classId": "plateaus-total",
     "sketchId": null,
@@ -552,7 +528,7 @@
     "value": 1
   },
   {
-    "geographyId": "world",
+    "geographyId": "belize_ocean_space",
     "metricId": "count",
     "classId": "rises-total",
     "sketchId": null,
@@ -560,23 +536,15 @@
     "value": 1
   },
   {
-    "geographyId": "world",
-    "metricId": "count",
-    "classId": "seagrass_vector-total",
-    "sketchId": null,
-    "groupId": null,
-    "value": 32885
-  },
-  {
-    "geographyId": "world",
+    "geographyId": "belize_ocean_space",
     "metricId": "count",
     "classId": "seagrass-total",
     "sketchId": null,
     "groupId": null,
-    "value": 32885
+    "value": 16413
   },
   {
-    "geographyId": "world",
+    "geographyId": "belize_ocean_space",
     "metricId": "count",
     "classId": "shelf_valleys-total",
     "sketchId": null,
@@ -584,15 +552,15 @@
     "value": 1
   },
   {
-    "geographyId": "world",
+    "geographyId": "belize_ocean_space",
     "metricId": "count",
     "classId": "shelf-high",
     "sketchId": null,
     "groupId": null,
-    "value": 20
+    "value": 19
   },
   {
-    "geographyId": "world",
+    "geographyId": "belize_ocean_space",
     "metricId": "count",
     "classId": "shelf-low",
     "sketchId": null,
@@ -600,7 +568,7 @@
     "value": 18
   },
   {
-    "geographyId": "world",
+    "geographyId": "belize_ocean_space",
     "metricId": "count",
     "classId": "shelf-medium",
     "sketchId": null,
@@ -608,15 +576,15 @@
     "value": 27
   },
   {
-    "geographyId": "world",
+    "geographyId": "belize_ocean_space",
     "metricId": "count",
     "classId": "shelf-total",
     "sketchId": null,
     "groupId": null,
-    "value": 65
+    "value": 64
   },
   {
-    "geographyId": "world",
+    "geographyId": "belize_ocean_space",
     "metricId": "count",
     "classId": "sills-total",
     "sketchId": null,
@@ -624,7 +592,7 @@
     "value": 1
   },
   {
-    "geographyId": "world",
+    "geographyId": "belize_ocean_space",
     "metricId": "count",
     "classId": "slope-total",
     "sketchId": null,
@@ -632,23 +600,23 @@
     "value": 1
   },
   {
-    "geographyId": "world",
+    "geographyId": "belize_ocean_space",
     "metricId": "count",
     "classId": "tourism-total",
     "sketchId": null,
     "groupId": null,
-    "value": 4404174
+    "value": 2354852
   },
   {
-    "geographyId": "world",
+    "geographyId": "belize_ocean_space",
     "metricId": "sum",
     "classId": "bathymetry-total",
     "sketchId": null,
     "groupId": null,
-    "value": -737997802
+    "value": -250734260
   },
   {
-    "geographyId": "world",
+    "geographyId": "belize_ocean_space",
     "metricId": "sum",
     "classId": "energy-total",
     "sketchId": null,
@@ -656,63 +624,63 @@
     "value": 25609963.637817
   },
   {
-    "geographyId": "world",
+    "geographyId": "belize_ocean_space",
     "metricId": "sum",
     "classId": "fisheries_aquaculture-total",
     "sketchId": null,
     "groupId": null,
-    "value": 11700916.08038
+    "value": 11325518.448906
   },
   {
-    "geographyId": "world",
+    "geographyId": "belize_ocean_space",
     "metricId": "sum",
     "classId": "general_use-total",
     "sketchId": null,
     "groupId": null,
-    "value": 10991479742.7782
+    "value": 9937327131.209171
   },
   {
-    "geographyId": "world",
+    "geographyId": "belize_ocean_space",
     "metricId": "sum",
     "classId": "marine_coastal_development-total",
     "sketchId": null,
     "groupId": null,
-    "value": 598536700.251719
+    "value": 525108951.292241
   },
   {
-    "geographyId": "world",
+    "geographyId": "belize_ocean_space",
     "metricId": "sum",
     "classId": "marine_coastal_ecosystems-total",
     "sketchId": null,
     "groupId": null,
-    "value": 1934856942.703955
+    "value": 1922391928.333665
   },
   {
-    "geographyId": "world",
+    "geographyId": "belize_ocean_space",
     "metricId": "sum",
     "classId": "maritime_administration-total",
     "sketchId": null,
     "groupId": null,
-    "value": 925983274.123097
+    "value": 923393270.807225
   },
   {
-    "geographyId": "world",
+    "geographyId": "belize_ocean_space",
     "metricId": "sum",
     "classId": "tourism-total",
     "sketchId": null,
     "groupId": null,
-    "value": 16875154312.452654
+    "value": 3972068021.258505
   },
   {
-    "geographyId": "world",
+    "geographyId": "belize_ocean_space",
     "metricId": "valid",
     "classId": "bathymetry-total",
     "sketchId": null,
     "groupId": null,
-    "value": 689520
+    "value": 152868
   },
   {
-    "geographyId": "world",
+    "geographyId": "belize_ocean_space",
     "metricId": "valid",
     "classId": "energy-total",
     "sketchId": null,
@@ -720,51 +688,51 @@
     "value": 14729
   },
   {
-    "geographyId": "world",
+    "geographyId": "belize_ocean_space",
     "metricId": "valid",
     "classId": "fisheries_aquaculture-total",
     "sketchId": null,
     "groupId": null,
-    "value": 1522515
+    "value": 1522176
   },
   {
-    "geographyId": "world",
+    "geographyId": "belize_ocean_space",
     "metricId": "valid",
     "classId": "general_use-total",
     "sketchId": null,
     "groupId": null,
-    "value": 2403763
+    "value": 2403128
   },
   {
-    "geographyId": "world",
+    "geographyId": "belize_ocean_space",
     "metricId": "valid",
     "classId": "marine_coastal_development-total",
     "sketchId": null,
     "groupId": null,
-    "value": 1966386
+    "value": 1966338
   },
   {
-    "geographyId": "world",
+    "geographyId": "belize_ocean_space",
     "metricId": "valid",
     "classId": "marine_coastal_ecosystems-total",
     "sketchId": null,
     "groupId": null,
-    "value": 3519567
+    "value": 3518413
   },
   {
-    "geographyId": "world",
+    "geographyId": "belize_ocean_space",
     "metricId": "valid",
     "classId": "maritime_administration-total",
     "sketchId": null,
     "groupId": null,
-    "value": 999076
+    "value": 998612
   },
   {
-    "geographyId": "world",
+    "geographyId": "belize_ocean_space",
     "metricId": "valid",
     "classId": "tourism-total",
     "sketchId": null,
     "groupId": null,
-    "value": 1739569
+    "value": 1738938
   }
 ]

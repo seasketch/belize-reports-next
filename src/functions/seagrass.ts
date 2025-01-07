@@ -19,7 +19,6 @@ import {
   sortMetrics,
   toNullSketch,
 } from "@seasketch/geoprocessing/client-core";
-import { clipToGeography } from "../util/clipToGeography.js";
 import {
   getMpaProtectionLevels,
   protectionLevels,
@@ -43,8 +42,6 @@ export async function seagrass(
   const curGeography = project.getGeographyById(geographyId, {
     fallbackGroup: "default-boundary",
   });
-  // Clip portion of sketch outside geography features
-  const clippedSketch = await clipToGeography(sketch, curGeography);
 
   const featuresByDatasource: Record<string, Feature<Polygon>[]> = {};
   const featuresByClass: Record<string, Feature<Polygon>[]> = {};
@@ -92,7 +89,7 @@ export async function seagrass(
         const overlapResult = await overlapPolygonArea(
           metricGroup.metricId,
           finalFeatures,
-          clippedSketch,
+          sketch,
         );
 
         return overlapResult.map(
@@ -122,7 +119,7 @@ export async function seagrass(
 
   return {
     metrics: sortMetrics(rekeyMetrics([...metrics, ...groupMetrics])),
-    sketch: toNullSketch(clippedSketch),
+    sketch: toNullSketch(sketch),
   };
 }
 

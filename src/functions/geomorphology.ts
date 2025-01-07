@@ -43,9 +43,6 @@ export async function geomorphology(
   const curGeography = project.getGeographyById(geographyId, {
     fallbackGroup: "default-boundary",
   });
-  // Clip portion of sketch outside geography features
-  const clippedSketch = await clipToGeography(sketch, curGeography);
-
   const featuresByClass: Record<string, Feature<Polygon>[]> = {};
 
   // Calculate overlap metrics for each class in metric group
@@ -89,7 +86,7 @@ export async function geomorphology(
         const overlapResult = await overlapPolygonArea(
           metricGroup.metricId,
           finalFeatures,
-          clippedSketch,
+          sketch,
         );
 
         return overlapResult.map(
@@ -119,7 +116,7 @@ export async function geomorphology(
 
   return {
     metrics: sortMetrics(rekeyMetrics([...metrics, ...groupMetrics])),
-    sketch: toNullSketch(clippedSketch),
+    sketch: toNullSketch(sketch),
   };
 }
 

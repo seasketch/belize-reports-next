@@ -1,7 +1,7 @@
 {
   "metrics": [
     {
-      "geographyId": "world",
+      "geographyId": "belize_ocean_space",
       "metricId": "ous",
       "classId": "energy",
       "sketchId": "23746",
@@ -37,7 +37,7 @@
       }
     },
     {
-      "geographyId": "world",
+      "geographyId": "belize_ocean_space",
       "metricId": "ous",
       "classId": "energy",
       "sketchId": "23747",
@@ -48,7 +48,7 @@
       }
     },
     {
-      "geographyId": "world",
+      "geographyId": "belize_ocean_space",
       "metricId": "ous",
       "classId": "energy",
       "sketchId": "23747",
@@ -59,7 +59,7 @@
       }
     },
     {
-      "geographyId": "world",
+      "geographyId": "belize_ocean_space",
       "metricId": "ous",
       "classId": "energy",
       "sketchId": "23748",
@@ -70,7 +70,7 @@
       }
     },
     {
-      "geographyId": "world",
+      "geographyId": "belize_ocean_space",
       "metricId": "ous",
       "classId": "energy",
       "sketchId": "23748",
@@ -81,7 +81,7 @@
       }
     },
     {
-      "geographyId": "world",
+      "geographyId": "belize_ocean_space",
       "metricId": "ous",
       "classId": "energy",
       "sketchId": "23749",
@@ -92,7 +92,7 @@
       }
     },
     {
-      "geographyId": "world",
+      "geographyId": "belize_ocean_space",
       "metricId": "ous",
       "classId": "energy",
       "sketchId": "23749",
@@ -103,7 +103,7 @@
       }
     },
     {
-      "geographyId": "world",
+      "geographyId": "belize_ocean_space",
       "metricId": "ous",
       "classId": "energy",
       "sketchId": "23750",
@@ -114,7 +114,7 @@
       }
     },
     {
-      "geographyId": "world",
+      "geographyId": "belize_ocean_space",
       "metricId": "ous",
       "classId": "energy",
       "sketchId": "23750",
@@ -125,7 +125,7 @@
       }
     },
     {
-      "geographyId": "world",
+      "geographyId": "belize_ocean_space",
       "metricId": "ous",
       "classId": "fisheries_aquaculture",
       "sketchId": "23746",
@@ -161,7 +161,7 @@
       }
     },
     {
-      "geographyId": "world",
+      "geographyId": "belize_ocean_space",
       "metricId": "ous",
       "classId": "fisheries_aquaculture",
       "sketchId": "23747",
@@ -172,7 +172,7 @@
       }
     },
     {
-      "geographyId": "world",
+      "geographyId": "belize_ocean_space",
       "metricId": "ous",
       "classId": "fisheries_aquaculture",
       "sketchId": "23747",
@@ -183,7 +183,7 @@
       }
     },
     {
-      "geographyId": "world",
+      "geographyId": "belize_ocean_space",
       "metricId": "ous",
       "classId": "fisheries_aquaculture",
       "sketchId": "23748",
@@ -194,7 +194,7 @@
       }
     },
     {
-      "geographyId": "world",
+      "geographyId": "belize_ocean_space",
       "metricId": "ous",
       "classId": "fisheries_aquaculture",
       "sketchId": "23748",
@@ -205,7 +205,7 @@
       }
     },
     {
-      "geographyId": "world",
+      "geographyId": "belize_ocean_space",
       "metricId": "ous",
       "classId": "fisheries_aquaculture",
       "sketchId": "23749",
@@ -216,7 +216,7 @@
       }
     },
     {
-      "geographyId": "world",
+      "geographyId": "belize_ocean_space",
       "metricId": "ous",
       "classId": "fisheries_aquaculture",
       "sketchId": "23749",
@@ -227,7 +227,7 @@
       }
     },
     {
-      "geographyId": "world",
+      "geographyId": "belize_ocean_space",
       "metricId": "ous",
       "classId": "fisheries_aquaculture",
       "sketchId": "23750",
@@ -238,7 +238,7 @@
       }
     },
     {
-      "geographyId": "world",
+      "geographyId": "belize_ocean_space",
       "metricId": "ous",
       "classId": "fisheries_aquaculture",
       "sketchId": "23750",
@@ -249,7 +249,7 @@
       }
     },
     {
-      "geographyId": "world",
+      "geographyId": "belize_ocean_space",
       "metricId": "ous",
       "classId": "general_use",
       "sketchId": "23746",
@@ -285,7 +285,7 @@
       }
     },
     {
-      "geographyId": "world",
+      "geographyId": "belize_ocean_space",
       "metricId": "ous",
       "classId": "general_use",
       "sketchId": "23747",
@@ -296,7 +296,7 @@
       }
     },
     {
-      "geographyId": "world",
+      "geographyId": "belize_ocean_space",
       "metricId": "ous",
       "classId": "general_use",
       "sketchId": "23747",
@@ -307,7 +307,7 @@
       }
     },
     {
-      "geographyId": "world",
+      "geographyId": "belize_ocean_space",
       "metricId": "ous",
       "classId": "general_use",
       "sketchId": "23748",
@@ -318,7 +318,7 @@
       }
     },
     {
-      "geographyId": "world",
+      "geographyId": "belize_ocean_space",
       "metricId": "ous",
       "classId": "general_use",
       "sketchId": "23748",
@@ -329,7 +329,7 @@
       }
     },
     {
-      "geographyId": "world",
+      "geographyId": "belize_ocean_space",
       "metricId": "ous",
       "classId": "general_use",
       "sketchId": "23749",
@@ -340,7 +340,7 @@
       }
     },
     {
-      "geographyId": "world",
+      "geographyId": "belize_ocean_space",
       "metricId": "ous",
       "classId": "general_use",
       "sketchId": "23749",
@@ -351,7 +351,7 @@
       }
     },
     {
-      "geographyId": "world",
+      "geographyId": "belize_ocean_space",
       "metricId": "ous",
       "classId": "general_use",
       "sketchId": "23750",
@@ -362,7 +362,7 @@
       }
     },
     {
-      "geographyId": "world",
+      "geographyId": "belize_ocean_space",
       "metricId": "ous",
       "classId": "general_use",
       "sketchId": "23750",
@@ -373,7 +373,7 @@
       }
     },
     {
-      "geographyId": "world",
+      "geographyId": "belize_ocean_space",
       "metricId": "ous",
       "classId": "marine_coastal_development",
       "sketchId": "23746",
@@ -409,7 +409,7 @@
       }
     },
     {
-      "geographyId": "world",
+      "geographyId": "belize_ocean_space",
       "metricId": "ous",
       "classId": "marine_coastal_development",
       "sketchId": "23747",
@@ -420,7 +420,7 @@
       }
     },
     {
-      "geographyId": "world",
+      "geographyId": "belize_ocean_space",
       "metricId": "ous",
       "classId": "marine_coastal_development",
       "sketchId": "23747",
@@ -431,7 +431,7 @@
       }
     },
     {
-      "geographyId": "world",
+      "geographyId": "belize_ocean_space",
       "metricId": "ous",
       "classId": "marine_coastal_development",
       "sketchId": "23748",
@@ -442,7 +442,7 @@
       }
     },
     {
-      "geographyId": "world",
+      "geographyId": "belize_ocean_space",
       "metricId": "ous",
       "classId": "marine_coastal_development",
       "sketchId": "23748",
@@ -453,7 +453,7 @@
       }
     },
     {
-      "geographyId": "world",
+      "geographyId": "belize_ocean_space",
       "metricId": "ous",
       "classId": "marine_coastal_development",
       "sketchId": "23749",
@@ -464,7 +464,7 @@
       }
     },
     {
-      "geographyId": "world",
+      "geographyId": "belize_ocean_space",
       "metricId": "ous",
       "classId": "marine_coastal_development",
       "sketchId": "23749",
@@ -475,7 +475,7 @@
       }
     },
     {
-      "geographyId": "world",
+      "geographyId": "belize_ocean_space",
       "metricId": "ous",
       "classId": "marine_coastal_development",
       "sketchId": "23750",
@@ -486,7 +486,7 @@
       }
     },
     {
-      "geographyId": "world",
+      "geographyId": "belize_ocean_space",
       "metricId": "ous",
       "classId": "marine_coastal_development",
       "sketchId": "23750",
@@ -497,7 +497,7 @@
       }
     },
     {
-      "geographyId": "world",
+      "geographyId": "belize_ocean_space",
       "metricId": "ous",
       "classId": "marine_coastal_ecosystems",
       "sketchId": "23746",
@@ -533,7 +533,7 @@
       }
     },
     {
-      "geographyId": "world",
+      "geographyId": "belize_ocean_space",
       "metricId": "ous",
       "classId": "marine_coastal_ecosystems",
       "sketchId": "23747",
@@ -544,7 +544,7 @@
       }
     },
     {
-      "geographyId": "world",
+      "geographyId": "belize_ocean_space",
       "metricId": "ous",
       "classId": "marine_coastal_ecosystems",
       "sketchId": "23747",
@@ -555,7 +555,7 @@
       }
     },
     {
-      "geographyId": "world",
+      "geographyId": "belize_ocean_space",
       "metricId": "ous",
       "classId": "marine_coastal_ecosystems",
       "sketchId": "23748",
@@ -566,7 +566,7 @@
       }
     },
     {
-      "geographyId": "world",
+      "geographyId": "belize_ocean_space",
       "metricId": "ous",
       "classId": "marine_coastal_ecosystems",
       "sketchId": "23748",
@@ -577,7 +577,7 @@
       }
     },
     {
-      "geographyId": "world",
+      "geographyId": "belize_ocean_space",
       "metricId": "ous",
       "classId": "marine_coastal_ecosystems",
       "sketchId": "23749",
@@ -588,7 +588,7 @@
       }
     },
     {
-      "geographyId": "world",
+      "geographyId": "belize_ocean_space",
       "metricId": "ous",
       "classId": "marine_coastal_ecosystems",
       "sketchId": "23749",
@@ -599,7 +599,7 @@
       }
     },
     {
-      "geographyId": "world",
+      "geographyId": "belize_ocean_space",
       "metricId": "ous",
       "classId": "marine_coastal_ecosystems",
       "sketchId": "23750",
@@ -610,7 +610,7 @@
       }
     },
     {
-      "geographyId": "world",
+      "geographyId": "belize_ocean_space",
       "metricId": "ous",
       "classId": "marine_coastal_ecosystems",
       "sketchId": "23750",
@@ -621,7 +621,7 @@
       }
     },
     {
-      "geographyId": "world",
+      "geographyId": "belize_ocean_space",
       "metricId": "ous",
       "classId": "maritime_administration",
       "sketchId": "23746",
@@ -657,7 +657,7 @@
       }
     },
     {
-      "geographyId": "world",
+      "geographyId": "belize_ocean_space",
       "metricId": "ous",
       "classId": "maritime_administration",
       "sketchId": "23747",
@@ -668,7 +668,7 @@
       }
     },
     {
-      "geographyId": "world",
+      "geographyId": "belize_ocean_space",
       "metricId": "ous",
       "classId": "maritime_administration",
       "sketchId": "23747",
@@ -679,7 +679,7 @@
       }
     },
     {
-      "geographyId": "world",
+      "geographyId": "belize_ocean_space",
       "metricId": "ous",
       "classId": "maritime_administration",
       "sketchId": "23748",
@@ -690,7 +690,7 @@
       }
     },
     {
-      "geographyId": "world",
+      "geographyId": "belize_ocean_space",
       "metricId": "ous",
       "classId": "maritime_administration",
       "sketchId": "23748",
@@ -701,7 +701,7 @@
       }
     },
     {
-      "geographyId": "world",
+      "geographyId": "belize_ocean_space",
       "metricId": "ous",
       "classId": "maritime_administration",
       "sketchId": "23749",
@@ -712,7 +712,7 @@
       }
     },
     {
-      "geographyId": "world",
+      "geographyId": "belize_ocean_space",
       "metricId": "ous",
       "classId": "maritime_administration",
       "sketchId": "23749",
@@ -723,7 +723,7 @@
       }
     },
     {
-      "geographyId": "world",
+      "geographyId": "belize_ocean_space",
       "metricId": "ous",
       "classId": "maritime_administration",
       "sketchId": "23750",
@@ -734,7 +734,7 @@
       }
     },
     {
-      "geographyId": "world",
+      "geographyId": "belize_ocean_space",
       "metricId": "ous",
       "classId": "maritime_administration",
       "sketchId": "23750",
@@ -745,7 +745,7 @@
       }
     },
     {
-      "geographyId": "world",
+      "geographyId": "belize_ocean_space",
       "metricId": "ous",
       "classId": "tourism",
       "sketchId": "23746",
@@ -781,7 +781,7 @@
       }
     },
     {
-      "geographyId": "world",
+      "geographyId": "belize_ocean_space",
       "metricId": "ous",
       "classId": "tourism",
       "sketchId": "23747",
@@ -792,7 +792,7 @@
       }
     },
     {
-      "geographyId": "world",
+      "geographyId": "belize_ocean_space",
       "metricId": "ous",
       "classId": "tourism",
       "sketchId": "23747",
@@ -803,7 +803,7 @@
       }
     },
     {
-      "geographyId": "world",
+      "geographyId": "belize_ocean_space",
       "metricId": "ous",
       "classId": "tourism",
       "sketchId": "23748",
@@ -814,7 +814,7 @@
       }
     },
     {
-      "geographyId": "world",
+      "geographyId": "belize_ocean_space",
       "metricId": "ous",
       "classId": "tourism",
       "sketchId": "23748",
@@ -825,7 +825,7 @@
       }
     },
     {
-      "geographyId": "world",
+      "geographyId": "belize_ocean_space",
       "metricId": "ous",
       "classId": "tourism",
       "sketchId": "23749",
@@ -836,7 +836,7 @@
       }
     },
     {
-      "geographyId": "world",
+      "geographyId": "belize_ocean_space",
       "metricId": "ous",
       "classId": "tourism",
       "sketchId": "23749",
@@ -847,7 +847,7 @@
       }
     },
     {
-      "geographyId": "world",
+      "geographyId": "belize_ocean_space",
       "metricId": "ous",
       "classId": "tourism",
       "sketchId": "23750",
@@ -858,7 +858,7 @@
       }
     },
     {
-      "geographyId": "world",
+      "geographyId": "belize_ocean_space",
       "metricId": "ous",
       "classId": "tourism",
       "sketchId": "23750",
@@ -876,10 +876,10 @@
       {
         "id": 23750,
         "bbox": [
-          -87.977865619,
-          16.219737962,
-          -87.45353766,
-          16.685260273
+          -87.97787,
+          16.219738,
+          -87.45354,
+          16.68526
         ],
         "type": "Feature",
         "properties": {
@@ -950,10 +950,10 @@
       {
         "id": 23749,
         "bbox": [
-          -88.020667901,
-          17.151063399,
-          -87.614046219,
-          17.620800089
+          -88.02067,
+          17.151064,
+          -87.614044,
+          17.6208
         ],
         "type": "Feature",
         "properties": {
@@ -1024,10 +1024,10 @@
       {
         "id": 23748,
         "bbox": [
-          -86.798948507,
-          17.228289079,
-          -86.205663618,
-          17.823345696
+          -86.79895,
+          17.228289,
+          -86.205666,
+          17.823345
         ],
         "type": "Feature",
         "properties": {
@@ -1098,10 +1098,10 @@
       {
         "id": 23747,
         "bbox": [
-          -88.207927887,
-          17.513684019,
-          -87.951114192,
-          17.972303524
+          -88.20793,
+          17.513683,
+          -87.95111,
+          17.972303
         ],
         "type": "Feature",
         "properties": {

@@ -1,9 +1,16 @@
 [
   {
+    "geographyId": "belize_ocean_space",
+    "datasourceId": "belize_ocean_space_border",
+    "display": "Belize Ocean Space",
+    "groups": ["default-boundary"],
+    "precalc": true
+  },
+  {
     "geographyId": "world",
     "datasourceId": "world",
     "display": "World",
-    "groups": ["default-boundary"],
-    "precalc": true
+    "groups": [],
+    "precalc": false
   }
 ]

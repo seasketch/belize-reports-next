@@ -1,7 +1,7 @@
 {
   "metrics": [
     {
-      "geographyId": "world",
+      "geographyId": "belize_ocean_space",
       "metricId": "littoralForest",
       "classId": "Littoral",
       "sketchId": "23569",
@@ -23,7 +23,7 @@
       }
     },
     {
-      "geographyId": "world",
+      "geographyId": "belize_ocean_space",
       "metricId": "littoralForest",
       "classId": "Littoral",
       "sketchId": "23569",
@@ -37,10 +37,10 @@
   "sketch": {
     "id": 23569,
     "bbox": [
-      -87.628784232,
-      17.151979459,
-      -87.490116882,
-      17.257949333
+      -87.628784,
+      17.15198,
+      -87.49012,
+      17.25795
     ],
     "type": "Feature",
     "properties": {

@@ -1,8 +1,8 @@
 {
   "metrics": [
     {
-      "geographyId": "world",
-      "metricId": "coralValueOverlap",
+      "geographyId": "belize_ocean_space",
+      "metricId": "coral",
       "classId": "coral",
       "sketchId": "20652",
       "groupId": null,
@@ -12,8 +12,8 @@
       }
     },
     {
-      "geographyId": "world",
-      "metricId": "coralValueOverlap",
+      "geographyId": "belize_ocean_space",
+      "metricId": "coral",
       "classId": "coral",
       "sketchId": "20652",
       "groupId": "HIGH_PROTECTION",
@@ -24,7 +24,7 @@
     },
     {
       "geographyId": null,
-      "metricId": "coralValueOverlap",
+      "metricId": "coral",
       "classId": "coral",
       "sketchId": "20652",
       "groupId": "MEDIUM_PROTECTION",
@@ -37,10 +37,10 @@
   "sketch": {
     "id": 20652,
     "bbox": [
-      -88.023676693,
-      16.775733337,
-      -85.973087014,
-      17.890212453
+      -88.023674,
+      16.775734,
+      -85.97308,
+      17.890213
     ],
     "type": "Feature",
     "properties": {

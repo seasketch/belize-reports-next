@@ -139,7 +139,7 @@ export const Seagrass: React.FunctionComponent<{
                         🎯 Planning Objective: No specific planning objective
                         for seagrass.
                       </p>
-                      <p>🗺️ Source Data: ?</p>
+                      <p>🗺️ Source Data:</p>
                       <p>
                         📈 Report: The percentage of each feature type within
                         this plan is calculated by finding the overlap of each

@@ -1,7 +1,7 @@
 {
   "metrics": [
     {
-      "geographyId": "world",
+      "geographyId": "belize_ocean_space",
       "metricId": "ous",
       "classId": "energy",
       "sketchId": "20652",
@@ -12,7 +12,7 @@
       }
     },
     {
-      "geographyId": "world",
+      "geographyId": "belize_ocean_space",
       "metricId": "ous",
       "classId": "energy",
       "sketchId": "20652",
@@ -34,7 +34,7 @@
       }
     },
     {
-      "geographyId": "world",
+      "geographyId": "belize_ocean_space",
       "metricId": "ous",
       "classId": "fisheries_aquaculture",
       "sketchId": "20652",
@@ -45,7 +45,7 @@
       }
     },
     {
-      "geographyId": "world",
+      "geographyId": "belize_ocean_space",
       "metricId": "ous",
       "classId": "fisheries_aquaculture",
       "sketchId": "20652",
@@ -67,7 +67,7 @@
       }
     },
     {
-      "geographyId": "world",
+      "geographyId": "belize_ocean_space",
       "metricId": "ous",
       "classId": "general_use",
       "sketchId": "20652",
@@ -78,7 +78,7 @@
       }
     },
     {
-      "geographyId": "world",
+      "geographyId": "belize_ocean_space",
       "metricId": "ous",
       "classId": "general_use",
       "sketchId": "20652",
@@ -100,7 +100,7 @@
       }
     },
     {
-      "geographyId": "world",
+      "geographyId": "belize_ocean_space",
       "metricId": "ous",
       "classId": "marine_coastal_development",
       "sketchId": "20652",
@@ -111,7 +111,7 @@
       }
     },
     {
-      "geographyId": "world",
+      "geographyId": "belize_ocean_space",
       "metricId": "ous",
       "classId": "marine_coastal_development",
       "sketchId": "20652",
@@ -133,7 +133,7 @@
       }
     },
     {
-      "geographyId": "world",
+      "geographyId": "belize_ocean_space",
       "metricId": "ous",
       "classId": "marine_coastal_ecosystems",
       "sketchId": "20652",
@@ -144,7 +144,7 @@
       }
     },
     {
-      "geographyId": "world",
+      "geographyId": "belize_ocean_space",
       "metricId": "ous",
       "classId": "marine_coastal_ecosystems",
       "sketchId": "20652",
@@ -166,7 +166,7 @@
       }
     },
     {
-      "geographyId": "world",
+      "geographyId": "belize_ocean_space",
       "metricId": "ous",
       "classId": "maritime_administration",
       "sketchId": "20652",
@@ -177,7 +177,7 @@
       }
     },
     {
-      "geographyId": "world",
+      "geographyId": "belize_ocean_space",
       "metricId": "ous",
       "classId": "maritime_administration",
       "sketchId": "20652",
@@ -199,7 +199,7 @@
       }
     },
     {
-      "geographyId": "world",
+      "geographyId": "belize_ocean_space",
       "metricId": "ous",
       "classId": "tourism",
       "sketchId": "20652",
@@ -210,7 +210,7 @@
       }
     },
     {
-      "geographyId": "world",
+      "geographyId": "belize_ocean_space",
       "metricId": "ous",
       "classId": "tourism",
       "sketchId": "20652",
@@ -235,10 +235,10 @@
   "sketch": {
     "id": 20652,
     "bbox": [
-      -88.023676693,
-      16.775733337,
-      -85.973087014,
-      17.890212453
+      -88.023674,
+      16.775734,
+      -85.97308,
+      17.890213
     ],
     "type": "Feature",
     "properties": {
