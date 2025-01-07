@@ -19,6 +19,7 @@
     "src/functions/humanStressorsWorker.ts",
     "src/functions/littoralForest.ts",
     "src/functions/mangroves.ts",
+    "src/functions/mangrovesWorker.ts",
     "src/functions/ous.ts",
     "src/functions/ousDemographicOverlap.ts",
     "src/functions/protection.ts",

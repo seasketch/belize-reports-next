@@ -316,7 +316,8 @@
               }
             }
           ]
-        }
+        },
+        "geometry": null
       },
       {
         "id": 20646,
@@ -389,7 +390,8 @@
               }
             }
           ]
-        }
+        },
+        "geometry": null
       }
     ],
     "properties": {
