@@ -5,6 +5,8 @@ import {
   KeySection,
   InfoStatus,
   useSketchProperties,
+  ToolbarCard,
+  DataDownload,
 } from "@seasketch/geoprocessing/client-ui";
 import {
   ReportResult,
@@ -12,6 +14,7 @@ import {
   toPercentMetric,
   percentWithEdge,
 } from "@seasketch/geoprocessing/client-core";
+import { Download } from "@styled-icons/bootstrap/Download";
 import totals from "../../data/bin/ousDemographicPrecalcTotals.json" with { type: "json" };
 import project from "../../project/projectClient.js";
 import { Trans, useTranslation } from "react-i18next";
@@ -58,6 +61,7 @@ export const OusDemographics: React.FunctionComponent<{
         title={t("Ocean Use Demographics")}
         functionName="ousDemographicOverlap"
         extraParams={{ geographyIds: [curGeography.geographyId] }}
+        useChildCard
       >
         {(data: ReportResult) => {
           // Filter down to people count metrics for top-level sketch
@@ -167,7 +171,24 @@ export const OusDemographics: React.FunctionComponent<{
           const peopleUsingOceanPercLabel = t("% People Affected By Plan");
 
           return (
-            <>
+            <ToolbarCard
+              title={t("Ocean Use Demographics")}
+              items={
+                <DataDownload
+                  filename="ousDemographics"
+                  data={data.metrics}
+                  formats={["csv", "json"]}
+                  placement="left-start"
+                  titleElement={
+                    <Download
+                      size={18}
+                      color="#999"
+                      style={{ cursor: "pointer" }}
+                    />
+                  }
+                />
+              }
+            >
               <InfoStatus
                 msg={
                   <>
@@ -419,7 +440,7 @@ export const OusDemographics: React.FunctionComponent<{
                   </Trans>
                 </Collapse>
               )}
-            </>
+            </ToolbarCard>
           );
         }}
       </ResultsCard>

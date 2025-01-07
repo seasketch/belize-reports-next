@@ -64,6 +64,7 @@ export const OusCard: React.FunctionComponent<{
                     filename="ocean-use"
                     data={data.metrics}
                     formats={["csv", "json"]}
+                    placement="left-start"
                     titleElement={
                       <Download
                         size={18}

@@ -40,6 +40,7 @@ export const BathymetryCard: React.FunctionComponent<{ printing: boolean }> = (
                     filename="depth"
                     data={[data]}
                     formats={["csv", "json"]}
+                    placement="left-start"
                     titleElement={
                       <Download
                         size={18}

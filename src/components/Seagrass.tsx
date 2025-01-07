@@ -72,6 +72,7 @@ export const Seagrass: React.FunctionComponent<{
                       filename="seagrass"
                       data={data.metrics}
                       formats={["csv", "json"]}
+                      placement="left-start"
                       titleElement={
                         <Download
                           size={18}

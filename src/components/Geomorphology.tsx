@@ -60,6 +60,7 @@ export const Geomorphology: React.FunctionComponent<{
                     filename="geomorphology"
                     data={data.metrics}
                     formats={["csv", "json"]}
+                    placement="left-start"
                     titleElement={
                       <Download
                         size={18}

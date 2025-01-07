@@ -64,6 +64,7 @@ export const Mangroves: React.FunctionComponent<{
                   filename="mangroves"
                   data={data.metrics}
                   formats={["csv", "json"]}
+                  placement="left-start"
                   titleElement={
                     <Download
                       size={18}

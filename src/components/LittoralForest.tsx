@@ -72,6 +72,7 @@ export const LittoralForest: React.FunctionComponent<{
                       filename="littoral-forest"
                       data={data.metrics}
                       formats={["csv", "json"]}
+                      placement="left-start"
                       titleElement={
                         <Download
                           size={18}

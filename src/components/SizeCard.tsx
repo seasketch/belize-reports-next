@@ -99,7 +99,7 @@ export const SizeCard: React.FunctionComponent<{ printing: boolean }> = (
                     filename="size"
                     data={data.metrics}
                     formats={["csv", "json"]}
-                    placement="left-end"
+                    placement="left-start"
                     titleElement={
                       <Download
                         size={18}
