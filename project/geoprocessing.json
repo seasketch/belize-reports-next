@@ -21,6 +21,7 @@
     "src/functions/mangroves.ts",
     "src/functions/mangrovesWorker.ts",
     "src/functions/ous.ts",
+    "src/functions/ousWorker.ts",
     "src/functions/ousDemographicOverlap.ts",
     "src/functions/ousDemographicOverlapWorker.ts",
     "src/functions/protection.ts",

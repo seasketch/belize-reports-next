@@ -77,5 +77,5 @@ export default new GeoprocessingHandler(size, {
   executionMode: "async",
   timeout: 40,
   requiresProperties: [],
-  memory: 10240,
+  memory: 4096,
 });

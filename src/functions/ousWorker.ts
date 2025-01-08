@@ -1,39 +1,35 @@
 import {
-  GeoprocessingHandler,
-  getFeaturesForSketchBBoxes,
-  getFirstFromParam,
-  overlapPolygonArea,
-} from "@seasketch/geoprocessing";
-import project from "../../project/projectClient.js";
-import {
-  Metric,
-  ReportResult,
-  rekeyMetrics,
-  sortMetrics,
-  toNullSketch,
   Sketch,
   SketchCollection,
   Polygon,
   MultiPolygon,
-  DefaultExtraParams,
-  Feature,
-  isVectorDatasource,
-  MetricGroup,
+  GeoprocessingHandler,
+  rasterMetrics,
+  isRasterDatasource,
+  loadCog,
+  overlapRasterGroupMetrics,
+} from "@seasketch/geoprocessing";
+import project from "../../project/projectClient.js";
+import {
   Geography,
+  Georaster,
+  Metric,
+  MetricGroup,
+  rekeyMetrics,
+  sortMetrics,
 } from "@seasketch/geoprocessing/client-core";
 import {
   getMpaProtectionLevels,
   protectionLevels,
 } from "../util/getMpaProtectionLevel.js";
-import { overlapFeaturesGroupMetrics } from "./coral.js";
 
 /**
- * geomorphologyWorker: A geoprocessing function that calculates overlap metrics for vector datasources
+ * ousWorker: A geoprocessing function that calculates overlap metrics for raster datasources
  * @param sketch - A sketch or collection of sketches
  * @param extraParams
  * @returns Calculated metrics and a null sketch
  */
-export async function geomorphologyWorker(
+export async function ousWorker(
   sketch:
     | Sketch<Polygon | MultiPolygon>
     | SketchCollection<Polygon | MultiPolygon>,
@@ -49,50 +45,38 @@ export async function geomorphologyWorker(
   )!;
   const curGeography = extraParams.geography;
 
-  const featuresByClass: Record<string, Feature<Polygon>[]> = {};
+  const featuresByClass: Record<string, Georaster> = {};
 
   const ds = project.getMetricGroupDatasource(metricGroup, {
     classId: curClass.classId,
   });
-  if (!isVectorDatasource(ds))
-    throw new Error(`Expected vector datasource for ${ds.datasourceId}`);
+
+  if (!isRasterDatasource(ds))
+    throw new Error(`Expected raster datasource for ${ds.datasourceId}`);
+
   const url = project.getDatasourceUrl(ds);
 
-  // Fetch features overlapping with sketch, if not already fetched
-  const features = await getFeaturesForSketchBBoxes<Polygon>(sketch, url);
+  // Load raster metadata
+  const raster = await loadCog(url);
+  featuresByClass[curClass.classId] = raster;
 
-  // Get classKey for current data class
-  const classKey = project.getMetricGroupClassKey(metricGroup, {
-    classId: curClass.classId,
+  // Run raster analysis
+  const overlapResult = await rasterMetrics(raster, {
+    metricId: metricGroup.metricId,
+    feature: sketch,
+    ...(ds.measurementType === "quantitative" && { stats: ["sum"] }),
+    ...(ds.measurementType === "categorical" && {
+      categorical: true,
+      categoryMetricValues: [curClass.classId],
+    }),
   });
 
-  let finalFeatures: Feature<Polygon>[] = [];
-  if (classKey === undefined)
-    // Use all features
-    finalFeatures = features;
-  else {
-    // Filter to features that are a member of this class
-    finalFeatures = features.filter(
-      (feat) =>
-        feat.geometry &&
-        feat.properties &&
-        feat.properties[classKey] === curClass.classId,
-    );
-  }
-  featuresByClass[ds.datasourceId] = finalFeatures;
-
-  // Calculate overlap metrics
-  const overlapResult = await overlapPolygonArea(
-    metricGroup.metricId,
-    finalFeatures,
-    sketch,
-  );
-
   const metrics = overlapResult.map(
-    (metric): Metric => ({
-      ...metric,
+    (metrics): Metric => ({
+      ...metrics,
       classId: curClass.classId,
       geographyId: curGeography.geographyId,
+      groupId: null,
     }),
   );
 
@@ -101,7 +85,7 @@ export async function geomorphologyWorker(
   const metricToGroup = (sketchMetric: Metric) =>
     sketchCategoryMap[sketchMetric.sketchId!];
 
-  const groupMetrics = await overlapFeaturesGroupMetrics({
+  const groupMetrics = await overlapRasterGroupMetrics({
     metricId: metricGroup.metricId,
     groupIds: protectionLevels,
     sketch: sketch as Sketch<Polygon> | SketchCollection<Polygon>,
@@ -113,8 +97,8 @@ export async function geomorphologyWorker(
   return sortMetrics(rekeyMetrics([...metrics, ...groupMetrics]));
 }
 
-export default new GeoprocessingHandler(geomorphologyWorker, {
-  title: "geomorphologyWorker",
+export default new GeoprocessingHandler(ousWorker, {
+  title: "ousWorker",
   description: "",
   timeout: 500, // seconds
   memory: 4096, // megabytes

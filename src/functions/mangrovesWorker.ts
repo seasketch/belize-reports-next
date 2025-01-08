@@ -114,6 +114,6 @@ export default new GeoprocessingHandler(mangrovesWorker, {
   title: "mangrovesWorker",
   description: "",
   timeout: 500, // seconds
-  memory: 10240, // megabytes
+  memory: 4096, // megabytes
   executionMode: "sync",
 });

@@ -258,6 +258,6 @@ export default new GeoprocessingHandler(ousDemographicOverlapWorker, {
   title: "ousDemographicOverlapWorker",
   description: "",
   timeout: 500, // seconds
-  memory: 2048, // megabytes
+  memory: 4096, // megabytes
   executionMode: "sync",
 });

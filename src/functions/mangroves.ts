@@ -85,7 +85,7 @@ export default new GeoprocessingHandler(mangroves, {
   title: "mangroves",
   description: "",
   timeout: 500, // seconds
-  memory: 10240, // megabytes
+  memory: 1024, // megabytes
   executionMode: "async",
   requiresProperties: [],
   workers: ["mangrovesWorker"],

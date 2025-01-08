@@ -6,28 +6,23 @@ import {
   GeoprocessingHandler,
   getFirstFromParam,
   DefaultExtraParams,
-  rasterMetrics,
-  isRasterDatasource,
-  loadCog,
-  overlapRasterGroupMetrics,
+  runLambdaWorker,
+  parseLambdaResponse,
 } from "@seasketch/geoprocessing";
 import project from "../../project/projectClient.js";
 import {
-  Georaster,
+  GeoprocessingRequestModel,
   Metric,
   ReportResult,
+  isMetricArray,
   rekeyMetrics,
   sortMetrics,
   toNullSketch,
 } from "@seasketch/geoprocessing/client-core";
-import { clipToGeography } from "../util/clipToGeography.js";
-import {
-  getMpaProtectionLevels,
-  protectionLevels,
-} from "../util/getMpaProtectionLevel.js";
+import { ousWorker } from "./ousWorker.js";
 
 /**
- * ous: A geoprocessing function that calculates overlap metrics for raster datasources
+ * ous: A geoprocessing function that calculates overlap metrics
  * @param sketch - A sketch or collection of sketches
  * @param extraParams
  * @returns Calculated metrics and a null sketch
@@ -37,71 +32,51 @@ export async function ous(
     | Sketch<Polygon | MultiPolygon>
     | SketchCollection<Polygon | MultiPolygon>,
   extraParams: DefaultExtraParams = {},
+  request?: GeoprocessingRequestModel<Polygon | MultiPolygon>,
 ): Promise<ReportResult> {
+  const metricGroup = project.getMetricGroup("ous");
+
   // Check for client-provided geography, fallback to first geography assigned as default-boundary in metrics.json
   const geographyId = getFirstFromParam("geographyIds", extraParams);
   const curGeography = project.getGeographyById(geographyId, {
     fallbackGroup: "default-boundary",
   });
 
-  const featuresByClass: Record<string, Georaster> = {};
-
-  // Calculate overlap metrics for each class in metric group
-  const metricGroup = project.getMetricGroup("ous");
-  const metrics: Metric[] = (
+  const metrics = (
     await Promise.all(
       metricGroup.classes.map(async (curClass) => {
-        const ds = project.getMetricGroupDatasource(metricGroup, {
+        const parameters = {
+          ...extraParams,
+          geography: curGeography,
+          metricGroup,
           classId: curClass.classId,
-        });
-        if (!isRasterDatasource(ds))
-          throw new Error(`Expected raster datasource for ${ds.datasourceId}`);
+        };
 
-        const url = project.getDatasourceUrl(ds);
-
-        // Load raster metadata
-        const raster = await loadCog(url);
-        featuresByClass[curClass.classId] = raster;
-
-        // Run raster analysis
-        const overlapResult = await rasterMetrics(raster, {
-          metricId: metricGroup.metricId,
-          feature: sketch,
-          ...(ds.measurementType === "quantitative" && { stats: ["sum"] }),
-          ...(ds.measurementType === "categorical" && {
-            categorical: true,
-            categoryMetricValues: [curClass.classId],
-          }),
-        });
-
-        return overlapResult.map(
-          (metrics): Metric => ({
-            ...metrics,
-            classId: curClass.classId,
-            geographyId: curGeography.geographyId,
-            groupId: null,
-          }),
-        );
+        return process.env.NODE_ENV === "test"
+          ? ousWorker(sketch, parameters)
+          : runLambdaWorker(
+              sketch,
+              project.package.name,
+              "ousWorker",
+              project.geoprocessing.region,
+              parameters,
+              request!,
+            );
       }),
     )
-  ).flat();
+  ).reduce<Metric[]>(
+    (metrics, result) =>
+      metrics.concat(
+        isMetricArray(result)
+          ? result
+          : (parseLambdaResponse(result) as Metric[]),
+      ),
+    [],
+  );
 
-  // Calculate group metrics - from individual sketch metrics
-  const sketchCategoryMap = getMpaProtectionLevels(sketch);
-  const metricToGroup = (sketchMetric: Metric) =>
-    sketchCategoryMap[sketchMetric.sketchId!];
-
-  const groupMetrics = await overlapRasterGroupMetrics({
-    metricId: metricGroup.metricId,
-    groupIds: protectionLevels,
-    sketch: sketch as Sketch<Polygon> | SketchCollection<Polygon>,
-    metricToGroup,
-    metrics: metrics,
-    featuresByClass,
-  });
-
+  // Return a report result with metrics and a null sketch
   return {
-    metrics: sortMetrics(rekeyMetrics([...metrics, ...groupMetrics])),
+    metrics: sortMetrics(rekeyMetrics(metrics)),
     sketch: toNullSketch(sketch, true),
   };
 }
@@ -110,6 +85,8 @@ export default new GeoprocessingHandler(ous, {
   title: "ous",
   description: "",
   timeout: 500, // seconds
-  memory: 10240, // megabytes
+  memory: 1024, // megabytes
   executionMode: "async",
+  requiresProperties: [],
+  workers: ["ousWorker"],
 });
