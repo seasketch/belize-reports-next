@@ -4,8 +4,6 @@ import {
   Polygon,
   MultiPolygon,
   GeoprocessingHandler,
-  getFirstFromParam,
-  DefaultExtraParams,
   Feature,
   isVectorDatasource,
   getFeaturesForSketchBBoxes,
@@ -16,10 +14,8 @@ import {
   Geography,
   Metric,
   MetricGroup,
-  ReportResult,
   rekeyMetrics,
   sortMetrics,
-  toNullSketch,
 } from "@seasketch/geoprocessing/client-core";
 import { overlapFeaturesGroupMetrics } from "./coral.js";
 import {

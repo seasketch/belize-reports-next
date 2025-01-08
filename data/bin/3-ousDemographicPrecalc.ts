@@ -1,25 +1,27 @@
 import fs from "fs-extra";
 import {
-  overlapOusDemographic,
-  OusFeatureCollection,
-} from "../../src/util/overlapOusDemographic.js";
-import {
   ReportResultBase,
   rekeyMetrics,
   DataClass,
   sortMetrics,
 } from "@seasketch/geoprocessing/client-core";
-import ousShapes from "../dist/ous_demographics.json" assert { type: "json" };
 import { MetricGroup } from "@seasketch/geoprocessing/client-core";
-
-const shapes = ousShapes as OusFeatureCollection;
+import { ousDemographicOverlapWorker } from "../../src/functions/ousDemographicOverlapWorker.js";
 
 const filename = "ous_demographics.fgb";
 
 const DEST_PATH = "ousDemographicPrecalcTotals.json";
 
 async function main() {
-  const overlapResult = await overlapOusDemographic(shapes);
+  //Use dummy sketch properties for precalc
+  const overlapResult = await ousDemographicOverlapWorker(
+    {},
+    {
+      overlapSketch: false,
+      start: 0,
+      end: 600,
+    },
+  );
 
   const result: ReportResultBase = {
     metrics: sortMetrics(rekeyMetrics(overlapResult.metrics)),
