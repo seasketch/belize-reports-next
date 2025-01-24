@@ -1,0 +1,710 @@
+{
+  "metrics": [
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "oceanWealth",
+      "classId": "on_reef_tourism_value",
+      "sketchId": "23746",
+      "groupId": null,
+      "value": 13285006,
+      "extra": {
+        "sketchName": "mpa-collection",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "oceanWealth",
+      "classId": "on_reef_tourism_value",
+      "sketchId": "23746",
+      "groupId": "HIGH_PROTECTION",
+      "value": 13285006,
+      "extra": {
+        "sketchName": "mpa-collection",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "oceanWealth",
+      "classId": "on_reef_tourism_value",
+      "sketchId": "23746",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa-collection",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "oceanWealth",
+      "classId": "on_reef_tourism_value",
+      "sketchId": "23747",
+      "groupId": null,
+      "value": 5895000,
+      "extra": {
+        "sketchName": "coastal"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "oceanWealth",
+      "classId": "on_reef_tourism_value",
+      "sketchId": "23747",
+      "groupId": "HIGH_PROTECTION",
+      "value": 5895000,
+      "extra": {
+        "sketchName": "coastal"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "oceanWealth",
+      "classId": "on_reef_tourism_value",
+      "sketchId": "23748",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "offshore"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "oceanWealth",
+      "classId": "on_reef_tourism_value",
+      "sketchId": "23748",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 0,
+      "extra": {
+        "sketchName": "offshore"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "oceanWealth",
+      "classId": "on_reef_tourism_value",
+      "sketchId": "23749",
+      "groupId": null,
+      "value": 7390000,
+      "extra": {
+        "sketchName": "turneffe"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "oceanWealth",
+      "classId": "on_reef_tourism_value",
+      "sketchId": "23749",
+      "groupId": "HIGH_PROTECTION",
+      "value": 7390000,
+      "extra": {
+        "sketchName": "turneffe"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "oceanWealth",
+      "classId": "on_reef_tourism_value",
+      "sketchId": "23750",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "souther"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "oceanWealth",
+      "classId": "on_reef_tourism_value",
+      "sketchId": "23750",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 0,
+      "extra": {
+        "sketchName": "souther"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "oceanWealth",
+      "classId": "reef_adjacent_tourism_value",
+      "sketchId": "23746",
+      "groupId": null,
+      "value": 5360001,
+      "extra": {
+        "sketchName": "mpa-collection",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "oceanWealth",
+      "classId": "reef_adjacent_tourism_value",
+      "sketchId": "23746",
+      "groupId": "HIGH_PROTECTION",
+      "value": 5360001,
+      "extra": {
+        "sketchName": "mpa-collection",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "oceanWealth",
+      "classId": "reef_adjacent_tourism_value",
+      "sketchId": "23746",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa-collection",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "oceanWealth",
+      "classId": "reef_adjacent_tourism_value",
+      "sketchId": "23747",
+      "groupId": null,
+      "value": 4529000,
+      "extra": {
+        "sketchName": "coastal"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "oceanWealth",
+      "classId": "reef_adjacent_tourism_value",
+      "sketchId": "23747",
+      "groupId": "HIGH_PROTECTION",
+      "value": 4529000,
+      "extra": {
+        "sketchName": "coastal"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "oceanWealth",
+      "classId": "reef_adjacent_tourism_value",
+      "sketchId": "23748",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "offshore"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "oceanWealth",
+      "classId": "reef_adjacent_tourism_value",
+      "sketchId": "23748",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 0,
+      "extra": {
+        "sketchName": "offshore"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "oceanWealth",
+      "classId": "reef_adjacent_tourism_value",
+      "sketchId": "23749",
+      "groupId": null,
+      "value": 831000,
+      "extra": {
+        "sketchName": "turneffe"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "oceanWealth",
+      "classId": "reef_adjacent_tourism_value",
+      "sketchId": "23749",
+      "groupId": "HIGH_PROTECTION",
+      "value": 831000,
+      "extra": {
+        "sketchName": "turneffe"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "oceanWealth",
+      "classId": "reef_adjacent_tourism_value",
+      "sketchId": "23750",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "souther"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "oceanWealth",
+      "classId": "reef_adjacent_tourism_value",
+      "sketchId": "23750",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 0,
+      "extra": {
+        "sketchName": "souther"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "oceanWealth",
+      "classId": "reef_total_tourism_value",
+      "sketchId": "23746",
+      "groupId": null,
+      "value": 18081001,
+      "extra": {
+        "sketchName": "mpa-collection",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "oceanWealth",
+      "classId": "reef_total_tourism_value",
+      "sketchId": "23746",
+      "groupId": "HIGH_PROTECTION",
+      "value": 18081001,
+      "extra": {
+        "sketchName": "mpa-collection",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "oceanWealth",
+      "classId": "reef_total_tourism_value",
+      "sketchId": "23746",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa-collection",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "oceanWealth",
+      "classId": "reef_total_tourism_value",
+      "sketchId": "23747",
+      "groupId": null,
+      "value": 9956000,
+      "extra": {
+        "sketchName": "coastal"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "oceanWealth",
+      "classId": "reef_total_tourism_value",
+      "sketchId": "23747",
+      "groupId": "HIGH_PROTECTION",
+      "value": 9956000,
+      "extra": {
+        "sketchName": "coastal"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "oceanWealth",
+      "classId": "reef_total_tourism_value",
+      "sketchId": "23748",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "offshore"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "oceanWealth",
+      "classId": "reef_total_tourism_value",
+      "sketchId": "23748",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 0,
+      "extra": {
+        "sketchName": "offshore"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "oceanWealth",
+      "classId": "reef_total_tourism_value",
+      "sketchId": "23749",
+      "groupId": null,
+      "value": 8125000,
+      "extra": {
+        "sketchName": "turneffe"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "oceanWealth",
+      "classId": "reef_total_tourism_value",
+      "sketchId": "23749",
+      "groupId": "HIGH_PROTECTION",
+      "value": 8125000,
+      "extra": {
+        "sketchName": "turneffe"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "oceanWealth",
+      "classId": "reef_total_tourism_value",
+      "sketchId": "23750",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "souther"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "oceanWealth",
+      "classId": "reef_total_tourism_value",
+      "sketchId": "23750",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 0,
+      "extra": {
+        "sketchName": "souther"
+      }
+    }
+  ],
+  "sketch": {
+    "id": 23746,
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "id": 23750,
+        "bbox": [
+          -87.97787,
+          16.219738,
+          -87.45354,
+          16.68526
+        ],
+        "type": "Feature",
+        "properties": {
+          "2931": "VI",
+          "2932": "souther",
+          "2934": "abby",
+          "id": "23750",
+          "name": "souther",
+          "postId": null,
+          "userId": "531",
+          "authors": "abby",
+          "comments": null,
+          "userSlug": "Abby",
+          "createdAt": "2023-12-13T23:03:14.823323+00:00",
+          "updatedAt": "2023-12-13T23:03:17.679221+00:00",
+          "designation": "VI",
+          "collectionId": "23746",
+          "isCollection": false,
+          "sharedInForum": false,
+          "sketchClassId": "196",
+          "userAttributes": [
+            {
+              "label": "Comments",
+              "value": null,
+              "exportId": "comments",
+              "fieldType": "TextArea",
+              "valueLabel": null,
+              "formElementId": 2933,
+              "alternateLanguages": {
+                "es": {
+                  "label": "Comentarios",
+                  "valueLabel": null
+                }
+              }
+            },
+            {
+              "label": "Author(s)",
+              "value": "abby",
+              "exportId": "authors",
+              "fieldType": "ShortText",
+              "valueLabel": null,
+              "formElementId": 2934,
+              "alternateLanguages": {
+                "es": {
+                  "label": "Autor(es)",
+                  "valueLabel": null
+                }
+              }
+            },
+            {
+              "label": "Designation",
+              "value": "VI",
+              "exportId": "designation",
+              "fieldType": "ComboBox",
+              "valueLabel": "IUCN VI: Protected Area with Sustainable Use",
+              "formElementId": 2931,
+              "alternateLanguages": {
+                "es": {
+                  "label": "Designación",
+                  "valueLabel": "UICN VI: Área Protegida con Uso Sostenible"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 23749,
+        "bbox": [
+          -88.02067,
+          17.151064,
+          -87.614044,
+          17.6208
+        ],
+        "type": "Feature",
+        "properties": {
+          "2931": "III",
+          "2932": "turneffe",
+          "2934": "abby",
+          "id": "23749",
+          "name": "turneffe",
+          "postId": null,
+          "userId": "531",
+          "authors": "abby",
+          "comments": null,
+          "userSlug": "Abby",
+          "createdAt": "2023-12-13T23:02:52.63869+00:00",
+          "updatedAt": "2023-12-14T00:46:50.891222+00:00",
+          "designation": "III",
+          "collectionId": "23746",
+          "isCollection": false,
+          "sharedInForum": false,
+          "sketchClassId": "196",
+          "userAttributes": [
+            {
+              "label": "Comments",
+              "value": null,
+              "exportId": "comments",
+              "fieldType": "TextArea",
+              "valueLabel": null,
+              "formElementId": 2933,
+              "alternateLanguages": {
+                "es": {
+                  "label": "Comentarios",
+                  "valueLabel": null
+                }
+              }
+            },
+            {
+              "label": "Author(s)",
+              "value": "abby",
+              "exportId": "authors",
+              "fieldType": "ShortText",
+              "valueLabel": null,
+              "formElementId": 2934,
+              "alternateLanguages": {
+                "es": {
+                  "label": "Autor(es)",
+                  "valueLabel": null
+                }
+              }
+            },
+            {
+              "label": "Designation",
+              "value": "III",
+              "exportId": "designation",
+              "fieldType": "ComboBox",
+              "valueLabel": "IUCN III: Natural Monument or Feature",
+              "formElementId": 2931,
+              "alternateLanguages": {
+                "es": {
+                  "label": "Designación",
+                  "valueLabel": "UICN III: Monumento o Característica Natural"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 23748,
+        "bbox": [
+          -86.79895,
+          17.228289,
+          -86.205666,
+          17.823345
+        ],
+        "type": "Feature",
+        "properties": {
+          "2931": "V",
+          "2932": "offshore",
+          "2934": "abby",
+          "id": "23748",
+          "name": "offshore",
+          "postId": null,
+          "userId": "531",
+          "authors": "abby",
+          "comments": null,
+          "userSlug": "Abby",
+          "createdAt": "2023-12-13T23:02:34.911638+00:00",
+          "updatedAt": "2023-12-13T23:02:37.230936+00:00",
+          "designation": "V",
+          "collectionId": "23746",
+          "isCollection": false,
+          "sharedInForum": false,
+          "sketchClassId": "196",
+          "userAttributes": [
+            {
+              "label": "Comments",
+              "value": null,
+              "exportId": "comments",
+              "fieldType": "TextArea",
+              "valueLabel": null,
+              "formElementId": 2933,
+              "alternateLanguages": {
+                "es": {
+                  "label": "Comentarios",
+                  "valueLabel": null
+                }
+              }
+            },
+            {
+              "label": "Author(s)",
+              "value": "abby",
+              "exportId": "authors",
+              "fieldType": "ShortText",
+              "valueLabel": null,
+              "formElementId": 2934,
+              "alternateLanguages": {
+                "es": {
+                  "label": "Autor(es)",
+                  "valueLabel": null
+                }
+              }
+            },
+            {
+              "label": "Designation",
+              "value": "V",
+              "exportId": "designation",
+              "fieldType": "ComboBox",
+              "valueLabel": "IUCN V: Protected Landscape or Seascape",
+              "formElementId": 2931,
+              "alternateLanguages": {
+                "es": {
+                  "label": "Designación",
+                  "valueLabel": "UICN V: Paisaje o Paisaje Marino Protegido"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 23747,
+        "bbox": [
+          -88.20793,
+          17.513683,
+          -87.95111,
+          17.972303
+        ],
+        "type": "Feature",
+        "properties": {
+          "2931": "Ia",
+          "2932": "coastal",
+          "2934": "abby",
+          "id": "23747",
+          "name": "coastal",
+          "postId": null,
+          "userId": "531",
+          "authors": "abby",
+          "comments": null,
+          "userSlug": "Abby",
+          "createdAt": "2023-12-13T23:02:20.132533+00:00",
+          "updatedAt": "2023-12-13T23:02:23.405725+00:00",
+          "designation": "Ia",
+          "collectionId": "23746",
+          "isCollection": false,
+          "sharedInForum": false,
+          "sketchClassId": "196",
+          "userAttributes": [
+            {
+              "label": "Comments",
+              "value": null,
+              "exportId": "comments",
+              "fieldType": "TextArea",
+              "valueLabel": null,
+              "formElementId": 2933,
+              "alternateLanguages": {
+                "es": {
+                  "label": "Comentarios",
+                  "valueLabel": null
+                }
+              }
+            },
+            {
+              "label": "Author(s)",
+              "value": "abby",
+              "exportId": "authors",
+              "fieldType": "ShortText",
+              "valueLabel": null,
+              "formElementId": 2934,
+              "alternateLanguages": {
+                "es": {
+                  "label": "Autor(es)",
+                  "valueLabel": null
+                }
+              }
+            },
+            {
+              "label": "Designation",
+              "value": "Ia",
+              "exportId": "designation",
+              "fieldType": "ComboBox",
+              "valueLabel": "IUCN Ia: Strict Nature Reserve",
+              "formElementId": 2931,
+              "alternateLanguages": {
+                "es": {
+                  "label": "Designación",
+                  "valueLabel": "UICN Ia: Reserva Natural Estricta"
+                }
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "properties": {
+      "3094": "mpa-collection",
+      "id": "23746",
+      "name": "mpa-collection",
+      "postId": null,
+      "userId": "531",
+      "authors": null,
+      "comments": null,
+      "userSlug": "Abby",
+      "createdAt": "2023-12-13T23:02:00.449408+00:00",
+      "updatedAt": "2024-02-21T16:41:02.895404+00:00",
+      "collectionId": null,
+      "isCollection": true,
+      "sharedInForum": false,
+      "sketchClassId": "232",
+      "userAttributes": [
+        {
+          "label": "Comments",
+          "value": null,
+          "exportId": "comments",
+          "fieldType": "TextArea",
+          "valueLabel": null,
+          "formElementId": 5784,
+          "alternateLanguages": {}
+        },
+        {
+          "label": "Author(s)",
+          "value": null,
+          "exportId": "authors",
+          "fieldType": "TextArea",
+          "valueLabel": null,
+          "formElementId": 5785,
+          "alternateLanguages": {}
+        }
+      ]
+    }
+  }
+}

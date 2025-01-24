@@ -472,12 +472,13 @@ export const genPercGroupLevelTable = (
  * @param metricGroup metric group to get stats for
  * @param t TFunction
  */
-export const genAreaGroupLevelTable = (
+export const genGroupLevelTable = (
   data: ReportResult,
   precalcMetrics: Metric[],
   metricGroup: MetricGroup,
   t: any,
   printing: boolean = false,
+  dollars: boolean = false,
 ) => {
   if (!isSketchCollection(data.sketch)) throw new Error("NullSketch");
 
@@ -502,28 +503,30 @@ export const genAreaGroupLevelTable = (
         style: { color: "#777" },
         columns: [
           {
-            Header: t("Area") + " ".repeat(index),
+            Header: (dollars ? t("Value") : t("Area")) + " ".repeat(index),
             accessor: (row) => {
               const value = row[curClass.classId] as number;
-              const kmVal = squareMeterToKilometer(value);
+              const formattedVal = dollars
+                ? value
+                : squareMeterToKilometer(value);
 
               // If value is nonzero but would be rounded to zero, replace with < 0.1
               const valDisplay =
-                kmVal && kmVal < 0.1
+                formattedVal && formattedVal < 0.1
                   ? "< 0.1"
-                  : Number.format(roundDecimal(kmVal));
+                  : Number.format(roundDecimal(formattedVal));
               return (
                 <GroupPill
                   groupColorMap={groupColorMap}
                   group={row.groupId.toString()}
                 >
-                  {valDisplay + " " + t("km²")}
+                  {dollars ? "$" + valDisplay : valDisplay + " " + t("km²")}
                 </GroupPill>
               );
             },
           },
           {
-            Header: t("% Area") + " ".repeat(index),
+            Header: (dollars ? t("% Value") : t("% Area")) + " ".repeat(index),
             accessor: (row) => (
               <GroupPill
                 groupColorMap={groupColorMap}
@@ -663,6 +666,7 @@ export const genAreaSketchTable = (
   t: any,
   childProperties: SketchProperties[],
   printing: boolean = false,
+  dollars: boolean = false,
 ) => {
   const childSketchIds = childProperties
     ? childProperties.map((skp) => skp.id)
@@ -697,24 +701,26 @@ export const genAreaSketchTable = (
         style: { color: "#777" },
         columns: [
           {
-            Header: t("Area") + " ".repeat(index),
+            Header: (dollars ? t("Value") : t("Area")) + " ".repeat(index),
             accessor: (row) => {
               const value =
                 aggMetrics[row.sketchId][curClass.classId as string][
                   mg.metricId
                 ][0].value;
-              const kmVal = squareMeterToKilometer(value);
+              const formattedVal = dollars
+                ? value
+                : squareMeterToKilometer(value);
 
               // If value is nonzero but would be rounded to zero, replace with < 0.1
               const valDisplay =
-                kmVal && kmVal < 0.1
+                formattedVal && formattedVal < 0.1
                   ? "< 0.1"
-                  : Number.format(roundDecimal(kmVal));
-              return valDisplay + " " + t("km²");
+                  : Number.format(roundDecimal(formattedVal));
+              return dollars ? "$" + valDisplay : valDisplay + " " + t("km²");
             },
           },
           {
-            Header: t("% Area") + " ".repeat(index),
+            Header: (dollars ? t("% Value") : t("% Area")) + " ".repeat(index),
             accessor: (row) => {
               const value =
                 aggMetrics[row.sketchId][curClass.classId as string][

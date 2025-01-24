@@ -32,7 +32,7 @@ import { groupColorMap } from "../util/getMpaProtectionLevel.js";
 import {
   CollectionObjectiveStatus,
   collectionMsgs,
-  genAreaGroupLevelTable,
+  genGroupLevelTable,
   genAreaSketchTable,
 } from "../util/ProtectionLevelOverlapReports.js";
 import { Download } from "@styled-icons/bootstrap/Download";
@@ -148,12 +148,7 @@ export const SizeCard: React.FunctionComponent<{ printing: boolean }> = (
                       collapsed={!props.printing}
                       key={String(props.printing) + "Protection"}
                     >
-                      {genAreaGroupLevelTable(
-                        data,
-                        boundaryTotalMetrics,
-                        mg,
-                        t,
-                      )}
+                      {genGroupLevelTable(data, boundaryTotalMetrics, mg, t)}
                     </Collapse>
                     <Collapse
                       title={t("Show by MPA")}

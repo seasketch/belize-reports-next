@@ -1,0 +1,989 @@
+{
+  "metrics": [
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "oceanWealth",
+      "classId": "on_reef_tourism_value",
+      "sketchId": "29116",
+      "groupId": null,
+      "value": 20070024,
+      "extra": {
+        "sketchName": "Areas Under Consideration for New Biodiversity Protection Zones",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "oceanWealth",
+      "classId": "on_reef_tourism_value",
+      "sketchId": "29116",
+      "groupId": "HIGH_PROTECTION",
+      "value": 6553021,
+      "extra": {
+        "sketchName": "Areas Under Consideration for New Biodiversity Protection Zones",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "oceanWealth",
+      "classId": "on_reef_tourism_value",
+      "sketchId": "29116",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 13517003,
+      "extra": {
+        "sketchName": "Areas Under Consideration for New Biodiversity Protection Zones",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "oceanWealth",
+      "classId": "on_reef_tourism_value",
+      "sketchId": "29117",
+      "groupId": null,
+      "value": 13517000,
+      "extra": {
+        "sketchName": "Lighthouse Atoll"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "oceanWealth",
+      "classId": "on_reef_tourism_value",
+      "sketchId": "29117",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 13517000,
+      "extra": {
+        "sketchName": "Lighthouse Atoll"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "oceanWealth",
+      "classId": "on_reef_tourism_value",
+      "sketchId": "29118",
+      "groupId": null,
+      "value": 2993000,
+      "extra": {
+        "sketchName": "Glover's Atoll"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "oceanWealth",
+      "classId": "on_reef_tourism_value",
+      "sketchId": "29118",
+      "groupId": "HIGH_PROTECTION",
+      "value": 2993000,
+      "extra": {
+        "sketchName": "Glover's Atoll"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "oceanWealth",
+      "classId": "on_reef_tourism_value",
+      "sketchId": "29119",
+      "groupId": null,
+      "value": 3560000,
+      "extra": {
+        "sketchName": "Goff's Caye"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "oceanWealth",
+      "classId": "on_reef_tourism_value",
+      "sketchId": "29119",
+      "groupId": "HIGH_PROTECTION",
+      "value": 3560000,
+      "extra": {
+        "sketchName": "Goff's Caye"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "oceanWealth",
+      "classId": "on_reef_tourism_value",
+      "sketchId": "29120",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Belize Transboundary"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "oceanWealth",
+      "classId": "on_reef_tourism_value",
+      "sketchId": "29120",
+      "groupId": "HIGH_PROTECTION",
+      "value": 0,
+      "extra": {
+        "sketchName": "Belize Transboundary"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "oceanWealth",
+      "classId": "on_reef_tourism_value",
+      "sketchId": "29121",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Placenia Lagoon"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "oceanWealth",
+      "classId": "on_reef_tourism_value",
+      "sketchId": "29121",
+      "groupId": "HIGH_PROTECTION",
+      "value": 0,
+      "extra": {
+        "sketchName": "Placenia Lagoon"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "oceanWealth",
+      "classId": "on_reef_tourism_value",
+      "sketchId": "29122",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Cayman Crown"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "oceanWealth",
+      "classId": "on_reef_tourism_value",
+      "sketchId": "29122",
+      "groupId": "HIGH_PROTECTION",
+      "value": 0,
+      "extra": {
+        "sketchName": "Cayman Crown"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "oceanWealth",
+      "classId": "reef_adjacent_tourism_value",
+      "sketchId": "29116",
+      "groupId": null,
+      "value": 1776052,
+      "extra": {
+        "sketchName": "Areas Under Consideration for New Biodiversity Protection Zones",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "oceanWealth",
+      "classId": "reef_adjacent_tourism_value",
+      "sketchId": "29116",
+      "groupId": "HIGH_PROTECTION",
+      "value": 1559028,
+      "extra": {
+        "sketchName": "Areas Under Consideration for New Biodiversity Protection Zones",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "oceanWealth",
+      "classId": "reef_adjacent_tourism_value",
+      "sketchId": "29116",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 217024,
+      "extra": {
+        "sketchName": "Areas Under Consideration for New Biodiversity Protection Zones",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "oceanWealth",
+      "classId": "reef_adjacent_tourism_value",
+      "sketchId": "29117",
+      "groupId": null,
+      "value": 217000,
+      "extra": {
+        "sketchName": "Lighthouse Atoll"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "oceanWealth",
+      "classId": "reef_adjacent_tourism_value",
+      "sketchId": "29117",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 217000,
+      "extra": {
+        "sketchName": "Lighthouse Atoll"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "oceanWealth",
+      "classId": "reef_adjacent_tourism_value",
+      "sketchId": "29118",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Glover's Atoll"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "oceanWealth",
+      "classId": "reef_adjacent_tourism_value",
+      "sketchId": "29118",
+      "groupId": "HIGH_PROTECTION",
+      "value": 0,
+      "extra": {
+        "sketchName": "Glover's Atoll"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "oceanWealth",
+      "classId": "reef_adjacent_tourism_value",
+      "sketchId": "29119",
+      "groupId": null,
+      "value": 1559000,
+      "extra": {
+        "sketchName": "Goff's Caye"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "oceanWealth",
+      "classId": "reef_adjacent_tourism_value",
+      "sketchId": "29119",
+      "groupId": "HIGH_PROTECTION",
+      "value": 1559000,
+      "extra": {
+        "sketchName": "Goff's Caye"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "oceanWealth",
+      "classId": "reef_adjacent_tourism_value",
+      "sketchId": "29120",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Belize Transboundary"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "oceanWealth",
+      "classId": "reef_adjacent_tourism_value",
+      "sketchId": "29120",
+      "groupId": "HIGH_PROTECTION",
+      "value": 0,
+      "extra": {
+        "sketchName": "Belize Transboundary"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "oceanWealth",
+      "classId": "reef_adjacent_tourism_value",
+      "sketchId": "29121",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Placenia Lagoon"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "oceanWealth",
+      "classId": "reef_adjacent_tourism_value",
+      "sketchId": "29121",
+      "groupId": "HIGH_PROTECTION",
+      "value": 0,
+      "extra": {
+        "sketchName": "Placenia Lagoon"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "oceanWealth",
+      "classId": "reef_adjacent_tourism_value",
+      "sketchId": "29122",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Cayman Crown"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "oceanWealth",
+      "classId": "reef_adjacent_tourism_value",
+      "sketchId": "29122",
+      "groupId": "HIGH_PROTECTION",
+      "value": 0,
+      "extra": {
+        "sketchName": "Cayman Crown"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "oceanWealth",
+      "classId": "reef_total_tourism_value",
+      "sketchId": "29116",
+      "groupId": null,
+      "value": 21665021,
+      "extra": {
+        "sketchName": "Areas Under Consideration for New Biodiversity Protection Zones",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "oceanWealth",
+      "classId": "reef_total_tourism_value",
+      "sketchId": "29116",
+      "groupId": "HIGH_PROTECTION",
+      "value": 7931018,
+      "extra": {
+        "sketchName": "Areas Under Consideration for New Biodiversity Protection Zones",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "oceanWealth",
+      "classId": "reef_total_tourism_value",
+      "sketchId": "29116",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 13734003,
+      "extra": {
+        "sketchName": "Areas Under Consideration for New Biodiversity Protection Zones",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "oceanWealth",
+      "classId": "reef_total_tourism_value",
+      "sketchId": "29117",
+      "groupId": null,
+      "value": 13734000,
+      "extra": {
+        "sketchName": "Lighthouse Atoll"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "oceanWealth",
+      "classId": "reef_total_tourism_value",
+      "sketchId": "29117",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 13734000,
+      "extra": {
+        "sketchName": "Lighthouse Atoll"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "oceanWealth",
+      "classId": "reef_total_tourism_value",
+      "sketchId": "29118",
+      "groupId": null,
+      "value": 2993000,
+      "extra": {
+        "sketchName": "Glover's Atoll"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "oceanWealth",
+      "classId": "reef_total_tourism_value",
+      "sketchId": "29118",
+      "groupId": "HIGH_PROTECTION",
+      "value": 2993000,
+      "extra": {
+        "sketchName": "Glover's Atoll"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "oceanWealth",
+      "classId": "reef_total_tourism_value",
+      "sketchId": "29119",
+      "groupId": null,
+      "value": 4938000,
+      "extra": {
+        "sketchName": "Goff's Caye"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "oceanWealth",
+      "classId": "reef_total_tourism_value",
+      "sketchId": "29119",
+      "groupId": "HIGH_PROTECTION",
+      "value": 4938000,
+      "extra": {
+        "sketchName": "Goff's Caye"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "oceanWealth",
+      "classId": "reef_total_tourism_value",
+      "sketchId": "29120",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Belize Transboundary"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "oceanWealth",
+      "classId": "reef_total_tourism_value",
+      "sketchId": "29120",
+      "groupId": "HIGH_PROTECTION",
+      "value": 0,
+      "extra": {
+        "sketchName": "Belize Transboundary"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "oceanWealth",
+      "classId": "reef_total_tourism_value",
+      "sketchId": "29121",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Placenia Lagoon"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "oceanWealth",
+      "classId": "reef_total_tourism_value",
+      "sketchId": "29121",
+      "groupId": "HIGH_PROTECTION",
+      "value": 0,
+      "extra": {
+        "sketchName": "Placenia Lagoon"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "oceanWealth",
+      "classId": "reef_total_tourism_value",
+      "sketchId": "29122",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Cayman Crown"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "oceanWealth",
+      "classId": "reef_total_tourism_value",
+      "sketchId": "29122",
+      "groupId": "HIGH_PROTECTION",
+      "value": 0,
+      "extra": {
+        "sketchName": "Cayman Crown"
+      }
+    }
+  ],
+  "sketch": {
+    "id": 29116,
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "id": 29122,
+        "bbox": [
+          -88.38759,
+          15.915633,
+          -88.13224,
+          16.023298
+        ],
+        "type": "Feature",
+        "properties": {
+          "2931": "Ia",
+          "2932": "Cayman Crown",
+          "2934": "CZMAI",
+          "id": "29122",
+          "name": "Cayman Crown",
+          "postId": 1365,
+          "userId": "840",
+          "authors": "CZMAI",
+          "comments": null,
+          "userSlug": "Delwin",
+          "createdAt": "2024-05-08T15:55:11.761702+00:00",
+          "updatedAt": "2024-05-08T15:55:16.655843+00:00",
+          "designation": "Ia",
+          "collectionId": "29116",
+          "isCollection": false,
+          "sharedInForum": true,
+          "sketchClassId": "196",
+          "userAttributes": [
+            {
+              "label": "Comments",
+              "value": null,
+              "exportId": "comments",
+              "fieldType": "TextArea",
+              "valueLabel": null,
+              "formElementId": 2933,
+              "alternateLanguages": {
+                "es": {
+                  "label": "Comentarios",
+                  "valueLabel": null
+                }
+              }
+            },
+            {
+              "label": "Author(s)",
+              "value": "CZMAI",
+              "exportId": "authors",
+              "fieldType": "ShortText",
+              "valueLabel": null,
+              "formElementId": 2934,
+              "alternateLanguages": {
+                "es": {
+                  "label": "Autor(es)",
+                  "valueLabel": null
+                }
+              }
+            },
+            {
+              "label": "Designation",
+              "value": "Ia",
+              "exportId": "designation",
+              "fieldType": "ComboBox",
+              "valueLabel": "IUCN Ia: Strict Nature Reserve",
+              "formElementId": 2931,
+              "alternateLanguages": {
+                "es": {
+                  "label": "Designación",
+                  "valueLabel": "UICN Ia: Reserva Natural Estricta"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 29118,
+        "bbox": [
+          -87.920784,
+          16.677061,
+          -87.6516,
+          17.013378
+        ],
+        "type": "Feature",
+        "properties": {
+          "2931": "Ia",
+          "2932": "Glover's Atoll",
+          "2934": "CZMAI",
+          "id": "29118",
+          "name": "Glover's Atoll",
+          "postId": 1365,
+          "userId": "840",
+          "authors": "CZMAI",
+          "comments": null,
+          "userSlug": "Delwin",
+          "createdAt": "2024-05-08T15:55:11.761702+00:00",
+          "updatedAt": "2024-05-08T15:55:16.655843+00:00",
+          "designation": "Ia",
+          "collectionId": "29116",
+          "isCollection": false,
+          "sharedInForum": true,
+          "sketchClassId": "196",
+          "userAttributes": [
+            {
+              "label": "Comments",
+              "value": null,
+              "exportId": "comments",
+              "fieldType": "TextArea",
+              "valueLabel": null,
+              "formElementId": 2933,
+              "alternateLanguages": {
+                "es": {
+                  "label": "Comentarios",
+                  "valueLabel": null
+                }
+              }
+            },
+            {
+              "label": "Author(s)",
+              "value": "CZMAI",
+              "exportId": "authors",
+              "fieldType": "ShortText",
+              "valueLabel": null,
+              "formElementId": 2934,
+              "alternateLanguages": {
+                "es": {
+                  "label": "Autor(es)",
+                  "valueLabel": null
+                }
+              }
+            },
+            {
+              "label": "Designation",
+              "value": "Ia",
+              "exportId": "designation",
+              "fieldType": "ComboBox",
+              "valueLabel": "IUCN Ia: Strict Nature Reserve",
+              "formElementId": 2931,
+              "alternateLanguages": {
+                "es": {
+                  "label": "Designación",
+                  "valueLabel": "UICN Ia: Reserva Natural Estricta"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 29117,
+        "bbox": [
+          -87.74312,
+          17.01513,
+          -87.34777,
+          17.573385
+        ],
+        "type": "Feature",
+        "properties": {
+          "2931": "VI",
+          "2932": "Lighthouse Atoll",
+          "2934": "CZMAI",
+          "id": "29117",
+          "name": "Lighthouse Atoll",
+          "postId": 1365,
+          "userId": "840",
+          "authors": "CZMAI",
+          "comments": null,
+          "userSlug": "Delwin",
+          "createdAt": "2024-05-08T15:55:11.761702+00:00",
+          "updatedAt": "2024-05-08T15:55:16.655843+00:00",
+          "designation": "VI",
+          "collectionId": "29116",
+          "isCollection": false,
+          "sharedInForum": true,
+          "sketchClassId": "196",
+          "userAttributes": [
+            {
+              "label": "Comments",
+              "value": null,
+              "exportId": "comments",
+              "fieldType": "TextArea",
+              "valueLabel": null,
+              "formElementId": 2933,
+              "alternateLanguages": {
+                "es": {
+                  "label": "Comentarios",
+                  "valueLabel": null
+                }
+              }
+            },
+            {
+              "label": "Author(s)",
+              "value": "CZMAI",
+              "exportId": "authors",
+              "fieldType": "ShortText",
+              "valueLabel": null,
+              "formElementId": 2934,
+              "alternateLanguages": {
+                "es": {
+                  "label": "Autor(es)",
+                  "valueLabel": null
+                }
+              }
+            },
+            {
+              "label": "Designation",
+              "value": "VI",
+              "exportId": "designation",
+              "fieldType": "ComboBox",
+              "valueLabel": "IUCN VI: Protected Area with Sustainable Use",
+              "formElementId": 2931,
+              "alternateLanguages": {
+                "es": {
+                  "label": "Designación",
+                  "valueLabel": "UICN VI: Área Protegida con Uso Sostenible"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 29120,
+        "bbox": [
+          -87.89325,
+          17.905388,
+          -87.40415,
+          18.191515
+        ],
+        "type": "Feature",
+        "properties": {
+          "2931": "Ia",
+          "2932": "Belize Transboundary",
+          "2934": "CZMAI",
+          "id": "29120",
+          "name": "Belize Transboundary",
+          "postId": 1365,
+          "userId": "840",
+          "authors": "CZMAI",
+          "comments": null,
+          "userSlug": "Delwin",
+          "createdAt": "2024-05-08T15:55:11.761702+00:00",
+          "updatedAt": "2024-05-08T16:17:06.258362+00:00",
+          "designation": "Ia",
+          "collectionId": "29116",
+          "isCollection": false,
+          "sharedInForum": true,
+          "sketchClassId": "196",
+          "userAttributes": [
+            {
+              "label": "Comments",
+              "value": null,
+              "exportId": "comments",
+              "fieldType": "TextArea",
+              "valueLabel": null,
+              "formElementId": 2933,
+              "alternateLanguages": {
+                "es": {
+                  "label": "Comentarios",
+                  "valueLabel": null
+                }
+              }
+            },
+            {
+              "label": "Author(s)",
+              "value": "CZMAI",
+              "exportId": "authors",
+              "fieldType": "ShortText",
+              "valueLabel": null,
+              "formElementId": 2934,
+              "alternateLanguages": {
+                "es": {
+                  "label": "Autor(es)",
+                  "valueLabel": null
+                }
+              }
+            },
+            {
+              "label": "Designation",
+              "value": "Ia",
+              "exportId": "designation",
+              "fieldType": "ComboBox",
+              "valueLabel": "IUCN Ia: Strict Nature Reserve",
+              "formElementId": 2931,
+              "alternateLanguages": {
+                "es": {
+                  "label": "Designación",
+                  "valueLabel": "UICN Ia: Reserva Natural Estricta"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 29121,
+        "bbox": [
+          -88.403175,
+          16.503048,
+          -88.312614,
+          16.67072
+        ],
+        "type": "Feature",
+        "properties": {
+          "2931": "Ia",
+          "2932": "Placenia Lagoon",
+          "2934": "CZMAI",
+          "id": "29121",
+          "name": "Placenia Lagoon",
+          "postId": 1365,
+          "userId": "840",
+          "authors": "CZMAI",
+          "comments": null,
+          "userSlug": "Delwin",
+          "createdAt": "2024-05-08T15:55:11.761702+00:00",
+          "updatedAt": "2024-05-08T15:55:16.655843+00:00",
+          "designation": "Ia",
+          "collectionId": "29116",
+          "isCollection": false,
+          "sharedInForum": true,
+          "sketchClassId": "196",
+          "userAttributes": [
+            {
+              "label": "Comments",
+              "value": null,
+              "exportId": "comments",
+              "fieldType": "TextArea",
+              "valueLabel": null,
+              "formElementId": 2933,
+              "alternateLanguages": {
+                "es": {
+                  "label": "Comentarios",
+                  "valueLabel": null
+                }
+              }
+            },
+            {
+              "label": "Author(s)",
+              "value": "CZMAI",
+              "exportId": "authors",
+              "fieldType": "ShortText",
+              "valueLabel": null,
+              "formElementId": 2934,
+              "alternateLanguages": {
+                "es": {
+                  "label": "Autor(es)",
+                  "valueLabel": null
+                }
+              }
+            },
+            {
+              "label": "Designation",
+              "value": "Ia",
+              "exportId": "designation",
+              "fieldType": "ComboBox",
+              "valueLabel": "IUCN Ia: Strict Nature Reserve",
+              "formElementId": 2931,
+              "alternateLanguages": {
+                "es": {
+                  "label": "Designación",
+                  "valueLabel": "UICN Ia: Reserva Natural Estricta"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 29119,
+        "bbox": [
+          -88.101944,
+          17.235321,
+          -88.02634,
+          17.560087
+        ],
+        "type": "Feature",
+        "properties": {
+          "2931": "Ia",
+          "2932": "Goff's Caye",
+          "2934": "CZMAI",
+          "id": "29119",
+          "name": "Goff's Caye",
+          "postId": 1365,
+          "userId": "840",
+          "authors": "CZMAI",
+          "comments": null,
+          "userSlug": "Delwin",
+          "createdAt": "2024-05-08T15:55:11.761702+00:00",
+          "updatedAt": "2024-05-08T15:55:16.655843+00:00",
+          "designation": "Ia",
+          "collectionId": "29116",
+          "isCollection": false,
+          "sharedInForum": true,
+          "sketchClassId": "196",
+          "userAttributes": [
+            {
+              "label": "Comments",
+              "value": null,
+              "exportId": "comments",
+              "fieldType": "TextArea",
+              "valueLabel": null,
+              "formElementId": 2933,
+              "alternateLanguages": {
+                "es": {
+                  "label": "Comentarios",
+                  "valueLabel": null
+                }
+              }
+            },
+            {
+              "label": "Author(s)",
+              "value": "CZMAI",
+              "exportId": "authors",
+              "fieldType": "ShortText",
+              "valueLabel": null,
+              "formElementId": 2934,
+              "alternateLanguages": {
+                "es": {
+                  "label": "Autor(es)",
+                  "valueLabel": null
+                }
+              }
+            },
+            {
+              "label": "Designation",
+              "value": "Ia",
+              "exportId": "designation",
+              "fieldType": "ComboBox",
+              "valueLabel": "IUCN Ia: Strict Nature Reserve",
+              "formElementId": 2931,
+              "alternateLanguages": {
+                "es": {
+                  "label": "Designación",
+                  "valueLabel": "UICN Ia: Reserva Natural Estricta"
+                }
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "properties": {
+      "3094": "Areas Under Consideration for New Biodiversity Protection Zones",
+      "5785": "DG",
+      "id": "29116",
+      "name": "Areas Under Consideration for New Biodiversity Protection Zones",
+      "postId": 1365,
+      "userId": "840",
+      "authors": "DG",
+      "comments": null,
+      "userSlug": "Delwin",
+      "createdAt": "2024-05-08T15:55:11.761702+00:00",
+      "updatedAt": "2024-08-22T16:50:28.010711+00:00",
+      "collectionId": null,
+      "isCollection": true,
+      "sharedInForum": true,
+      "sketchClassId": "232",
+      "userAttributes": [
+        {
+          "label": "Comments",
+          "value": null,
+          "exportId": "comments",
+          "fieldType": "TextArea",
+          "valueLabel": null,
+          "formElementId": 5784,
+          "alternateLanguages": {}
+        },
+        {
+          "label": "Author(s)",
+          "value": "DG",
+          "exportId": "authors",
+          "fieldType": "TextArea",
+          "valueLabel": null,
+          "formElementId": 5785,
+          "alternateLanguages": {}
+        }
+      ]
+    }
+  }
+}

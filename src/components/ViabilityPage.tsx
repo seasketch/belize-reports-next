@@ -5,6 +5,7 @@ import { ProtectionCard } from "./ProtectionCard.js";
 import { HumanStressorsCard } from "./HumanStressorsCard.js";
 import { OusCard } from "./OusCard.js";
 import { OusDemographics } from "./OusDemographic.js";
+import { OceanWealth } from "./OceanWealth.js";
 
 export const ViabilityPage: React.FunctionComponent<{ printing: boolean }> = (
   props,
@@ -14,6 +15,7 @@ export const ViabilityPage: React.FunctionComponent<{ printing: boolean }> = (
       <ProtectionCard printing={props.printing} />
       <SizeCard printing={props.printing} />
       <HumanStressorsCard printing={props.printing} />
+      <OceanWealth printing={props.printing} />
       <OusCard printing={props.printing} />
       <OusDemographics printing={props.printing} />
       {!props.printing && <SketchAttributesCard autoHide />}

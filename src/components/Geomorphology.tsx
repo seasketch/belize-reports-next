@@ -12,7 +12,7 @@ import { ReportResult } from "@seasketch/geoprocessing/client-core";
 import project from "../../project/projectClient.js";
 import Translator from "./TranslatorAsync.js";
 import {
-  genAreaGroupLevelTable,
+  genGroupLevelTable,
   genAreaSketchTable,
   groupedCollectionReport,
   groupedSketchReport,
@@ -99,7 +99,7 @@ export const Geomorphology: React.FunctionComponent<{
                         collapsed={!props.printing}
                         key={String(props.printing) + "Protection"}
                       >
-                        {genAreaGroupLevelTable(
+                        {genGroupLevelTable(
                           data,
                           precalcMetrics,
                           metricGroup,

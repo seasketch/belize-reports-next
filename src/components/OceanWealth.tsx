@@ -12,6 +12,7 @@ import { ReportResult } from "@seasketch/geoprocessing/client-core";
 import project from "../../project/projectClient.js";
 import { Download } from "@styled-icons/bootstrap/Download";
 import Translator from "./TranslatorAsync.js";
+import precalcMetrics from "../../data/precalc/precalcOceanWealth.json";
 import {
   genGroupLevelTable,
   genAreaSketchTable,
@@ -20,12 +21,12 @@ import {
 } from "../util/ProtectionLevelOverlapReports.js";
 
 /**
- * Mangroves component
+ * OceanWealth component
  *
  * @param props - geographyId
  * @returns A react component which displays an overlap report
  */
-export const Mangroves: React.FunctionComponent<{
+export const OceanWealth: React.FunctionComponent<{
   geographyId?: string;
   printing: boolean;
 }> = (props) => {
@@ -36,32 +37,26 @@ export const Mangroves: React.FunctionComponent<{
   });
 
   // Metrics
-  const metricGroup = project.getMetricGroup("mangroves", t);
-  const precalcMetrics = project.getPrecalcMetrics(
-    metricGroup,
-    "area",
-    curGeography.geographyId,
-  );
-  console.log(precalcMetrics);
+  const metricGroup = project.getMetricGroup("oceanWealth", t);
 
   // Labels
-  const titleLabel = t("Mangroves");
+  const titleLabel = t("OceanWealth");
 
   return (
     <div style={{ breakInside: "avoid" }}>
       <ResultsCard
         title={titleLabel}
-        functionName="mangroves"
+        functionName="oceanWealth"
         extraParams={{ geographyIds: [curGeography.geographyId] }}
         useChildCard
       >
         {(data: ReportResult) => (
           <ReportError>
             <ToolbarCard
-              title={t("Mangroves")}
+              title={t("Ocean Wealth")}
               items={
                 <DataDownload
-                  filename="mangroves"
+                  filename="OceanWealth"
                   data={data.metrics}
                   formats={["csv", "json"]}
                   placement="left-start"
@@ -76,10 +71,9 @@ export const Mangroves: React.FunctionComponent<{
               }
             >
               <p>
-                <Trans i18nKey="Mangroves Card 1">
-                  This report summarizes the amount of mangroves within this
-                  plan, measuring progress to the 30x30 target of 30% mangrove
-                  protection.
+                <Trans i18nKey="OceanWealth Card 1">
+                  This report summarizes the amount of on-reef and reef-adjacent
+                  wealth within this plan.
                 </Trans>
               </p>
 
@@ -100,7 +94,14 @@ export const Mangroves: React.FunctionComponent<{
                       collapsed={!props.printing}
                       key={String(props.printing) + "Protection"}
                     >
-                      {genGroupLevelTable(data, precalcMetrics, metricGroup, t)}
+                      {genGroupLevelTable(
+                        data,
+                        precalcMetrics,
+                        metricGroup,
+                        t,
+                        props.printing,
+                        true,
+                      )}
                     </Collapse>
                     <Collapse
                       title={t("Show by MPA")}
@@ -114,6 +115,7 @@ export const Mangroves: React.FunctionComponent<{
                         t,
                         childProperties || [],
                         props.printing,
+                        true,
                       )}
                     </Collapse>
                   </>
@@ -122,21 +124,10 @@ export const Mangroves: React.FunctionComponent<{
 
               {!props.printing && (
                 <Collapse title={t("Learn more")}>
-                  <Trans i18nKey="Mangroves Card - learn more">
-                    <p>
-                      ℹ️ Overview: Mangrove Priority Areas identified under the
-                      updated mangrove regulations of 2018. Mangroves were
-                      identified comparing data from 1980 and 2019.
-                    </p>
-                    <p>
-                      🎯 Planning Objective: 30% mangroves protected and 4000
-                      hectares mangroves restored by 2035.
-                    </p>
-                    <p>
-                      🗺️ Source Data: Mangrove Priority Areas from the mangrove
-                      regulations of 2018. Mangrove and Cleared Mangrove data
-                      from Cherrington & Griffin (2020).
-                    </p>
+                  <Trans i18nKey="OceanWealth Card - learn more">
+                    <p>ℹ️ Overview:</p>
+                    <p>🎯 Planning Objective:</p>
+                    <p>🗺️ Source Data:</p>
                     <p>
                       📈 Report: Only features within the Belize Ocean Space are
                       counted. The percentage of each feature type within this

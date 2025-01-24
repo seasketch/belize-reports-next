@@ -59,6 +59,30 @@
     ]
   },
   {
+    "metricId": "oceanWealth",
+    "type": "valueOverlap",
+    "classes": [
+      {
+        "classId": "reef_total_tourism_value",
+        "display": "Total Tourism",
+        "layerId": "GVLhKmpxA",
+        "datasourceId": "reef_total_tourism_value"
+      },
+      {
+        "classId": "on_reef_tourism_value",
+        "display": "On Reef Tourism",
+        "layerId": "W4rMCiX_5",
+        "datasourceId": "on_reef_tourism_value"
+      },
+      {
+        "classId": "reef_adjacent_tourism_value",
+        "display": "Reef Adjacent Tourism",
+        "layerId": "Zxkrv9fYE",
+        "datasourceId": "reef_adjacent_tourism_value"
+      }
+    ]
+  },
+  {
     "metricId": "bathymetry",
     "type": "valueOverlap",
     "layerId": "6jgkBTCkU",

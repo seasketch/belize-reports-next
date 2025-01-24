@@ -14,7 +14,7 @@ import project from "../../project/projectClient.js";
 import Translator from "./TranslatorAsync.js";
 import { Download } from "@styled-icons/bootstrap/Download";
 import {
-  genAreaGroupLevelTable,
+  genGroupLevelTable,
   genAreaSketchTable,
   groupedCollectionReport,
   groupedSketchReport,
@@ -108,7 +108,7 @@ export const Seagrass: React.FunctionComponent<{
                         collapsed={!props.printing}
                         key={String(props.printing) + "Protection"}
                       >
-                        {genAreaGroupLevelTable(
+                        {genGroupLevelTable(
                           data,
                           precalcMetrics,
                           metricGroup,

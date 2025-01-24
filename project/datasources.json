@@ -2,7 +2,10 @@
   {
     "datasourceId": "world",
     "geo_type": "vector",
-    "formats": ["json", "fgb"],
+    "formats": [
+      "json",
+      "fgb"
+    ],
     "precalc": false,
     "metadata": {
       "name": "World Outline Polygon",
@@ -19,25 +22,33 @@
   {
     "datasourceId": "belize_ocean_space",
     "geo_type": "vector",
-    "formats": ["fgb"],
+    "formats": [
+      "fgb"
+    ],
     "precalc": true,
     "layerName": "Belize Maritime Areas-IW, TS, EEZ",
-    "classKeys": ["NAME"],
+    "classKeys": [
+      "NAME"
+    ],
     "created": "2023-10-11T16:23:56.645Z",
-    "lastUpdated": "2024-12-30T17:13:00.577Z",
+    "lastUpdated": "2025-01-24T22:30:38.162Z",
     "src": "data/src/Data_Received/Administrative/Belize Maritime Areas/Belize Maritime Areas-IW, TS, EEZ.shp",
-    "propertiesToKeep": ["NAME"],
+    "propertiesToKeep": [
+      "NAME"
+    ],
     "explodeMulti": true
   },
   {
     "datasourceId": "belize_ocean_space_border",
     "geo_type": "vector",
-    "formats": ["fgb"],
+    "formats": [
+      "fgb"
+    ],
     "precalc": false,
     "layerName": "Belize Territorial Areas_Border_AOI",
     "classKeys": [],
     "created": "2023-10-17T22:29:54.227Z",
-    "lastUpdated": "2024-12-30T17:13:00.693Z",
+    "lastUpdated": "2025-01-24T22:30:38.269Z",
     "src": "data/src/Data_Received/Administrative/Belize Maritime Areas/Belize Territorial Areas_Border_AOI.shp",
     "propertiesToKeep": [],
     "explodeMulti": true
@@ -45,25 +56,33 @@
   {
     "datasourceId": "abyss",
     "geo_type": "vector",
-    "formats": ["fgb"],
+    "formats": [
+      "fgb"
+    ],
     "precalc": true,
     "layerName": "Abyssal_Classification",
-    "classKeys": ["Class"],
+    "classKeys": [
+      "Class"
+    ],
     "created": "2023-10-12T21:27:26.949Z",
-    "lastUpdated": "2024-12-30T17:13:00.735Z",
+    "lastUpdated": "2025-01-24T22:30:38.310Z",
     "src": "data/src/Analytics/seafloor_features/Abyssal_Classification.geojson",
-    "propertiesToKeep": ["Class"],
+    "propertiesToKeep": [
+      "Class"
+    ],
     "explodeMulti": true
   },
   {
     "datasourceId": "basins",
     "geo_type": "vector",
-    "formats": ["fgb"],
+    "formats": [
+      "fgb"
+    ],
     "precalc": true,
     "layerName": "Basins",
     "classKeys": [],
     "created": "2023-10-12T21:28:01.400Z",
-    "lastUpdated": "2024-12-30T17:13:00.846Z",
+    "lastUpdated": "2025-01-24T22:30:38.371Z",
     "src": "data/src/Analytics/seafloor_features/Basins.geojson",
     "propertiesToKeep": [],
     "explodeMulti": true
@@ -71,12 +90,14 @@
   {
     "datasourceId": "canyons",
     "geo_type": "vector",
-    "formats": ["fgb"],
+    "formats": [
+      "fgb"
+    ],
     "precalc": true,
     "layerName": "Canyons",
     "classKeys": [],
     "created": "2023-10-12T21:28:19.453Z",
-    "lastUpdated": "2024-12-30T17:13:00.895Z",
+    "lastUpdated": "2025-01-24T22:30:38.411Z",
     "src": "data/src/Analytics/seafloor_features/Canyons.geojson",
     "propertiesToKeep": [],
     "explodeMulti": true
@@ -84,12 +105,14 @@
   {
     "datasourceId": "escarpments",
     "geo_type": "vector",
-    "formats": ["fgb"],
+    "formats": [
+      "fgb"
+    ],
     "precalc": true,
     "layerName": "Escarpments",
     "classKeys": [],
     "created": "2023-10-12T21:28:35.088Z",
-    "lastUpdated": "2024-12-30T17:13:00.934Z",
+    "lastUpdated": "2025-01-24T22:30:38.448Z",
     "src": "data/src/Analytics/seafloor_features/Escarpments.geojson",
     "propertiesToKeep": [],
     "explodeMulti": true
@@ -97,12 +120,14 @@
   {
     "datasourceId": "plateaus",
     "geo_type": "vector",
-    "formats": ["fgb"],
+    "formats": [
+      "fgb"
+    ],
     "precalc": true,
     "layerName": "Plateaus",
     "classKeys": [],
     "created": "2023-10-12T21:28:51.511Z",
-    "lastUpdated": "2024-12-30T17:13:00.974Z",
+    "lastUpdated": "2025-01-24T22:30:38.484Z",
     "src": "data/src/Analytics/seafloor_features/Plateaus.geojson",
     "propertiesToKeep": [],
     "explodeMulti": true
@@ -110,12 +135,14 @@
   {
     "datasourceId": "rises",
     "geo_type": "vector",
-    "formats": ["fgb"],
+    "formats": [
+      "fgb"
+    ],
     "precalc": true,
     "layerName": "Rises",
     "classKeys": [],
     "created": "2023-10-12T21:29:10.432Z",
-    "lastUpdated": "2024-12-30T17:13:01.011Z",
+    "lastUpdated": "2025-01-24T22:30:38.525Z",
     "src": "data/src/Analytics/seafloor_features/Rises.geojson",
     "propertiesToKeep": [],
     "explodeMulti": true
@@ -123,25 +150,33 @@
   {
     "datasourceId": "shelf",
     "geo_type": "vector",
-    "formats": ["fgb"],
+    "formats": [
+      "fgb"
+    ],
     "precalc": true,
     "layerName": "Shelf_Classification",
-    "classKeys": ["Class"],
+    "classKeys": [
+      "Class"
+    ],
     "created": "2023-10-12T21:29:41.556Z",
-    "lastUpdated": "2024-12-30T17:13:01.175Z",
+    "lastUpdated": "2025-01-24T22:30:38.705Z",
     "src": "data/src/Analytics/seafloor_features/Shelf_Classification.geojson",
-    "propertiesToKeep": ["Class"],
+    "propertiesToKeep": [
+      "Class"
+    ],
     "explodeMulti": true
   },
   {
     "datasourceId": "shelf_valleys",
     "geo_type": "vector",
-    "formats": ["fgb"],
+    "formats": [
+      "fgb"
+    ],
     "precalc": true,
     "layerName": "Shelf_valleys",
     "classKeys": [],
     "created": "2023-10-12T21:30:10.167Z",
-    "lastUpdated": "2024-12-30T17:13:01.225Z",
+    "lastUpdated": "2025-01-24T22:30:38.743Z",
     "src": "data/src/Analytics/seafloor_features/Shelf_valleys.geojson",
     "propertiesToKeep": [],
     "explodeMulti": true
@@ -149,12 +184,14 @@
   {
     "datasourceId": "sills",
     "geo_type": "vector",
-    "formats": ["fgb"],
+    "formats": [
+      "fgb"
+    ],
     "precalc": true,
     "layerName": "Sills",
     "classKeys": [],
     "created": "2023-10-12T21:30:25.668Z",
-    "lastUpdated": "2024-12-30T17:13:01.262Z",
+    "lastUpdated": "2025-01-24T22:30:38.786Z",
     "src": "data/src/Analytics/seafloor_features/Sills.geojson",
     "propertiesToKeep": [],
     "explodeMulti": true
@@ -162,12 +199,14 @@
   {
     "datasourceId": "slope",
     "geo_type": "vector",
-    "formats": ["fgb"],
+    "formats": [
+      "fgb"
+    ],
     "precalc": true,
     "layerName": "Slope",
     "classKeys": [],
     "created": "2023-10-12T21:30:45.348Z",
-    "lastUpdated": "2024-12-30T17:13:01.302Z",
+    "lastUpdated": "2025-01-24T22:30:38.825Z",
     "src": "data/src/Analytics/seafloor_features/Slope.geojson",
     "propertiesToKeep": [],
     "explodeMulti": true
@@ -175,12 +214,14 @@
   {
     "datasourceId": "mangroves_priority",
     "geo_type": "vector",
-    "formats": ["fgb"],
+    "formats": [
+      "fgb"
+    ],
     "precalc": true,
     "layerName": "priorityareas_mngvregs2018",
     "classKeys": [],
     "created": "2023-10-23T22:13:40.773Z",
-    "lastUpdated": "2024-12-30T17:13:01.464Z",
+    "lastUpdated": "2025-01-24T22:30:38.994Z",
     "src": "data/src/Data_Received/Administrative/Mangrove Priority Areas Data/priorityareas_mngvregs2018.shp",
     "propertiesToKeep": [],
     "explodeMulti": true
@@ -188,12 +229,14 @@
   {
     "datasourceId": "ag_runoff",
     "geo_type": "vector",
-    "formats": ["fgb"],
+    "formats": [
+      "fgb"
+    ],
     "precalc": true,
     "layerName": "Agricultural_Runoff 2020",
     "classKeys": [],
     "created": "2023-10-24T22:09:08.563Z",
-    "lastUpdated": "2024-12-30T17:13:15.893Z",
+    "lastUpdated": "2025-01-24T22:30:39.103Z",
     "src": "data/src/Data_Received/Human Stressors/Agricultural_Runoff 2020.shp",
     "propertiesToKeep": [],
     "explodeMulti": true
@@ -201,12 +244,14 @@
   {
     "datasourceId": "coastal_dev",
     "geo_type": "vector",
-    "formats": ["fgb"],
+    "formats": [
+      "fgb"
+    ],
     "precalc": true,
     "layerName": "Coastal Development 2020",
     "classKeys": [],
     "created": "2023-10-24T22:09:26.200Z",
-    "lastUpdated": "2024-12-30T17:13:16.039Z",
+    "lastUpdated": "2025-01-24T22:30:39.236Z",
     "src": "data/src/Data_Received/Human Stressors/Coastal Development 2020.shp",
     "propertiesToKeep": [],
     "explodeMulti": true
@@ -214,12 +259,14 @@
   {
     "datasourceId": "marine_dredging",
     "geo_type": "vector",
-    "formats": ["fgb"],
+    "formats": [
+      "fgb"
+    ],
     "precalc": true,
     "layerName": "Marine Dredging 2020",
     "classKeys": [],
     "created": "2023-10-24T22:09:43.675Z",
-    "lastUpdated": "2024-12-30T17:13:16.140Z",
+    "lastUpdated": "2025-01-24T22:30:39.330Z",
     "src": "data/src/Data_Received/Human Stressors/Marine Dredging 2020.shp",
     "propertiesToKeep": [],
     "explodeMulti": true
@@ -227,12 +274,14 @@
   {
     "datasourceId": "marine_trans",
     "geo_type": "vector",
-    "formats": ["fgb"],
+    "formats": [
+      "fgb"
+    ],
     "precalc": true,
     "layerName": "Marine Transportation 2020",
     "classKeys": [],
     "created": "2023-10-24T22:10:01.982Z",
-    "lastUpdated": "2024-12-30T17:13:16.279Z",
+    "lastUpdated": "2025-01-24T22:30:39.471Z",
     "src": "data/src/Data_Received/Human Stressors/Marine Transportation 2020.shp",
     "propertiesToKeep": [],
     "explodeMulti": true
@@ -240,121 +289,146 @@
   {
     "datasourceId": "bathymetry",
     "geo_type": "raster",
-    "formats": ["tif"],
+    "formats": [
+      "tif"
+    ],
     "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
     "noDataValue": -32767,
     "created": "2023-10-25T22:38:47.704Z",
-    "lastUpdated": "2024-12-30T17:13:16.470Z",
+    "lastUpdated": "2025-01-24T22:30:39.743Z",
     "src": "data/src/Analytics/bathymetry/gebco_2023.tif"
   },
   {
     "datasourceId": "mangroves",
     "geo_type": "vector",
-    "formats": ["fgb", "json"],
+    "formats": [
+      "fgb",
+      "json"
+    ],
     "precalc": true,
     "layerName": "mangroves_and_littoral_forests_cropped",
-    "classKeys": ["C2019"],
+    "classKeys": [
+      "C2019"
+    ],
     "created": "2023-11-09T00:04:01.009Z",
-    "lastUpdated": "2024-12-30T17:13:28.933Z",
+    "lastUpdated": "2025-01-24T22:30:52.317Z",
     "src": "data/src/Analytics/ecosystems/mangroves_and_littoral_forests_cropped.geojson",
-    "propertiesToKeep": ["C2019"],
+    "propertiesToKeep": [
+      "C2019"
+    ],
     "explodeMulti": true
   },
   {
     "datasourceId": "energy",
     "geo_type": "raster",
-    "formats": ["tif"],
+    "formats": [
+      "tif"
+    ],
     "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
     "noDataValue": 0,
     "created": "2024-05-07T22:56:17.547Z",
-    "lastUpdated": "2024-12-30T17:13:29.109Z",
+    "lastUpdated": "2025-01-24T22:30:52.487Z",
     "src": "data/src/Ocean Use Survey/heatmaps/rasters/energy.tif"
   },
   {
     "datasourceId": "fisheries_aquaculture",
     "geo_type": "raster",
-    "formats": ["tif"],
+    "formats": [
+      "tif"
+    ],
     "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
     "noDataValue": 0,
     "created": "2024-05-07T22:56:32.957Z",
-    "lastUpdated": "2024-12-30T17:13:29.842Z",
+    "lastUpdated": "2025-01-24T22:30:53.107Z",
     "src": "data/src/Ocean Use Survey/heatmaps/rasters/fisheries_aquaculture.tif"
   },
   {
     "datasourceId": "general_use",
     "geo_type": "raster",
-    "formats": ["tif"],
+    "formats": [
+      "tif"
+    ],
     "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
     "noDataValue": 0,
     "created": "2024-05-07T22:56:48.916Z",
-    "lastUpdated": "2024-12-30T17:13:30.443Z",
+    "lastUpdated": "2025-01-24T22:30:53.700Z",
     "src": "data/src/Ocean Use Survey/heatmaps/rasters/general_use.tif"
   },
   {
     "datasourceId": "marine_coastal_development",
     "geo_type": "raster",
-    "formats": ["tif"],
+    "formats": [
+      "tif"
+    ],
     "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
     "noDataValue": 0,
     "created": "2024-05-07T22:57:21.567Z",
-    "lastUpdated": "2024-12-30T17:13:31.018Z",
+    "lastUpdated": "2025-01-24T22:30:54.357Z",
     "src": "data/src/Ocean Use Survey/heatmaps/rasters/marine_coastal_development.tif"
   },
   {
     "datasourceId": "marine_coastal_ecosystems",
     "geo_type": "raster",
-    "formats": ["tif"],
+    "formats": [
+      "tif"
+    ],
     "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
     "noDataValue": 0,
     "created": "2024-05-07T22:57:34.892Z",
-    "lastUpdated": "2024-12-30T17:13:31.888Z",
+    "lastUpdated": "2025-01-24T22:30:55.311Z",
     "src": "data/src/Ocean Use Survey/heatmaps/rasters/marine_coastal_ecosystems.tif"
   },
   {
     "datasourceId": "maritime_administration",
     "geo_type": "raster",
-    "formats": ["tif"],
+    "formats": [
+      "tif"
+    ],
     "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
     "noDataValue": 0,
     "created": "2024-05-07T22:57:48.385Z",
-    "lastUpdated": "2024-12-30T17:13:32.290Z",
+    "lastUpdated": "2025-01-24T22:30:55.760Z",
     "src": "data/src/Ocean Use Survey/heatmaps/rasters/maritime_administration.tif"
   },
   {
     "datasourceId": "tourism",
     "geo_type": "raster",
-    "formats": ["tif"],
+    "formats": [
+      "tif"
+    ],
     "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
     "noDataValue": 0,
     "created": "2024-05-07T22:58:08.262Z",
-    "lastUpdated": "2024-12-30T17:13:32.811Z",
+    "lastUpdated": "2025-01-24T22:30:56.219Z",
     "src": "data/src/Ocean Use Survey/heatmaps/rasters/tourism.tif"
   },
   {
     "datasourceId": "coral",
     "geo_type": "vector",
-    "formats": ["fgb"],
+    "formats": [
+      "fgb"
+    ],
     "precalc": true,
     "layerName": "coral_subdivided",
     "classKeys": [],
     "created": "2025-01-02T17:16:29.341Z",
-    "lastUpdated": "2025-01-07T17:52:44.520Z",
+    "lastUpdated": "2025-01-24T22:30:56.565Z",
     "src": "data/src/Analytics/ecosystems/coral_subdivided.fgb",
     "propertiesToKeep": [],
     "explodeMulti": true
@@ -362,14 +436,67 @@
   {
     "datasourceId": "seagrass",
     "geo_type": "vector",
-    "formats": ["fgb"],
+    "formats": [
+      "fgb"
+    ],
     "precalc": true,
     "layerName": "seagrass_subdivided",
     "classKeys": [],
     "created": "2025-01-02T17:17:10.936Z",
-    "lastUpdated": "2025-01-07T21:40:09.259Z",
+    "lastUpdated": "2025-01-24T22:30:57.108Z",
     "src": "data/src/Analytics/ecosystems/seagrass_subdivided.fgb",
     "propertiesToKeep": [],
     "explodeMulti": true
+  },
+  {
+    "datasourceId": "reef_total_tourism_value",
+    "geo_type": "vector",
+    "formats": [
+      "fgb"
+    ],
+    "precalc": true,
+    "layerName": "Belize_Reef_Total_Tourism_Value",
+    "classKeys": [],
+    "created": "2025-01-24T22:04:04.956Z",
+    "lastUpdated": "2025-01-24T22:30:57.213Z",
+    "src": "data/src/Data_Received/MappingOceanWealth/Belize_Reef_Total_Tourism_Value.shp",
+    "propertiesToKeep": [
+      "Total_Val"
+    ],
+    "explodeMulti": true
+  },
+  {
+    "datasourceId": "on_reef_tourism_value",
+    "geo_type": "vector",
+    "formats": [
+      "fgb"
+    ],
+    "precalc": true,
+    "layerName": "Belize_On_Reef_Tourism_Value",
+    "classKeys": [],
+    "created": "2025-01-24T23:00:10.768Z",
+    "lastUpdated": "2025-01-24T23:00:10.768Z",
+    "src": "data/src/Data_Received/MappingOceanWealth/Belize_On_Reef_Tourism_Value.shp",
+    "propertiesToKeep": [
+      "Total_Val"
+    ],
+    "explodeMulti": true
+  },
+  {
+    "src": "data/src/Data_Received/MappingOceanWealth/Belize_Reef_Adjacent_Tourism_Value.shp",
+    "layerName": "Belize_Reef_Adjacent_Tourism_Value",
+    "geo_type": "vector",
+    "datasourceId": "reef_adjacent_tourism_value",
+    "formats": [
+      "fgb"
+    ],
+    "classKeys": [],
+    "created": "2025-01-24T23:00:39.631Z",
+    "lastUpdated": "2025-01-24T23:00:39.631Z",
+    "propertiesToKeep": [
+      "Total_Val"
+    ],
+    "explodeMulti": true,
+    "precalc": true
   }
 ]
