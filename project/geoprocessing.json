@@ -26,6 +26,7 @@
     "src/functions/ousDemographicOverlapWorker.ts",
     "src/functions/protection.ts",
     "src/functions/seagrass.ts",
-    "src/functions/size.ts"
+    "src/functions/size.ts",
+    "src/functions/marlin.ts"
   ]
 }

@@ -16,16 +16,19 @@ import { Footer } from "../util/Footer.js";
 import { Settings } from "../util/Settings.js";
 import { SketchProperties } from "@seasketch/geoprocessing";
 import { RepresentationPage } from "../components/RepresentationPage.js";
+import { BioeconomicsPage } from "../components/BioeconomicsPage.js";
 
 const BaseReport = () => {
   const { t } = useTranslation();
   const viabilityId = "viability";
   const representationId = "representation";
   const keyHabitatId = "keyHabitats";
+  const bioeconomicId = "bioeconomics";
   const segments = [
     { id: viabilityId, label: t("Viability") },
     { id: representationId, label: t("Representation") },
     { id: keyHabitatId, label: t("Key Habitat") },
+    { id: bioeconomicId, label: t("Bioeconomics") },
   ];
   const [tab, setTab] = useState<string>(viabilityId);
 
@@ -125,6 +128,9 @@ const BaseReport = () => {
         </ReportPage>
         <ReportPage hidden={!isPrinting && tab !== keyHabitatId}>
           <KeyHabitatPage printing={isPrinting} />
+        </ReportPage>
+        <ReportPage hidden={!isPrinting && tab !== bioeconomicId}>
+          <BioeconomicsPage printing={isPrinting} />
         </ReportPage>
       </div>
 
