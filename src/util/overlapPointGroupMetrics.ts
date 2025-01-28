@@ -13,6 +13,7 @@ import {
   MultiPolygon,
   genSampleSketchCollection,
   createMetric,
+  isPointFeature,
 } from "@seasketch/geoprocessing";
 import { overlapPoint } from "./overlapPoint.js";
 import cloneDeep from "lodash";
@@ -24,17 +25,15 @@ type OverlapGroupOperation = (
   sc: SketchCollection<Polygon>,
 ) => Promise<number>;
 
-function isFeaturePointArray(
-  features: Feature<Point>[] | Feature<Polygon>[],
-): features is Feature<Point>[] {
-  // Check the first item of the array, if it exists
-  if (features.length > 0) {
-    const firstFeature = features[0];
-    // Check if the geometry of the first feature is a Point
-    return firstFeature.geometry.type === "Point";
-  }
-  // If the array is empty, we can't determine the type, so return true
-  return true;
+export function isPointFeatureArray(
+  featureArray: any,
+): featureArray is Feature<Point>[] {
+  return (
+    Array.isArray(featureArray) &&
+    featureArray.reduce<boolean>((last, feat) => {
+      return last && isPointFeature(feat);
+    }, true)
+  );
 }
 
 /**
@@ -63,7 +62,7 @@ export async function overlapPointGroupMetrics(options: {
       features: Feature<Point>[] | Feature<Polygon>[],
       sc: SketchCollection<Polygon>,
     ) => {
-      if (!isFeaturePointArray(features))
+      if (!isPointFeatureArray(features))
         throw new Error(`Expected point feature array`);
       const overallGroupMetrics = await overlapPoint(metricId, features, sc, {
         includeChildMetrics: false,

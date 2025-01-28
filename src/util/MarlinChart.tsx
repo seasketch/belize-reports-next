@@ -125,7 +125,18 @@ export const MarlinChart: React.FC<MarlinChartProps> = ({ data, variable }) => {
             .tickSizeOuter(0)
             .tickFormat((val) => {
               const ratio = val as number;
-              return d3.format(".0%")(ratio - 1);
+              const pct = ratio - 1;
+
+              if (Math.abs(pct) < 0.01) {
+                // For very small percentages, use two decimal places
+                return d3.format(".2%")(pct);
+              } else if (Math.abs(pct) < 0.1) {
+                // For small percentages, use one decimal place
+                return d3.format(".1%")(pct);
+              } else {
+                // For larger percentages, use no decimal places
+                return d3.format(".0%")(pct);
+              }
             }),
         )
         .selectAll("text")
