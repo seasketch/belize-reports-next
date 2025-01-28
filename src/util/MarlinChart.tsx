@@ -41,8 +41,6 @@ export const MarlinChart: React.FC<MarlinChartProps> = ({ data, variable }) => {
       };
     });
 
-    console.log(ratio);
-
     const critters = Array.from(new Set(ratio.map((d) => d.critter)));
     // const scenarios = ["No MPAs", "Existing MPAs", "Proposed MPAs"];
     const scenarios = ["Existing MPAs", "Proposed MPAs"];

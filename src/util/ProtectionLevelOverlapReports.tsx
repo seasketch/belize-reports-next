@@ -143,9 +143,6 @@ export const groupedCollectionReport = (
     (m) => m.groupId && protectionLevels.includes(m.groupId),
   );
 
-  console.log(levelMetrics);
-  console.log(precalcMetrics);
-
   const groupLevelAggs: GroupMetricAgg[] = flattenByGroupAllClass(
     data.sketch,
     levelMetrics,
