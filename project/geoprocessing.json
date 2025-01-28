@@ -28,6 +28,7 @@
     "src/functions/seagrass.ts",
     "src/functions/size.ts",
     "src/functions/marlin.ts",
-    "src/functions/oceanWealth.ts"
+    "src/functions/oceanWealth.ts",
+    "src/functions/mangroveTourism.ts"
   ]
 }

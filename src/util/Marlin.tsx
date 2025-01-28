@@ -21,12 +21,23 @@ const StyledRadioLabel = styled.label`
 
 interface MarlinProps {
   data: CritterData[];
+  printing: boolean;
 }
 
-export const Marlin: React.FC<MarlinProps> = ({ data }) => {
+export const Marlin: React.FC<MarlinProps> = ({ data, printing }) => {
   const [variable, setVariable] = useState<"catch" | "biomass" | "ssb">(
     "catch",
   );
+
+  if (printing) {
+    return (
+      <>
+        <MarlinChart data={data} variable={"catch"} />
+        <MarlinChart data={data} variable={"biomass"} />
+        <MarlinChart data={data} variable={"ssb"} />
+      </>
+    );
+  }
 
   return (
     <div>

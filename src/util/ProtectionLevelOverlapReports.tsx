@@ -73,8 +73,6 @@ export const groupedSketchReport = (
   // Get total precalc areas
   const totalAreas = metricGroup.classes.reduce<Record<string, number>>(
     (acc, curClass) => {
-      console.log(precalcMetrics);
-      console.log(curClass.classId);
       return {
         ...acc,
         [curClass.classId]: firstMatchingMetric(
@@ -463,7 +461,7 @@ export const genPercGroupLevelTable = (
 };
 
 /**
- * Creates "Show by Protection Level" report with area + percentages
+ * Creates "Show by Protection Level" report with value + percentages
  * @param data data returned from lambda
  * @param precalcMetrics metrics from precalc.json
  * @param metricGroup metric group to get stats for
@@ -475,7 +473,7 @@ export const genGroupLevelTable = (
   metricGroup: MetricGroup,
   t: any,
   printing: boolean = false,
-  dollars: boolean = false,
+  type: "count" | "dollar" | "area" = "area",
 ) => {
   if (!isSketchCollection(data.sketch)) throw new Error("NullSketch");
 
@@ -490,6 +488,8 @@ export const genGroupLevelTable = (
     precalcMetrics,
   );
 
+  const typeLabel = type === "dollar" ? t("Value") : t(type);
+
   const classColumns: Column<Record<string, string | number>>[] =
     metricGroup.classes.map((curClass, index) => {
       /* i18next-extract-disable-next-line */
@@ -500,30 +500,39 @@ export const genGroupLevelTable = (
         style: { color: "#777" },
         columns: [
           {
-            Header: (dollars ? t("Value") : t("Area")) + " ".repeat(index),
+            Header:
+              typeLabel.charAt(0).toUpperCase() +
+              typeLabel.slice(1) +
+              " ".repeat(index),
             accessor: (row) => {
               const value = row[curClass.classId] as number;
-              const formattedVal = dollars
-                ? value
-                : squareMeterToKilometer(value);
+              const formattedVal =
+                type === "area" ? squareMeterToKilometer(value) : value;
 
               // If value is nonzero but would be rounded to zero, replace with < 0.1
-              const valDisplay =
+              let valDisplay =
                 formattedVal && formattedVal < 0.1
                   ? "< 0.1"
                   : Number.format(roundDecimal(formattedVal));
+
+              let finalVal =
+                type === "dollar"
+                  ? "$" + valDisplay
+                  : type === "area"
+                    ? valDisplay + " " + t("km²")
+                    : valDisplay;
               return (
                 <GroupPill
                   groupColorMap={groupColorMap}
                   group={row.groupId.toString()}
                 >
-                  {dollars ? "$" + valDisplay : valDisplay + " " + t("km²")}
+                  {finalVal}
                 </GroupPill>
               );
             },
           },
           {
-            Header: (dollars ? t("% Value") : t("% Area")) + " ".repeat(index),
+            Header: t("% Total") + " ".repeat(index),
             accessor: (row) => (
               <GroupPill
                 groupColorMap={groupColorMap}
@@ -655,7 +664,7 @@ export const genSketchTable = (
   );
 };
 
-// Creates "Show by MPA" report with area + percentages
+// Creates "Show by MPA" report with value + percentages
 export const genAreaSketchTable = (
   data: ReportResult,
   precalcMetrics: Metric[],
@@ -663,7 +672,7 @@ export const genAreaSketchTable = (
   t: any,
   childProperties: SketchProperties[],
   printing: boolean = false,
-  dollars: boolean = false,
+  type: "count" | "dollar" | "area" = "area",
 ) => {
   const childSketchIds = childProperties
     ? childProperties.map((skp) => skp.id)
@@ -689,6 +698,8 @@ export const genAreaSketchTable = (
     sketchId,
   }));
 
+  const typeLabel = type === "dollar" ? t("Value") : t(type);
+
   const classColumns: Column<{ sketchId: string }>[] = mg.classes.map(
     (curClass, index) => {
       /* i18next-extract-disable-next-line */
@@ -698,26 +709,32 @@ export const genAreaSketchTable = (
         style: { color: "#777" },
         columns: [
           {
-            Header: (dollars ? t("Value") : t("Area")) + " ".repeat(index),
+            Header:
+              typeLabel.charAt(0).toUpperCase() +
+              typeLabel.slice(1) +
+              " ".repeat(index),
             accessor: (row) => {
               const value =
                 aggMetrics[row.sketchId][curClass.classId as string][
                   mg.metricId
                 ][0].value;
-              const formattedVal = dollars
-                ? value
-                : squareMeterToKilometer(value);
+              const formattedVal =
+                type === "area" ? squareMeterToKilometer(value) : value;
 
               // If value is nonzero but would be rounded to zero, replace with < 0.1
               const valDisplay =
                 formattedVal && formattedVal < 0.1
                   ? "< 0.1"
                   : Number.format(roundDecimal(formattedVal));
-              return dollars ? "$" + valDisplay : valDisplay + " " + t("km²");
+              return type === "dollar"
+                ? "$" + valDisplay
+                : type === "area"
+                  ? valDisplay + " " + t("km²")
+                  : valDisplay;
             },
           },
           {
-            Header: (dollars ? t("% Value") : t("% Area")) + " ".repeat(index),
+            Header: t("% Total") + " ".repeat(index),
             accessor: (row) => {
               const value =
                 aggMetrics[row.sketchId][curClass.classId as string][

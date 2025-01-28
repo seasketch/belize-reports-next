@@ -83,6 +83,18 @@
     ]
   },
   {
+    "metricId": "mangroveTourism",
+    "type": "countOverlap",
+    "classes": [
+      {
+        "classId": "mangrove_tourism",
+        "display": "Mangrove Tourism",
+        "layerId": "rzYarUHkw",
+        "datasourceId": "mangrove_tourism"
+      }
+    ]
+  },
+  {
     "metricId": "bathymetry",
     "type": "valueOverlap",
     "layerId": "6jgkBTCkU",

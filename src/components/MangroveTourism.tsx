@@ -12,7 +12,7 @@ import { ReportResult } from "@seasketch/geoprocessing/client-core";
 import project from "../../project/projectClient.js";
 import { Download } from "@styled-icons/bootstrap/Download";
 import Translator from "./TranslatorAsync.js";
-import precalcMetrics from "../../data/precalc/precalcOceanWealth.json";
+import precalcMetrics from "../../data/precalc/precalcMangroveTourism.json";
 import {
   genGroupLevelTable,
   genAreaSketchTable,
@@ -21,12 +21,12 @@ import {
 } from "../util/ProtectionLevelOverlapReports.js";
 
 /**
- * OceanWealth component
+ * MangroveTourism component
  *
  * @param props - geographyId
  * @returns A react component which displays an overlap report
  */
-export const OceanWealth: React.FunctionComponent<{
+export const MangroveTourism: React.FunctionComponent<{
   geographyId?: string;
   printing: boolean;
 }> = (props) => {
@@ -37,26 +37,26 @@ export const OceanWealth: React.FunctionComponent<{
   });
 
   // Metrics
-  const metricGroup = project.getMetricGroup("oceanWealth", t);
+  const metricGroup = project.getMetricGroup("mangroveTourism", t);
 
   // Labels
-  const titleLabel = t("OceanWealth");
+  const titleLabel = t("Mangrove Tourism");
 
   return (
     <div style={{ breakInside: "avoid" }}>
       <ResultsCard
         title={titleLabel}
-        functionName="oceanWealth"
+        functionName="mangroveTourism"
         extraParams={{ geographyIds: [curGeography.geographyId] }}
         useChildCard
       >
         {(data: ReportResult) => (
           <ReportError>
             <ToolbarCard
-              title={t("Ocean Wealth")}
+              title={t("Mangrove Tourism")}
               items={
                 <DataDownload
-                  filename="OceanWealth"
+                  filename="MangroveTourism"
                   data={data.metrics}
                   formats={["csv", "json"]}
                   placement="left-start"
@@ -71,9 +71,9 @@ export const OceanWealth: React.FunctionComponent<{
               }
             >
               <p>
-                <Trans i18nKey="OceanWealth Card 1">
-                  This report summarizes the amount of on-reef and reef-adjacent
-                  value within this plan.
+                <Trans i18nKey="MangroveTourism Card 1">
+                  This report summarizes the number of mangrove tourism sites
+                  within the plan.
                 </Trans>
               </p>
 
@@ -100,7 +100,7 @@ export const OceanWealth: React.FunctionComponent<{
                         metricGroup,
                         t,
                         props.printing,
-                        "dollar",
+                        "count",
                       )}
                     </Collapse>
                     <Collapse
@@ -115,7 +115,7 @@ export const OceanWealth: React.FunctionComponent<{
                         t,
                         childProperties || [],
                         props.printing,
-                        "dollar",
+                        "count",
                       )}
                     </Collapse>
                   </>
@@ -124,33 +124,29 @@ export const OceanWealth: React.FunctionComponent<{
 
               {!props.printing && (
                 <Collapse title={t("Learn more")}>
-                  <Trans i18nKey="OceanWealth Card - learn more">
+                  <Trans i18nKey="MangroveTourism Card - learn more">
                     <p>
-                      ℹ️ Overview: Dollar value was attributed to each tract of
-                      reef to the tourism sector. On-reef value includes
-                      activities such as scuba and snorking. Reef-adjacent value
-                      includes benefits such as protected beach and fresh
-                      seafood. These values are summed to get the total reef
-                      value.
+                      ℹ️ Overview: This layer represents the number of mangrove
+                      tourism sites in the Belize Ocean Space.
                     </p>
                     <p>
                       🗺️ Source Data:{" "}
                       <a
-                        href="https://www.sciencedirect.com/science/article/pii/S0308597X17300635"
+                        href="https://www.sciencedirect.com/science/article/pii/S0308597X18306602"
                         target="_blank"
                       >
-                        Spalding et al. (2017) Mapping the global value and
-                        distribution of coral reef tourism
+                        Spalding and Parrett (2019) Global patterns in mangrove
+                        recreation and tourism
                       </a>
                     </p>
                     <p>
-                      📈 Report: Only features within the Belize Ocean Space are
-                      counted. The percentage of each feature type within this
-                      plan is calculated by finding the overlap of each feature
-                      type with the plan, summing its value, then dividing it by
-                      the total value of each feature type found within the
-                      Belize Ocean Space. If the plan includes multiple areas
-                      that overlap, the overlap is only counted once.
+                      📈 Report: This report counts the number of mangrove
+                      tourism locations within the plan. The percentage of
+                      mangrove tourism locations within the plan is cauclated by
+                      taking this count and dividing it by the total number of
+                      mangrove tourism locations within the Belize Ocean Space.
+                      If the plan includes multiple areas that overlap, the
+                      overlap is only counted once.
                     </p>
                   </Trans>
                 </Collapse>
