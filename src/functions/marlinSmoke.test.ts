@@ -1,10 +1,5 @@
-/**
- * @vitest-environment node
- */
-import Handler from "./marlin.js";
 import { describe, test, expect } from "vitest";
-
-const marlin = Handler.func;
+import { marlin } from "./marlin.js";
 
 describe("Basic smoke tests", () => {
   test("handler function is present", () => {

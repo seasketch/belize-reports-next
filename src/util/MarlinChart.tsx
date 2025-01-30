@@ -170,9 +170,9 @@ export const MarlinChart: React.FC<MarlinChartProps> = ({ data, variable }) => {
 
     // Y-axis label
     const variableLabels: Record<string, string> = {
-      catch: `Change in Catch`,
-      biomass: "Change in Biomass",
-      ssb: "Change in SSB",
+      catch: `% Difference in Catch`,
+      biomass: "% Difference in Biomass",
+      ssb: "% Difference in SSB",
     };
     svg
       .append("text")

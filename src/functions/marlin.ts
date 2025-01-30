@@ -29,9 +29,7 @@ export interface CritterData {
   scenario: string;
 }
 
-// This function stands as a demo for running the bioeconomic model MARLIN
-// deployed to lambda as run_marlin()
-async function marlin(
+export async function marlin(
   sketch:
     | Sketch<Polygon | MultiPolygon>
     | SketchCollection<Polygon | MultiPolygon>,
@@ -53,7 +51,7 @@ async function marlin(
     throw new Error("Failed to create union of MPAs.");
   }
 
-  // Add coordinate IDs used in MARLIN habitat layers to create mpa_locations object for MARLIN
+  // Add coordinate IDs used in MARLIN habitat layers to create mpa_locations
   const mpaSpatial = coordinates
     .map((coord) => point([coord.x, coord.y]))
     .map((p) => {
@@ -68,6 +66,8 @@ async function marlin(
   const parameters = {
     mpa_locations_in: mpaSpatial,
   };
+
+  console.log(parameters);
 
   const metrics =
     process.env.NODE_ENV === "test"

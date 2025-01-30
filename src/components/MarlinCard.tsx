@@ -21,13 +21,10 @@ export const MarlinCard: React.FunctionComponent<{
     <div style={{ breakInside: "avoid" }}>
       <ResultsCard title={titleTrans} functionName="marlin">
         {(sketch: CritterData[]) => {
-          // Remove pre-MPA years
-          const data = [...existingMPAs, ...sketch]
-            .map((entry) => ({
-              ...entry,
-              year: entry.year - 3,
-            }))
-            .filter((d) => d.year >= 0);
+          const data = [...existingMPAs, ...sketch].map((entry) => ({
+            ...entry,
+            year: entry.year,
+          }));
 
           return (
             <>
