@@ -39,6 +39,8 @@ export async function humanStressorsWorker(
     geography: Geography;
   },
 ): Promise<Metric[]> {
+  const lockoutArea = String(sketch.properties.sketchClassId) === "1555";
+
   // Check for client-provided geography, fallback to first geography assigned as default-boundary in metrics.json
   const metricGroup = extraParams.metricGroup;
   const curClass = metricGroup.classes.find(
@@ -94,6 +96,8 @@ export async function humanStressorsWorker(
       geographyId: curGeography.geographyId,
     }),
   );
+
+  if (lockoutArea) return sortMetrics(rekeyMetrics(metrics));
 
   // Calculate group metrics - from individual sketch metrics
   const sketchCategoryMap = getMpaProtectionLevels(sketch);

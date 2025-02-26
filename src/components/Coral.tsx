@@ -31,7 +31,9 @@ export const Coral: React.FunctionComponent<{
   printing: boolean;
 }> = (props) => {
   const { t } = useTranslation();
-  const [{ isCollection, id, childProperties }] = useSketchProperties();
+  const [{ isCollection, childProperties, sketchClassId }] =
+    useSketchProperties();
+  const lockoutArea = String(sketchClassId) === "1555";
   const curGeography = project.getGeographyById(props.geographyId, {
     fallbackGroup: "default-boundary",
   });
@@ -82,12 +84,19 @@ export const Coral: React.FunctionComponent<{
                 }
               >
                 <p>
-                  <Trans i18nKey="Coral Card 1">
-                    This planning process has the goal of promoting the growth
-                    and survival of coral species. This report shows progress
-                    towards the objective of 20% of coral reefs highly
-                    protected.
-                  </Trans>
+                  {lockoutArea ? (
+                    <>
+                      This report summarizes the percentage of coral reef found
+                      in this lockout area.
+                    </>
+                  ) : (
+                    <Trans i18nKey="Coral Card 1">
+                      This planning process has the goal of promoting the growth
+                      and survival of coral species. This report shows progress
+                      towards the objective of 20% of coral reefs highly
+                      protected.
+                    </Trans>
+                  )}
                 </p>
 
                 <Translator>

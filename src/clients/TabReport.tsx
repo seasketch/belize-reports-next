@@ -20,6 +20,8 @@ import { BioeconomicsPage } from "../components/BioeconomicsPage.js";
 
 const BaseReport = () => {
   const { t } = useTranslation();
+  const [{ sketchClassId }] = useSketchProperties();
+
   const viabilityId = "viability";
   const representationId = "representation";
   const keyHabitatId = "keyHabitats";
@@ -28,8 +30,10 @@ const BaseReport = () => {
     { id: viabilityId, label: t("Viability") },
     { id: representationId, label: t("Representation") },
     { id: keyHabitatId, label: t("Key Habitat") },
-    { id: bioeconomicId, label: t("Bioeconomics") },
   ];
+  // Only report bioeconomics for non-lockout areas
+  if (String(sketchClassId) !== "1555")
+    segments.push({ id: bioeconomicId, label: t("Bioeconomics") });
   const [tab, setTab] = useState<string>(viabilityId);
 
   // Printing

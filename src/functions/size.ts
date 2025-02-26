@@ -50,6 +50,14 @@ export async function size(
 
   // Generate area metrics grouped by protection level, with area overlap within protection level removed
   // Each sketch gets one group metric for its protection level, while collection generates one for each protection level
+  const lockoutArea = String(sketch.properties.sketchClassId) === "1555";
+  if (lockoutArea) {
+    return {
+      metrics: sortMetrics(rekeyMetrics([...areaMetrics])),
+      sketch: toNullSketch(sketch),
+    };
+  }
+
   const sketchToMpaClass = getMpaProtectionLevels(sketch);
   const metricToLevel = (sketchMetric: Metric) => {
     return sketchToMpaClass[sketchMetric.sketchId!];

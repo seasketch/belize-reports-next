@@ -21,6 +21,10 @@ export async function protection(
 
   const protectionLevels = sketchFeatures.reduce<Record<string, number>>(
     (levels, sketch) => {
+      if (String(sketch.properties.sketchClassId) === "1555") {
+        levels["NO_PROTECTION"] = 1 + (levels["NO_PROTECTION"] || 0);
+        return levels;
+      }
       const designation = getUserAttribute(
         sketch.properties,
         "designation",

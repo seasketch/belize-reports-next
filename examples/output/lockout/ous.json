@@ -1,0 +1,107 @@
+{
+  "metrics": [
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "ous",
+      "classId": "energy",
+      "sketchId": "77206",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "lockout"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "ous",
+      "classId": "fisheries_aquaculture",
+      "sketchId": "77206",
+      "groupId": null,
+      "value": 305026.694881,
+      "extra": {
+        "sketchName": "lockout"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "ous",
+      "classId": "general_use",
+      "sketchId": "77206",
+      "groupId": null,
+      "value": 1734106.731158,
+      "extra": {
+        "sketchName": "lockout"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "ous",
+      "classId": "marine_coastal_development",
+      "sketchId": "77206",
+      "groupId": null,
+      "value": 96908.864312,
+      "extra": {
+        "sketchName": "lockout"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "ous",
+      "classId": "marine_coastal_ecosystems",
+      "sketchId": "77206",
+      "groupId": null,
+      "value": 9062805.770495,
+      "extra": {
+        "sketchName": "lockout"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "ous",
+      "classId": "maritime_administration",
+      "sketchId": "77206",
+      "groupId": null,
+      "value": 17965365.527573,
+      "extra": {
+        "sketchName": "lockout"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "ous",
+      "classId": "tourism",
+      "sketchId": "77206",
+      "groupId": null,
+      "value": 48474867.947778,
+      "extra": {
+        "sketchName": "lockout"
+      }
+    }
+  ],
+  "sketch": {
+    "id": 77206,
+    "bbox": [
+      -88.00924,
+      16.755583,
+      -87.58984,
+      17.602013
+    ],
+    "type": "Feature",
+    "properties": {
+      "10847": "lockout",
+      "id": "77206",
+      "name": "lockout",
+      "postId": null,
+      "userId": "531",
+      "userSlug": "Abby",
+      "createdAt": "2025-02-26T17:29:09.420244+00:00",
+      "updatedAt": "2025-02-26T17:29:09.420244+00:00",
+      "collectionId": null,
+      "isCollection": false,
+      "sharedInForum": false,
+      "sketchClassId": "1555",
+      "userAttributes": null
+    },
+    "geometry": null
+  }
+}

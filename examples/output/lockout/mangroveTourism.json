@@ -1,0 +1,40 @@
+{
+  "metrics": [
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "mangroveTourism",
+      "classId": "mangrove_tourism",
+      "sketchId": "77206",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "lockout"
+      }
+    }
+  ],
+  "sketch": {
+    "id": 77206,
+    "bbox": [
+      -88.00924,
+      16.755583,
+      -87.58984,
+      17.602013
+    ],
+    "type": "Feature",
+    "properties": {
+      "10847": "lockout",
+      "id": "77206",
+      "name": "lockout",
+      "postId": null,
+      "userId": "531",
+      "userSlug": "Abby",
+      "createdAt": "2025-02-26T17:29:09.420244+00:00",
+      "updatedAt": "2025-02-26T17:29:09.420244+00:00",
+      "collectionId": null,
+      "isCollection": false,
+      "sharedInForum": false,
+      "sketchClassId": "1555",
+      "userAttributes": null
+    }
+  }
+}

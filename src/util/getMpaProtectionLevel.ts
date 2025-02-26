@@ -70,7 +70,7 @@ export const mediumProtectionLevels = [
  * @returns <string, string> mapping of sketchId to protection level
  */
 export function getMpaProtectionLevels(
-  sketch: Sketch | SketchCollection | NullSketchCollection | NullSketch
+  sketch: Sketch | SketchCollection | NullSketchCollection | NullSketch,
 ): Record<string, string> {
   const sketchFeatures = getSketchFeatures(sketch);
   const protectionLevels = sketchFeatures.reduce<Record<string, string>>(
@@ -78,7 +78,7 @@ export function getMpaProtectionLevels(
       const designation = getUserAttribute(
         sketch.properties,
         "designation",
-        ""
+        "",
       ).toString();
 
       if (highProtectionLevels.includes(designation))
@@ -89,7 +89,7 @@ export function getMpaProtectionLevels(
 
       return levels;
     },
-    {}
+    {},
   );
 
   return protectionLevels;

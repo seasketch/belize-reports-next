@@ -30,7 +30,9 @@ export const Geomorphology: React.FunctionComponent<{
   printing: boolean;
 }> = (props) => {
   const { t } = useTranslation();
-  const [{ isCollection, id, childProperties }] = useSketchProperties();
+  const [{ isCollection, id, childProperties, sketchClassId }] =
+    useSketchProperties();
+  const lockoutArea = String(sketchClassId) === "1555";
   const curGeography = project.getGeographyById(props.geographyId, {
     fallbackGroup: "default-boundary",
   });
@@ -72,14 +74,21 @@ export const Geomorphology: React.FunctionComponent<{
                 }
               >
                 <p>
-                  <Trans i18nKey="Geomorphology Card 1">
-                    The seafloor has many unique physical geomorphological
-                    features, each creating habitats that support different
-                    ecological communities. Plans should ensure the
-                    representative coverage of each seafloor type. This report
-                    summarizes the percentage of each geomorphological feature
-                    found in this plan.
-                  </Trans>
+                  {lockoutArea ? (
+                    <>
+                      This report summarizes the percentage of each
+                      geomorphological feature found in this lockout area.
+                    </>
+                  ) : (
+                    <Trans i18nKey="Geomorphology Card 1">
+                      The seafloor has many unique physical geomorphological
+                      features, each creating habitats that support different
+                      ecological communities. Plans should ensure the
+                      representative coverage of each seafloor type. This report
+                      summarizes the percentage of each geomorphological feature
+                      found in this plan.
+                    </Trans>
+                  )}
                 </p>
 
                 <Translator>

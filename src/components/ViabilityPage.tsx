@@ -1,6 +1,9 @@
 import React from "react";
 import { SizeCard } from "./SizeCard.js";
-import { SketchAttributesCard } from "@seasketch/geoprocessing/client-ui";
+import {
+  SketchAttributesCard,
+  useSketchProperties,
+} from "@seasketch/geoprocessing/client-ui";
 import { ProtectionCard } from "./ProtectionCard.js";
 import { HumanStressorsCard } from "./HumanStressorsCard.js";
 import { OusCard } from "./OusCard.js";
@@ -11,9 +14,11 @@ import { MangroveTourism } from "./MangroveTourism.js";
 export const ViabilityPage: React.FunctionComponent<{ printing: boolean }> = (
   props,
 ) => {
+  const [{ sketchClassId }] = useSketchProperties();
+  const lockoutArea = String(sketchClassId) === "1555";
   return (
     <>
-      <ProtectionCard printing={props.printing} />
+      {!lockoutArea && <ProtectionCard printing={props.printing} />}
       <SizeCard printing={props.printing} />
       <HumanStressorsCard printing={props.printing} />
       <OceanWealth printing={props.printing} />

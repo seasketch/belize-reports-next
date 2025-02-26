@@ -1,0 +1,140 @@
+{
+  "metrics": [
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "geomorphology",
+      "classId": "abyss",
+      "sketchId": "77206",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "lockout"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "geomorphology",
+      "classId": "basins",
+      "sketchId": "77206",
+      "groupId": null,
+      "value": 12571228.355949,
+      "extra": {
+        "sketchName": "lockout"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "geomorphology",
+      "classId": "canyons",
+      "sketchId": "77206",
+      "groupId": null,
+      "value": 223538021.960221,
+      "extra": {
+        "sketchName": "lockout"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "geomorphology",
+      "classId": "escarpments",
+      "sketchId": "77206",
+      "groupId": null,
+      "value": 291770424.921705,
+      "extra": {
+        "sketchName": "lockout"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "geomorphology",
+      "classId": "plateaus",
+      "sketchId": "77206",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "lockout"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "geomorphology",
+      "classId": "rises",
+      "sketchId": "77206",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "lockout"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "geomorphology",
+      "classId": "shelf",
+      "sketchId": "77206",
+      "groupId": null,
+      "value": 570733254.150006,
+      "extra": {
+        "sketchName": "lockout"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "geomorphology",
+      "classId": "shelf_valleys",
+      "sketchId": "77206",
+      "groupId": null,
+      "value": 34036100.283535,
+      "extra": {
+        "sketchName": "lockout"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "geomorphology",
+      "classId": "sills",
+      "sketchId": "77206",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "lockout"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "geomorphology",
+      "classId": "slope",
+      "sketchId": "77206",
+      "groupId": null,
+      "value": 1200302774.610828,
+      "extra": {
+        "sketchName": "lockout"
+      }
+    }
+  ],
+  "sketch": {
+    "id": 77206,
+    "bbox": [
+      -88.00924,
+      16.755583,
+      -87.58984,
+      17.602013
+    ],
+    "type": "Feature",
+    "properties": {
+      "10847": "lockout",
+      "id": "77206",
+      "name": "lockout",
+      "postId": null,
+      "userId": "531",
+      "userSlug": "Abby",
+      "createdAt": "2025-02-26T17:29:09.420244+00:00",
+      "updatedAt": "2025-02-26T17:29:09.420244+00:00",
+      "collectionId": null,
+      "isCollection": false,
+      "sharedInForum": false,
+      "sketchClassId": "1555",
+      "userAttributes": null
+    },
+    "geometry": null
+  }
+}

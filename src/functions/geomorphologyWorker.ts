@@ -7,15 +7,12 @@ import {
 import project from "../../project/projectClient.js";
 import {
   Metric,
-  ReportResult,
   rekeyMetrics,
   sortMetrics,
-  toNullSketch,
   Sketch,
   SketchCollection,
   Polygon,
   MultiPolygon,
-  DefaultExtraParams,
   Feature,
   isVectorDatasource,
   MetricGroup,
@@ -43,6 +40,8 @@ export async function geomorphologyWorker(
     geography: Geography;
   },
 ): Promise<Metric[]> {
+  const lockoutArea = String(sketch.properties.sketchClassId) === "1555";
+
   const metricGroup = extraParams.metricGroup;
   const curClass = metricGroup.classes.find(
     (c) => c.classId === extraParams.classId,
@@ -95,6 +94,8 @@ export async function geomorphologyWorker(
       geographyId: curGeography.geographyId,
     }),
   );
+
+  if (lockoutArea) return sortMetrics(rekeyMetrics(metrics));
 
   // Calculate group metrics - from individual sketch metrics
   const sketchCategoryMap = getMpaProtectionLevels(sketch);

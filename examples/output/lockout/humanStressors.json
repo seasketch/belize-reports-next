@@ -1,0 +1,74 @@
+{
+  "metrics": [
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "humanStressors",
+      "classId": "ag_runoff",
+      "sketchId": "77206",
+      "groupId": null,
+      "value": 13619079.242562,
+      "extra": {
+        "sketchName": "lockout"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "humanStressors",
+      "classId": "coastal_dev",
+      "sketchId": "77206",
+      "groupId": null,
+      "value": 49683.705855,
+      "extra": {
+        "sketchName": "lockout"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "humanStressors",
+      "classId": "marine_dredging",
+      "sketchId": "77206",
+      "groupId": null,
+      "value": 40063206.869705,
+      "extra": {
+        "sketchName": "lockout"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "humanStressors",
+      "classId": "marine_trans",
+      "sketchId": "77206",
+      "groupId": null,
+      "value": 539495319.291277,
+      "extra": {
+        "sketchName": "lockout"
+      }
+    }
+  ],
+  "sketch": {
+    "id": 77206,
+    "bbox": [
+      -88.00924,
+      16.755583,
+      -87.58984,
+      17.602013
+    ],
+    "type": "Feature",
+    "properties": {
+      "10847": "lockout",
+      "id": "77206",
+      "name": "lockout",
+      "postId": null,
+      "userId": "531",
+      "userSlug": "Abby",
+      "createdAt": "2025-02-26T17:29:09.420244+00:00",
+      "updatedAt": "2025-02-26T17:29:09.420244+00:00",
+      "collectionId": null,
+      "isCollection": false,
+      "sharedInForum": false,
+      "sketchClassId": "1555",
+      "userAttributes": null
+    },
+    "geometry": null
+  }
+}

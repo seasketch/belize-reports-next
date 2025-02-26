@@ -31,7 +31,9 @@ export const LittoralForest: React.FunctionComponent<{
   printing: boolean;
 }> = (props) => {
   const { t } = useTranslation();
-  const [{ isCollection, id, childProperties }] = useSketchProperties();
+  const [{ isCollection, sketchClassId, childProperties }] =
+    useSketchProperties();
+  const lockoutArea = String(sketchClassId) === "1555";
   const curGeography = project.getGeographyById(props.geographyId, {
     fallbackGroup: "default-boundary",
   });
@@ -85,11 +87,18 @@ export const LittoralForest: React.FunctionComponent<{
                 }
               >
                 <p>
-                  <Trans i18nKey="Littoral Forests Card 1">
-                    This report summarizes the amount of littoral forests within
-                    this plan, measuring progress to the target of 90% high
-                    protection of littoral forests by 2035.
-                  </Trans>
+                  {lockoutArea ? (
+                    <>
+                      This report summarizes the percentage of littoral forests
+                      found in this lockout area.
+                    </>
+                  ) : (
+                    <Trans i18nKey="Littoral Forests Card 1">
+                      This report summarizes the amount of littoral forests
+                      within this plan, measuring progress to the target of 90%
+                      high protection of littoral forests by 2035.
+                    </Trans>
+                  )}
                 </p>
 
                 <Translator>

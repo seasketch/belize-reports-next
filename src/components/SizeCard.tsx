@@ -57,7 +57,9 @@ export const SizeCard: React.FunctionComponent<{ printing: boolean }> = (
   props,
 ) => {
   const { t } = useTranslation();
-  const [{ isCollection, id, childProperties }] = useSketchProperties();
+  const [{ isCollection, id, childProperties, sketchClassId }] =
+    useSketchProperties();
+  const lockout = String(sketchClassId) === "1555";
   const mg = project.getMetricGroup("size", t);
   const objectiveIds = [
     "ocean_space_protected",
@@ -110,65 +112,96 @@ export const SizeCard: React.FunctionComponent<{ printing: boolean }> = (
                   />
                 }
               >
-                <VerticalSpacer />
-                <Trans i18nKey="SizeCard - Intro">
-                  The Belize Ocean Space includes internal waters, territorial
-                  seas, and the Exclusive Economic Zone (EEZ) which extends out
-                  to 200 nautical miles. This report summarizes this plan's
-                  overlap with the total ocean space, measuring progress towards
-                  achieving the objective of 30% protection.
-                </Trans>
-                <VerticalSpacer />
-                <KeySection>
-                  {t("This plan is")}{" "}
-                  <b>
-                    {areaDisplay} {areaUnitDisplay}
-                  </b>
-                  {", "}
-                  {t("which is")} <b>{percDisplay}</b> {t("of")}{" "}
-                  {t("the 33,706 km² Belize Ocean Space")}.
-                </KeySection>
-
-                <LayerToggle label={mapLabel} layerId={mg.layerId} />
-                <VerticalSpacer />
-
-                {isCollection
-                  ? collectionReport(
-                      data,
-                      boundaryTotalMetrics,
-                      objectiveIds,
-                      t,
-                    )
-                  : sketchReport(data, boundaryTotalMetrics, objectiveIds, t)}
-
-                {isCollection && (
+                {lockout ? (
                   <>
-                    <Collapse
-                      title={t("Show by Protection Level")}
-                      collapsed={!props.printing}
-                      key={String(props.printing) + "Protection"}
-                    >
-                      {genGroupLevelTable(data, boundaryTotalMetrics, mg, t)}
-                    </Collapse>
-                    <Collapse
-                      title={t("Show by MPA")}
-                      collapsed={!props.printing}
-                      key={String(props.printing) + "MPA"}
-                    >
-                      {genAreaSketchTable(
-                        data,
-                        boundaryTotalMetrics,
-                        mg,
-                        t,
-                        childProperties!,
-                        props.printing,
-                      )}
-                    </Collapse>
+                    <KeySection>
+                      {t("This lockout area is")}{" "}
+                      <b>
+                        {areaDisplay} {areaUnitDisplay}
+                      </b>
+                      {", "}
+                      {t("which is")} <b>{percDisplay}</b> {t("of")}{" "}
+                      {t("the 33,706 km² Belize Ocean Space")}
+                    </KeySection>
+                    <LayerToggle label={mapLabel} layerId={mg.layerId} />
                   </>
-                )}
+                ) : (
+                  <>
+                    <VerticalSpacer />
+                    <Trans i18nKey="SizeCard - Intro">
+                      The Belize Ocean Space includes internal waters,
+                      territorial seas, and the Exclusive Economic Zone (EEZ)
+                      which extends out to 200 nautical miles. This report
+                      summarizes this plan's overlap with the total ocean space,
+                      measuring progress towards achieving the objective of 30%
+                      protection.
+                    </Trans>
+                    <VerticalSpacer />
+                    <KeySection>
+                      {t("This plan is")}{" "}
+                      <b>
+                        {areaDisplay} {areaUnitDisplay}
+                      </b>
+                      {", "}
+                      {t("which is")} <b>{percDisplay}</b> {t("of")}{" "}
+                      {t("the 33,706 km² Belize Ocean Space")}.
+                    </KeySection>
 
-                {!props.printing && (
-                  <Collapse title={t("Learn More")}>{genLearnMore(t)}</Collapse>
+                    <LayerToggle label={mapLabel} layerId={mg.layerId} />
+                    <VerticalSpacer />
+
+                    {!lockout &&
+                      (isCollection
+                        ? collectionReport(
+                            data,
+                            boundaryTotalMetrics,
+                            objectiveIds,
+                            t,
+                          )
+                        : sketchReport(
+                            data,
+                            boundaryTotalMetrics,
+                            objectiveIds,
+                            t,
+                          ))}
+
+                    {isCollection && (
+                      <>
+                        <Collapse
+                          title={t("Show by Protection Level")}
+                          collapsed={!props.printing}
+                          key={String(props.printing) + "Protection"}
+                        >
+                          {genGroupLevelTable(
+                            data,
+                            boundaryTotalMetrics,
+                            mg,
+                            t,
+                          )}
+                        </Collapse>
+                        <Collapse
+                          title={t("Show by MPA")}
+                          collapsed={!props.printing}
+                          key={String(props.printing) + "MPA"}
+                        >
+                          {genAreaSketchTable(
+                            data,
+                            boundaryTotalMetrics,
+                            mg,
+                            t,
+                            childProperties!,
+                            props.printing,
+                          )}
+                        </Collapse>
+                      </>
+                    )}
+
+                    {!props.printing && (
+                      <Collapse title={t("Learn More")}>
+                        {genLearnMore(t)}
+                      </Collapse>
+                    )}
+                  </>
                 )}
               </ToolbarCard>
             </ReportError>

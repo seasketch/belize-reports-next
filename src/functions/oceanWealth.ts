@@ -39,6 +39,8 @@ export async function oceanWealth(
     | SketchCollection<Polygon | MultiPolygon>,
   extraParams: DefaultExtraParams = {},
 ): Promise<ReportResult> {
+  const lockoutArea = String(sketch.properties.sketchClassId) === "1555";
+
   // Check for client-provided geography, fallback to first geography assigned as default-boundary in metrics.json
   const geographyId = getFirstFromParam("geographyIds", extraParams);
   const curGeography = project.getGeographyById(geographyId, {
@@ -101,6 +103,12 @@ export async function oceanWealth(
       }),
     )
   ).flat();
+
+  if (lockoutArea)
+    return {
+      metrics: sortMetrics(rekeyMetrics(metrics)),
+      sketch: toNullSketch(sketch),
+    };
 
   // Calculate group metrics - from individual sketch metrics
   const sketchCategoryMap = getMpaProtectionLevels(sketch);

@@ -31,7 +31,9 @@ export const Seagrass: React.FunctionComponent<{
   printing: boolean;
 }> = (props) => {
   const { t } = useTranslation();
-  const [{ isCollection, id, childProperties }] = useSketchProperties();
+  const [{ isCollection, sketchClassId, childProperties }] =
+    useSketchProperties();
+  const lockoutArea = String(sketchClassId) === "1555";
   const curGeography = project.getGeographyById(props.geographyId, {
     fallbackGroup: "default-boundary",
   });
@@ -85,11 +87,18 @@ export const Seagrass: React.FunctionComponent<{
                 }
               >
                 <p>
-                  <Trans i18nKey="Seagrass Card 1">
-                    Seagrass beds are a key marine ecosystem, providing food and
-                    shelter for many marine organisms. This report shows the
-                    total seagrass area protected by this plan.
-                  </Trans>
+                  {lockoutArea ? (
+                    <>
+                      This report summarizes the percentage of seagrass found in
+                      this lockout area.
+                    </>
+                  ) : (
+                    <Trans i18nKey="Seagrass Card 1">
+                      Seagrass beds are a key marine ecosystem, providing food
+                      and shelter for many marine organisms. This report shows
+                      the total seagrass area protected by this plan.
+                    </Trans>
+                  )}
                 </p>
                 <Translator>
                   {isCollection

@@ -7,6 +7,7 @@ import {
   GroupCircleRow,
   ObjectiveStatus,
   Tooltip,
+  useSketchProperties,
 } from "@seasketch/geoprocessing/client-ui";
 import {
   ReportResult,
@@ -27,12 +28,10 @@ import {
   ObjectiveAnswer,
   squareMeterToKilometer,
   roundDecimal,
-  keyBy,
   nestMetrics,
   SketchProperties,
 } from "@seasketch/geoprocessing/client-core";
 import {
-  getMpaProtectionLevels,
   groupColorMap,
   groupDisplayMapPl,
   protectionLevels,
@@ -70,6 +69,9 @@ export const groupedSketchReport = (
   t: any,
   options?: ClassTableGroupedProps,
 ) => {
+  const [{ sketchClassId }] = useSketchProperties();
+  const lockoutArea = String(sketchClassId) === "1555";
+
   // Get total precalc areas
   const totalAreas = metricGroup.classes.reduce<Record<string, number>>(
     (acc, curClass) => {
@@ -85,6 +87,23 @@ export const groupedSketchReport = (
     },
     {},
   );
+
+  if (lockoutArea) {
+    const totalsByClass = metricGroup.classes.reduce<Record<string, number[]>>(
+      (acc, curClass) => {
+        const classMetrics = data.metrics.filter(
+          (m) => m.classId === curClass.classId,
+        );
+        const values = classMetrics.map(
+          (group) => group.value / totalAreas[curClass.classId],
+        );
+
+        return { ...acc, [curClass.classId]: values };
+      },
+      {},
+    );
+    return genClassTableGrouped(metricGroup, totalsByClass, t, options);
+  }
 
   // Filter down to metrics which have groupIds
   const levelMetrics = data.metrics.filter(
@@ -183,13 +202,16 @@ export const genClassTableGrouped = (
   t: any,
   options?: ClassTableGroupedProps,
 ) => {
+  const [{ sketchClassId }] = useSketchProperties();
+  const lockoutArea = String(sketchClassId) === "1555";
   const finalOptions = {
-    showDetailedObjectives: true,
-    showLegend: true,
+    showDetailedObjectives: !lockoutArea,
+    showLegend: !lockoutArea,
     showLayerToggles: true,
     showTargetPass: false,
     ...options,
   };
+
   // Coloring and styling for horizontal bars
   const groupColors = Object.values(groupColorMap);
   const blockGroupNames = protectionLevelsDisplay.map((level) => t(level));
@@ -231,7 +253,7 @@ export const genClassTableGrouped = (
       totalsByClass[curClass.classId].map((value) => [value * 100]),
     ),
     target: metricGroup.classes.map((curClass) =>
-      curClass.objectiveId
+      !lockoutArea && curClass.objectiveId
         ? project.getObjectiveById(curClass.objectiveId).target * 100
         : undefined,
     ),

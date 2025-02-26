@@ -39,6 +39,8 @@ export async function ousWorker(
     geography: Geography;
   },
 ): Promise<Metric[]> {
+  const lockoutArea = String(sketch.properties.sketchClassId) === "1555";
+
   const metricGroup = extraParams.metricGroup;
   const curClass = metricGroup.classes.find(
     (c) => c.classId === extraParams.classId,
@@ -79,6 +81,8 @@ export async function ousWorker(
       groupId: null,
     }),
   );
+
+  if (lockoutArea) return sortMetrics(rekeyMetrics(metrics));
 
   // Calculate group metrics - from individual sketch metrics
   const sketchCategoryMap = getMpaProtectionLevels(sketch);
