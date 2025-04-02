@@ -3,9 +3,9 @@
     {
       "geographyId": null,
       "metricId": "protection",
-      "classId": "IV",
+      "classId": "MEDIUM_PROTECTION",
       "sketchId": null,
-      "groupId": "IV",
+      "groupId": "MEDIUM_PROTECTION",
       "value": 1
     }
   ],

@@ -3,17 +3,17 @@
     {
       "geographyId": null,
       "metricId": "protection",
-      "classId": "Ib",
+      "classId": "HIGH_PROTECTION",
       "sketchId": null,
-      "groupId": "Ib",
+      "groupId": "HIGH_PROTECTION",
       "value": 1
     },
     {
       "geographyId": null,
       "metricId": "protection",
-      "classId": "V",
+      "classId": "MEDIUM_PROTECTION",
       "sketchId": null,
-      "groupId": "V",
+      "groupId": "MEDIUM_PROTECTION",
       "value": 1
     }
   ],

@@ -38,12 +38,14 @@ const groupColorMap: Record<string, string> = {
   II: "#BEE4BE",
   III: "#BEE4BE",
   HIGH_PROTECTION: "#BEE4BE",
+  high: "#BEE4BE",
   IV: "#FFE1A3",
   V: "#FFE1A3",
   VI: "#FFE1A3",
   OECM: "#FFE1A3",
   LMMA: "#FFE1A3",
   MEDIUM_PROTECTION: "#FFE1A3",
+  medium: "#FFE1A3",
 };
 
 /**
@@ -182,18 +184,30 @@ const genMpaSketchTable = (
     },
     {
       Header: t("Protection Level"),
-      accessor: (row) => (
-        <GroupPill
-          groupColorMap={groupColorMap}
-          group={childProperties.find((sk) => sk.id === row.id)?.designation}
-        >
-          {t(
-            groupDisplayMapSg[
-              childProperties.find((sk) => sk.id === row.id)?.designation
-            ],
-          )}
-        </GroupPill>
-      ),
+      accessor: (row) => {
+        const props = childProperties.find((sk) => sk.id === row.id);
+
+        const group: string = (() => {
+          if (props?.designation && props?.designation !== "") {
+            return props?.designation.toString();
+          } else if (
+            props?.designation_medium &&
+            props?.designation_medium !== ""
+          ) {
+            return props?.designation_medium.toString();
+          } else if (props?.protection_level) {
+            return props?.protection_level.toString();
+          } else {
+            return "";
+          }
+        })();
+
+        return (
+          <GroupPill groupColorMap={groupColorMap} group={group}>
+            {t(groupDisplayMapSg[group])}
+          </GroupPill>
+        );
+      },
     },
   ];
 

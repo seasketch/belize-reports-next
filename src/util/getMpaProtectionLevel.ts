@@ -14,7 +14,9 @@ export const protectionLevelsDisplay = ["High", "Medium"];
 // Display values for groups (plural)
 export const groupDisplayMapPl: Record<string, string> = {
   HIGH_PROTECTION: "High Protection Biodiversity Zone(s)",
+  high: "High Protection Biodiversity Zone(s)",
   MEDIUM_PROTECTION: "Medium Protection Biodiversity Zone(s)",
+  medium: "Medium Protection Biodiversity Zone(s)",
   Ia: "IUCN Ia. Strict Nature Reserve(s)",
   Ib: "IUCN Ib. Wilderness Area(s)",
   II: "IUCN II. National Park(s)",
@@ -29,7 +31,9 @@ export const groupDisplayMapPl: Record<string, string> = {
 // Display values for groups (singular)
 export const groupDisplayMapSg: Record<string, string> = {
   HIGH_PROTECTION: "High Protection Biodiversity Zone",
+  high: "High Protection Biodiversity Zone",
   MEDIUM_PROTECTION: "Medium Protection Biodiversity Zone",
+  medium: "Medium Protection Biodiversity Zone",
   Ia: "IUCN Ia. Strict Nature Reserve",
   Ib: "IUCN Ib. Wilderness Area",
   II: "IUCN II. National Park",
@@ -75,6 +79,26 @@ export function getMpaProtectionLevels(
   const sketchFeatures = getSketchFeatures(sketch);
   const protectionLevels = sketchFeatures.reduce<Record<string, string>>(
     (levels, sketch) => {
+      // New sketches use protection_level attribute
+      const protection_level = getUserAttribute(
+        sketch.properties,
+        "protection_level",
+        "",
+      ).toString();
+
+      // If protection_level is set, use it
+      if (protection_level !== "") {
+        if (protection_level === "high")
+          levels[sketch.properties.id] = "HIGH_PROTECTION";
+        else if (protection_level === "medium")
+          levels[sketch.properties.id] = "MEDIUM_PROTECTION";
+        else {
+          throw new Error(`Invalid protection level ${protection_level}`);
+        }
+        return levels;
+      }
+
+      // Otherwise, use designation if set
       const designation = getUserAttribute(
         sketch.properties,
         "designation",

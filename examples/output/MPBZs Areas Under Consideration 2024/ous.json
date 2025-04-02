@@ -1,0 +1,1472 @@
+{
+  "metrics": [
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "ous",
+      "classId": "energy",
+      "sketchId": "79926",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "MPBZs Areas Under Consideration 2024",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "ous",
+      "classId": "energy",
+      "sketchId": "79926",
+      "groupId": "HIGH_PROTECTION",
+      "value": 0,
+      "extra": {
+        "sketchName": "MPBZs Areas Under Consideration 2024",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "ous",
+      "classId": "energy",
+      "sketchId": "79926",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 0,
+      "extra": {
+        "sketchName": "MPBZs Areas Under Consideration 2024",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "ous",
+      "classId": "energy",
+      "sketchId": "79927",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Glover's Reef Atoll Marine Reserve Expansion"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "ous",
+      "classId": "energy",
+      "sketchId": "79927",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 0,
+      "extra": {
+        "sketchName": "Glover's Reef Atoll Marine Reserve Expansion"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "ous",
+      "classId": "energy",
+      "sketchId": "79928",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Lighthouse Reef Atoll Marine Reserve- General Use II"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "ous",
+      "classId": "energy",
+      "sketchId": "79928",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 0,
+      "extra": {
+        "sketchName": "Lighthouse Reef Atoll Marine Reserve- General Use II"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "ous",
+      "classId": "energy",
+      "sketchId": "79929",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Bacalar Chico Marine Reserve- General Use Zone(Expansion)"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "ous",
+      "classId": "energy",
+      "sketchId": "79929",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 0,
+      "extra": {
+        "sketchName": "Bacalar Chico Marine Reserve- General Use Zone(Expansion)"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "ous",
+      "classId": "energy",
+      "sketchId": "79930",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Lighthouse Reef Atoll Marine Reserve- General Use I"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "ous",
+      "classId": "energy",
+      "sketchId": "79930",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 0,
+      "extra": {
+        "sketchName": "Lighthouse Reef Atoll Marine Reserve- General Use I"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "ous",
+      "classId": "fisheries_aquaculture",
+      "sketchId": "79926",
+      "groupId": null,
+      "value": 524262.731332,
+      "extra": {
+        "sketchName": "MPBZs Areas Under Consideration 2024",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "ous",
+      "classId": "fisheries_aquaculture",
+      "sketchId": "79926",
+      "groupId": "HIGH_PROTECTION",
+      "value": 0,
+      "extra": {
+        "sketchName": "MPBZs Areas Under Consideration 2024",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "ous",
+      "classId": "fisheries_aquaculture",
+      "sketchId": "79926",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 524262.731332,
+      "extra": {
+        "sketchName": "MPBZs Areas Under Consideration 2024",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "ous",
+      "classId": "fisheries_aquaculture",
+      "sketchId": "79927",
+      "groupId": null,
+      "value": 1263.150062,
+      "extra": {
+        "sketchName": "Glover's Reef Atoll Marine Reserve Expansion"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "ous",
+      "classId": "fisheries_aquaculture",
+      "sketchId": "79927",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 1263.150062,
+      "extra": {
+        "sketchName": "Glover's Reef Atoll Marine Reserve Expansion"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "ous",
+      "classId": "fisheries_aquaculture",
+      "sketchId": "79928",
+      "groupId": null,
+      "value": 106595.059113,
+      "extra": {
+        "sketchName": "Lighthouse Reef Atoll Marine Reserve- General Use II"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "ous",
+      "classId": "fisheries_aquaculture",
+      "sketchId": "79928",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 106595.059113,
+      "extra": {
+        "sketchName": "Lighthouse Reef Atoll Marine Reserve- General Use II"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "ous",
+      "classId": "fisheries_aquaculture",
+      "sketchId": "79929",
+      "groupId": null,
+      "value": 50293.070726,
+      "extra": {
+        "sketchName": "Bacalar Chico Marine Reserve- General Use Zone(Expansion)"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "ous",
+      "classId": "fisheries_aquaculture",
+      "sketchId": "79929",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 50293.070726,
+      "extra": {
+        "sketchName": "Bacalar Chico Marine Reserve- General Use Zone(Expansion)"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "ous",
+      "classId": "fisheries_aquaculture",
+      "sketchId": "79930",
+      "groupId": null,
+      "value": 366214.853673,
+      "extra": {
+        "sketchName": "Lighthouse Reef Atoll Marine Reserve- General Use I"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "ous",
+      "classId": "fisheries_aquaculture",
+      "sketchId": "79930",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 366214.853673,
+      "extra": {
+        "sketchName": "Lighthouse Reef Atoll Marine Reserve- General Use I"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "ous",
+      "classId": "general_use",
+      "sketchId": "79926",
+      "groupId": null,
+      "value": 439517.680468,
+      "extra": {
+        "sketchName": "MPBZs Areas Under Consideration 2024",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "ous",
+      "classId": "general_use",
+      "sketchId": "79926",
+      "groupId": "HIGH_PROTECTION",
+      "value": 0,
+      "extra": {
+        "sketchName": "MPBZs Areas Under Consideration 2024",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "ous",
+      "classId": "general_use",
+      "sketchId": "79926",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 439517.680468,
+      "extra": {
+        "sketchName": "MPBZs Areas Under Consideration 2024",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "ous",
+      "classId": "general_use",
+      "sketchId": "79927",
+      "groupId": null,
+      "value": 169328.111889,
+      "extra": {
+        "sketchName": "Glover's Reef Atoll Marine Reserve Expansion"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "ous",
+      "classId": "general_use",
+      "sketchId": "79927",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 169328.111889,
+      "extra": {
+        "sketchName": "Glover's Reef Atoll Marine Reserve Expansion"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "ous",
+      "classId": "general_use",
+      "sketchId": "79928",
+      "groupId": null,
+      "value": 170331.911321,
+      "extra": {
+        "sketchName": "Lighthouse Reef Atoll Marine Reserve- General Use II"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "ous",
+      "classId": "general_use",
+      "sketchId": "79928",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 170331.911321,
+      "extra": {
+        "sketchName": "Lighthouse Reef Atoll Marine Reserve- General Use II"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "ous",
+      "classId": "general_use",
+      "sketchId": "79929",
+      "groupId": null,
+      "value": 7041.291604,
+      "extra": {
+        "sketchName": "Bacalar Chico Marine Reserve- General Use Zone(Expansion)"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "ous",
+      "classId": "general_use",
+      "sketchId": "79929",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 7041.291604,
+      "extra": {
+        "sketchName": "Bacalar Chico Marine Reserve- General Use Zone(Expansion)"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "ous",
+      "classId": "general_use",
+      "sketchId": "79930",
+      "groupId": null,
+      "value": 92851.683388,
+      "extra": {
+        "sketchName": "Lighthouse Reef Atoll Marine Reserve- General Use I"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "ous",
+      "classId": "general_use",
+      "sketchId": "79930",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 92851.683388,
+      "extra": {
+        "sketchName": "Lighthouse Reef Atoll Marine Reserve- General Use I"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "ous",
+      "classId": "marine_coastal_development",
+      "sketchId": "79926",
+      "groupId": null,
+      "value": 71287.707249,
+      "extra": {
+        "sketchName": "MPBZs Areas Under Consideration 2024",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "ous",
+      "classId": "marine_coastal_development",
+      "sketchId": "79926",
+      "groupId": "HIGH_PROTECTION",
+      "value": 0,
+      "extra": {
+        "sketchName": "MPBZs Areas Under Consideration 2024",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "ous",
+      "classId": "marine_coastal_development",
+      "sketchId": "79926",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 71287.707249,
+      "extra": {
+        "sketchName": "MPBZs Areas Under Consideration 2024",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "ous",
+      "classId": "marine_coastal_development",
+      "sketchId": "79927",
+      "groupId": null,
+      "value": 12501.989,
+      "extra": {
+        "sketchName": "Glover's Reef Atoll Marine Reserve Expansion"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "ous",
+      "classId": "marine_coastal_development",
+      "sketchId": "79927",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 12501.989,
+      "extra": {
+        "sketchName": "Glover's Reef Atoll Marine Reserve Expansion"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "ous",
+      "classId": "marine_coastal_development",
+      "sketchId": "79928",
+      "groupId": null,
+      "value": 34497.160307,
+      "extra": {
+        "sketchName": "Lighthouse Reef Atoll Marine Reserve- General Use II"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "ous",
+      "classId": "marine_coastal_development",
+      "sketchId": "79928",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 34497.160307,
+      "extra": {
+        "sketchName": "Lighthouse Reef Atoll Marine Reserve- General Use II"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "ous",
+      "classId": "marine_coastal_development",
+      "sketchId": "79929",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Bacalar Chico Marine Reserve- General Use Zone(Expansion)"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "ous",
+      "classId": "marine_coastal_development",
+      "sketchId": "79929",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 0,
+      "extra": {
+        "sketchName": "Bacalar Chico Marine Reserve- General Use Zone(Expansion)"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "ous",
+      "classId": "marine_coastal_development",
+      "sketchId": "79930",
+      "groupId": null,
+      "value": 24296.548837,
+      "extra": {
+        "sketchName": "Lighthouse Reef Atoll Marine Reserve- General Use I"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "ous",
+      "classId": "marine_coastal_development",
+      "sketchId": "79930",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 24296.548837,
+      "extra": {
+        "sketchName": "Lighthouse Reef Atoll Marine Reserve- General Use I"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "ous",
+      "classId": "marine_coastal_ecosystems",
+      "sketchId": "79926",
+      "groupId": null,
+      "value": 3013817.640135,
+      "extra": {
+        "sketchName": "MPBZs Areas Under Consideration 2024",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "ous",
+      "classId": "marine_coastal_ecosystems",
+      "sketchId": "79926",
+      "groupId": "HIGH_PROTECTION",
+      "value": 0,
+      "extra": {
+        "sketchName": "MPBZs Areas Under Consideration 2024",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "ous",
+      "classId": "marine_coastal_ecosystems",
+      "sketchId": "79926",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 3013817.640135,
+      "extra": {
+        "sketchName": "MPBZs Areas Under Consideration 2024",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "ous",
+      "classId": "marine_coastal_ecosystems",
+      "sketchId": "79927",
+      "groupId": null,
+      "value": 2117439.313431,
+      "extra": {
+        "sketchName": "Glover's Reef Atoll Marine Reserve Expansion"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "ous",
+      "classId": "marine_coastal_ecosystems",
+      "sketchId": "79927",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 2117439.313431,
+      "extra": {
+        "sketchName": "Glover's Reef Atoll Marine Reserve Expansion"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "ous",
+      "classId": "marine_coastal_ecosystems",
+      "sketchId": "79928",
+      "groupId": null,
+      "value": 802945.616818,
+      "extra": {
+        "sketchName": "Lighthouse Reef Atoll Marine Reserve- General Use II"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "ous",
+      "classId": "marine_coastal_ecosystems",
+      "sketchId": "79928",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 802945.616818,
+      "extra": {
+        "sketchName": "Lighthouse Reef Atoll Marine Reserve- General Use II"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "ous",
+      "classId": "marine_coastal_ecosystems",
+      "sketchId": "79929",
+      "groupId": null,
+      "value": 56140.860369,
+      "extra": {
+        "sketchName": "Bacalar Chico Marine Reserve- General Use Zone(Expansion)"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "ous",
+      "classId": "marine_coastal_ecosystems",
+      "sketchId": "79929",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 56140.860369,
+      "extra": {
+        "sketchName": "Bacalar Chico Marine Reserve- General Use Zone(Expansion)"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "ous",
+      "classId": "marine_coastal_ecosystems",
+      "sketchId": "79930",
+      "groupId": null,
+      "value": 37591.823981,
+      "extra": {
+        "sketchName": "Lighthouse Reef Atoll Marine Reserve- General Use I"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "ous",
+      "classId": "marine_coastal_ecosystems",
+      "sketchId": "79930",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 37591.823981,
+      "extra": {
+        "sketchName": "Lighthouse Reef Atoll Marine Reserve- General Use I"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "ous",
+      "classId": "maritime_administration",
+      "sketchId": "79926",
+      "groupId": null,
+      "value": 6038504.389997,
+      "extra": {
+        "sketchName": "MPBZs Areas Under Consideration 2024",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "ous",
+      "classId": "maritime_administration",
+      "sketchId": "79926",
+      "groupId": "HIGH_PROTECTION",
+      "value": 0,
+      "extra": {
+        "sketchName": "MPBZs Areas Under Consideration 2024",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "ous",
+      "classId": "maritime_administration",
+      "sketchId": "79926",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 6038504.389997,
+      "extra": {
+        "sketchName": "MPBZs Areas Under Consideration 2024",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "ous",
+      "classId": "maritime_administration",
+      "sketchId": "79927",
+      "groupId": null,
+      "value": 1049641.321698,
+      "extra": {
+        "sketchName": "Glover's Reef Atoll Marine Reserve Expansion"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "ous",
+      "classId": "maritime_administration",
+      "sketchId": "79927",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 1049641.321698,
+      "extra": {
+        "sketchName": "Glover's Reef Atoll Marine Reserve Expansion"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "ous",
+      "classId": "maritime_administration",
+      "sketchId": "79928",
+      "groupId": null,
+      "value": 1477510.619202,
+      "extra": {
+        "sketchName": "Lighthouse Reef Atoll Marine Reserve- General Use II"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "ous",
+      "classId": "maritime_administration",
+      "sketchId": "79928",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 1477510.619202,
+      "extra": {
+        "sketchName": "Lighthouse Reef Atoll Marine Reserve- General Use II"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "ous",
+      "classId": "maritime_administration",
+      "sketchId": "79929",
+      "groupId": null,
+      "value": 59561.447571,
+      "extra": {
+        "sketchName": "Bacalar Chico Marine Reserve- General Use Zone(Expansion)"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "ous",
+      "classId": "maritime_administration",
+      "sketchId": "79929",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 59561.447571,
+      "extra": {
+        "sketchName": "Bacalar Chico Marine Reserve- General Use Zone(Expansion)"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "ous",
+      "classId": "maritime_administration",
+      "sketchId": "79930",
+      "groupId": null,
+      "value": 3451791.001526,
+      "extra": {
+        "sketchName": "Lighthouse Reef Atoll Marine Reserve- General Use I"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "ous",
+      "classId": "maritime_administration",
+      "sketchId": "79930",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 3451791.001526,
+      "extra": {
+        "sketchName": "Lighthouse Reef Atoll Marine Reserve- General Use I"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "ous",
+      "classId": "tourism",
+      "sketchId": "79926",
+      "groupId": null,
+      "value": 23350288.635131,
+      "extra": {
+        "sketchName": "MPBZs Areas Under Consideration 2024",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "ous",
+      "classId": "tourism",
+      "sketchId": "79926",
+      "groupId": "HIGH_PROTECTION",
+      "value": 0,
+      "extra": {
+        "sketchName": "MPBZs Areas Under Consideration 2024",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "ous",
+      "classId": "tourism",
+      "sketchId": "79926",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 23350288.635131,
+      "extra": {
+        "sketchName": "MPBZs Areas Under Consideration 2024",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "ous",
+      "classId": "tourism",
+      "sketchId": "79927",
+      "groupId": null,
+      "value": 502240.927879,
+      "extra": {
+        "sketchName": "Glover's Reef Atoll Marine Reserve Expansion"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "ous",
+      "classId": "tourism",
+      "sketchId": "79927",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 502240.927879,
+      "extra": {
+        "sketchName": "Glover's Reef Atoll Marine Reserve Expansion"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "ous",
+      "classId": "tourism",
+      "sketchId": "79928",
+      "groupId": null,
+      "value": 951110.762461,
+      "extra": {
+        "sketchName": "Lighthouse Reef Atoll Marine Reserve- General Use II"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "ous",
+      "classId": "tourism",
+      "sketchId": "79928",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 951110.762461,
+      "extra": {
+        "sketchName": "Lighthouse Reef Atoll Marine Reserve- General Use II"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "ous",
+      "classId": "tourism",
+      "sketchId": "79929",
+      "groupId": null,
+      "value": 2385831.716977,
+      "extra": {
+        "sketchName": "Bacalar Chico Marine Reserve- General Use Zone(Expansion)"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "ous",
+      "classId": "tourism",
+      "sketchId": "79929",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 2385831.716977,
+      "extra": {
+        "sketchName": "Bacalar Chico Marine Reserve- General Use Zone(Expansion)"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "ous",
+      "classId": "tourism",
+      "sketchId": "79930",
+      "groupId": null,
+      "value": 19526043.219378,
+      "extra": {
+        "sketchName": "Lighthouse Reef Atoll Marine Reserve- General Use I"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "ous",
+      "classId": "tourism",
+      "sketchId": "79930",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 19526043.219378,
+      "extra": {
+        "sketchName": "Lighthouse Reef Atoll Marine Reserve- General Use I"
+      }
+    }
+  ],
+  "sketch": {
+    "id": 79926,
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "id": 79928,
+        "bbox": [
+          -87.74325,
+          17.01759,
+          -87.344284,
+          17.57631
+        ],
+        "type": "Feature",
+        "properties": {
+          "2932": "Lighthouse Reef Atoll Marine Reserve- General Use II",
+          "2933": "Areas under consideration for lighthouse, being a general use II. September 2-24",
+          "2934": "CZMAI",
+          "11099": [
+            "medium"
+          ],
+          "11103": "V",
+          "id": "79928",
+          "name": "Lighthouse Reef Atoll Marine Reserve- General Use II",
+          "postId": null,
+          "userId": "531",
+          "authors": "CZMAI",
+          "comments": "Areas under consideration for lighthouse, being a general use II. September 2-24",
+          "userSlug": "Abby",
+          "createdAt": "2025-04-02T18:44:55.983327+00:00",
+          "updatedAt": "2025-04-02T19:36:29.004223+00:00",
+          "designation": null,
+          "collectionId": "79926",
+          "isCollection": false,
+          "sharedInForum": false,
+          "sketchClassId": "196",
+          "userAttributes": [
+            {
+              "label": "Comments",
+              "value": "Areas under consideration for lighthouse, being a general use II. September 2-24",
+              "exportId": "comments",
+              "fieldType": "TextArea",
+              "valueLabel": null,
+              "formElementId": 2933,
+              "alternateLanguages": {
+                "es": {
+                  "label": "Comentarios",
+                  "valueLabel": null
+                }
+              }
+            },
+            {
+              "label": "Author(s)",
+              "value": "CZMAI",
+              "exportId": "authors",
+              "fieldType": "ShortText",
+              "valueLabel": null,
+              "formElementId": 2934,
+              "alternateLanguages": {
+                "es": {
+                  "label": "Autor(es)",
+                  "valueLabel": null
+                }
+              }
+            },
+            {
+              "label": "Protection Level",
+              "value": [
+                "medium"
+              ],
+              "exportId": "protection_level",
+              "fieldType": "MultipleChoice",
+              "valueLabel": [
+                "Medium"
+              ],
+              "formElementId": 11099,
+              "alternateLanguages": {}
+            },
+            {
+              "label": "What is the primary purpose or objective for the zone?",
+              "value": null,
+              "exportId": "primary_purpose",
+              "fieldType": "ShortText",
+              "valueLabel": null,
+              "formElementId": 11100,
+              "alternateLanguages": {}
+            },
+            {
+              "label": "What allowable activities are advised?",
+              "value": null,
+              "exportId": "allowed_activities",
+              "fieldType": "ShortText",
+              "valueLabel": null,
+              "formElementId": 11101,
+              "alternateLanguages": {}
+            },
+            {
+              "label": "What prohibited activities are advised?",
+              "value": null,
+              "exportId": "prohibited_activities",
+              "fieldType": "ShortText",
+              "valueLabel": null,
+              "formElementId": 11102,
+              "alternateLanguages": {}
+            },
+            {
+              "label": "IUCN Designation",
+              "value": null,
+              "exportId": "designation",
+              "fieldType": "ComboBox",
+              "valueLabel": null,
+              "formElementId": 2931,
+              "alternateLanguages": {
+                "es": {
+                  "label": "UICN Designación",
+                  "valueLabel": null
+                }
+              }
+            },
+            {
+              "label": "IUCN Designation",
+              "value": "V",
+              "exportId": "designation_medium",
+              "fieldType": "ComboBox",
+              "valueLabel": "IUCN V: Protected Landscape or Seascape",
+              "formElementId": 11103,
+              "alternateLanguages": {
+                "es": {
+                  "label": "UICN Designación",
+                  "valueLabel": "UICN V: Paisaje Terrestre o Marino Protegido"
+                }
+              }
+            }
+          ],
+          "primary_purpose": null,
+          "protection_level": [
+            "medium"
+          ],
+          "allowed_activities": null,
+          "designation_medium": "V",
+          "prohibited_activities": null
+        },
+        "geometry": null
+      },
+      {
+        "id": 79929,
+        "bbox": [
+          -87.86128,
+          18.07597,
+          -87.583115,
+          18.14879
+        ],
+        "type": "Feature",
+        "properties": {
+          "2932": "Bacalar Chico Marine Reserve- General Use Zone(Expansion)",
+          "2933": "September 25, 2024",
+          "2934": "CZMAI",
+          "11099": [
+            "medium"
+          ],
+          "11103": "V",
+          "id": "79929",
+          "name": "Bacalar Chico Marine Reserve- General Use Zone(Expansion)",
+          "postId": null,
+          "userId": "531",
+          "authors": "CZMAI",
+          "comments": "September 25, 2024",
+          "userSlug": "Abby",
+          "createdAt": "2025-04-02T18:44:55.983327+00:00",
+          "updatedAt": "2025-04-02T19:36:04.668011+00:00",
+          "designation": null,
+          "collectionId": "79926",
+          "isCollection": false,
+          "sharedInForum": false,
+          "sketchClassId": "196",
+          "userAttributes": [
+            {
+              "label": "Comments",
+              "value": "September 25, 2024",
+              "exportId": "comments",
+              "fieldType": "TextArea",
+              "valueLabel": null,
+              "formElementId": 2933,
+              "alternateLanguages": {
+                "es": {
+                  "label": "Comentarios",
+                  "valueLabel": null
+                }
+              }
+            },
+            {
+              "label": "Author(s)",
+              "value": "CZMAI",
+              "exportId": "authors",
+              "fieldType": "ShortText",
+              "valueLabel": null,
+              "formElementId": 2934,
+              "alternateLanguages": {
+                "es": {
+                  "label": "Autor(es)",
+                  "valueLabel": null
+                }
+              }
+            },
+            {
+              "label": "Protection Level",
+              "value": [
+                "medium"
+              ],
+              "exportId": "protection_level",
+              "fieldType": "MultipleChoice",
+              "valueLabel": [
+                "Medium"
+              ],
+              "formElementId": 11099,
+              "alternateLanguages": {}
+            },
+            {
+              "label": "What is the primary purpose or objective for the zone?",
+              "value": null,
+              "exportId": "primary_purpose",
+              "fieldType": "ShortText",
+              "valueLabel": null,
+              "formElementId": 11100,
+              "alternateLanguages": {}
+            },
+            {
+              "label": "What allowable activities are advised?",
+              "value": null,
+              "exportId": "allowed_activities",
+              "fieldType": "ShortText",
+              "valueLabel": null,
+              "formElementId": 11101,
+              "alternateLanguages": {}
+            },
+            {
+              "label": "What prohibited activities are advised?",
+              "value": null,
+              "exportId": "prohibited_activities",
+              "fieldType": "ShortText",
+              "valueLabel": null,
+              "formElementId": 11102,
+              "alternateLanguages": {}
+            },
+            {
+              "label": "IUCN Designation",
+              "value": null,
+              "exportId": "designation",
+              "fieldType": "ComboBox",
+              "valueLabel": null,
+              "formElementId": 2931,
+              "alternateLanguages": {
+                "es": {
+                  "label": "UICN Designación",
+                  "valueLabel": null
+                }
+              }
+            },
+            {
+              "label": "IUCN Designation",
+              "value": "V",
+              "exportId": "designation_medium",
+              "fieldType": "ComboBox",
+              "valueLabel": "IUCN V: Protected Landscape or Seascape",
+              "formElementId": 11103,
+              "alternateLanguages": {
+                "es": {
+                  "label": "UICN Designación",
+                  "valueLabel": "UICN V: Paisaje Terrestre o Marino Protegido"
+                }
+              }
+            }
+          ],
+          "primary_purpose": null,
+          "protection_level": [
+            "medium"
+          ],
+          "allowed_activities": null,
+          "designation_medium": "V",
+          "prohibited_activities": null
+        },
+        "geometry": null
+      },
+      {
+        "id": 79930,
+        "bbox": [
+          -87.66059,
+          17.096838,
+          -87.42091,
+          17.50305
+        ],
+        "type": "Feature",
+        "properties": {
+          "2932": "Lighthouse Reef Atoll Marine Reserve- General Use I",
+          "2933": "September 25,2024",
+          "2934": "CZMAI",
+          "11099": [
+            "medium"
+          ],
+          "11103": "V",
+          "id": "79930",
+          "name": "Lighthouse Reef Atoll Marine Reserve- General Use I",
+          "postId": null,
+          "userId": "531",
+          "authors": "CZMAI",
+          "comments": "September 25,2024",
+          "userSlug": "Abby",
+          "createdAt": "2025-04-02T18:44:55.983327+00:00",
+          "updatedAt": "2025-04-02T19:36:21.324895+00:00",
+          "designation": null,
+          "collectionId": "79926",
+          "isCollection": false,
+          "sharedInForum": false,
+          "sketchClassId": "196",
+          "userAttributes": [
+            {
+              "label": "Comments",
+              "value": "September 25,2024",
+              "exportId": "comments",
+              "fieldType": "TextArea",
+              "valueLabel": null,
+              "formElementId": 2933,
+              "alternateLanguages": {
+                "es": {
+                  "label": "Comentarios",
+                  "valueLabel": null
+                }
+              }
+            },
+            {
+              "label": "Author(s)",
+              "value": "CZMAI",
+              "exportId": "authors",
+              "fieldType": "ShortText",
+              "valueLabel": null,
+              "formElementId": 2934,
+              "alternateLanguages": {
+                "es": {
+                  "label": "Autor(es)",
+                  "valueLabel": null
+                }
+              }
+            },
+            {
+              "label": "Protection Level",
+              "value": [
+                "medium"
+              ],
+              "exportId": "protection_level",
+              "fieldType": "MultipleChoice",
+              "valueLabel": [
+                "Medium"
+              ],
+              "formElementId": 11099,
+              "alternateLanguages": {}
+            },
+            {
+              "label": "What is the primary purpose or objective for the zone?",
+              "value": null,
+              "exportId": "primary_purpose",
+              "fieldType": "ShortText",
+              "valueLabel": null,
+              "formElementId": 11100,
+              "alternateLanguages": {}
+            },
+            {
+              "label": "What allowable activities are advised?",
+              "value": null,
+              "exportId": "allowed_activities",
+              "fieldType": "ShortText",
+              "valueLabel": null,
+              "formElementId": 11101,
+              "alternateLanguages": {}
+            },
+            {
+              "label": "What prohibited activities are advised?",
+              "value": null,
+              "exportId": "prohibited_activities",
+              "fieldType": "ShortText",
+              "valueLabel": null,
+              "formElementId": 11102,
+              "alternateLanguages": {}
+            },
+            {
+              "label": "IUCN Designation",
+              "value": null,
+              "exportId": "designation",
+              "fieldType": "ComboBox",
+              "valueLabel": null,
+              "formElementId": 2931,
+              "alternateLanguages": {
+                "es": {
+                  "label": "UICN Designación",
+                  "valueLabel": null
+                }
+              }
+            },
+            {
+              "label": "IUCN Designation",
+              "value": "V",
+              "exportId": "designation_medium",
+              "fieldType": "ComboBox",
+              "valueLabel": "IUCN V: Protected Landscape or Seascape",
+              "formElementId": 11103,
+              "alternateLanguages": {
+                "es": {
+                  "label": "UICN Designación",
+                  "valueLabel": "UICN V: Paisaje Terrestre o Marino Protegido"
+                }
+              }
+            }
+          ],
+          "primary_purpose": null,
+          "protection_level": [
+            "medium"
+          ],
+          "allowed_activities": null,
+          "designation_medium": "V",
+          "prohibited_activities": null
+        },
+        "geometry": null
+      },
+      {
+        "id": 79927,
+        "bbox": [
+          -87.94815,
+          16.659422,
+          -87.64059,
+          16.957727
+        ],
+        "type": "Feature",
+        "properties": {
+          "2932": "Glover's Reef Atoll Marine Reserve Expansion",
+          "2933": "The areas under consideration. September 25 2024",
+          "2934": "CZMAI",
+          "11099": [
+            "medium"
+          ],
+          "11103": "V",
+          "id": "79927",
+          "name": "Glover's Reef Atoll Marine Reserve Expansion",
+          "postId": null,
+          "userId": "531",
+          "authors": "CZMAI",
+          "comments": "The areas under consideration. September 25 2024",
+          "userSlug": "Abby",
+          "createdAt": "2025-04-02T18:44:55.983327+00:00",
+          "updatedAt": "2025-04-02T19:36:13.030146+00:00",
+          "designation": null,
+          "collectionId": "79926",
+          "isCollection": false,
+          "sharedInForum": false,
+          "sketchClassId": "196",
+          "userAttributes": [
+            {
+              "label": "Comments",
+              "value": "The areas under consideration. September 25 2024",
+              "exportId": "comments",
+              "fieldType": "TextArea",
+              "valueLabel": null,
+              "formElementId": 2933,
+              "alternateLanguages": {
+                "es": {
+                  "label": "Comentarios",
+                  "valueLabel": null
+                }
+              }
+            },
+            {
+              "label": "Author(s)",
+              "value": "CZMAI",
+              "exportId": "authors",
+              "fieldType": "ShortText",
+              "valueLabel": null,
+              "formElementId": 2934,
+              "alternateLanguages": {
+                "es": {
+                  "label": "Autor(es)",
+                  "valueLabel": null
+                }
+              }
+            },
+            {
+              "label": "Protection Level",
+              "value": [
+                "medium"
+              ],
+              "exportId": "protection_level",
+              "fieldType": "MultipleChoice",
+              "valueLabel": [
+                "Medium"
+              ],
+              "formElementId": 11099,
+              "alternateLanguages": {}
+            },
+            {
+              "label": "What is the primary purpose or objective for the zone?",
+              "value": null,
+              "exportId": "primary_purpose",
+              "fieldType": "ShortText",
+              "valueLabel": null,
+              "formElementId": 11100,
+              "alternateLanguages": {}
+            },
+            {
+              "label": "What allowable activities are advised?",
+              "value": null,
+              "exportId": "allowed_activities",
+              "fieldType": "ShortText",
+              "valueLabel": null,
+              "formElementId": 11101,
+              "alternateLanguages": {}
+            },
+            {
+              "label": "What prohibited activities are advised?",
+              "value": null,
+              "exportId": "prohibited_activities",
+              "fieldType": "ShortText",
+              "valueLabel": null,
+              "formElementId": 11102,
+              "alternateLanguages": {}
+            },
+            {
+              "label": "IUCN Designation",
+              "value": null,
+              "exportId": "designation",
+              "fieldType": "ComboBox",
+              "valueLabel": null,
+              "formElementId": 2931,
+              "alternateLanguages": {
+                "es": {
+                  "label": "UICN Designación",
+                  "valueLabel": null
+                }
+              }
+            },
+            {
+              "label": "IUCN Designation",
+              "value": "V",
+              "exportId": "designation_medium",
+              "fieldType": "ComboBox",
+              "valueLabel": "IUCN V: Protected Landscape or Seascape",
+              "formElementId": 11103,
+              "alternateLanguages": {
+                "es": {
+                  "label": "UICN Designación",
+                  "valueLabel": "UICN V: Paisaje Terrestre o Marino Protegido"
+                }
+              }
+            }
+          ],
+          "primary_purpose": null,
+          "protection_level": [
+            "medium"
+          ],
+          "allowed_activities": null,
+          "designation_medium": "V",
+          "prohibited_activities": null
+        },
+        "geometry": null
+      }
+    ],
+    "properties": {
+      "3094": "MPBZs Areas Under Consideration 2024",
+      "5784": "Revised areas under consideration as of September 2024. ",
+      "5785": "CZMAI",
+      "id": "79926",
+      "name": "MPBZs Areas Under Consideration 2024",
+      "postId": null,
+      "userId": "531",
+      "authors": "CZMAI",
+      "comments": "Revised areas under consideration as of September 2024. ",
+      "userSlug": "Abby",
+      "createdAt": "2025-04-02T18:44:55.983327+00:00",
+      "updatedAt": "2025-04-02T21:04:52.807549+00:00",
+      "collectionId": null,
+      "isCollection": true,
+      "sharedInForum": false,
+      "sketchClassId": "232",
+      "userAttributes": [
+        {
+          "label": "Comments",
+          "value": "Revised areas under consideration as of September 2024. ",
+          "exportId": "comments",
+          "fieldType": "TextArea",
+          "valueLabel": null,
+          "formElementId": 5784,
+          "alternateLanguages": {}
+        },
+        {
+          "label": "Author(s)",
+          "value": "CZMAI",
+          "exportId": "authors",
+          "fieldType": "TextArea",
+          "valueLabel": null,
+          "formElementId": 5785,
+          "alternateLanguages": {}
+        }
+      ]
+    }
+  }
+}

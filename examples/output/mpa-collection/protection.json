@@ -3,34 +3,18 @@
     {
       "geographyId": null,
       "metricId": "protection",
-      "classId": "Ia",
+      "classId": "HIGH_PROTECTION",
       "sketchId": null,
-      "groupId": "Ia",
-      "value": 1
+      "groupId": "HIGH_PROTECTION",
+      "value": 2
     },
     {
       "geographyId": null,
       "metricId": "protection",
-      "classId": "III",
+      "classId": "MEDIUM_PROTECTION",
       "sketchId": null,
-      "groupId": "III",
-      "value": 1
-    },
-    {
-      "geographyId": null,
-      "metricId": "protection",
-      "classId": "V",
-      "sketchId": null,
-      "groupId": "V",
-      "value": 1
-    },
-    {
-      "geographyId": null,
-      "metricId": "protection",
-      "classId": "VI",
-      "sketchId": null,
-      "groupId": "VI",
-      "value": 1
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 2
     }
   ],
   "sketch": {

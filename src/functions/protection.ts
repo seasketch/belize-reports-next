@@ -12,6 +12,10 @@ import {
 } from "@seasketch/geoprocessing/client-core";
 import { GeoprocessingHandler } from "@seasketch/geoprocessing";
 import project from "../../project/projectClient.js";
+import {
+  highProtectionLevels,
+  mediumProtectionLevels,
+} from "../util/getMpaProtectionLevel.js";
 
 export async function protection(
   sketch: Sketch<Polygon> | SketchCollection<Polygon>,
@@ -25,15 +29,36 @@ export async function protection(
         levels["NO_PROTECTION"] = 1 + (levels["NO_PROTECTION"] || 0);
         return levels;
       }
+
+      const protection_level = getUserAttribute(
+        sketch.properties,
+        "protection_level",
+        "",
+      ).toString();
+
+      // If protection_level is set, use it
+      if (protection_level !== "") {
+        if (protection_level === "high")
+          levels["HIGH_PROTECTION"] = 1 + (levels["HIGH_PROTECTION"] || 0);
+        else if (protection_level === "medium")
+          levels["MEDIUM_PROTECTION"] = 1 + (levels["MEDIUM_PROTECTION"] || 0);
+        return levels;
+      }
+
+      // Otherwise, use designation if set
       const designation = getUserAttribute(
         sketch.properties,
         "designation",
         "",
-      );
-      if (!designation)
-        throw new Error("Malformed sketch, no designation level");
+      ).toString();
 
-      levels[designation] = 1 + (levels[designation] || 0);
+      if (highProtectionLevels.includes(designation))
+        levels["HIGH_PROTECTION"] = 1 + (levels["HIGH_PROTECTION"] || 0);
+      else if (mediumProtectionLevels.includes(designation))
+        levels["MEDIUM_PROTECTION"] = 1 + (levels["MEDIUM_PROTECTION"] || 0);
+      else
+        levels[sketch.properties.id] = 1 + (levels["MEDIUM_PROTECTION"] || 0);
+
       return levels;
     },
     {},
