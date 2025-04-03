@@ -1,6 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import * as d3 from "d3";
 import { CritterData } from "../functions/marlin.js";
+import { useTranslation } from "react-i18next";
 
 interface MarlinChartProps {
   data: CritterData[];
@@ -9,6 +10,7 @@ interface MarlinChartProps {
 
 export const MarlinChart: React.FC<MarlinChartProps> = ({ data, variable }) => {
   const svgRef = useRef<SVGSVGElement>(null);
+  const { t } = useTranslation();
 
   useEffect(() => {
     // Create a map of existing MPA baseline
@@ -42,8 +44,11 @@ export const MarlinChart: React.FC<MarlinChartProps> = ({ data, variable }) => {
     });
 
     const critters = Array.from(new Set(ratio.map((d) => d.critter)));
-    // const scenarios = ["No MPAs", "Existing MPAs", "Proposed MPAs"];
-    const scenarios = ["Existing MPAs", "Proposed MPAs"];
+    const critterDisplayMap: Record<string, string> = {
+      lobster: t("Lobster"),
+      snapper: t("Snapper"),
+    };
+    const scenarios = [t("Existing MPAs"), t("Proposed MPAs")];
 
     // General plot dimensions
     const width = 450;
@@ -102,7 +107,7 @@ export const MarlinChart: React.FC<MarlinChartProps> = ({ data, variable }) => {
         .attr("text-anchor", "middle")
         .style("font-size", "16px")
         .attr("fill", "#666")
-        .text(critter.charAt(0).toUpperCase() + critter.slice(1));
+        .text(critterDisplayMap[critter] || critter);
 
       // Horizontal grid lines
       g.append("g")
@@ -148,7 +153,7 @@ export const MarlinChart: React.FC<MarlinChartProps> = ({ data, variable }) => {
           .attr("y", height - 5)
           .style("font-size", "13px")
           .attr("fill", "#666")
-          .text("Years");
+          .text(t("Years"));
       }
 
       // Draw lines for each scenario
@@ -170,9 +175,9 @@ export const MarlinChart: React.FC<MarlinChartProps> = ({ data, variable }) => {
 
     // Y-axis label
     const variableLabels: Record<string, string> = {
-      catch: `% Difference in Catch`,
-      biomass: "% Difference in Biomass",
-      ssb: "% Difference in SSB",
+      catch: t("% Difference in Catch"),
+      biomass: t("% Difference in Biomass"),
+      ssb: t("% Difference in SSB"),
     };
     svg
       .append("text")

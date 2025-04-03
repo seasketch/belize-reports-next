@@ -31,12 +31,7 @@ import {
   nestMetrics,
   SketchProperties,
 } from "@seasketch/geoprocessing/client-core";
-import {
-  groupColorMap,
-  groupDisplayMapPl,
-  protectionLevels,
-  protectionLevelsDisplay,
-} from "./getMpaProtectionLevel.js";
+import { groupColorMap, protectionLevels } from "./getMpaProtectionLevel.js";
 import { HorizontalStackedBar, RowConfig } from "./HorizontalStackedBar.js";
 import project from "../../project/projectClient.js";
 import {
@@ -214,7 +209,7 @@ export const genClassTableGrouped = (
 
   // Coloring and styling for horizontal bars
   const groupColors = Object.values(groupColorMap);
-  const blockGroupNames = protectionLevelsDisplay.map((level) => t(level));
+  const blockGroupNames = [t("High"), t("Medium")];
   const blockGroupStyles = groupColors.map((curBlue) => ({
     backgroundColor: curBlue,
   }));
@@ -352,14 +347,16 @@ export const collectionMsgs: Record<string, any> = {
       return (
         <>
           {t("This plan meets the objective of protecting")}{" "}
-          <b>{percentWithEdge(objective.target)}</b> {t(objective.shortDesc)}
+          <b>{percentWithEdge(objective.target)}</b>{" "}
+          {/* i18next-extract-disable-line */ t(objective.shortDesc)}
         </>
       );
     } else if (objectiveMet === OBJECTIVE_NO) {
       return (
         <>
           {t("This plan does not meet the objective of protecting")}{" "}
-          <b>{percentWithEdge(objective.target)}</b> {t(objective.shortDesc)}
+          <b>{percentWithEdge(objective.target)}</b>{" "}
+          {/* i18next-extract-disable-line */ t(objective.shortDesc)}
         </>
       );
     }
@@ -427,6 +424,22 @@ export const genPercGroupLevelTable = (
 ) => {
   if (!isSketchCollection(data.sketch)) throw new Error("NullSketch");
 
+  const groupDisplayMapPl: Record<string, string> = {
+    HIGH_PROTECTION: t("High Protection Biodiversity Zone(s)"),
+    high: t("High Protection Biodiversity Zone(s)"),
+    MEDIUM_PROTECTION: t("Medium Protection Biodiversity Zone(s)"),
+    medium: t("Medium Protection Biodiversity Zone(s)"),
+    Ia: t("IUCN Ia. Strict Nature Reserve(s)"),
+    Ib: t("IUCN Ib. Wilderness Area(s)"),
+    II: t("IUCN II. National Park(s)"),
+    III: t("IUCN III. Natural Monument(s) or Feature(s)"),
+    IV: t("IUCN IV. Habitat/Species Management Area(s)"),
+    V: t("IUCN V. Protected Landscape(s) or Seascape(s)"),
+    VI: t("IUCN VI. Protected Area(s) with Sustainable Use"),
+    OECM: t("IUCN Other Effective area-based Conservation Measures (OECM)"),
+    LMMA: t("Locally Managed Marine Area(s) (LMMA)"),
+  };
+
   // Filter down to metrics which have groupIds
   const levelMetrics = data.metrics.filter(
     (m) => m.groupId && protectionLevels.includes(m.groupId),
@@ -465,7 +478,7 @@ export const genPercGroupLevelTable = (
           group={row.groupId.toString()}
           groupColorMap={groupColorMap}
           circleText={`${row.numSketches}`}
-          rowText={t(groupDisplayMapPl[row.groupId])}
+          rowText={groupDisplayMapPl[row.groupId]}
         />
       ),
     },
@@ -499,6 +512,22 @@ export const genGroupLevelTable = (
 ) => {
   if (!isSketchCollection(data.sketch)) throw new Error("NullSketch");
 
+  const groupDisplayMapPl: Record<string, string> = {
+    HIGH_PROTECTION: t("High Protection Biodiversity Zone(s)"),
+    high: t("High Protection Biodiversity Zone(s)"),
+    MEDIUM_PROTECTION: t("Medium Protection Biodiversity Zone(s)"),
+    medium: t("Medium Protection Biodiversity Zone(s)"),
+    Ia: t("IUCN Ia. Strict Nature Reserve(s)"),
+    Ib: t("IUCN Ib. Wilderness Area(s)"),
+    II: t("IUCN II. National Park(s)"),
+    III: t("IUCN III. Natural Monument(s) or Feature(s)"),
+    IV: t("IUCN IV. Habitat/Species Management Area(s)"),
+    V: t("IUCN V. Protected Landscape(s) or Seascape(s)"),
+    VI: t("IUCN VI. Protected Area(s) with Sustainable Use"),
+    OECM: t("IUCN Other Effective area-based Conservation Measures (OECM)"),
+    LMMA: t("Locally Managed Marine Area(s) (LMMA)"),
+  };
+
   // Filter down to metrics which have groupIds
   const levelMetrics = data.metrics.filter(
     (m) => m.groupId && protectionLevels.includes(m.groupId),
@@ -510,6 +539,7 @@ export const genGroupLevelTable = (
     precalcMetrics,
   );
 
+  /* i18next-extract-disable-next-line */
   const typeLabel = type === "dollar" ? t("Value") : t(type);
 
   const classColumns: Column<Record<string, string | number>>[] =
@@ -580,7 +610,7 @@ export const genGroupLevelTable = (
           group={row.groupId.toString()}
           groupColorMap={groupColorMap}
           circleText={`${row.numSketches}`}
-          rowText={t(groupDisplayMapPl[row.groupId])}
+          rowText={groupDisplayMapPl[row.groupId]}
         />
       ),
     },
@@ -633,6 +663,7 @@ export const genSketchTable = (
   metricGroup: MetricGroup,
   precalcMetrics: Metric[],
   childProperties: SketchProperties[],
+  t: any,
   printing: boolean = false,
 ) => {
   const childSketchIds = childProperties
@@ -651,7 +682,7 @@ export const genSketchTable = (
     metricGroup.classes,
     childProperties,
   );
-  const zoneLabel = "Zone";
+  const zoneLabel = t("Zone");
 
   const classColumns: Column<Record<string, string | number>>[] =
     metricGroup.classes.map((curClass) => ({
@@ -720,6 +751,7 @@ export const genAreaSketchTable = (
     sketchId,
   }));
 
+  /* i18next-extract-disable-next-line */
   const typeLabel = type === "dollar" ? t("Value") : t(type);
 
   const classColumns: Column<{ sketchId: string }>[] = mg.classes.map(
@@ -772,7 +804,7 @@ export const genAreaSketchTable = (
 
   const columns: Column<any>[] = [
     {
-      Header: "Zone",
+      Header: t("Zone"),
       accessor: (row) =>
         childProperties.find((csk) => csk.id === row.sketchId)!.name,
     },

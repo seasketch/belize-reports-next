@@ -10,17 +10,28 @@ import {
 } from "@seasketch/geoprocessing/client-ui";
 import Translator from "../components/TranslatorAsync.js";
 import { Printer } from "@styled-icons/bootstrap";
-import { ViabilityPage } from "../components/ViabilityPage.js";
-import { KeyHabitatPage } from "../components/KeyHabitatPage.js";
 import { Footer } from "../util/Footer.js";
 import { Settings } from "../util/Settings.js";
 import { SketchProperties } from "@seasketch/geoprocessing";
-import { RepresentationPage } from "../components/RepresentationPage.js";
-import { BioeconomicsPage } from "../components/BioeconomicsPage.js";
+import { ProtectionCard } from "../components/ProtectionCard.js";
+import { SizeCard } from "../components/SizeCard.js";
+import { HumanStressorsCard } from "../components/HumanStressorsCard.js";
+import { OceanWealth } from "../components/OceanWealth.js";
+import { MangroveTourism } from "../components/MangroveTourism.js";
+import { OusCard } from "../components/OusCard.js";
+import { OusDemographics } from "../components/OusDemographic.js";
+import { BathymetryCard } from "../components/BathymetryCard.js";
+import { Geomorphology } from "../components/Geomorphology.js";
+import { Coral } from "../components/Coral.js";
+import { Mangroves } from "../components/Mangroves.js";
+import { LittoralForest } from "../components/LittoralForest.js";
+import { Seagrass } from "../components/Seagrass.js";
+import { MarlinCard } from "../components/MarlinCard.js";
 
 const BaseReport = () => {
   const { t } = useTranslation();
   const [{ sketchClassId }] = useSketchProperties();
+  const lockoutArea = String(sketchClassId) === "1555";
 
   const viabilityId = "viability";
   const representationId = "representation";
@@ -30,10 +41,9 @@ const BaseReport = () => {
     { id: viabilityId, label: t("Viability") },
     { id: representationId, label: t("Representation") },
     { id: keyHabitatId, label: t("Key Habitat") },
+    ...(lockoutArea ? [] : [{ id: bioeconomicId, label: t("Bioeconomics") }]),
   ];
-  // Only report bioeconomics for non-lockout areas
-  if (String(sketchClassId) !== "1555")
-    segments.push({ id: bioeconomicId, label: t("Bioeconomics") });
+
   const [tab, setTab] = useState<string>(viabilityId);
 
   // Printing
@@ -71,32 +81,27 @@ const BaseReport = () => {
 
   return (
     <>
-      {/* Saving to PDF/Printing */}
+      {/* Print/Save to PDF button */}
       <Printer
         size={18}
         color="#999"
         title="Print/Save to PDF"
         style={{
           float: "right",
-          position: "relative",
           margin: "5px",
           cursor: "pointer",
         }}
         onMouseEnter={(e) => (e.currentTarget.style.color = "#666")}
         onMouseLeave={(e) => (e.currentTarget.style.color = "#999")}
-        onClick={() => {
-          setIsPrinting(true);
-        }}
+        onClick={() => setIsPrinting(true)}
       />
 
+      {/* Printing loading screen */}
       {isPrinting && (
         <div
           style={{
             position: "fixed",
-            top: 0,
-            left: 0,
-            width: "100%",
-            height: "100%",
+            inset: 0,
             backgroundColor: "rgba(255, 255, 255, 0.9)",
             zIndex: 9999,
             display: "flex",
@@ -104,12 +109,11 @@ const BaseReport = () => {
             alignItems: "center",
           }}
         >
-          <Card>
-            <div>Printing...</div>
-          </Card>
+          <Card>Printing...</Card>
         </div>
       )}
 
+      {/* Tab selector */}
       <div style={{ marginTop: 5 }}>
         <SegmentControl
           value={tab}
@@ -124,17 +128,36 @@ const BaseReport = () => {
       >
         <style>{getPageMargins()}</style>
         {isPrinting && <SketchAttributes {...attributes} />}
+
+        {/* VIABILITY */}
         <ReportPage hidden={!isPrinting && tab !== viabilityId}>
-          <ViabilityPage printing={isPrinting} />
+          {!lockoutArea && <ProtectionCard printing={isPrinting} />}
+          <SizeCard printing={isPrinting} />
+          <HumanStressorsCard printing={isPrinting} />
+          <OceanWealth printing={isPrinting} />
+          <MangroveTourism printing={isPrinting} />
+          <OusCard printing={isPrinting} />
+          <OusDemographics printing={isPrinting} />
+          {!isPrinting && <SketchAttributesCard autoHide />}
         </ReportPage>
+
+        {/* REPRESENTATION */}
         <ReportPage hidden={!isPrinting && tab !== representationId}>
-          <RepresentationPage printing={isPrinting} />
+          <BathymetryCard printing={isPrinting} />
+          <Geomorphology printing={isPrinting} />
         </ReportPage>
+
+        {/* KEY HABITAT */}
         <ReportPage hidden={!isPrinting && tab !== keyHabitatId}>
-          <KeyHabitatPage printing={isPrinting} />
+          <Coral printing={isPrinting} />
+          <Mangroves printing={isPrinting} />
+          <LittoralForest printing={isPrinting} />
+          <Seagrass printing={isPrinting} />
         </ReportPage>
+
+        {/* BIOECONOMICS */}
         <ReportPage hidden={!isPrinting && tab !== bioeconomicId}>
-          <BioeconomicsPage printing={isPrinting} />
+          <MarlinCard printing={isPrinting} />
         </ReportPage>
       </div>
 

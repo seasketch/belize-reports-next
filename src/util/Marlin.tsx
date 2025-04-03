@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { MarlinChart } from "./MarlinChart.js";
 import { CritterData } from "../functions/marlin.js";
 import { styled } from "styled-components";
+import { useTranslation } from "react-i18next";
 
 const StyledRadioGroup = styled.div`
   display: flex;
@@ -25,6 +26,7 @@ interface MarlinProps {
 }
 
 export const Marlin: React.FC<MarlinProps> = ({ data, printing }) => {
+  const { t } = useTranslation();
   const [variable, setVariable] = useState<"catch" | "biomass" | "ssb">(
     "catch",
   );
@@ -50,7 +52,7 @@ export const Marlin: React.FC<MarlinProps> = ({ data, printing }) => {
             checked={variable === "catch"}
             onChange={() => setVariable("catch")}
           />
-          Catch
+          {t("Catch")}
         </StyledRadioLabel>
         <StyledRadioLabel>
           <input
@@ -60,7 +62,7 @@ export const Marlin: React.FC<MarlinProps> = ({ data, printing }) => {
             checked={variable === "biomass"}
             onChange={() => setVariable("biomass")}
           />
-          Biomass
+          {t("Biomass")}
         </StyledRadioLabel>
         <StyledRadioLabel>
           <input
@@ -70,7 +72,7 @@ export const Marlin: React.FC<MarlinProps> = ({ data, printing }) => {
             checked={variable === "ssb"}
             onChange={() => setVariable("ssb")}
           />
-          SSB
+          {t("SSB")}
         </StyledRadioLabel>
       </StyledRadioGroup>
 

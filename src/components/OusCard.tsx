@@ -117,6 +117,7 @@ export const OusCard: React.FunctionComponent<{
                           metricGroup,
                           precalcMetrics,
                           childProperties!,
+                          t,
                           props.printing,
                         )}
                       </Collapse>

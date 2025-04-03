@@ -9,41 +9,6 @@ import {
 
 // Designation of protection levels
 export const protectionLevels = ["HIGH_PROTECTION", "MEDIUM_PROTECTION"];
-export const protectionLevelsDisplay = ["High", "Medium"];
-
-// Display values for groups (plural)
-export const groupDisplayMapPl: Record<string, string> = {
-  HIGH_PROTECTION: "High Protection Biodiversity Zone(s)",
-  high: "High Protection Biodiversity Zone(s)",
-  MEDIUM_PROTECTION: "Medium Protection Biodiversity Zone(s)",
-  medium: "Medium Protection Biodiversity Zone(s)",
-  Ia: "IUCN Ia. Strict Nature Reserve(s)",
-  Ib: "IUCN Ib. Wilderness Area(s)",
-  II: "IUCN II. National Park(s)",
-  III: "IUCN III. Natural Monument(s) or Feature(s)",
-  IV: "IUCN IV. Habitat/Species Management Area(s)",
-  V: "IUCN V. Protected Landscape(s) or Seascape(s)",
-  VI: "IUCN VI. Protected Area(s) with Sustainable Use",
-  OECM: "IUCN Other Effective area-based Conservation Measures (OECM)",
-  LMMA: "Locally Managed Marine Area(s) (LMMA)",
-};
-
-// Display values for groups (singular)
-export const groupDisplayMapSg: Record<string, string> = {
-  HIGH_PROTECTION: "High Protection Biodiversity Zone",
-  high: "High Protection Biodiversity Zone",
-  MEDIUM_PROTECTION: "Medium Protection Biodiversity Zone",
-  medium: "Medium Protection Biodiversity Zone",
-  Ia: "IUCN Ia. Strict Nature Reserve",
-  Ib: "IUCN Ib. Wilderness Area",
-  II: "IUCN II. National Park",
-  III: "IUCN III. Natural Monument or Feature",
-  IV: "IUCN IV. Habitat/Species Management Area",
-  V: "IUCN V. Protected Landscape or Seascape",
-  VI: "IUCN VI. Protected Area with Sustainable Use",
-  OECM: "IUCN Other Effective area-based Conservation Measures (OECM)",
-  LMMA: "Locally Managed Marine Area (LMMA)",
-};
 
 // Mapping groupIds to colors
 export const groupColorMap: Record<string, string> = {

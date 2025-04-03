@@ -19,10 +19,6 @@ import {
 } from "@seasketch/geoprocessing/client-core";
 import { styled } from "styled-components";
 import { Trans, useTranslation } from "react-i18next";
-import {
-  groupDisplayMapPl,
-  groupDisplayMapSg,
-} from "../util/getMpaProtectionLevel.js";
 
 // Table styling for Show by MPA table
 export const SmallReportTableStyled = styled(ReportTableStyled)`
@@ -92,6 +88,23 @@ const sketchReport = (metrics: Metric[], t: any, printing: boolean = false) => {
       "In single sketch protection report, and getting !=1 metric",
     );
 
+  // Display values for groups (singular)
+  const groupDisplayMapSg: Record<string, string> = {
+    HIGH_PROTECTION: t("High Protection Biodiversity Zone"),
+    high: t("High Protection Biodiversity Zone"),
+    MEDIUM_PROTECTION: t("Medium Protection Biodiversity Zone"),
+    medium: t("Medium Protection Biodiversity Zone"),
+    Ia: t("IUCN Ia. Strict Nature Reserve"),
+    Ib: t("IUCN Ib. Wilderness Area"),
+    II: t("IUCN II. National Park"),
+    III: t("IUCN III. Natural Monument or Feature"),
+    IV: t("IUCN IV. Habitat/Species Management Area"),
+    V: t("IUCN V. Protected Landscape or Seascape"),
+    VI: t("IUCN VI. Protected Area with Sustainable Use"),
+    OECM: t("IUCN Other Effective area-based Conservation Measures (OECM)"),
+    LMMA: t("Locally Managed Marine Area (LMMA)"),
+  };
+
   return (
     <>
       <div
@@ -104,7 +117,7 @@ const sketchReport = (metrics: Metric[], t: any, printing: boolean = false) => {
         <MpaClassPanel
           value={metrics[0].value}
           size={18}
-          displayName={t(groupDisplayMapSg[metrics[0].groupId || "none"])}
+          displayName={groupDisplayMapSg[metrics[0].groupId || "none"]}
           displayValue={false}
           group={metrics[0].groupId as string | undefined}
           groupColorMap={groupColorMap}
@@ -133,6 +146,23 @@ const sketchCollectionReport = (
   t: any,
   printing: boolean = false,
 ) => {
+  // Display values for groups (plural)
+  const groupDisplayMapPl: Record<string, string> = {
+    HIGH_PROTECTION: t("High Protection Biodiversity Zone(s)"),
+    high: t("High Protection Biodiversity Zone(s)"),
+    MEDIUM_PROTECTION: t("Medium Protection Biodiversity Zone(s)"),
+    medium: t("Medium Protection Biodiversity Zone(s)"),
+    Ia: t("IUCN Ia. Strict Nature Reserve(s)"),
+    Ib: t("IUCN Ib. Wilderness Area(s)"),
+    II: t("IUCN II. National Park(s)"),
+    III: t("IUCN III. Natural Monument(s) or Feature(s)"),
+    IV: t("IUCN IV. Habitat/Species Management Area(s)"),
+    V: t("IUCN V. Protected Landscape(s) or Seascape(s)"),
+    VI: t("IUCN VI. Protected Area(s) with Sustainable Use"),
+    OECM: t("IUCN Other Effective area-based Conservation Measures (OECM)"),
+    LMMA: t("Locally Managed Marine Area(s) (LMMA)"),
+  };
+
   const columns: Column<Metric>[] = [
     {
       Header: " ",
@@ -140,7 +170,7 @@ const sketchCollectionReport = (
         <MpaClassPanel
           value={row.value}
           size={18}
-          displayName={t(groupDisplayMapPl[row.groupId || "none"])}
+          displayName={groupDisplayMapPl[row.groupId || "none"]}
           group={row.groupId as string | undefined}
           groupColorMap={groupColorMap}
         />
@@ -177,6 +207,23 @@ const genMpaSketchTable = (
   t: any,
   printing?: boolean,
 ) => {
+  // Display values for groups (singular)
+  const groupDisplayMapSg: Record<string, string> = {
+    HIGH_PROTECTION: t("High Protection Biodiversity Zone"),
+    high: t("High Protection Biodiversity Zone"),
+    MEDIUM_PROTECTION: t("Medium Protection Biodiversity Zone"),
+    medium: t("Medium Protection Biodiversity Zone"),
+    Ia: t("IUCN Ia. Strict Nature Reserve"),
+    Ib: t("IUCN Ib. Wilderness Area"),
+    II: t("IUCN II. National Park"),
+    III: t("IUCN III. Natural Monument or Feature"),
+    IV: t("IUCN IV. Habitat/Species Management Area"),
+    V: t("IUCN V. Protected Landscape or Seascape"),
+    VI: t("IUCN VI. Protected Area with Sustainable Use"),
+    OECM: t("IUCN Other Effective area-based Conservation Measures (OECM)"),
+    LMMA: t("Locally Managed Marine Area (LMMA)"),
+  };
+
   const columns: Column<SketchProperties>[] = [
     {
       Header: t("MPA"),
@@ -204,7 +251,7 @@ const genMpaSketchTable = (
 
         return (
           <GroupPill groupColorMap={groupColorMap} group={group}>
-            {t(groupDisplayMapSg[group])}
+            {groupDisplayMapSg[group]}
           </GroupPill>
         );
       },
@@ -326,6 +373,7 @@ const MpaClassPanel: React.FunctionComponent<RbcsMpaClassPanelProps> = ({
   group,
   groupColorMap,
 }) => {
+  console.log(displayName);
   return (
     <div
       style={{
