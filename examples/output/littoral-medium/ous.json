@@ -39,7 +39,7 @@
       "classId": "fisheries_aquaculture",
       "sketchId": "23569",
       "groupId": null,
-      "value": 68229.26196,
+      "value": 26966911.05246,
       "extra": {
         "sketchName": "littoral-medium"
       }
@@ -61,7 +61,7 @@
       "classId": "fisheries_aquaculture",
       "sketchId": "23569",
       "groupId": "MEDIUM_PROTECTION",
-      "value": 68229.26196,
+      "value": 26966911.05246,
       "extra": {
         "sketchName": "littoral-medium"
       }
@@ -72,7 +72,7 @@
       "classId": "general_use",
       "sketchId": "23569",
       "groupId": null,
-      "value": 2029087.802847,
+      "value": 1623947.011765,
       "extra": {
         "sketchName": "littoral-medium"
       }
@@ -94,7 +94,7 @@
       "classId": "general_use",
       "sketchId": "23569",
       "groupId": "MEDIUM_PROTECTION",
-      "value": 2029087.802847,
+      "value": 1623947.011765,
       "extra": {
         "sketchName": "littoral-medium"
       }
@@ -138,7 +138,7 @@
       "classId": "marine_coastal_ecosystems",
       "sketchId": "23569",
       "groupId": null,
-      "value": 1615.882009,
+      "value": 2297211.516,
       "extra": {
         "sketchName": "littoral-medium"
       }
@@ -160,7 +160,7 @@
       "classId": "marine_coastal_ecosystems",
       "sketchId": "23569",
       "groupId": "MEDIUM_PROTECTION",
-      "value": 1615.882009,
+      "value": 2297211.516,
       "extra": {
         "sketchName": "littoral-medium"
       }
@@ -171,7 +171,7 @@
       "classId": "maritime_administration",
       "sketchId": "23569",
       "groupId": null,
-      "value": 7625906.29248,
+      "value": 7767562.204529,
       "extra": {
         "sketchName": "littoral-medium"
       }
@@ -193,7 +193,7 @@
       "classId": "maritime_administration",
       "sketchId": "23569",
       "groupId": "MEDIUM_PROTECTION",
-      "value": 7625906.29248,
+      "value": 7767562.204529,
       "extra": {
         "sketchName": "littoral-medium"
       }
@@ -204,7 +204,7 @@
       "classId": "tourism",
       "sketchId": "23569",
       "groupId": null,
-      "value": 48967834.723364,
+      "value": 59494481.22666,
       "extra": {
         "sketchName": "littoral-medium"
       }
@@ -226,7 +226,7 @@
       "classId": "tourism",
       "sketchId": "23569",
       "groupId": "MEDIUM_PROTECTION",
-      "value": 48967834.723364,
+      "value": 59494481.22666,
       "extra": {
         "sketchName": "littoral-medium"
       }

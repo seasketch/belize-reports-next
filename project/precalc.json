@@ -108,7 +108,7 @@
     "metricId": "area",
     "classId": "energy-total",
     "sketchId": null,
-    "groupId": null,
+    "groupId": "band-0",
     "value": 34361910.183046
   },
   {
@@ -124,16 +124,16 @@
     "metricId": "area",
     "classId": "fisheries_aquaculture-total",
     "sketchId": null,
-    "groupId": null,
-    "value": 15113230552.50892
+    "groupId": "band-0",
+    "value": 30836216697.999065
   },
   {
     "geographyId": "belize_ocean_space",
     "metricId": "area",
     "classId": "general_use-total",
     "sketchId": null,
-    "groupId": null,
-    "value": 23476547884.53305
+    "groupId": "band-0",
+    "value": 21291848637.672787
   },
   {
     "geographyId": "belize_ocean_space",
@@ -180,16 +180,16 @@
     "metricId": "area",
     "classId": "marine_coastal_development-total",
     "sketchId": null,
-    "groupId": null,
-    "value": 19339159405.787857
+    "groupId": "band-0",
+    "value": 19349102693.33231
   },
   {
     "geographyId": "belize_ocean_space",
     "metricId": "area",
     "classId": "marine_coastal_ecosystems-total",
     "sketchId": null,
-    "groupId": null,
-    "value": 32448976739.54371
+    "groupId": "band-0",
+    "value": 31292497402.87495
   },
   {
     "geographyId": "belize_ocean_space",
@@ -212,8 +212,8 @@
     "metricId": "area",
     "classId": "maritime_administration-total",
     "sketchId": null,
-    "groupId": null,
-    "value": 10185479983.366505
+    "groupId": "band-0",
+    "value": 14005217883.864271
   },
   {
     "geographyId": "belize_ocean_space",
@@ -300,8 +300,8 @@
     "metricId": "area",
     "classId": "tourism-total",
     "sketchId": null,
-    "groupId": null,
-    "value": 17501367670.063408
+    "groupId": "band-0",
+    "value": 17156166770.24882
   },
   {
     "geographyId": "belize_ocean_space",
@@ -412,7 +412,7 @@
     "metricId": "count",
     "classId": "energy-total",
     "sketchId": null,
-    "groupId": null,
+    "groupId": "band-0",
     "value": 299564
   },
   {
@@ -428,16 +428,16 @@
     "metricId": "count",
     "classId": "fisheries_aquaculture-total",
     "sketchId": null,
-    "groupId": null,
-    "value": 2662376
+    "groupId": "band-0",
+    "value": 3657704
   },
   {
     "geographyId": "belize_ocean_space",
     "metricId": "count",
     "classId": "general_use-total",
     "sketchId": null,
-    "groupId": null,
-    "value": 2982882
+    "groupId": "band-0",
+    "value": 2804225
   },
   {
     "geographyId": "belize_ocean_space",
@@ -484,7 +484,7 @@
     "metricId": "count",
     "classId": "marine_coastal_development-total",
     "sketchId": null,
-    "groupId": null,
+    "groupId": "band-0",
     "value": 3060505
   },
   {
@@ -492,7 +492,7 @@
     "metricId": "count",
     "classId": "marine_coastal_ecosystems-total",
     "sketchId": null,
-    "groupId": null,
+    "groupId": "band-0",
     "value": 3657616
   },
   {
@@ -516,8 +516,8 @@
     "metricId": "count",
     "classId": "maritime_administration-total",
     "sketchId": null,
-    "groupId": null,
-    "value": 2054128
+    "groupId": "band-0",
+    "value": 2311377
   },
   {
     "geographyId": "belize_ocean_space",
@@ -604,8 +604,8 @@
     "metricId": "count",
     "classId": "tourism-total",
     "sketchId": null,
-    "groupId": null,
-    "value": 2354852
+    "groupId": "band-0",
+    "value": 2379760
   },
   {
     "geographyId": "belize_ocean_space",
@@ -620,7 +620,7 @@
     "metricId": "sum",
     "classId": "energy-total",
     "sketchId": null,
-    "groupId": null,
+    "groupId": "band-0",
     "value": 25609963.637817
   },
   {
@@ -628,48 +628,48 @@
     "metricId": "sum",
     "classId": "fisheries_aquaculture-total",
     "sketchId": null,
-    "groupId": null,
-    "value": 11325518.448906
+    "groupId": "band-0",
+    "value": 2174138515.818874
   },
   {
     "geographyId": "belize_ocean_space",
     "metricId": "sum",
     "classId": "general_use-total",
     "sketchId": null,
-    "groupId": null,
-    "value": 9937327131.209171
+    "groupId": "band-0",
+    "value": 12325525376.433506
   },
   {
     "geographyId": "belize_ocean_space",
     "metricId": "sum",
     "classId": "marine_coastal_development-total",
     "sketchId": null,
-    "groupId": null,
-    "value": 525108951.292241
+    "groupId": "band-0",
+    "value": 1508745145.826863
   },
   {
     "geographyId": "belize_ocean_space",
     "metricId": "sum",
     "classId": "marine_coastal_ecosystems-total",
     "sketchId": null,
-    "groupId": null,
-    "value": 1922391928.333665
+    "groupId": "band-0",
+    "value": 2000280365.364007
   },
   {
     "geographyId": "belize_ocean_space",
     "metricId": "sum",
     "classId": "maritime_administration-total",
     "sketchId": null,
-    "groupId": null,
-    "value": 923393270.807225
+    "groupId": "band-0",
+    "value": 1354635479.985201
   },
   {
     "geographyId": "belize_ocean_space",
     "metricId": "sum",
     "classId": "tourism-total",
     "sketchId": null,
-    "groupId": null,
-    "value": 3972068021.258505
+    "groupId": "band-0",
+    "value": 5069899790.85861
   },
   {
     "geographyId": "belize_ocean_space",
@@ -684,7 +684,7 @@
     "metricId": "valid",
     "classId": "energy-total",
     "sketchId": null,
-    "groupId": null,
+    "groupId": "band-0",
     "value": 14729
   },
   {
@@ -692,47 +692,47 @@
     "metricId": "valid",
     "classId": "fisheries_aquaculture-total",
     "sketchId": null,
-    "groupId": null,
-    "value": 1522176
+    "groupId": "band-0",
+    "value": 3343636
   },
   {
     "geographyId": "belize_ocean_space",
     "metricId": "valid",
     "classId": "general_use-total",
     "sketchId": null,
-    "groupId": null,
-    "value": 2403128
+    "groupId": "band-0",
+    "value": 2158010
   },
   {
     "geographyId": "belize_ocean_space",
     "metricId": "valid",
     "classId": "marine_coastal_development-total",
     "sketchId": null,
-    "groupId": null,
-    "value": 1966338
+    "groupId": "band-0",
+    "value": 1967349
   },
   {
     "geographyId": "belize_ocean_space",
     "metricId": "valid",
     "classId": "marine_coastal_ecosystems-total",
     "sketchId": null,
-    "groupId": null,
-    "value": 3518413
+    "groupId": "band-0",
+    "value": 3393017
   },
   {
     "geographyId": "belize_ocean_space",
     "metricId": "valid",
     "classId": "maritime_administration-total",
     "sketchId": null,
-    "groupId": null,
-    "value": 998612
+    "groupId": "band-0",
+    "value": 1387551
   },
   {
     "geographyId": "belize_ocean_space",
     "metricId": "valid",
     "classId": "tourism-total",
     "sketchId": null,
-    "groupId": null,
-    "value": 1738938
+    "groupId": "band-0",
+    "value": 1711987
   }
 ]

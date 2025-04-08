@@ -174,7 +174,7 @@
       "classId": "fisheries_aquaculture",
       "sketchId": "29116",
       "groupId": null,
-      "value": 914807.607888,
+      "value": 412594884.763089,
       "extra": {
         "sketchName": "Areas Under Consideration for New Biodiversity Protection Zones",
         "isCollection": true
@@ -186,7 +186,7 @@
       "classId": "fisheries_aquaculture",
       "sketchId": "29116",
       "groupId": "HIGH_PROTECTION",
-      "value": 368675.263084,
+      "value": 207619530.147408,
       "extra": {
         "sketchName": "Areas Under Consideration for New Biodiversity Protection Zones",
         "isCollection": true
@@ -198,7 +198,7 @@
       "classId": "fisheries_aquaculture",
       "sketchId": "29116",
       "groupId": "MEDIUM_PROTECTION",
-      "value": 546132.344805,
+      "value": 204975354.615681,
       "extra": {
         "sketchName": "Areas Under Consideration for New Biodiversity Protection Zones",
         "isCollection": true
@@ -210,7 +210,7 @@
       "classId": "fisheries_aquaculture",
       "sketchId": "29117",
       "groupId": null,
-      "value": 546132.344805,
+      "value": 204975354.615681,
       "extra": {
         "sketchName": "Lighthouse Atoll"
       }
@@ -221,7 +221,7 @@
       "classId": "fisheries_aquaculture",
       "sketchId": "29117",
       "groupId": "MEDIUM_PROTECTION",
-      "value": 546132.344805,
+      "value": 204975354.615681,
       "extra": {
         "sketchName": "Lighthouse Atoll"
       }
@@ -232,7 +232,7 @@
       "classId": "fisheries_aquaculture",
       "sketchId": "29118",
       "groupId": null,
-      "value": 9578.468249,
+      "value": 103029934.39504,
       "extra": {
         "sketchName": "Glover's Atoll"
       }
@@ -243,7 +243,7 @@
       "classId": "fisheries_aquaculture",
       "sketchId": "29118",
       "groupId": "HIGH_PROTECTION",
-      "value": 9578.468249,
+      "value": 103029934.39504,
       "extra": {
         "sketchName": "Glover's Atoll"
       }
@@ -254,7 +254,7 @@
       "classId": "fisheries_aquaculture",
       "sketchId": "29119",
       "groupId": null,
-      "value": 122447.072198,
+      "value": 76275819.600335,
       "extra": {
         "sketchName": "Goff's Caye"
       }
@@ -265,7 +265,7 @@
       "classId": "fisheries_aquaculture",
       "sketchId": "29119",
       "groupId": "HIGH_PROTECTION",
-      "value": 122447.072198,
+      "value": 76275819.600335,
       "extra": {
         "sketchName": "Goff's Caye"
       }
@@ -276,7 +276,7 @@
       "classId": "fisheries_aquaculture",
       "sketchId": "29120",
       "groupId": null,
-      "value": 110770.673361,
+      "value": 12661315.109778,
       "extra": {
         "sketchName": "Belize Transboundary"
       }
@@ -287,7 +287,7 @@
       "classId": "fisheries_aquaculture",
       "sketchId": "29120",
       "groupId": "HIGH_PROTECTION",
-      "value": 110770.673361,
+      "value": 12661315.109778,
       "extra": {
         "sketchName": "Belize Transboundary"
       }
@@ -298,7 +298,7 @@
       "classId": "fisheries_aquaculture",
       "sketchId": "29121",
       "groupId": null,
-      "value": 124927.202579,
+      "value": 15549913.539406,
       "extra": {
         "sketchName": "Placenia Lagoon"
       }
@@ -309,7 +309,7 @@
       "classId": "fisheries_aquaculture",
       "sketchId": "29121",
       "groupId": "HIGH_PROTECTION",
-      "value": 124927.202579,
+      "value": 15549913.539406,
       "extra": {
         "sketchName": "Placenia Lagoon"
       }
@@ -320,7 +320,7 @@
       "classId": "fisheries_aquaculture",
       "sketchId": "29122",
       "groupId": null,
-      "value": 951.846696,
+      "value": 102547.50285,
       "extra": {
         "sketchName": "Cayman Crown"
       }
@@ -331,7 +331,7 @@
       "classId": "fisheries_aquaculture",
       "sketchId": "29122",
       "groupId": "HIGH_PROTECTION",
-      "value": 951.846696,
+      "value": 102547.50285,
       "extra": {
         "sketchName": "Cayman Crown"
       }
@@ -342,7 +342,7 @@
       "classId": "general_use",
       "sketchId": "29116",
       "groupId": null,
-      "value": 90898769.935591,
+      "value": 205773907.487575,
       "extra": {
         "sketchName": "Areas Under Consideration for New Biodiversity Protection Zones",
         "isCollection": true
@@ -354,7 +354,7 @@
       "classId": "general_use",
       "sketchId": "29116",
       "groupId": "HIGH_PROTECTION",
-      "value": 87395011.168613,
+      "value": 202847502.035056,
       "extra": {
         "sketchName": "Areas Under Consideration for New Biodiversity Protection Zones",
         "isCollection": true
@@ -366,7 +366,7 @@
       "classId": "general_use",
       "sketchId": "29116",
       "groupId": "MEDIUM_PROTECTION",
-      "value": 3503758.766978,
+      "value": 2926405.45252,
       "extra": {
         "sketchName": "Areas Under Consideration for New Biodiversity Protection Zones",
         "isCollection": true
@@ -378,7 +378,7 @@
       "classId": "general_use",
       "sketchId": "29117",
       "groupId": null,
-      "value": 3503758.766978,
+      "value": 2926405.45252,
       "extra": {
         "sketchName": "Lighthouse Atoll"
       }
@@ -389,7 +389,7 @@
       "classId": "general_use",
       "sketchId": "29117",
       "groupId": "MEDIUM_PROTECTION",
-      "value": 3503758.766978,
+      "value": 2926405.45252,
       "extra": {
         "sketchName": "Lighthouse Atoll"
       }
@@ -400,7 +400,7 @@
       "classId": "general_use",
       "sketchId": "29118",
       "groupId": null,
-      "value": 2339575.499637,
+      "value": 6781477.950545,
       "extra": {
         "sketchName": "Glover's Atoll"
       }
@@ -411,7 +411,7 @@
       "classId": "general_use",
       "sketchId": "29118",
       "groupId": "HIGH_PROTECTION",
-      "value": 2339575.499637,
+      "value": 6781477.950545,
       "extra": {
         "sketchName": "Glover's Atoll"
       }
@@ -422,7 +422,7 @@
       "classId": "general_use",
       "sketchId": "29119",
       "groupId": null,
-      "value": 66828358.958617,
+      "value": 62715730.79422,
       "extra": {
         "sketchName": "Goff's Caye"
       }
@@ -433,7 +433,7 @@
       "classId": "general_use",
       "sketchId": "29119",
       "groupId": "HIGH_PROTECTION",
-      "value": 66828358.958617,
+      "value": 62715730.79422,
       "extra": {
         "sketchName": "Goff's Caye"
       }
@@ -444,7 +444,7 @@
       "classId": "general_use",
       "sketchId": "29120",
       "groupId": null,
-      "value": 86501.670088,
+      "value": 29474.822588,
       "extra": {
         "sketchName": "Belize Transboundary"
       }
@@ -455,7 +455,7 @@
       "classId": "general_use",
       "sketchId": "29120",
       "groupId": "HIGH_PROTECTION",
-      "value": 86501.670088,
+      "value": 29474.822588,
       "extra": {
         "sketchName": "Belize Transboundary"
       }
@@ -466,7 +466,7 @@
       "classId": "general_use",
       "sketchId": "29121",
       "groupId": null,
-      "value": 18135716.94648,
+      "value": 133316007.131725,
       "extra": {
         "sketchName": "Placenia Lagoon"
       }
@@ -477,7 +477,7 @@
       "classId": "general_use",
       "sketchId": "29121",
       "groupId": "HIGH_PROTECTION",
-      "value": 18135716.94648,
+      "value": 133316007.131725,
       "extra": {
         "sketchName": "Placenia Lagoon"
       }
@@ -488,7 +488,7 @@
       "classId": "general_use",
       "sketchId": "29122",
       "groupId": null,
-      "value": 4858.093791,
+      "value": 4811.335979,
       "extra": {
         "sketchName": "Cayman Crown"
       }
@@ -499,7 +499,7 @@
       "classId": "general_use",
       "sketchId": "29122",
       "groupId": "HIGH_PROTECTION",
-      "value": 4858.093791,
+      "value": 4811.335979,
       "extra": {
         "sketchName": "Cayman Crown"
       }
@@ -510,7 +510,7 @@
       "classId": "marine_coastal_development",
       "sketchId": "29116",
       "groupId": null,
-      "value": 330647.605082,
+      "value": 221467498.955084,
       "extra": {
         "sketchName": "Areas Under Consideration for New Biodiversity Protection Zones",
         "isCollection": true
@@ -522,7 +522,7 @@
       "classId": "marine_coastal_development",
       "sketchId": "29116",
       "groupId": "HIGH_PROTECTION",
-      "value": 255911.59196,
+      "value": 221392762.941962,
       "extra": {
         "sketchName": "Areas Under Consideration for New Biodiversity Protection Zones",
         "isCollection": true
@@ -568,7 +568,7 @@
       "classId": "marine_coastal_development",
       "sketchId": "29118",
       "groupId": null,
-      "value": 29539.045483,
+      "value": 19332094.005115,
       "extra": {
         "sketchName": "Glover's Atoll"
       }
@@ -579,7 +579,7 @@
       "classId": "marine_coastal_development",
       "sketchId": "29118",
       "groupId": "HIGH_PROTECTION",
-      "value": 29539.045483,
+      "value": 19332094.005115,
       "extra": {
         "sketchName": "Glover's Atoll"
       }
@@ -590,7 +590,7 @@
       "classId": "marine_coastal_development",
       "sketchId": "29119",
       "groupId": null,
-      "value": 10603.916601,
+      "value": 198686016.670497,
       "extra": {
         "sketchName": "Goff's Caye"
       }
@@ -601,7 +601,7 @@
       "classId": "marine_coastal_development",
       "sketchId": "29119",
       "groupId": "HIGH_PROTECTION",
-      "value": 10603.916601,
+      "value": 198686016.670497,
       "extra": {
         "sketchName": "Goff's Caye"
       }
@@ -634,7 +634,7 @@
       "classId": "marine_coastal_development",
       "sketchId": "29121",
       "groupId": null,
-      "value": 204667.867676,
+      "value": 3363551.50415,
       "extra": {
         "sketchName": "Placenia Lagoon"
       }
@@ -645,7 +645,7 @@
       "classId": "marine_coastal_development",
       "sketchId": "29121",
       "groupId": "HIGH_PROTECTION",
-      "value": 204667.867676,
+      "value": 3363551.50415,
       "extra": {
         "sketchName": "Placenia Lagoon"
       }
@@ -678,7 +678,7 @@
       "classId": "marine_coastal_ecosystems",
       "sketchId": "29116",
       "groupId": null,
-      "value": 27520141.481434,
+      "value": 31256098.976161,
       "extra": {
         "sketchName": "Areas Under Consideration for New Biodiversity Protection Zones",
         "isCollection": true
@@ -690,7 +690,7 @@
       "classId": "marine_coastal_ecosystems",
       "sketchId": "29116",
       "groupId": "HIGH_PROTECTION",
-      "value": 26638933.296963,
+      "value": 27576833.242749,
       "extra": {
         "sketchName": "Areas Under Consideration for New Biodiversity Protection Zones",
         "isCollection": true
@@ -702,7 +702,7 @@
       "classId": "marine_coastal_ecosystems",
       "sketchId": "29116",
       "groupId": "MEDIUM_PROTECTION",
-      "value": 881208.184471,
+      "value": 3679265.733412,
       "extra": {
         "sketchName": "Areas Under Consideration for New Biodiversity Protection Zones",
         "isCollection": true
@@ -714,7 +714,7 @@
       "classId": "marine_coastal_ecosystems",
       "sketchId": "29117",
       "groupId": null,
-      "value": 881208.184471,
+      "value": 3679265.733412,
       "extra": {
         "sketchName": "Lighthouse Atoll"
       }
@@ -725,7 +725,7 @@
       "classId": "marine_coastal_ecosystems",
       "sketchId": "29117",
       "groupId": "MEDIUM_PROTECTION",
-      "value": 881208.184471,
+      "value": 3679265.733412,
       "extra": {
         "sketchName": "Lighthouse Atoll"
       }
@@ -736,7 +736,7 @@
       "classId": "marine_coastal_ecosystems",
       "sketchId": "29118",
       "groupId": null,
-      "value": 4997634.201279,
+      "value": 6050096.566576,
       "extra": {
         "sketchName": "Glover's Atoll"
       }
@@ -747,7 +747,7 @@
       "classId": "marine_coastal_ecosystems",
       "sketchId": "29118",
       "groupId": "HIGH_PROTECTION",
-      "value": 4997634.201279,
+      "value": 6050096.566576,
       "extra": {
         "sketchName": "Glover's Atoll"
       }
@@ -758,7 +758,7 @@
       "classId": "marine_coastal_ecosystems",
       "sketchId": "29119",
       "groupId": null,
-      "value": 14083669.233826,
+      "value": 14438589.214638,
       "extra": {
         "sketchName": "Goff's Caye"
       }
@@ -769,7 +769,7 @@
       "classId": "marine_coastal_ecosystems",
       "sketchId": "29119",
       "groupId": "HIGH_PROTECTION",
-      "value": 14083669.233826,
+      "value": 14438589.214638,
       "extra": {
         "sketchName": "Goff's Caye"
       }
@@ -780,7 +780,7 @@
       "classId": "marine_coastal_ecosystems",
       "sketchId": "29120",
       "groupId": null,
-      "value": 89872.501403,
+      "value": 89873.141605,
       "extra": {
         "sketchName": "Belize Transboundary"
       }
@@ -791,7 +791,7 @@
       "classId": "marine_coastal_ecosystems",
       "sketchId": "29120",
       "groupId": "HIGH_PROTECTION",
-      "value": 89872.501403,
+      "value": 89873.141605,
       "extra": {
         "sketchName": "Belize Transboundary"
       }
@@ -802,7 +802,7 @@
       "classId": "marine_coastal_ecosystems",
       "sketchId": "29121",
       "groupId": null,
-      "value": 2555601.246082,
+      "value": 2822829.945648,
       "extra": {
         "sketchName": "Placenia Lagoon"
       }
@@ -813,7 +813,7 @@
       "classId": "marine_coastal_ecosystems",
       "sketchId": "29121",
       "groupId": "HIGH_PROTECTION",
-      "value": 2555601.246082,
+      "value": 2822829.945648,
       "extra": {
         "sketchName": "Placenia Lagoon"
       }
@@ -824,7 +824,7 @@
       "classId": "marine_coastal_ecosystems",
       "sketchId": "29122",
       "groupId": null,
-      "value": 4912156.114372,
+      "value": 4175444.374282,
       "extra": {
         "sketchName": "Cayman Crown"
       }
@@ -835,7 +835,7 @@
       "classId": "marine_coastal_ecosystems",
       "sketchId": "29122",
       "groupId": "HIGH_PROTECTION",
-      "value": 4912156.114372,
+      "value": 4175444.374282,
       "extra": {
         "sketchName": "Cayman Crown"
       }
@@ -846,7 +846,7 @@
       "classId": "maritime_administration",
       "sketchId": "29116",
       "groupId": null,
-      "value": 44628491.633556,
+      "value": 61906672.741546,
       "extra": {
         "sketchName": "Areas Under Consideration for New Biodiversity Protection Zones",
         "isCollection": true
@@ -858,7 +858,7 @@
       "classId": "maritime_administration",
       "sketchId": "29116",
       "groupId": "HIGH_PROTECTION",
-      "value": 33949521.133434,
+      "value": 49935776.735947,
       "extra": {
         "sketchName": "Areas Under Consideration for New Biodiversity Protection Zones",
         "isCollection": true
@@ -870,7 +870,7 @@
       "classId": "maritime_administration",
       "sketchId": "29116",
       "groupId": "MEDIUM_PROTECTION",
-      "value": 10678970.500122,
+      "value": 11970896.005599,
       "extra": {
         "sketchName": "Areas Under Consideration for New Biodiversity Protection Zones",
         "isCollection": true
@@ -882,7 +882,7 @@
       "classId": "maritime_administration",
       "sketchId": "29117",
       "groupId": null,
-      "value": 10678970.500122,
+      "value": 11970896.005599,
       "extra": {
         "sketchName": "Lighthouse Atoll"
       }
@@ -893,7 +893,7 @@
       "classId": "maritime_administration",
       "sketchId": "29117",
       "groupId": "MEDIUM_PROTECTION",
-      "value": 10678970.500122,
+      "value": 11970896.005599,
       "extra": {
         "sketchName": "Lighthouse Atoll"
       }
@@ -904,7 +904,7 @@
       "classId": "maritime_administration",
       "sketchId": "29118",
       "groupId": null,
-      "value": 2581029.757181,
+      "value": 4226107.951223,
       "extra": {
         "sketchName": "Glover's Atoll"
       }
@@ -915,7 +915,7 @@
       "classId": "maritime_administration",
       "sketchId": "29118",
       "groupId": "HIGH_PROTECTION",
-      "value": 2581029.757181,
+      "value": 4226107.951223,
       "extra": {
         "sketchName": "Glover's Atoll"
       }
@@ -926,7 +926,7 @@
       "classId": "maritime_administration",
       "sketchId": "29119",
       "groupId": null,
-      "value": 4740640.37466,
+      "value": 6210375.369714,
       "extra": {
         "sketchName": "Goff's Caye"
       }
@@ -937,7 +937,7 @@
       "classId": "maritime_administration",
       "sketchId": "29119",
       "groupId": "HIGH_PROTECTION",
-      "value": 4740640.37466,
+      "value": 6210375.369714,
       "extra": {
         "sketchName": "Goff's Caye"
       }
@@ -948,7 +948,7 @@
       "classId": "maritime_administration",
       "sketchId": "29120",
       "groupId": null,
-      "value": 229646.768179,
+      "value": 235626.175608,
       "extra": {
         "sketchName": "Belize Transboundary"
       }
@@ -959,7 +959,7 @@
       "classId": "maritime_administration",
       "sketchId": "29120",
       "groupId": "HIGH_PROTECTION",
-      "value": 229646.768179,
+      "value": 235626.175608,
       "extra": {
         "sketchName": "Belize Transboundary"
       }
@@ -970,7 +970,7 @@
       "classId": "maritime_administration",
       "sketchId": "29121",
       "groupId": null,
-      "value": 22971765.864036,
+      "value": 35799165.120789,
       "extra": {
         "sketchName": "Placenia Lagoon"
       }
@@ -981,7 +981,7 @@
       "classId": "maritime_administration",
       "sketchId": "29121",
       "groupId": "HIGH_PROTECTION",
-      "value": 22971765.864036,
+      "value": 35799165.120789,
       "extra": {
         "sketchName": "Placenia Lagoon"
       }
@@ -992,7 +992,7 @@
       "classId": "maritime_administration",
       "sketchId": "29122",
       "groupId": null,
-      "value": 3426438.369377,
+      "value": 3464502.118614,
       "extra": {
         "sketchName": "Cayman Crown"
       }
@@ -1003,7 +1003,7 @@
       "classId": "maritime_administration",
       "sketchId": "29122",
       "groupId": "HIGH_PROTECTION",
-      "value": 3426438.369377,
+      "value": 3464502.118614,
       "extra": {
         "sketchName": "Cayman Crown"
       }
@@ -1014,7 +1014,7 @@
       "classId": "tourism",
       "sketchId": "29116",
       "groupId": null,
-      "value": 246636784.225805,
+      "value": 350003060.048362,
       "extra": {
         "sketchName": "Areas Under Consideration for New Biodiversity Protection Zones",
         "isCollection": true
@@ -1026,7 +1026,7 @@
       "classId": "tourism",
       "sketchId": "29116",
       "groupId": "HIGH_PROTECTION",
-      "value": 170265555.475814,
+      "value": 257897272.574659,
       "extra": {
         "sketchName": "Areas Under Consideration for New Biodiversity Protection Zones",
         "isCollection": true
@@ -1038,7 +1038,7 @@
       "classId": "tourism",
       "sketchId": "29116",
       "groupId": "MEDIUM_PROTECTION",
-      "value": 76371228.749991,
+      "value": 92105787.473702,
       "extra": {
         "sketchName": "Areas Under Consideration for New Biodiversity Protection Zones",
         "isCollection": true
@@ -1050,7 +1050,7 @@
       "classId": "tourism",
       "sketchId": "29117",
       "groupId": null,
-      "value": 76371228.749991,
+      "value": 92105787.473702,
       "extra": {
         "sketchName": "Lighthouse Atoll"
       }
@@ -1061,7 +1061,7 @@
       "classId": "tourism",
       "sketchId": "29117",
       "groupId": "MEDIUM_PROTECTION",
-      "value": 76371228.749991,
+      "value": 92105787.473702,
       "extra": {
         "sketchName": "Lighthouse Atoll"
       }
@@ -1072,7 +1072,7 @@
       "classId": "tourism",
       "sketchId": "29118",
       "groupId": null,
-      "value": 19453729.607957,
+      "value": 65549395.794635,
       "extra": {
         "sketchName": "Glover's Atoll"
       }
@@ -1083,7 +1083,7 @@
       "classId": "tourism",
       "sketchId": "29118",
       "groupId": "HIGH_PROTECTION",
-      "value": 19453729.607957,
+      "value": 65549395.794635,
       "extra": {
         "sketchName": "Glover's Atoll"
       }
@@ -1094,7 +1094,7 @@
       "classId": "tourism",
       "sketchId": "29119",
       "groupId": null,
-      "value": 142772069.326414,
+      "value": 183299570.319063,
       "extra": {
         "sketchName": "Goff's Caye"
       }
@@ -1105,7 +1105,7 @@
       "classId": "tourism",
       "sketchId": "29119",
       "groupId": "HIGH_PROTECTION",
-      "value": 142772069.326414,
+      "value": 183299570.319063,
       "extra": {
         "sketchName": "Goff's Caye"
       }
@@ -1116,7 +1116,7 @@
       "classId": "tourism",
       "sketchId": "29120",
       "groupId": null,
-      "value": 5942983.348172,
+      "value": 6058674.449669,
       "extra": {
         "sketchName": "Belize Transboundary"
       }
@@ -1127,7 +1127,7 @@
       "classId": "tourism",
       "sketchId": "29120",
       "groupId": "HIGH_PROTECTION",
-      "value": 5942983.348172,
+      "value": 6058674.449669,
       "extra": {
         "sketchName": "Belize Transboundary"
       }
@@ -1138,7 +1138,7 @@
       "classId": "tourism",
       "sketchId": "29121",
       "groupId": null,
-      "value": 1046405.507781,
+      "value": 2739848.481741,
       "extra": {
         "sketchName": "Placenia Lagoon"
       }
@@ -1149,7 +1149,7 @@
       "classId": "tourism",
       "sketchId": "29121",
       "groupId": "HIGH_PROTECTION",
-      "value": 1046405.507781,
+      "value": 2739848.481741,
       "extra": {
         "sketchName": "Placenia Lagoon"
       }
@@ -1160,7 +1160,7 @@
       "classId": "tourism",
       "sketchId": "29122",
       "groupId": null,
-      "value": 1050367.68549,
+      "value": 249783.529551,
       "extra": {
         "sketchName": "Cayman Crown"
       }
@@ -1171,7 +1171,7 @@
       "classId": "tourism",
       "sketchId": "29122",
       "groupId": "HIGH_PROTECTION",
-      "value": 1050367.68549,
+      "value": 249783.529551,
       "extra": {
         "sketchName": "Cayman Crown"
       }

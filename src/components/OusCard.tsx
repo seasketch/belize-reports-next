@@ -37,11 +37,9 @@ export const OusCard: React.FunctionComponent<{
 
   // Metrics
   const metricGroup = project.getMetricGroup("ous", t);
-  const precalcMetrics = project.getPrecalcMetrics(
-    metricGroup,
-    "sum",
-    curGeography.geographyId,
-  );
+  const precalcMetrics = project
+    .getPrecalcMetrics(metricGroup, "sum", curGeography.geographyId)
+    .map((m) => ({ ...m, groupId: null }));
 
   // Labels
   const titleLabel = t("Ocean Use");

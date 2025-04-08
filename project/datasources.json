@@ -271,8 +271,8 @@
     "band": 1,
     "noDataValue": 0,
     "created": "2024-05-07T22:56:17.547Z",
-    "lastUpdated": "2025-01-24T22:30:52.487Z",
-    "src": "data/src/Ocean Use Survey/heatmaps/rasters/energy.tif"
+    "lastUpdated": "2025-04-08T17:59:07.318Z",
+    "src": "data/src/Ocean Use Survey/heatmaps/round_2/energy.tif"
   },
   {
     "datasourceId": "fisheries_aquaculture",
@@ -283,8 +283,8 @@
     "band": 1,
     "noDataValue": 0,
     "created": "2024-05-07T22:56:32.957Z",
-    "lastUpdated": "2025-01-24T22:30:53.107Z",
-    "src": "data/src/Ocean Use Survey/heatmaps/rasters/fisheries_aquaculture.tif"
+    "lastUpdated": "2025-04-08T17:20:10.001Z",
+    "src": "data/src/Ocean Use Survey/heatmaps/round_2/fisheries_aquaculture.tif"
   },
   {
     "datasourceId": "general_use",
@@ -295,8 +295,8 @@
     "band": 1,
     "noDataValue": 0,
     "created": "2024-05-07T22:56:48.916Z",
-    "lastUpdated": "2025-01-24T22:30:53.700Z",
-    "src": "data/src/Ocean Use Survey/heatmaps/rasters/general_use.tif"
+    "lastUpdated": "2025-04-08T17:20:10.513Z",
+    "src": "data/src/Ocean Use Survey/heatmaps/round_2/general_use.tif"
   },
   {
     "datasourceId": "marine_coastal_development",
@@ -307,8 +307,8 @@
     "band": 1,
     "noDataValue": 0,
     "created": "2024-05-07T22:57:21.567Z",
-    "lastUpdated": "2025-01-24T22:30:54.357Z",
-    "src": "data/src/Ocean Use Survey/heatmaps/rasters/marine_coastal_development.tif"
+    "lastUpdated": "2025-04-08T17:20:11.018Z",
+    "src": "data/src/Ocean Use Survey/heatmaps/round_2/marine_coastal_development.tif"
   },
   {
     "datasourceId": "marine_coastal_ecosystems",
@@ -319,8 +319,8 @@
     "band": 1,
     "noDataValue": 0,
     "created": "2024-05-07T22:57:34.892Z",
-    "lastUpdated": "2025-01-24T22:30:55.311Z",
-    "src": "data/src/Ocean Use Survey/heatmaps/rasters/marine_coastal_ecosystems.tif"
+    "lastUpdated": "2025-04-08T17:20:11.670Z",
+    "src": "data/src/Ocean Use Survey/heatmaps/round_2/marine_coastal_ecosystems.tif"
   },
   {
     "datasourceId": "maritime_administration",
@@ -331,8 +331,8 @@
     "band": 1,
     "noDataValue": 0,
     "created": "2024-05-07T22:57:48.385Z",
-    "lastUpdated": "2025-01-24T22:30:55.760Z",
-    "src": "data/src/Ocean Use Survey/heatmaps/rasters/maritime_administration.tif"
+    "lastUpdated": "2025-04-08T17:20:12.127Z",
+    "src": "data/src/Ocean Use Survey/heatmaps/round_2/maritime_administration.tif"
   },
   {
     "datasourceId": "tourism",
@@ -343,8 +343,8 @@
     "band": 1,
     "noDataValue": 0,
     "created": "2024-05-07T22:58:08.262Z",
-    "lastUpdated": "2025-01-24T22:30:56.219Z",
-    "src": "data/src/Ocean Use Survey/heatmaps/rasters/tourism.tif"
+    "lastUpdated": "2025-04-08T17:20:12.582Z",
+    "src": "data/src/Ocean Use Survey/heatmaps/round_2/tourism.tif"
   },
   {
     "datasourceId": "coral",
@@ -412,16 +412,16 @@
     "explodeMulti": true
   },
   {
-    "src": "data/src/Data_Received/MappingOceanWealth/Belize_Mangrove_Tourism_Clipped.fgb",
-    "layerName": "Belize_Mangrove_Tourism_Clipped",
-    "geo_type": "vector",
     "datasourceId": "mangrove_tourism",
+    "geo_type": "vector",
     "formats": ["fgb"],
+    "precalc": false,
+    "layerName": "Belize_Mangrove_Tourism_Clipped",
     "classKeys": [],
     "created": "2025-01-28T19:41:26.377Z",
     "lastUpdated": "2025-01-28T19:41:26.377Z",
+    "src": "data/src/Data_Received/MappingOceanWealth/Belize_Mangrove_Tourism_Clipped.fgb",
     "propertiesToKeep": [],
-    "explodeMulti": true,
-    "precalc": false
+    "explodeMulti": true
   }
 ]
