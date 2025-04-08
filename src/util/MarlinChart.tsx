@@ -86,9 +86,13 @@ export const MarlinChart: React.FC<MarlinChartProps> = ({ data, variable }) => {
         number,
         number,
       ];
+      const padding = 0.01; // 1% padding
+      const domainMin = minVal - padding;
+      const domainMax = maxVal + padding;
+
       const yScale = d3
         .scaleLinear()
-        .domain([minVal, maxVal])
+        .domain([domainMin, domainMax])
         .range([height - margin.bottom, margin.top])
         .nice();
 
