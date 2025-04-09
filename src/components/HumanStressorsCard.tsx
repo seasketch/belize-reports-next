@@ -44,7 +44,7 @@ export const HumanStressorsCard: React.FunctionComponent<{
   );
 
   // Labels
-  const titleLabel = t("Human Use");
+  const titleLabel = t("Areas of Human Impact");
 
   return (
     <div style={{ breakInside: "avoid" }}>
@@ -58,7 +58,7 @@ export const HumanStressorsCard: React.FunctionComponent<{
           return (
             <ReportError>
               <ToolbarCard
-                title={t("Human Use")}
+                title={t("Areas of Human Impact")}
                 items={
                   <DataDownload
                     filename="human-use"
@@ -77,9 +77,8 @@ export const HumanStressorsCard: React.FunctionComponent<{
               >
                 <p>
                   <Trans i18nKey="Human Stressors Card 1">
-                    This report summarizes the amount of human use sectors that
-                    overlap with this plan. Plans should consider the potential
-                    impact to sectors if access or activities are restricted.
+                    This report summarizes the areas of human impact that
+                    overlap with this plan.
                   </Trans>
                 </p>
                 <Translator>
@@ -129,21 +128,19 @@ export const HumanStressorsCard: React.FunctionComponent<{
                     <Trans i18nKey="Human Stressors Card - learn more">
                       <p>
                         ℹ️ Overview: Plans should consider how these areas of
-                        human use and human stress should be navigated in the
-                        ocean plan.
+                        human stressors should be navigated in the ocean plan.
                       </p>
                       <p>
-                        🎯 Planning Objective: No specific planning objectives
-                        for human use areas.
+                        🗺️ Source Data: Areas of human stressors collected in
+                        2020.
                       </p>
-                      <p>🗺️ Source Data: 2020</p>
                       <p>
-                        📈 Report: The total area of the plan was calculated,
-                        along with the total area under high protection and
-                        total area under medium protection. Overlap was only
-                        counted once, and if zones of different protection
-                        levels overlap, only the highest protection level is
-                        counted.
+                        📈 Report: The total sum of areas of human impact within
+                        plan was calculated, along with the total area under
+                        high protection and total area under medium protection.
+                        Overlap was only counted once, and if zones of different
+                        protection levels overlap, only the highest protection
+                        level is counted.
                       </p>
                     </Trans>
                   </Collapse>
