@@ -65,8 +65,8 @@ export async function ousDemographicOverlap(
   request?: GeoprocessingRequestModel<Polygon | MultiPolygon>,
 ): Promise<ReportResult> {
   const ranges = [];
-  for (let i = 0; i <= 500; i += 100) {
-    ranges.push({ start: i, end: i + 99 });
+  for (let i = 6000; i <= 11000; i += 1000) {
+    ranges.push({ start: i, end: i + 999 });
   }
 
   // Start workers

@@ -6,7 +6,7 @@
       "classId": "belize_city",
       "sketchId": "23569",
       "groupId": null,
-      "value": 56
+      "value": 64
     },
     {
       "geographyId": null,
@@ -14,7 +14,7 @@
       "classId": "caye_caulker_village",
       "sketchId": "23569",
       "groupId": null,
-      "value": 7
+      "value": 8
     },
     {
       "geographyId": null,
@@ -22,7 +22,7 @@
       "classId": "chunox_village",
       "sketchId": "23569",
       "groupId": null,
-      "value": 139
+      "value": 178
     },
     {
       "geographyId": null,
@@ -30,7 +30,7 @@
       "classId": "copper_bank_village",
       "sketchId": "23569",
       "groupId": null,
-      "value": 62
+      "value": 77
     },
     {
       "geographyId": null,
@@ -54,7 +54,7 @@
       "classId": "Diving",
       "sketchId": "23569",
       "groupId": null,
-      "value": 181
+      "value": 249
     },
     {
       "geographyId": null,
@@ -62,7 +62,7 @@
       "classId": "Fisheries & Aquaculture",
       "sketchId": "23569",
       "groupId": null,
-      "value": 217
+      "value": 297
     },
     {
       "geographyId": null,
@@ -70,7 +70,7 @@
       "classId": "General Use",
       "sketchId": "23569",
       "groupId": null,
-      "value": 9
+      "value": 10
     },
     {
       "geographyId": null,
@@ -94,7 +94,7 @@
       "classId": "Lines",
       "sketchId": "23569",
       "groupId": null,
-      "value": 150
+      "value": 185
     },
     {
       "geographyId": null,
@@ -118,7 +118,7 @@
       "classId": "Marine & Coastal Ecosystems",
       "sketchId": "23569",
       "groupId": null,
-      "value": 1
+      "value": 8
     },
     {
       "geographyId": null,
@@ -126,7 +126,7 @@
       "classId": "Maritime Administration",
       "sketchId": "23569",
       "groupId": null,
-      "value": 38
+      "value": 50
     },
     {
       "geographyId": null,
@@ -142,7 +142,7 @@
       "classId": "other",
       "sketchId": "23569",
       "groupId": null,
-      "value": 23
+      "value": 57
     },
     {
       "geographyId": null,
@@ -150,7 +150,7 @@
       "classId": "ousPeopleCount_all",
       "sketchId": "23569",
       "groupId": null,
-      "value": 414
+      "value": 516
     },
     {
       "geographyId": null,
@@ -171,10 +171,18 @@
     {
       "geographyId": null,
       "metricId": "ousPeopleCount",
+      "classId": "riversdale_village",
+      "sketchId": "23569",
+      "groupId": null,
+      "value": 4
+    },
+    {
+      "geographyId": null,
+      "metricId": "ousPeopleCount",
       "classId": "san_pedro_town",
       "sketchId": "23569",
       "groupId": null,
-      "value": 8
+      "value": 9
     },
     {
       "geographyId": null,
@@ -198,7 +206,7 @@
       "classId": "Spears",
       "sketchId": "23569",
       "groupId": null,
-      "value": 171
+      "value": 231
     },
     {
       "geographyId": null,
@@ -206,7 +214,7 @@
       "classId": "Tourism",
       "sketchId": "23569",
       "groupId": null,
-      "value": 176
+      "value": 178
     },
     {
       "geographyId": null,
@@ -230,7 +238,7 @@
       "classId": "unknown-gear",
       "sketchId": "23569",
       "groupId": null,
-      "value": 236
+      "value": 273
     },
     {
       "geographyId": null,
@@ -238,7 +246,7 @@
       "classId": "belize_city",
       "sketchId": "23569",
       "groupId": null,
-      "value": 14
+      "value": 20
     },
     {
       "geographyId": null,
@@ -246,7 +254,7 @@
       "classId": "caye_caulker_village",
       "sketchId": "23569",
       "groupId": null,
-      "value": 3
+      "value": 4
     },
     {
       "geographyId": null,
@@ -254,7 +262,7 @@
       "classId": "chunox_village",
       "sketchId": "23569",
       "groupId": null,
-      "value": 19
+      "value": 24
     },
     {
       "geographyId": null,
@@ -262,7 +270,7 @@
       "classId": "copper_bank_village",
       "sketchId": "23569",
       "groupId": null,
-      "value": 13
+      "value": 15
     },
     {
       "geographyId": null,
@@ -286,7 +294,7 @@
       "classId": "Diving",
       "sketchId": "23569",
       "groupId": null,
-      "value": 28
+      "value": 37
     },
     {
       "geographyId": null,
@@ -294,7 +302,7 @@
       "classId": "Fisheries & Aquaculture",
       "sketchId": "23569",
       "groupId": null,
-      "value": 39
+      "value": 52
     },
     {
       "geographyId": null,
@@ -302,7 +310,7 @@
       "classId": "General Use",
       "sketchId": "23569",
       "groupId": null,
-      "value": 6
+      "value": 7
     },
     {
       "geographyId": null,
@@ -326,7 +334,7 @@
       "classId": "Lines",
       "sketchId": "23569",
       "groupId": null,
-      "value": 24
+      "value": 30
     },
     {
       "geographyId": null,
@@ -350,7 +358,7 @@
       "classId": "Marine & Coastal Ecosystems",
       "sketchId": "23569",
       "groupId": null,
-      "value": 1
+      "value": 5
     },
     {
       "geographyId": null,
@@ -358,7 +366,7 @@
       "classId": "Maritime Administration",
       "sketchId": "23569",
       "groupId": null,
-      "value": 3
+      "value": 5
     },
     {
       "geographyId": null,
@@ -374,7 +382,7 @@
       "classId": "other",
       "sketchId": "23569",
       "groupId": null,
-      "value": 7
+      "value": 13
     },
     {
       "geographyId": null,
@@ -382,7 +390,7 @@
       "classId": "ousRespondentCount_all",
       "sketchId": "23569",
       "groupId": null,
-      "value": 59
+      "value": 81
     },
     {
       "geographyId": null,
@@ -403,10 +411,18 @@
     {
       "geographyId": null,
       "metricId": "ousRespondentCount",
+      "classId": "riversdale_village",
+      "sketchId": "23569",
+      "groupId": null,
+      "value": 1
+    },
+    {
+      "geographyId": null,
+      "metricId": "ousRespondentCount",
       "classId": "san_pedro_town",
       "sketchId": "23569",
       "groupId": null,
-      "value": 8
+      "value": 9
     },
     {
       "geographyId": null,
@@ -430,7 +446,7 @@
       "classId": "Spears",
       "sketchId": "23569",
       "groupId": null,
-      "value": 23
+      "value": 30
     },
     {
       "geographyId": null,
@@ -438,7 +454,7 @@
       "classId": "Tourism",
       "sketchId": "23569",
       "groupId": null,
-      "value": 12
+      "value": 14
     },
     {
       "geographyId": null,
@@ -462,7 +478,7 @@
       "classId": "unknown-gear",
       "sketchId": "23569",
       "groupId": null,
-      "value": 29
+      "value": 42
     }
   ],
   "sketch": {

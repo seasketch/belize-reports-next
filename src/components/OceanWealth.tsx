@@ -40,7 +40,7 @@ export const OceanWealth: React.FunctionComponent<{
   const metricGroup = project.getMetricGroup("oceanWealth", t);
 
   // Labels
-  const titleLabel = t("OceanWealth");
+  const titleLabel = t("Ocean Wealth");
 
   return (
     <div style={{ breakInside: "avoid" }}>
@@ -53,7 +53,7 @@ export const OceanWealth: React.FunctionComponent<{
         {(data: ReportResult) => (
           <ReportError>
             <ToolbarCard
-              title={t("Ocean Wealth")}
+              title={titleLabel}
               items={
                 <DataDownload
                   filename="OceanWealth"

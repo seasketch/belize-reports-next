@@ -6,204 +6,12 @@
       "classId": "belize_city",
       "sketchId": "77206",
       "groupId": null,
-      "value": 83
+      "value": 121
     },
     {
       "geographyId": null,
       "metricId": "ousPeopleCount",
       "classId": "caye_caulker_village",
-      "sketchId": "77206",
-      "groupId": null,
-      "value": 16
-    },
-    {
-      "geographyId": null,
-      "metricId": "ousPeopleCount",
-      "classId": "chunox_village",
-      "sketchId": "77206",
-      "groupId": null,
-      "value": 137
-    },
-    {
-      "geographyId": null,
-      "metricId": "ousPeopleCount",
-      "classId": "copper_bank_village",
-      "sketchId": "77206",
-      "groupId": null,
-      "value": 83
-    },
-    {
-      "geographyId": null,
-      "metricId": "ousPeopleCount",
-      "classId": "corozal_town",
-      "sketchId": "77206",
-      "groupId": null,
-      "value": 4
-    },
-    {
-      "geographyId": null,
-      "metricId": "ousPeopleCount",
-      "classId": "dangriga_town",
-      "sketchId": "77206",
-      "groupId": null,
-      "value": 72
-    },
-    {
-      "geographyId": null,
-      "metricId": "ousPeopleCount",
-      "classId": "Diving",
-      "sketchId": "77206",
-      "groupId": null,
-      "value": 243
-    },
-    {
-      "geographyId": null,
-      "metricId": "ousPeopleCount",
-      "classId": "Fisheries & Aquaculture",
-      "sketchId": "77206",
-      "groupId": null,
-      "value": 485
-    },
-    {
-      "geographyId": null,
-      "metricId": "ousPeopleCount",
-      "classId": "gales_point_village",
-      "sketchId": "77206",
-      "groupId": null,
-      "value": 1
-    },
-    {
-      "geographyId": null,
-      "metricId": "ousPeopleCount",
-      "classId": "General Use",
-      "sketchId": "77206",
-      "groupId": null,
-      "value": 7
-    },
-    {
-      "geographyId": null,
-      "metricId": "ousPeopleCount",
-      "classId": "hopkins_village",
-      "sketchId": "77206",
-      "groupId": null,
-      "value": 63
-    },
-    {
-      "geographyId": null,
-      "metricId": "ousPeopleCount",
-      "classId": "independence_village",
-      "sketchId": "77206",
-      "groupId": null,
-      "value": 3
-    },
-    {
-      "geographyId": null,
-      "metricId": "ousPeopleCount",
-      "classId": "ladyville_village",
-      "sketchId": "77206",
-      "groupId": null,
-      "value": 17
-    },
-    {
-      "geographyId": null,
-      "metricId": "ousPeopleCount",
-      "classId": "Lines",
-      "sketchId": "77206",
-      "groupId": null,
-      "value": 285
-    },
-    {
-      "geographyId": null,
-      "metricId": "ousPeopleCount",
-      "classId": "mango_creek_village",
-      "sketchId": "77206",
-      "groupId": null,
-      "value": 2
-    },
-    {
-      "geographyId": null,
-      "metricId": "ousPeopleCount",
-      "classId": "Marine & Coastal Development",
-      "sketchId": "77206",
-      "groupId": null,
-      "value": 1
-    },
-    {
-      "geographyId": null,
-      "metricId": "ousPeopleCount",
-      "classId": "Marine & Coastal Ecosystems",
-      "sketchId": "77206",
-      "groupId": null,
-      "value": 68
-    },
-    {
-      "geographyId": null,
-      "metricId": "ousPeopleCount",
-      "classId": "Maritime Administration",
-      "sketchId": "77206",
-      "groupId": null,
-      "value": 60
-    },
-    {
-      "geographyId": null,
-      "metricId": "ousPeopleCount",
-      "classId": "Net",
-      "sketchId": "77206",
-      "groupId": null,
-      "value": 60
-    },
-    {
-      "geographyId": null,
-      "metricId": "ousPeopleCount",
-      "classId": "other",
-      "sketchId": "77206",
-      "groupId": null,
-      "value": 51
-    },
-    {
-      "geographyId": null,
-      "metricId": "ousPeopleCount",
-      "classId": "ousPeopleCount_all",
-      "sketchId": "77206",
-      "groupId": null,
-      "value": 670
-    },
-    {
-      "geographyId": null,
-      "metricId": "ousPeopleCount",
-      "classId": "placencia_village",
-      "sketchId": "77206",
-      "groupId": null,
-      "value": 9
-    },
-    {
-      "geographyId": null,
-      "metricId": "ousPeopleCount",
-      "classId": "punta_gorda_town",
-      "sketchId": "77206",
-      "groupId": null,
-      "value": 8
-    },
-    {
-      "geographyId": null,
-      "metricId": "ousPeopleCount",
-      "classId": "riversdale_village",
-      "sketchId": "77206",
-      "groupId": null,
-      "value": 4
-    },
-    {
-      "geographyId": null,
-      "metricId": "ousPeopleCount",
-      "classId": "san_pedro_town",
-      "sketchId": "77206",
-      "groupId": null,
-      "value": 11
-    },
-    {
-      "geographyId": null,
-      "metricId": "ousPeopleCount",
-      "classId": "sarteneja_village",
       "sketchId": "77206",
       "groupId": null,
       "value": 19
@@ -211,7 +19,55 @@
     {
       "geographyId": null,
       "metricId": "ousPeopleCount",
-      "classId": "sittee_river_village",
+      "classId": "chunox_village",
+      "sketchId": "77206",
+      "groupId": null,
+      "value": 163
+    },
+    {
+      "geographyId": null,
+      "metricId": "ousPeopleCount",
+      "classId": "copper_bank_village",
+      "sketchId": "77206",
+      "groupId": null,
+      "value": 104
+    },
+    {
+      "geographyId": null,
+      "metricId": "ousPeopleCount",
+      "classId": "corozal_town",
+      "sketchId": "77206",
+      "groupId": null,
+      "value": 9
+    },
+    {
+      "geographyId": null,
+      "metricId": "ousPeopleCount",
+      "classId": "dangriga_town",
+      "sketchId": "77206",
+      "groupId": null,
+      "value": 83
+    },
+    {
+      "geographyId": null,
+      "metricId": "ousPeopleCount",
+      "classId": "Diving",
+      "sketchId": "77206",
+      "groupId": null,
+      "value": 384
+    },
+    {
+      "geographyId": null,
+      "metricId": "ousPeopleCount",
+      "classId": "Fisheries & Aquaculture",
+      "sketchId": "77206",
+      "groupId": null,
+      "value": 667
+    },
+    {
+      "geographyId": null,
+      "metricId": "ousPeopleCount",
+      "classId": "gales_point_village",
       "sketchId": "77206",
       "groupId": null,
       "value": 1
@@ -219,10 +75,154 @@
     {
       "geographyId": null,
       "metricId": "ousPeopleCount",
+      "classId": "General Use",
+      "sketchId": "77206",
+      "groupId": null,
+      "value": 8
+    },
+    {
+      "geographyId": null,
+      "metricId": "ousPeopleCount",
+      "classId": "hopkins_village",
+      "sketchId": "77206",
+      "groupId": null,
+      "value": 68
+    },
+    {
+      "geographyId": null,
+      "metricId": "ousPeopleCount",
+      "classId": "independence_village",
+      "sketchId": "77206",
+      "groupId": null,
+      "value": 3
+    },
+    {
+      "geographyId": null,
+      "metricId": "ousPeopleCount",
+      "classId": "ladyville_village",
+      "sketchId": "77206",
+      "groupId": null,
+      "value": 24
+    },
+    {
+      "geographyId": null,
+      "metricId": "ousPeopleCount",
+      "classId": "Lines",
+      "sketchId": "77206",
+      "groupId": null,
+      "value": 370
+    },
+    {
+      "geographyId": null,
+      "metricId": "ousPeopleCount",
+      "classId": "mango_creek_village",
+      "sketchId": "77206",
+      "groupId": null,
+      "value": 3
+    },
+    {
+      "geographyId": null,
+      "metricId": "ousPeopleCount",
+      "classId": "Marine & Coastal Development",
+      "sketchId": "77206",
+      "groupId": null,
+      "value": 1
+    },
+    {
+      "geographyId": null,
+      "metricId": "ousPeopleCount",
+      "classId": "Marine & Coastal Ecosystems",
+      "sketchId": "77206",
+      "groupId": null,
+      "value": 91
+    },
+    {
+      "geographyId": null,
+      "metricId": "ousPeopleCount",
+      "classId": "Maritime Administration",
+      "sketchId": "77206",
+      "groupId": null,
+      "value": 73
+    },
+    {
+      "geographyId": null,
+      "metricId": "ousPeopleCount",
+      "classId": "Net",
+      "sketchId": "77206",
+      "groupId": null,
+      "value": 60
+    },
+    {
+      "geographyId": null,
+      "metricId": "ousPeopleCount",
+      "classId": "other",
+      "sketchId": "77206",
+      "groupId": null,
+      "value": 107
+    },
+    {
+      "geographyId": null,
+      "metricId": "ousPeopleCount",
+      "classId": "ousPeopleCount_all",
+      "sketchId": "77206",
+      "groupId": null,
+      "value": 894
+    },
+    {
+      "geographyId": null,
+      "metricId": "ousPeopleCount",
+      "classId": "placencia_village",
+      "sketchId": "77206",
+      "groupId": null,
+      "value": 12
+    },
+    {
+      "geographyId": null,
+      "metricId": "ousPeopleCount",
+      "classId": "punta_gorda_town",
+      "sketchId": "77206",
+      "groupId": null,
+      "value": 9
+    },
+    {
+      "geographyId": null,
+      "metricId": "ousPeopleCount",
+      "classId": "riversdale_village",
+      "sketchId": "77206",
+      "groupId": null,
+      "value": 8
+    },
+    {
+      "geographyId": null,
+      "metricId": "ousPeopleCount",
+      "classId": "san_pedro_town",
+      "sketchId": "77206",
+      "groupId": null,
+      "value": 14
+    },
+    {
+      "geographyId": null,
+      "metricId": "ousPeopleCount",
+      "classId": "sarteneja_village",
+      "sketchId": "77206",
+      "groupId": null,
+      "value": 58
+    },
+    {
+      "geographyId": null,
+      "metricId": "ousPeopleCount",
+      "classId": "sittee_river_village",
+      "sketchId": "77206",
+      "groupId": null,
+      "value": 2
+    },
+    {
+      "geographyId": null,
+      "metricId": "ousPeopleCount",
       "classId": "Spears",
       "sketchId": "77206",
       "groupId": null,
-      "value": 260
+      "value": 411
     },
     {
       "geographyId": null,
@@ -238,7 +238,7 @@
       "classId": "Tourism",
       "sketchId": "77206",
       "groupId": null,
-      "value": 205
+      "value": 220
     },
     {
       "geographyId": null,
@@ -246,7 +246,7 @@
       "classId": "Traps",
       "sketchId": "77206",
       "groupId": null,
-      "value": 81
+      "value": 91
     },
     {
       "geographyId": null,
@@ -262,7 +262,7 @@
       "classId": "unknown-gear",
       "sketchId": "77206",
       "groupId": null,
-      "value": 372
+      "value": 424
     },
     {
       "geographyId": null,
@@ -270,7 +270,7 @@
       "classId": "belize_city",
       "sketchId": "77206",
       "groupId": null,
-      "value": 24
+      "value": 43
     },
     {
       "geographyId": null,
@@ -278,7 +278,7 @@
       "classId": "caye_caulker_village",
       "sketchId": "77206",
       "groupId": null,
-      "value": 8
+      "value": 11
     },
     {
       "geographyId": null,
@@ -286,7 +286,7 @@
       "classId": "chunox_village",
       "sketchId": "77206",
       "groupId": null,
-      "value": 20
+      "value": 25
     },
     {
       "geographyId": null,
@@ -294,7 +294,7 @@
       "classId": "copper_bank_village",
       "sketchId": "77206",
       "groupId": null,
-      "value": 16
+      "value": 19
     },
     {
       "geographyId": null,
@@ -302,7 +302,7 @@
       "classId": "corozal_town",
       "sketchId": "77206",
       "groupId": null,
-      "value": 4
+      "value": 7
     },
     {
       "geographyId": null,
@@ -310,7 +310,7 @@
       "classId": "dangriga_town",
       "sketchId": "77206",
       "groupId": null,
-      "value": 8
+      "value": 12
     },
     {
       "geographyId": null,
@@ -318,7 +318,7 @@
       "classId": "Diving",
       "sketchId": "77206",
       "groupId": null,
-      "value": 34
+      "value": 62
     },
     {
       "geographyId": null,
@@ -326,7 +326,7 @@
       "classId": "Fisheries & Aquaculture",
       "sketchId": "77206",
       "groupId": null,
-      "value": 77
+      "value": 122
     },
     {
       "geographyId": null,
@@ -342,7 +342,7 @@
       "classId": "General Use",
       "sketchId": "77206",
       "groupId": null,
-      "value": 7
+      "value": 8
     },
     {
       "geographyId": null,
@@ -350,7 +350,7 @@
       "classId": "hopkins_village",
       "sketchId": "77206",
       "groupId": null,
-      "value": 13
+      "value": 15
     },
     {
       "geographyId": null,
@@ -366,7 +366,7 @@
       "classId": "ladyville_village",
       "sketchId": "77206",
       "groupId": null,
-      "value": 8
+      "value": 12
     },
     {
       "geographyId": null,
@@ -374,7 +374,7 @@
       "classId": "Lines",
       "sketchId": "77206",
       "groupId": null,
-      "value": 49
+      "value": 74
     },
     {
       "geographyId": null,
@@ -382,7 +382,7 @@
       "classId": "mango_creek_village",
       "sketchId": "77206",
       "groupId": null,
-      "value": 2
+      "value": 3
     },
     {
       "geographyId": null,
@@ -398,7 +398,7 @@
       "classId": "Marine & Coastal Ecosystems",
       "sketchId": "77206",
       "groupId": null,
-      "value": 8
+      "value": 18
     },
     {
       "geographyId": null,
@@ -406,7 +406,7 @@
       "classId": "Maritime Administration",
       "sketchId": "77206",
       "groupId": null,
-      "value": 7
+      "value": 10
     },
     {
       "geographyId": null,
@@ -422,7 +422,7 @@
       "classId": "other",
       "sketchId": "77206",
       "groupId": null,
-      "value": 13
+      "value": 30
     },
     {
       "geographyId": null,
@@ -430,7 +430,7 @@
       "classId": "ousRespondentCount_all",
       "sketchId": "77206",
       "groupId": null,
-      "value": 108
+      "value": 170
     },
     {
       "geographyId": null,
@@ -438,7 +438,7 @@
       "classId": "placencia_village",
       "sketchId": "77206",
       "groupId": null,
-      "value": 4
+      "value": 6
     },
     {
       "geographyId": null,
@@ -446,7 +446,7 @@
       "classId": "punta_gorda_town",
       "sketchId": "77206",
       "groupId": null,
-      "value": 3
+      "value": 4
     },
     {
       "geographyId": null,
@@ -454,7 +454,7 @@
       "classId": "riversdale_village",
       "sketchId": "77206",
       "groupId": null,
-      "value": 1
+      "value": 2
     },
     {
       "geographyId": null,
@@ -462,7 +462,7 @@
       "classId": "san_pedro_town",
       "sketchId": "77206",
       "groupId": null,
-      "value": 11
+      "value": 14
     },
     {
       "geographyId": null,
@@ -470,7 +470,7 @@
       "classId": "sarteneja_village",
       "sketchId": "77206",
       "groupId": null,
-      "value": 3
+      "value": 12
     },
     {
       "geographyId": null,
@@ -478,7 +478,7 @@
       "classId": "sittee_river_village",
       "sketchId": "77206",
       "groupId": null,
-      "value": 1
+      "value": 2
     },
     {
       "geographyId": null,
@@ -486,7 +486,7 @@
       "classId": "Spears",
       "sketchId": "77206",
       "groupId": null,
-      "value": 33
+      "value": 62
     },
     {
       "geographyId": null,
@@ -502,7 +502,7 @@
       "classId": "Tourism",
       "sketchId": "77206",
       "groupId": null,
-      "value": 22
+      "value": 29
     },
     {
       "geographyId": null,
@@ -510,7 +510,7 @@
       "classId": "Traps",
       "sketchId": "77206",
       "groupId": null,
-      "value": 9
+      "value": 13
     },
     {
       "geographyId": null,
@@ -526,7 +526,7 @@
       "classId": "unknown-gear",
       "sketchId": "77206",
       "groupId": null,
-      "value": 51
+      "value": 75
     }
   ],
   "sketch": {

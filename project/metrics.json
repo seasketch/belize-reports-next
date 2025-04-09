@@ -522,43 +522,43 @@
         "classId": "energy",
         "display": "Energy",
         "datasourceId": "energy",
-        "layerId": "VcGFLeyKU"
+        "layerId": "x9GxibgBD"
       },
       {
         "classId": "fisheries_aquaculture",
         "display": "Fisheries & Aquaculture",
         "datasourceId": "fisheries_aquaculture",
-        "layerId": "iC8F0FLdG"
+        "layerId": "Wt6ccPndN"
       },
       {
         "classId": "general_use",
         "display": "General Use",
         "datasourceId": "general_use",
-        "layerId": "pcuGfJ9gu"
+        "layerId": "gEUP4WmAR"
       },
       {
         "classId": "marine_coastal_development",
         "display": "Marine & Coastal Development",
         "datasourceId": "marine_coastal_development",
-        "layerId": "rF6a1e99E"
+        "layerId": "1f0OhAf1V"
       },
       {
         "classId": "marine_coastal_ecosystems",
         "display": "Marine & Coastal Ecosystems",
         "datasourceId": "marine_coastal_ecosystems",
-        "layerId": "sYNx2N4tV"
+        "layerId": "Sd4PQVKlX"
       },
       {
         "classId": "maritime_administration",
         "display": "Maritime Administration",
         "datasourceId": "maritime_administration",
-        "layerId": "BnOH_vZyq"
+        "layerId": "IzV0eWDPf"
       },
       {
         "classId": "tourism",
         "display": "Tourism",
         "datasourceId": "tourism",
-        "layerId": "TpyjYN4LY"
+        "layerId": "2J028YJRb"
       }
     ]
   }

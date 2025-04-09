@@ -189,15 +189,6 @@ export const OusDemographics: React.FunctionComponent<{
                 />
               }
             >
-              <InfoStatus
-                msg={
-                  <Trans i18nKey="OUS Demographics - info status">
-                    This is a <b>draft</b> report. Further changes or
-                    corrections may be made. Please report any issues. Survey
-                    results last updated: 5/7/2024
-                  </Trans>
-                }
-              />
               <p>
                 <Trans i18nKey="OUS Demographics - intro">
                   This report summarizes the people that use the ocean within
