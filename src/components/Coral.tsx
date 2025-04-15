@@ -104,6 +104,38 @@ export const Coral: React.FunctionComponent<{
                     ? groupedCollectionReport(
                         data,
                         precalcMetrics,
+                        {
+                          ...metricGroup,
+                          classes: [
+                            {
+                              classId: "coral",
+                              display: "Coral Reef",
+                              datasourceId: "coral",
+                            },
+                          ],
+                        },
+                        t,
+                      )
+                    : groupedSketchReport(
+                        data,
+                        precalcMetrics,
+                        {
+                          ...metricGroup,
+                          classes: [
+                            {
+                              classId: "coral",
+                              display: "Coral Reef",
+                              datasourceId: "coral",
+                            },
+                          ],
+                        },
+                        t,
+                      )}
+
+                  {isCollection
+                    ? groupedCollectionReport(
+                        data,
+                        precalcMetrics,
                         metricGroup,
                         t,
                       )

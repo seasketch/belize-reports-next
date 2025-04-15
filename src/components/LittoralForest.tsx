@@ -106,6 +106,40 @@ export const LittoralForest: React.FunctionComponent<{
                     ? groupedCollectionReport(
                         data,
                         precalcMetrics,
+                        {
+                          ...metricGroup,
+                          classes: [
+                            {
+                              classKey: "C2019",
+                              classId: "Littoral",
+                              display: "Littoral Forests",
+                              datasourceId: "mangroves",
+                            },
+                          ],
+                        },
+                        t,
+                      )
+                    : groupedSketchReport(
+                        data,
+                        precalcMetrics,
+                        {
+                          ...metricGroup,
+                          classes: [
+                            {
+                              classKey: "C2019",
+                              classId: "Littoral",
+                              display: "Littoral Forests",
+                              datasourceId: "mangroves",
+                            },
+                          ],
+                        },
+                        t,
+                      )}
+
+                  {isCollection
+                    ? groupedCollectionReport(
+                        data,
+                        precalcMetrics,
                         metricGroup,
                         t,
                       )
