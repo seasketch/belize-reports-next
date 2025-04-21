@@ -132,14 +132,18 @@ export const Coral: React.FunctionComponent<{
                         t,
                       )}
 
-                  {isCollection
-                    ? groupedCollectionReport(
-                        data,
-                        precalcMetrics,
-                        metricGroup,
-                        t,
-                      )
-                    : groupedSketchReport(data, precalcMetrics, metricGroup, t)}
+                  {lockoutArea ? (
+                    <></>
+                  ) : isCollection ? (
+                    groupedCollectionReport(
+                      data,
+                      precalcMetrics,
+                      metricGroup,
+                      t,
+                    )
+                  ) : (
+                    groupedSketchReport(data, precalcMetrics, metricGroup, t)
+                  )}
 
                   {isCollection && (
                     <>

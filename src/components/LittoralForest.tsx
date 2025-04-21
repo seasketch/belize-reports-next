@@ -136,14 +136,18 @@ export const LittoralForest: React.FunctionComponent<{
                         t,
                       )}
 
-                  {isCollection
-                    ? groupedCollectionReport(
-                        data,
-                        precalcMetrics,
-                        metricGroup,
-                        t,
-                      )
-                    : groupedSketchReport(data, precalcMetrics, metricGroup, t)}
+                  {lockoutArea ? (
+                    <></>
+                  ) : isCollection ? (
+                    groupedCollectionReport(
+                      data,
+                      precalcMetrics,
+                      metricGroup,
+                      t,
+                    )
+                  ) : (
+                    groupedSketchReport(data, precalcMetrics, metricGroup, t)
+                  )}
 
                   {isCollection && (
                     <>
