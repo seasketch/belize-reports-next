@@ -1,6 +1,23 @@
-{
-  "min": -3640,
-  "max": 0,
-  "mean": -839.6023739046893,
-  "units": "meters"
-}
+[
+  {
+    "min": -3640,
+    "max": 0,
+    "mean": -1405.998203054807,
+    "units": "meters",
+    "sketchName": "medium-protection-zone"
+  },
+  {
+    "min": -2143,
+    "max": 0,
+    "mean": -273.2065447545717,
+    "units": "meters",
+    "sketchName": "high-protection-zone"
+  },
+  {
+    "min": -3640,
+    "max": 0,
+    "units": "meters",
+    "sketchName": "test-network",
+    "isCollection": true
+  }
+]

@@ -48,7 +48,7 @@ export const MarlinChart: React.FC<MarlinChartProps> = ({ data, variable }) => {
       lobster: t("Lobster"),
       snapper: t("Snapper"),
     };
-    const scenarios = [t("Existing MPAs"), t("Proposed MPAs")];
+    const scenarios = [t("2023 Baseline"), t("Proposed MPAs")];
 
     // General plot dimensions
     const width = 450;

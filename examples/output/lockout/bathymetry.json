@@ -1,6 +1,9 @@
-{
-  "min": -1628,
-  "max": 0,
-  "mean": -455.57329896907214,
-  "units": "meters"
-}
+[
+  {
+    "min": -1628,
+    "max": 0,
+    "mean": -455.57329896907214,
+    "units": "meters",
+    "sketchName": "lockout"
+  }
+]

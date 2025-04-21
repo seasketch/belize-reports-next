@@ -1,6 +1,9 @@
-{
-  "min": -2247,
-  "max": -1,
-  "mean": -237.55115511551156,
-  "units": "meters"
-}
+[
+  {
+    "min": -2247,
+    "max": -1,
+    "mean": -237.55115511551156,
+    "units": "meters",
+    "sketchName": "littoral-medium"
+  }
+]

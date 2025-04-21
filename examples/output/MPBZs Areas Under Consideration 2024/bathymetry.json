@@ -1,6 +1,37 @@
-{
-  "min": -3689,
-  "max": 0,
-  "mean": -781.9039992328215,
-  "units": "meters"
-}
+[
+  {
+    "min": -3689,
+    "max": -21,
+    "mean": -1447.668606431853,
+    "units": "meters",
+    "sketchName": "Lighthouse Reef Atoll Marine Reserve- General Use II"
+  },
+  {
+    "min": -1489,
+    "max": -2,
+    "mean": -951.9565756823821,
+    "units": "meters",
+    "sketchName": "Bacalar Chico Marine Reserve- General Use Zone(Expansion)"
+  },
+  {
+    "min": -2547,
+    "max": 0,
+    "mean": -186.66198979591837,
+    "units": "meters",
+    "sketchName": "Lighthouse Reef Atoll Marine Reserve- General Use I"
+  },
+  {
+    "min": -2019,
+    "max": -4,
+    "mean": -541.3288250211327,
+    "units": "meters",
+    "sketchName": "Glover's Reef Atoll Marine Reserve Expansion"
+  },
+  {
+    "min": -3689,
+    "max": 0,
+    "units": "meters",
+    "sketchName": "MPBZs Areas Under Consideration 2024",
+    "isCollection": true
+  }
+]

@@ -1,6 +1,37 @@
-{
-  "min": -4366,
-  "max": 0,
-  "mean": -1605.764970625782,
-  "units": "meters"
-}
+[
+  {
+    "min": -3129,
+    "max": -1590,
+    "mean": -2303.9937846236994,
+    "units": "meters",
+    "sketchName": "souther"
+  },
+  {
+    "min": -1818,
+    "max": 0,
+    "mean": -292.55801002413216,
+    "units": "meters",
+    "sketchName": "turneffe"
+  },
+  {
+    "min": -4366,
+    "max": -2303,
+    "mean": -3810.406976744186,
+    "units": "meters",
+    "sketchName": "offshore"
+  },
+  {
+    "min": -282,
+    "max": 0,
+    "mean": -16.101111111111113,
+    "units": "meters",
+    "sketchName": "coastal"
+  },
+  {
+    "min": -4366,
+    "max": 0,
+    "units": "meters",
+    "sketchName": "mpa-collection",
+    "isCollection": true
+  }
+]
