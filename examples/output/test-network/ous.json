@@ -86,7 +86,7 @@
       "classId": "fisheries_aquaculture",
       "sketchId": "20646",
       "groupId": null,
-      "value": 114684957.197308,
+      "value": 1237514.978598,
       "extra": {
         "sketchName": "high-protection-zone"
       }
@@ -97,7 +97,7 @@
       "classId": "fisheries_aquaculture",
       "sketchId": "20646",
       "groupId": "HIGH_PROTECTION",
-      "value": 114684957.197308,
+      "value": 1237514.978598,
       "extra": {
         "sketchName": "high-protection-zone"
       }
@@ -108,7 +108,7 @@
       "classId": "fisheries_aquaculture",
       "sketchId": "20647",
       "groupId": null,
-      "value": 171913457.129053,
+      "value": 1719134.529554,
       "extra": {
         "sketchName": "medium-protection-zone"
       }
@@ -119,7 +119,7 @@
       "classId": "fisheries_aquaculture",
       "sketchId": "20647",
       "groupId": "MEDIUM_PROTECTION",
-      "value": 171913457.129053,
+      "value": 1719134.529554,
       "extra": {
         "sketchName": "medium-protection-zone"
       }
@@ -130,7 +130,7 @@
       "classId": "fisheries_aquaculture",
       "sketchId": "20648",
       "groupId": null,
-      "value": 286598414.32636,
+      "value": 2956649.508152,
       "extra": {
         "sketchName": "test-network",
         "isCollection": true
@@ -142,7 +142,7 @@
       "classId": "fisheries_aquaculture",
       "sketchId": "20648",
       "groupId": "HIGH_PROTECTION",
-      "value": 114684957.197308,
+      "value": 1237514.978598,
       "extra": {
         "sketchName": "test-network",
         "isCollection": true
@@ -154,7 +154,7 @@
       "classId": "fisheries_aquaculture",
       "sketchId": "20648",
       "groupId": "MEDIUM_PROTECTION",
-      "value": 171913457.129053,
+      "value": 1719134.529554,
       "extra": {
         "sketchName": "test-network",
         "isCollection": true
@@ -166,7 +166,7 @@
       "classId": "general_use",
       "sketchId": "20646",
       "groupId": null,
-      "value": 7213673.308498,
+      "value": 4298154.716091,
       "extra": {
         "sketchName": "high-protection-zone"
       }
@@ -177,7 +177,7 @@
       "classId": "general_use",
       "sketchId": "20646",
       "groupId": "HIGH_PROTECTION",
-      "value": 7213673.308498,
+      "value": 4298154.716091,
       "extra": {
         "sketchName": "high-protection-zone"
       }
@@ -188,7 +188,7 @@
       "classId": "general_use",
       "sketchId": "20647",
       "groupId": null,
-      "value": 2840542.249652,
+      "value": 1288015.052877,
       "extra": {
         "sketchName": "medium-protection-zone"
       }
@@ -199,7 +199,7 @@
       "classId": "general_use",
       "sketchId": "20647",
       "groupId": "MEDIUM_PROTECTION",
-      "value": 2840542.249652,
+      "value": 1288015.052877,
       "extra": {
         "sketchName": "medium-protection-zone"
       }
@@ -210,7 +210,7 @@
       "classId": "general_use",
       "sketchId": "20648",
       "groupId": null,
-      "value": 10054215.55815,
+      "value": 5586169.768968,
       "extra": {
         "sketchName": "test-network",
         "isCollection": true
@@ -222,7 +222,7 @@
       "classId": "general_use",
       "sketchId": "20648",
       "groupId": "HIGH_PROTECTION",
-      "value": 7213673.308498,
+      "value": 4298154.716091,
       "extra": {
         "sketchName": "test-network",
         "isCollection": true
@@ -234,7 +234,7 @@
       "classId": "general_use",
       "sketchId": "20648",
       "groupId": "MEDIUM_PROTECTION",
-      "value": 2840542.249652,
+      "value": 1288015.052877,
       "extra": {
         "sketchName": "test-network",
         "isCollection": true
@@ -326,7 +326,7 @@
       "classId": "marine_coastal_ecosystems",
       "sketchId": "20646",
       "groupId": null,
-      "value": 109108371.104275,
+      "value": 15116075.328087,
       "extra": {
         "sketchName": "high-protection-zone"
       }
@@ -337,7 +337,7 @@
       "classId": "marine_coastal_ecosystems",
       "sketchId": "20646",
       "groupId": "HIGH_PROTECTION",
-      "value": 109108371.104275,
+      "value": 15116075.328087,
       "extra": {
         "sketchName": "high-protection-zone"
       }
@@ -348,7 +348,7 @@
       "classId": "marine_coastal_ecosystems",
       "sketchId": "20647",
       "groupId": null,
-      "value": 3601451.179097,
+      "value": 1300459.363587,
       "extra": {
         "sketchName": "medium-protection-zone"
       }
@@ -359,7 +359,7 @@
       "classId": "marine_coastal_ecosystems",
       "sketchId": "20647",
       "groupId": "MEDIUM_PROTECTION",
-      "value": 3601451.179097,
+      "value": 1300459.363587,
       "extra": {
         "sketchName": "medium-protection-zone"
       }
@@ -370,7 +370,7 @@
       "classId": "marine_coastal_ecosystems",
       "sketchId": "20648",
       "groupId": null,
-      "value": 112709822.283372,
+      "value": 16416534.691675,
       "extra": {
         "sketchName": "test-network",
         "isCollection": true
@@ -382,7 +382,7 @@
       "classId": "marine_coastal_ecosystems",
       "sketchId": "20648",
       "groupId": "HIGH_PROTECTION",
-      "value": 109108371.104275,
+      "value": 15116075.328087,
       "extra": {
         "sketchName": "test-network",
         "isCollection": true
@@ -394,7 +394,7 @@
       "classId": "marine_coastal_ecosystems",
       "sketchId": "20648",
       "groupId": "MEDIUM_PROTECTION",
-      "value": 3601451.179097,
+      "value": 1300459.363587,
       "extra": {
         "sketchName": "test-network",
         "isCollection": true
@@ -406,7 +406,7 @@
       "classId": "maritime_administration",
       "sketchId": "20646",
       "groupId": null,
-      "value": 5169792.73893,
+      "value": 5169792.813853,
       "extra": {
         "sketchName": "high-protection-zone"
       }
@@ -417,7 +417,7 @@
       "classId": "maritime_administration",
       "sketchId": "20646",
       "groupId": "HIGH_PROTECTION",
-      "value": 5169792.73893,
+      "value": 5169792.813853,
       "extra": {
         "sketchName": "high-protection-zone"
       }
@@ -428,7 +428,7 @@
       "classId": "maritime_administration",
       "sketchId": "20647",
       "groupId": null,
-      "value": 8522883.17592,
+      "value": 2534324.734269,
       "extra": {
         "sketchName": "medium-protection-zone"
       }
@@ -439,7 +439,7 @@
       "classId": "maritime_administration",
       "sketchId": "20647",
       "groupId": "MEDIUM_PROTECTION",
-      "value": 8522883.17592,
+      "value": 2534324.734269,
       "extra": {
         "sketchName": "medium-protection-zone"
       }
@@ -450,7 +450,7 @@
       "classId": "maritime_administration",
       "sketchId": "20648",
       "groupId": null,
-      "value": 13692675.91485,
+      "value": 7704117.548122,
       "extra": {
         "sketchName": "test-network",
         "isCollection": true
@@ -462,7 +462,7 @@
       "classId": "maritime_administration",
       "sketchId": "20648",
       "groupId": "HIGH_PROTECTION",
-      "value": 5169792.73893,
+      "value": 5169792.813853,
       "extra": {
         "sketchName": "test-network",
         "isCollection": true
@@ -474,7 +474,7 @@
       "classId": "maritime_administration",
       "sketchId": "20648",
       "groupId": "MEDIUM_PROTECTION",
-      "value": 8522883.17592,
+      "value": 2534324.734269,
       "extra": {
         "sketchName": "test-network",
         "isCollection": true
@@ -486,7 +486,7 @@
       "classId": "tourism",
       "sketchId": "20646",
       "groupId": null,
-      "value": 180505429.991454,
+      "value": 37023210.310822,
       "extra": {
         "sketchName": "high-protection-zone"
       }
@@ -497,7 +497,7 @@
       "classId": "tourism",
       "sketchId": "20646",
       "groupId": "HIGH_PROTECTION",
-      "value": 180505429.991454,
+      "value": 37023210.310822,
       "extra": {
         "sketchName": "high-protection-zone"
       }
@@ -508,7 +508,7 @@
       "classId": "tourism",
       "sketchId": "20647",
       "groupId": null,
-      "value": 89782799.315964,
+      "value": 43104080.518356,
       "extra": {
         "sketchName": "medium-protection-zone"
       }
@@ -519,7 +519,7 @@
       "classId": "tourism",
       "sketchId": "20647",
       "groupId": "MEDIUM_PROTECTION",
-      "value": 89782799.315964,
+      "value": 43104080.518356,
       "extra": {
         "sketchName": "medium-protection-zone"
       }
@@ -530,7 +530,7 @@
       "classId": "tourism",
       "sketchId": "20648",
       "groupId": null,
-      "value": 270288229.307418,
+      "value": 80127290.829179,
       "extra": {
         "sketchName": "test-network",
         "isCollection": true
@@ -542,7 +542,7 @@
       "classId": "tourism",
       "sketchId": "20648",
       "groupId": "HIGH_PROTECTION",
-      "value": 180505429.991454,
+      "value": 37023210.310822,
       "extra": {
         "sketchName": "test-network",
         "isCollection": true
@@ -554,7 +554,7 @@
       "classId": "tourism",
       "sketchId": "20648",
       "groupId": "MEDIUM_PROTECTION",
-      "value": 89782799.315964,
+      "value": 43104080.518356,
       "extra": {
         "sketchName": "test-network",
         "isCollection": true

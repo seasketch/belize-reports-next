@@ -39,7 +39,7 @@
       "classId": "fisheries_aquaculture",
       "sketchId": "20652",
       "groupId": null,
-      "value": 414633374.176397,
+      "value": 4232797.806472,
       "extra": {
         "sketchName": "large-hpbz"
       }
@@ -50,7 +50,7 @@
       "classId": "fisheries_aquaculture",
       "sketchId": "20652",
       "groupId": "HIGH_PROTECTION",
-      "value": 414633374.176397,
+      "value": 4232797.806472,
       "extra": {
         "sketchName": "large-hpbz"
       }
@@ -72,7 +72,7 @@
       "classId": "general_use",
       "sketchId": "20652",
       "groupId": null,
-      "value": 4669833.616069,
+      "value": 3702244.030064,
       "extra": {
         "sketchName": "large-hpbz"
       }
@@ -83,7 +83,7 @@
       "classId": "general_use",
       "sketchId": "20652",
       "groupId": "HIGH_PROTECTION",
-      "value": 4669833.616069,
+      "value": 3702244.030064,
       "extra": {
         "sketchName": "large-hpbz"
       }
@@ -138,7 +138,7 @@
       "classId": "marine_coastal_ecosystems",
       "sketchId": "20652",
       "groupId": null,
-      "value": 36183529.963301,
+      "value": 20060419.43095,
       "extra": {
         "sketchName": "large-hpbz"
       }
@@ -149,7 +149,7 @@
       "classId": "marine_coastal_ecosystems",
       "sketchId": "20652",
       "groupId": "HIGH_PROTECTION",
-      "value": 36183529.963301,
+      "value": 20060419.43095,
       "extra": {
         "sketchName": "large-hpbz"
       }
@@ -171,7 +171,7 @@
       "classId": "maritime_administration",
       "sketchId": "20652",
       "groupId": null,
-      "value": 32454850.925307,
+      "value": 26515010.713456,
       "extra": {
         "sketchName": "large-hpbz"
       }
@@ -182,7 +182,7 @@
       "classId": "maritime_administration",
       "sketchId": "20652",
       "groupId": "HIGH_PROTECTION",
-      "value": 32454850.925307,
+      "value": 26515010.713456,
       "extra": {
         "sketchName": "large-hpbz"
       }
@@ -204,7 +204,7 @@
       "classId": "tourism",
       "sketchId": "20652",
       "groupId": null,
-      "value": 151406695.69402,
+      "value": 100828225.269001,
       "extra": {
         "sketchName": "large-hpbz"
       }
@@ -215,7 +215,7 @@
       "classId": "tourism",
       "sketchId": "20652",
       "groupId": "HIGH_PROTECTION",
-      "value": 151406695.69402,
+      "value": 100828225.269001,
       "extra": {
         "sketchName": "large-hpbz"
       }

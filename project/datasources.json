@@ -271,7 +271,7 @@
     "band": 1,
     "noDataValue": 0,
     "created": "2024-05-07T22:56:17.547Z",
-    "lastUpdated": "2025-04-08T21:18:57.431Z",
+    "lastUpdated": "2025-04-23T16:59:20.687Z",
     "src": "data/src/Ocean Use Survey/heatmaps/round_2/energy.tif"
   },
   {
@@ -283,7 +283,7 @@
     "band": 1,
     "noDataValue": 0,
     "created": "2024-05-07T22:56:32.957Z",
-    "lastUpdated": "2025-04-08T21:18:58.334Z",
+    "lastUpdated": "2025-04-23T16:59:21.466Z",
     "src": "data/src/Ocean Use Survey/heatmaps/round_2/fisheries_aquaculture.tif"
   },
   {
@@ -295,7 +295,7 @@
     "band": 1,
     "noDataValue": 0,
     "created": "2024-05-07T22:56:48.916Z",
-    "lastUpdated": "2025-04-08T21:18:58.810Z",
+    "lastUpdated": "2025-04-23T16:59:21.959Z",
     "src": "data/src/Ocean Use Survey/heatmaps/round_2/general_use.tif"
   },
   {
@@ -307,7 +307,7 @@
     "band": 1,
     "noDataValue": 0,
     "created": "2024-05-07T22:57:21.567Z",
-    "lastUpdated": "2025-04-08T21:18:59.304Z",
+    "lastUpdated": "2025-04-23T16:59:22.407Z",
     "src": "data/src/Ocean Use Survey/heatmaps/round_2/marine_coastal_development.tif"
   },
   {
@@ -319,7 +319,7 @@
     "band": 1,
     "noDataValue": 0,
     "created": "2024-05-07T22:57:34.892Z",
-    "lastUpdated": "2025-04-08T21:18:59.978Z",
+    "lastUpdated": "2025-04-23T16:59:23.037Z",
     "src": "data/src/Ocean Use Survey/heatmaps/round_2/marine_coastal_ecosystems.tif"
   },
   {
@@ -331,7 +331,7 @@
     "band": 1,
     "noDataValue": 0,
     "created": "2024-05-07T22:57:48.385Z",
-    "lastUpdated": "2025-04-08T21:19:00.404Z",
+    "lastUpdated": "2025-04-23T16:59:23.415Z",
     "src": "data/src/Ocean Use Survey/heatmaps/round_2/maritime_administration.tif"
   },
   {
@@ -343,7 +343,7 @@
     "band": 1,
     "noDataValue": 0,
     "created": "2024-05-07T22:58:08.262Z",
-    "lastUpdated": "2025-04-08T21:29:17.786Z",
+    "lastUpdated": "2025-04-23T16:59:23.871Z",
     "src": "data/src/Ocean Use Survey/heatmaps/round_2/tourism.tif"
   },
   {

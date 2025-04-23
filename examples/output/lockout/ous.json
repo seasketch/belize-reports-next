@@ -17,7 +17,7 @@
       "classId": "fisheries_aquaculture",
       "sketchId": "77206",
       "groupId": null,
-      "value": 190294737.242484,
+      "value": 1981344.656711,
       "extra": {
         "sketchName": "lockout"
       }
@@ -28,7 +28,7 @@
       "classId": "general_use",
       "sketchId": "77206",
       "groupId": null,
-      "value": 1628171.648061,
+      "value": 1788942.970819,
       "extra": {
         "sketchName": "lockout"
       }
@@ -50,7 +50,7 @@
       "classId": "marine_coastal_ecosystems",
       "sketchId": "77206",
       "groupId": null,
-      "value": 42236640.899344,
+      "value": 19104314.077302,
       "extra": {
         "sketchName": "lockout"
       }
@@ -61,7 +61,7 @@
       "classId": "maritime_administration",
       "sketchId": "77206",
       "groupId": null,
-      "value": 24060503.764895,
+      "value": 24074419.549762,
       "extra": {
         "sketchName": "lockout"
       }
@@ -72,7 +72,7 @@
       "classId": "tourism",
       "sketchId": "77206",
       "groupId": null,
-      "value": 52950854.813649,
+      "value": 49019517.561406,
       "extra": {
         "sketchName": "lockout"
       }

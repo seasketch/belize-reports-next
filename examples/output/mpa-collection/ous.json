@@ -130,7 +130,7 @@
       "classId": "fisheries_aquaculture",
       "sketchId": "23746",
       "groupId": null,
-      "value": 652420266.817195,
+      "value": 2996130.866348,
       "extra": {
         "sketchName": "mpa-collection",
         "isCollection": true
@@ -142,7 +142,7 @@
       "classId": "fisheries_aquaculture",
       "sketchId": "23746",
       "groupId": "HIGH_PROTECTION",
-      "value": 649371116.776916,
+      "value": 2870091.172358,
       "extra": {
         "sketchName": "mpa-collection",
         "isCollection": true
@@ -154,7 +154,7 @@
       "classId": "fisheries_aquaculture",
       "sketchId": "23746",
       "groupId": "MEDIUM_PROTECTION",
-      "value": 3049150.041135,
+      "value": 126039.69399,
       "extra": {
         "sketchName": "mpa-collection",
         "isCollection": true
@@ -166,7 +166,7 @@
       "classId": "fisheries_aquaculture",
       "sketchId": "23747",
       "groupId": null,
-      "value": 497244992.687985,
+      "value": 1324887.519429,
       "extra": {
         "sketchName": "coastal"
       }
@@ -177,7 +177,7 @@
       "classId": "fisheries_aquaculture",
       "sketchId": "23747",
       "groupId": "HIGH_PROTECTION",
-      "value": 497244992.687985,
+      "value": 1324887.519429,
       "extra": {
         "sketchName": "coastal"
       }
@@ -188,7 +188,7 @@
       "classId": "fisheries_aquaculture",
       "sketchId": "23748",
       "groupId": null,
-      "value": 1326357.680534,
+      "value": 13263.576746,
       "extra": {
         "sketchName": "offshore"
       }
@@ -199,7 +199,7 @@
       "classId": "fisheries_aquaculture",
       "sketchId": "23748",
       "groupId": "MEDIUM_PROTECTION",
-      "value": 1326357.680534,
+      "value": 13263.576746,
       "extra": {
         "sketchName": "offshore"
       }
@@ -210,7 +210,7 @@
       "classId": "fisheries_aquaculture",
       "sketchId": "23749",
       "groupId": null,
-      "value": 152126124.088932,
+      "value": 1545203.652929,
       "extra": {
         "sketchName": "turneffe"
       }
@@ -221,7 +221,7 @@
       "classId": "fisheries_aquaculture",
       "sketchId": "23749",
       "groupId": "HIGH_PROTECTION",
-      "value": 152126124.088932,
+      "value": 1545203.652929,
       "extra": {
         "sketchName": "turneffe"
       }
@@ -232,7 +232,7 @@
       "classId": "fisheries_aquaculture",
       "sketchId": "23750",
       "groupId": null,
-      "value": 1722792.360601,
+      "value": 112776.117244,
       "extra": {
         "sketchName": "souther"
       }
@@ -243,7 +243,7 @@
       "classId": "fisheries_aquaculture",
       "sketchId": "23750",
       "groupId": "MEDIUM_PROTECTION",
-      "value": 1722792.360601,
+      "value": 112776.117244,
       "extra": {
         "sketchName": "souther"
       }
@@ -254,7 +254,7 @@
       "classId": "general_use",
       "sketchId": "23746",
       "groupId": null,
-      "value": 6966806316.916494,
+      "value": 14530758.601133,
       "extra": {
         "sketchName": "mpa-collection",
         "isCollection": true
@@ -266,7 +266,7 @@
       "classId": "general_use",
       "sketchId": "23746",
       "groupId": "HIGH_PROTECTION",
-      "value": 6965840401.8374,
+      "value": 13532322.549643,
       "extra": {
         "sketchName": "mpa-collection",
         "isCollection": true
@@ -278,7 +278,7 @@
       "classId": "general_use",
       "sketchId": "23746",
       "groupId": "MEDIUM_PROTECTION",
-      "value": 965915.116768,
+      "value": 998436.05149,
       "extra": {
         "sketchName": "mpa-collection",
         "isCollection": true
@@ -290,7 +290,7 @@
       "classId": "general_use",
       "sketchId": "23747",
       "groupId": null,
-      "value": 6964380969.676428,
+      "value": 11977894.78993,
       "extra": {
         "sketchName": "coastal"
       }
@@ -301,7 +301,7 @@
       "classId": "general_use",
       "sketchId": "23747",
       "groupId": "HIGH_PROTECTION",
-      "value": 6964380969.676428,
+      "value": 11977894.78993,
       "extra": {
         "sketchName": "coastal"
       }
@@ -334,7 +334,7 @@
       "classId": "general_use",
       "sketchId": "23749",
       "groupId": null,
-      "value": 1459432.161579,
+      "value": 1554427.759712,
       "extra": {
         "sketchName": "turneffe"
       }
@@ -345,7 +345,7 @@
       "classId": "general_use",
       "sketchId": "23749",
       "groupId": "HIGH_PROTECTION",
-      "value": 1459432.161579,
+      "value": 1554427.759712,
       "extra": {
         "sketchName": "turneffe"
       }
@@ -356,7 +356,7 @@
       "classId": "general_use",
       "sketchId": "23750",
       "groupId": null,
-      "value": 965915.116768,
+      "value": 998436.05149,
       "extra": {
         "sketchName": "souther"
       }
@@ -367,7 +367,7 @@
       "classId": "general_use",
       "sketchId": "23750",
       "groupId": "MEDIUM_PROTECTION",
-      "value": 965915.116768,
+      "value": 998436.05149,
       "extra": {
         "sketchName": "souther"
       }
@@ -502,7 +502,7 @@
       "classId": "marine_coastal_ecosystems",
       "sketchId": "23746",
       "groupId": null,
-      "value": 1771700380.165956,
+      "value": 27654063.633548,
       "extra": {
         "sketchName": "mpa-collection",
         "isCollection": true
@@ -514,7 +514,7 @@
       "classId": "marine_coastal_ecosystems",
       "sketchId": "23746",
       "groupId": "HIGH_PROTECTION",
-      "value": 1771655497.034776,
+      "value": 20579118.022329,
       "extra": {
         "sketchName": "mpa-collection",
         "isCollection": true
@@ -526,7 +526,7 @@
       "classId": "marine_coastal_ecosystems",
       "sketchId": "23746",
       "groupId": "MEDIUM_PROTECTION",
-      "value": 44883.169723,
+      "value": 7074945.611219,
       "extra": {
         "sketchName": "mpa-collection",
         "isCollection": true
@@ -538,7 +538,7 @@
       "classId": "marine_coastal_ecosystems",
       "sketchId": "23747",
       "groupId": null,
-      "value": 1731632273.16488,
+      "value": 8121722.566659,
       "extra": {
         "sketchName": "coastal"
       }
@@ -549,7 +549,7 @@
       "classId": "marine_coastal_ecosystems",
       "sketchId": "23747",
       "groupId": "HIGH_PROTECTION",
-      "value": 1731632273.16488,
+      "value": 8121722.566659,
       "extra": {
         "sketchName": "coastal"
       }
@@ -582,7 +582,7 @@
       "classId": "marine_coastal_ecosystems",
       "sketchId": "23749",
       "groupId": null,
-      "value": 40023223.871581,
+      "value": 12457395.45567,
       "extra": {
         "sketchName": "turneffe"
       }
@@ -593,7 +593,7 @@
       "classId": "marine_coastal_ecosystems",
       "sketchId": "23749",
       "groupId": "HIGH_PROTECTION",
-      "value": 40023223.871581,
+      "value": 12457395.45567,
       "extra": {
         "sketchName": "turneffe"
       }
@@ -604,7 +604,7 @@
       "classId": "marine_coastal_ecosystems",
       "sketchId": "23750",
       "groupId": null,
-      "value": 19355.780559,
+      "value": 7049418.222055,
       "extra": {
         "sketchName": "souther"
       }
@@ -615,7 +615,7 @@
       "classId": "marine_coastal_ecosystems",
       "sketchId": "23750",
       "groupId": "MEDIUM_PROTECTION",
-      "value": 19355.780559,
+      "value": 7049418.222055,
       "extra": {
         "sketchName": "souther"
       }
@@ -626,7 +626,7 @@
       "classId": "maritime_administration",
       "sketchId": "23746",
       "groupId": null,
-      "value": 1026631807.767291,
+      "value": 95205335.238925,
       "extra": {
         "sketchName": "mpa-collection",
         "isCollection": true
@@ -638,7 +638,7 @@
       "classId": "maritime_administration",
       "sketchId": "23746",
       "groupId": "HIGH_PROTECTION",
-      "value": 1026631807.767291,
+      "value": 95205335.238925,
       "extra": {
         "sketchName": "mpa-collection",
         "isCollection": true
@@ -662,7 +662,7 @@
       "classId": "maritime_administration",
       "sketchId": "23747",
       "groupId": null,
-      "value": 1013064800.266029,
+      "value": 81638327.792717,
       "extra": {
         "sketchName": "coastal"
       }
@@ -673,7 +673,7 @@
       "classId": "maritime_administration",
       "sketchId": "23747",
       "groupId": "HIGH_PROTECTION",
-      "value": 1013064800.266029,
+      "value": 81638327.792717,
       "extra": {
         "sketchName": "coastal"
       }
@@ -706,7 +706,7 @@
       "classId": "maritime_administration",
       "sketchId": "23749",
       "groupId": null,
-      "value": 13567007.501262,
+      "value": 13567007.446208,
       "extra": {
         "sketchName": "turneffe"
       }
@@ -717,7 +717,7 @@
       "classId": "maritime_administration",
       "sketchId": "23749",
       "groupId": "HIGH_PROTECTION",
-      "value": 13567007.501262,
+      "value": 13567007.446208,
       "extra": {
         "sketchName": "turneffe"
       }
@@ -750,7 +750,7 @@
       "classId": "tourism",
       "sketchId": "23746",
       "groupId": null,
-      "value": 860595683.327199,
+      "value": 157260350.767012,
       "extra": {
         "sketchName": "mpa-collection",
         "isCollection": true
@@ -762,7 +762,7 @@
       "classId": "tourism",
       "sketchId": "23746",
       "groupId": "HIGH_PROTECTION",
-      "value": 860357676.616731,
+      "value": 150572050.219244,
       "extra": {
         "sketchName": "mpa-collection",
         "isCollection": true
@@ -774,7 +774,7 @@
       "classId": "tourism",
       "sketchId": "23746",
       "groupId": "MEDIUM_PROTECTION",
-      "value": 238006.710468,
+      "value": 6688300.547768,
       "extra": {
         "sketchName": "mpa-collection",
         "isCollection": true
@@ -786,7 +786,7 @@
       "classId": "tourism",
       "sketchId": "23747",
       "groupId": null,
-      "value": 811711247.349012,
+      "value": 105800066.434315,
       "extra": {
         "sketchName": "coastal"
       }
@@ -797,7 +797,7 @@
       "classId": "tourism",
       "sketchId": "23747",
       "groupId": "HIGH_PROTECTION",
-      "value": 811711247.349012,
+      "value": 105800066.434315,
       "extra": {
         "sketchName": "coastal"
       }
@@ -830,7 +830,7 @@
       "classId": "tourism",
       "sketchId": "23749",
       "groupId": null,
-      "value": 48646429.267718,
+      "value": 44771983.784929,
       "extra": {
         "sketchName": "turneffe"
       }
@@ -841,7 +841,7 @@
       "classId": "tourism",
       "sketchId": "23749",
       "groupId": "HIGH_PROTECTION",
-      "value": 48646429.267718,
+      "value": 44771983.784929,
       "extra": {
         "sketchName": "turneffe"
       }
@@ -852,7 +852,7 @@
       "classId": "tourism",
       "sketchId": "23750",
       "groupId": null,
-      "value": 238006.710468,
+      "value": 6688300.547768,
       "extra": {
         "sketchName": "souther"
       }
@@ -863,7 +863,7 @@
       "classId": "tourism",
       "sketchId": "23750",
       "groupId": "MEDIUM_PROTECTION",
-      "value": 238006.710468,
+      "value": 6688300.547768,
       "extra": {
         "sketchName": "souther"
       }
