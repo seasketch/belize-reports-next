@@ -184,6 +184,21 @@ export const genBathymetryTable = (
   );
 };
 
+const StyledRect = styled.rect`
+  transform-box: fill-box;
+  transform-origin: center bottom;
+  animation: growUp 1.5s ease forwards;
+
+  @keyframes growUp {
+    from {
+      transform: scaleY(0);
+    }
+    to {
+      transform: scaleY(1);
+    }
+  }
+`;
+
 const DepthChart: React.FC<{ bathyResults: BathymetryResults[] }> = ({
   bathyResults,
 }) => {
@@ -245,7 +260,7 @@ const DepthChart: React.FC<{ bathyResults: BathymetryResults[] }> = ({
           const fillOpacity = fillOpacityScale(Math.min(binStart, binEnd));
 
           return (
-            <rect
+            <StyledRect
               key={`${binStart}-${binEnd}`}
               x={Math.min(x1, x2)}
               y={yScale(count)}
