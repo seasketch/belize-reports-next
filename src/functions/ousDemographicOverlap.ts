@@ -10,6 +10,7 @@ import {
   FeatureCollection,
   Metric,
   GeoprocessingRequestModel,
+  DefaultExtraParams,
 } from "@seasketch/geoprocessing/client-core";
 import {
   GeoprocessingHandler,
@@ -59,6 +60,7 @@ export async function ousDemographicOverlap(
   sketch:
     | Sketch<Polygon | MultiPolygon>
     | SketchCollection<Polygon | MultiPolygon>,
+  extraParams: DefaultExtraParams = {},
   request?: GeoprocessingRequestModel<Polygon | MultiPolygon>,
 ): Promise<ReportResult> {
   const ranges = [
