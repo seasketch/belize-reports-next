@@ -10,8 +10,6 @@ import {
   useSketchProperties,
 } from "@seasketch/geoprocessing/client-ui";
 import {
-  ReportResult,
-  toNullSketchArray,
   flattenBySketchAllClass,
   metricsWithSketchId,
   Metric,
@@ -19,8 +17,6 @@ import {
   toPercentMetric,
   GroupMetricAgg,
   firstMatchingMetric,
-  flattenByGroupAllClass,
-  isSketchCollection,
   percentWithEdge,
   OBJECTIVE_YES,
   OBJECTIVE_NO,
@@ -40,6 +36,7 @@ import {
 } from "./TableStyles.jsx";
 import { InfoCircleFill } from "@styled-icons/bootstrap";
 import { flattenByGroup } from "./flattenByGroup.js";
+import { flattenByGroupAllClass } from "./flattenByGroupAllClass.js";
 
 const Number = new Intl.NumberFormat("en", { style: "decimal" });
 
@@ -52,13 +49,13 @@ export interface ClassTableGroupedProps {
 
 /**
  * Creates grouped overlap report for sketch
- * @param data data returned from lambda
+ * @param metrics metrics returned from lambda
  * @param precalcMetrics metrics from precalc.json
  * @param metricGroup metric group to get stats for
  * @param t TFunction
  */
 export const groupedSketchReport = (
-  data: ReportResult,
+  metrics: Metric[],
   precalcMetrics: Metric[],
   metricGroup: MetricGroup,
   t: any,
@@ -86,7 +83,7 @@ export const groupedSketchReport = (
   if (lockoutArea) {
     const totalsByClass = metricGroup.classes.reduce<Record<string, number[]>>(
       (acc, curClass) => {
-        const classMetrics = data.metrics.filter(
+        const classMetrics = metrics.filter(
           (m) => m.classId === curClass.classId,
         );
         const values = classMetrics.map(
@@ -101,7 +98,7 @@ export const groupedSketchReport = (
   }
 
   // Filter down to metrics which have groupIds
-  const levelMetrics = data.metrics.filter(
+  const levelMetrics = metrics.filter(
     (m) => m.groupId && protectionLevels.includes(m.groupId),
   );
 
@@ -136,27 +133,27 @@ export const groupedSketchReport = (
 
 /**
  * Creates grouped overlap report for sketch collection
- * @param data data returned from lambda
+ * @param metrics metrics returned from lambda
  * @param precalcMetrics metrics from precalc.json
  * @param metricGroup metric group to get stats for
  * @param t TFunction
  */
 export const groupedCollectionReport = (
-  data: ReportResult,
+  metrics: Metric[],
   precalcMetrics: Metric[],
   metricGroup: MetricGroup,
   t: any,
   options?: ClassTableGroupedProps,
 ) => {
-  if (!isSketchCollection(data.sketch)) throw new Error("NullSketch");
+  const [{ isCollection }] = useSketchProperties();
+  if (!isCollection) throw new Error("NullSketch");
 
   // Filter down to metrics which have groupIds
-  const levelMetrics = data.metrics.filter(
+  const levelMetrics = metrics.filter(
     (m) => m.groupId && protectionLevels.includes(m.groupId),
   );
 
   const groupLevelAggs: GroupMetricAgg[] = flattenByGroupAllClass(
-    data.sketch,
     levelMetrics,
     precalcMetrics,
   );
@@ -411,18 +408,19 @@ export const collectionMsgs: Record<string, any> = {
 
 /**
  * Creates "Show by Protection Level" report  with percentages
- * @param data data returned from lambda
+ * @param metrics metrics returned from lambda
  * @param precalcMetrics metrics from precalc.json
  * @param metricGroup metric group to get stats for
  * @param t TFunction
  */
 export const genPercGroupLevelTable = (
-  data: ReportResult,
+  metrics: Metric[],
   precalcMetrics: Metric[],
   metricGroup: MetricGroup,
   t: any,
 ) => {
-  if (!isSketchCollection(data.sketch)) throw new Error("NullSketch");
+  const [{ isCollection }] = useSketchProperties();
+  if (!isCollection) throw new Error("NullSketch");
 
   const groupDisplayMapPl: Record<string, string> = {
     HIGH_PROTECTION: t("High Protection Biodiversity Zone(s)"),
@@ -441,12 +439,11 @@ export const genPercGroupLevelTable = (
   };
 
   // Filter down to metrics which have groupIds
-  const levelMetrics = data.metrics.filter(
+  const levelMetrics = metrics.filter(
     (m) => m.groupId && protectionLevels.includes(m.groupId),
   );
 
   const levelAggs: GroupMetricAgg[] = flattenByGroup(
-    data.sketch,
     levelMetrics,
     precalcMetrics,
   );
@@ -497,20 +494,21 @@ export const genPercGroupLevelTable = (
 
 /**
  * Creates "Show by Protection Level" report with value + percentages
- * @param data data returned from lambda
+ * @param metrics metrics returned from lambda
  * @param precalcMetrics metrics from precalc.json
  * @param metricGroup metric group to get stats for
  * @param t TFunction
  */
 export const genGroupLevelTable = (
-  data: ReportResult,
+  metrics: Metric[],
   precalcMetrics: Metric[],
   metricGroup: MetricGroup,
   t: any,
   printing: boolean = false,
   type: "count" | "dollar" | "area" = "area",
 ) => {
-  if (!isSketchCollection(data.sketch)) throw new Error("NullSketch");
+  const [{ isCollection }] = useSketchProperties();
+  if (!isCollection) throw new Error("NullSketch");
 
   const groupDisplayMapPl: Record<string, string> = {
     HIGH_PROTECTION: t("High Protection Biodiversity Zone(s)"),
@@ -529,12 +527,11 @@ export const genGroupLevelTable = (
   };
 
   // Filter down to metrics which have groupIds
-  const levelMetrics = data.metrics.filter(
+  const levelMetrics = metrics.filter(
     (m) => m.groupId && protectionLevels.includes(m.groupId),
   );
 
   const levelAggs: GroupMetricAgg[] = flattenByGroup(
-    data.sketch,
     levelMetrics,
     precalcMetrics,
   );
@@ -659,7 +656,7 @@ export const genGroupLevelTable = (
 };
 
 export const genSketchTable = (
-  data: ReportResult,
+  metrics: Metric[],
   metricGroup: MetricGroup,
   precalcMetrics: Metric[],
   childProperties: SketchProperties[],
@@ -672,7 +669,7 @@ export const genSketchTable = (
   // Build agg metric objects for each child sketch in collection with percValue for each class
   const childSketchMetrics = toPercentMetric(
     metricsWithSketchId(
-      data.metrics.filter((m) => m.metricId === metricGroup.metricId),
+      metrics.filter((m) => m.metricId === metricGroup.metricId),
       childSketchIds,
     ),
     precalcMetrics,
@@ -719,7 +716,7 @@ export const genSketchTable = (
 
 // Creates "Show by MPA" report with value + percentages
 export const genAreaSketchTable = (
-  data: ReportResult,
+  metrics: Metric[],
   precalcMetrics: Metric[],
   mg: MetricGroup,
   t: any,
@@ -731,7 +728,7 @@ export const genAreaSketchTable = (
     ? childProperties.map((skp) => skp.id)
     : [];
 
-  const sketchMetrics = data.metrics.filter(
+  const sketchMetrics = metrics.filter(
     (m) => m.sketchId && childSketchIds.includes(m.sketchId),
   );
   const finalMetrics = [

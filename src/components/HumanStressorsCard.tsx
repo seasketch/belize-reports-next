@@ -30,7 +30,7 @@ export const HumanStressorsCard: React.FunctionComponent<{
   printing: boolean;
 }> = (props) => {
   const { t } = useTranslation();
-  const [{ isCollection, id, childProperties }] = useSketchProperties();
+  const [{ isCollection, childProperties }] = useSketchProperties();
   const curGeography = project.getGeographyById(props.geographyId, {
     fallbackGroup: "default-boundary",
   });
@@ -84,12 +84,17 @@ export const HumanStressorsCard: React.FunctionComponent<{
                 <Translator>
                   {isCollection
                     ? groupedCollectionReport(
-                        data,
+                        data.metrics,
                         precalcMetrics,
                         metricGroup,
                         t,
                       )
-                    : groupedSketchReport(data, precalcMetrics, metricGroup, t)}
+                    : groupedSketchReport(
+                        data.metrics,
+                        precalcMetrics,
+                        metricGroup,
+                        t,
+                      )}
 
                   {isCollection && (
                     <>
@@ -99,7 +104,7 @@ export const HumanStressorsCard: React.FunctionComponent<{
                         key={String(props.printing) + "Protection"}
                       >
                         {genGroupLevelTable(
-                          data,
+                          data.metrics,
                           precalcMetrics,
                           metricGroup,
                           t,
@@ -111,7 +116,7 @@ export const HumanStressorsCard: React.FunctionComponent<{
                         key={String(props.printing) + "MPA"}
                       >
                         {genAreaSketchTable(
-                          data,
+                          data.metrics,
                           precalcMetrics,
                           metricGroup,
                           t,

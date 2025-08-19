@@ -22,8 +22,6 @@ import {
   squareMeterToKilometer,
   OBJECTIVE_NO,
   OBJECTIVE_YES,
-  flattenByGroupAllClass,
-  isSketchCollection,
 } from "@seasketch/geoprocessing/client-core";
 import { Trans, useTranslation } from "react-i18next";
 import project from "../../project/projectClient.js";
@@ -36,6 +34,7 @@ import {
   genAreaSketchTable,
 } from "../util/ProtectionLevelOverlapReports.js";
 import { Download } from "@styled-icons/bootstrap/Download";
+import { flattenByGroupAllClass } from "../util/flattenByGroupAllClass.js";
 
 // Hard code total area of Belize ocean space
 const boundaryTotalMetrics: Metric[] = [
@@ -173,7 +172,7 @@ export const SizeCard: React.FunctionComponent<{ printing: boolean }> = (
                           key={String(props.printing) + "Protection"}
                         >
                           {genGroupLevelTable(
-                            data,
+                            data.metrics,
                             boundaryTotalMetrics,
                             mg,
                             t,
@@ -185,7 +184,7 @@ export const SizeCard: React.FunctionComponent<{ printing: boolean }> = (
                           key={String(props.printing) + "MPA"}
                         >
                           {genAreaSketchTable(
-                            data,
+                            data.metrics,
                             boundaryTotalMetrics,
                             mg,
                             t,
@@ -269,8 +268,8 @@ const collectionReport = (
   objectiveIds: string[],
   t: any,
 ) => {
-  if (!isSketchCollection(data.sketch)) throw new Error("NullSketch");
-  const mg = project.getMetricGroup("size", t);
+  const [{ isCollection }] = useSketchProperties();
+  if (!isCollection) throw new Error("NullSketch");
 
   // Filter down to metrics which have groupIds
   const levelMetrics = data.metrics.filter(
@@ -278,7 +277,6 @@ const collectionReport = (
   );
 
   const groupLevelAggs: GroupMetricAgg[] = flattenByGroupAllClass(
-    data.sketch,
     levelMetrics,
     precalcMetrics,
   );

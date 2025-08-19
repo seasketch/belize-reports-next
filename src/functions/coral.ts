@@ -126,7 +126,6 @@ export async function coral(
 
   return {
     metrics: sortMetrics(rekeyMetrics([...metrics, ...groupMetrics])),
-    sketch: toNullSketch(sketch),
   };
 }
 

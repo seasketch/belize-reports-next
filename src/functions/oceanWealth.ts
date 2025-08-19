@@ -20,7 +20,6 @@ import {
   isPolygonFeatureArray,
   rekeyMetrics,
   sortMetrics,
-  toNullSketch,
 } from "@seasketch/geoprocessing/client-core";
 import {
   getMpaProtectionLevels,
@@ -107,7 +106,6 @@ export async function oceanWealth(
   if (lockoutArea)
     return {
       metrics: sortMetrics(rekeyMetrics(metrics)),
-      sketch: toNullSketch(sketch),
     };
 
   // Calculate group metrics - from individual sketch metrics
@@ -126,7 +124,6 @@ export async function oceanWealth(
 
   return {
     metrics: sortMetrics(rekeyMetrics([...metrics, ...groupMetrics])),
-    sketch: toNullSketch(sketch),
   };
 }
 

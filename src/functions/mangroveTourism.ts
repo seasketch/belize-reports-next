@@ -21,7 +21,6 @@ import {
   isPolygonFeatureArray,
   rekeyMetrics,
   sortMetrics,
-  toNullSketch,
 } from "@seasketch/geoprocessing/client-core";
 import {
   getMpaProtectionLevels,
@@ -109,7 +108,6 @@ export async function mangroveTourism(
   if (lockoutArea) {
     return {
       metrics: sortMetrics(rekeyMetrics(metrics)),
-      sketch: toNullSketch(sketch),
     };
   }
 
@@ -129,7 +127,6 @@ export async function mangroveTourism(
 
   return {
     metrics: sortMetrics(rekeyMetrics([...metrics, ...groupMetrics])),
-    sketch: toNullSketch(sketch),
   };
 }
 

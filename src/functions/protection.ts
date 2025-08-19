@@ -1,7 +1,6 @@
 import {
   rekeyMetrics,
   sortMetrics,
-  toNullSketch,
   Sketch,
   SketchCollection,
   Polygon,
@@ -75,7 +74,6 @@ export async function protection(
 
   return {
     metrics: sortMetrics(rekeyMetrics(metrics)),
-    sketch: toNullSketch(sketch),
   };
 }
 

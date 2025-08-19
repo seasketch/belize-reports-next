@@ -4,7 +4,6 @@ import {
   Polygon,
   ReportResult,
   SketchCollection,
-  toNullSketch,
   rekeyMetrics,
   sortMetrics,
   firstMatchingMetric,
@@ -54,7 +53,6 @@ export async function size(
   if (lockoutArea) {
     return {
       metrics: sortMetrics(rekeyMetrics([...areaMetrics])),
-      sketch: toNullSketch(sketch),
     };
   }
 
@@ -75,7 +73,6 @@ export async function size(
 
   return {
     metrics: sortMetrics(rekeyMetrics([...areaMetrics, ...levelMetrics])),
-    sketch: toNullSketch(sketch),
   };
 }
 

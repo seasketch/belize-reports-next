@@ -30,7 +30,7 @@ export const Geomorphology: React.FunctionComponent<{
   printing: boolean;
 }> = (props) => {
   const { t } = useTranslation();
-  const [{ isCollection, id, childProperties, sketchClassId }] =
+  const [{ isCollection, childProperties, sketchClassId }] =
     useSketchProperties();
   const lockoutArea = String(sketchClassId) === "1555";
   const curGeography = project.getGeographyById(props.geographyId, {
@@ -94,12 +94,17 @@ export const Geomorphology: React.FunctionComponent<{
                 <Translator>
                   {isCollection
                     ? groupedCollectionReport(
-                        data,
+                        data.metrics,
                         precalcMetrics,
                         metricGroup,
                         t,
                       )
-                    : groupedSketchReport(data, precalcMetrics, metricGroup, t)}
+                    : groupedSketchReport(
+                        data.metrics,
+                        precalcMetrics,
+                        metricGroup,
+                        t,
+                      )}
 
                   {isCollection && (
                     <>
@@ -109,7 +114,7 @@ export const Geomorphology: React.FunctionComponent<{
                         key={String(props.printing) + "Protection"}
                       >
                         {genGroupLevelTable(
-                          data,
+                          data.metrics,
                           precalcMetrics,
                           metricGroup,
                           t,
@@ -122,7 +127,7 @@ export const Geomorphology: React.FunctionComponent<{
                         key={String(props.printing) + "MPA"}
                       >
                         {genAreaSketchTable(
-                          data,
+                          data.metrics,
                           precalcMetrics,
                           metricGroup,
                           t,

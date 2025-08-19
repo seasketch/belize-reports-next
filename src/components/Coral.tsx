@@ -102,7 +102,7 @@ export const Coral: React.FunctionComponent<{
                 <Translator>
                   {isCollection
                     ? groupedCollectionReport(
-                        data,
+                        data.metrics,
                         precalcMetrics,
                         {
                           ...metricGroup,
@@ -117,7 +117,7 @@ export const Coral: React.FunctionComponent<{
                         t,
                       )
                     : groupedSketchReport(
-                        data,
+                        data.metrics,
                         precalcMetrics,
                         {
                           ...metricGroup,
@@ -136,13 +136,18 @@ export const Coral: React.FunctionComponent<{
                     <></>
                   ) : isCollection ? (
                     groupedCollectionReport(
-                      data,
+                      data.metrics,
                       precalcMetrics,
                       metricGroup,
                       t,
                     )
                   ) : (
-                    groupedSketchReport(data, precalcMetrics, metricGroup, t)
+                    groupedSketchReport(
+                      data.metrics,
+                      precalcMetrics,
+                      metricGroup,
+                      t,
+                    )
                   )}
 
                   {isCollection && (
@@ -153,7 +158,7 @@ export const Coral: React.FunctionComponent<{
                         key={String(props.printing) + "Protection"}
                       >
                         {genGroupLevelTable(
-                          data,
+                          data.metrics,
                           precalcMetrics,
                           metricGroup,
                           t,
@@ -165,7 +170,7 @@ export const Coral: React.FunctionComponent<{
                         key={String(props.printing) + "MPA"}
                       >
                         {genAreaSketchTable(
-                          data,
+                          data.metrics,
                           precalcMetrics,
                           metricGroup,
                           t,

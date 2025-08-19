@@ -108,7 +108,6 @@ export async function seagrass(
   if (lockoutArea) {
     return {
       metrics: sortMetrics(rekeyMetrics(metrics)),
-      sketch: toNullSketch(sketch),
     };
   }
 
@@ -128,7 +127,6 @@ export async function seagrass(
 
   return {
     metrics: sortMetrics(rekeyMetrics([...metrics, ...groupMetrics])),
-    sketch: toNullSketch(sketch),
   };
 }
 

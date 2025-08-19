@@ -103,12 +103,17 @@ export const Seagrass: React.FunctionComponent<{
                 <Translator>
                   {isCollection
                     ? groupedCollectionReport(
-                        data,
+                        data.metrics,
                         precalcMetrics,
                         metricGroup,
                         t,
                       )
-                    : groupedSketchReport(data, precalcMetrics, metricGroup, t)}
+                    : groupedSketchReport(
+                        data.metrics,
+                        precalcMetrics,
+                        metricGroup,
+                        t,
+                      )}
 
                   {isCollection && (
                     <>
@@ -118,7 +123,7 @@ export const Seagrass: React.FunctionComponent<{
                         key={String(props.printing) + "Protection"}
                       >
                         {genGroupLevelTable(
-                          data,
+                          data.metrics,
                           precalcMetrics,
                           metricGroup,
                           t,
@@ -130,7 +135,7 @@ export const Seagrass: React.FunctionComponent<{
                         key={String(props.printing) + "MPA"}
                       >
                         {genAreaSketchTable(
-                          data,
+                          data.metrics,
                           precalcMetrics,
                           metricGroup,
                           t,

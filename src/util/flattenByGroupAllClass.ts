@@ -1,23 +1,22 @@
 import {
-  Metric,
   firstMatchingMetric,
   groupBy,
   keyBy,
+  Metric,
 } from "@seasketch/geoprocessing/client-core";
 import { useSketchProperties } from "@seasketch/geoprocessing/client-ui";
 
 /**
- * Aggregates metrics by group - keeps values and perc values
+ * Aggregates metrics by group
  * @param groupMetrics metrics with assigned groupId (except group total metric) and sketchIds for collection
  * @param totalMetrics totals by class
  * @returns one aggregate object for every groupId present in metrics.  Each object includes:
  * [numSketches] - count of child sketches in the group
- * [classIdPerc] - a percValue for each classId present in metrics for group
- * [classId] - a value for each classId present in metrics for group
+ * [classId] - a percValue for each classId present in metrics for group
  * [value] - sum of value across all classIds present in metrics for group
  * [percValue] - given sum value across all classIds, contains ratio of total sum across all class IDs
  */
-export const flattenByGroup = (
+export const flattenByGroupAllClass = (
   groupMetrics: Metric[],
   totalMetrics: Metric[],
 ): {
@@ -26,8 +25,8 @@ export const flattenByGroup = (
   percValue: number;
 }[] => {
   // Stratify in order by Group -> Collection -> Class. Then flatten
-  const metricsByGroup = groupBy(groupMetrics, (m) => m.groupId || "undefined");
   const [{ id }] = useSketchProperties();
+  const metricsByGroup = groupBy(groupMetrics, (m) => m.groupId || "undefined");
 
   return Object.keys(metricsByGroup).map((curGroupId) => {
     const collGroupMetrics = metricsByGroup[curGroupId].filter(
@@ -56,8 +55,7 @@ export const flattenByGroup = (
 
         return {
           ...rowsSoFar,
-          [curClassId + "Perc"]: curValue / classTotal,
-          [curClassId]: curValue,
+          [curClassId]: curValue / classTotal,
           numSketches: groupClassSketchMetrics.length,
           value: rowsSoFar.value + curValue,
         };

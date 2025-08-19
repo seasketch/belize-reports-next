@@ -17,7 +17,6 @@ import {
   isMetricArray,
   rekeyMetrics,
   sortMetrics,
-  toNullSketch,
 } from "@seasketch/geoprocessing/client-core";
 import { ousWorker } from "./ousWorker.js";
 
@@ -77,7 +76,6 @@ export async function ous(
   // Return a report result with metrics and a null sketch
   return {
     metrics: sortMetrics(rekeyMetrics(metrics)),
-    sketch: toNullSketch(sketch, true),
   };
 }
 

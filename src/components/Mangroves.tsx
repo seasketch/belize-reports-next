@@ -94,12 +94,17 @@ export const Mangroves: React.FunctionComponent<{
               <Translator>
                 {isCollection
                   ? groupedCollectionReport(
-                      data,
+                      data.metrics,
                       precalcMetrics,
                       metricGroup,
                       t,
                     )
-                  : groupedSketchReport(data, precalcMetrics, metricGroup, t)}
+                  : groupedSketchReport(
+                      data.metrics,
+                      precalcMetrics,
+                      metricGroup,
+                      t,
+                    )}
 
                 {isCollection && (
                   <>
@@ -108,7 +113,12 @@ export const Mangroves: React.FunctionComponent<{
                       collapsed={!props.printing}
                       key={String(props.printing) + "Protection"}
                     >
-                      {genGroupLevelTable(data, precalcMetrics, metricGroup, t)}
+                      {genGroupLevelTable(
+                        data.metrics,
+                        precalcMetrics,
+                        metricGroup,
+                        t,
+                      )}
                     </Collapse>
                     <Collapse
                       title={t("Show by MPA")}
@@ -116,7 +126,7 @@ export const Mangroves: React.FunctionComponent<{
                       key={String(props.printing) + "MPA"}
                     >
                       {genAreaSketchTable(
-                        data,
+                        data.metrics,
                         precalcMetrics,
                         metricGroup,
                         t,

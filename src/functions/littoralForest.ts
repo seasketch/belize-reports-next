@@ -17,7 +17,6 @@ import {
   ReportResult,
   rekeyMetrics,
   sortMetrics,
-  toNullSketch,
 } from "@seasketch/geoprocessing/client-core";
 import {
   getMpaProtectionLevels,
@@ -108,7 +107,6 @@ export async function littoralForest(
   if (lockoutArea)
     return {
       metrics: sortMetrics(rekeyMetrics(metrics)),
-      sketch: toNullSketch(sketch),
     };
 
   // Calculate group metrics - from individual sketch metrics
@@ -127,7 +125,6 @@ export async function littoralForest(
 
   return {
     metrics: sortMetrics(rekeyMetrics([...metrics, ...groupMetrics])),
-    sketch: toNullSketch(sketch),
   };
 }
 
