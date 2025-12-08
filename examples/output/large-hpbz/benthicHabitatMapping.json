@@ -1,0 +1,70 @@
+{
+  "metrics": [
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "benthicHabitatMapping",
+      "classId": "benthicHabitatCoral",
+      "sketchId": "20652",
+      "groupId": null,
+      "value": 51779200.337583,
+      "extra": {
+        "sketchName": "large-hpbz"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "benthicHabitatMapping",
+      "classId": "benthicHabitatCoral",
+      "sketchId": "20652",
+      "groupId": "HIGH_PROTECTION",
+      "value": 51779200.337583,
+      "extra": {
+        "sketchName": "large-hpbz"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "benthicHabitatMapping",
+      "classId": "benthicHabitatCoral",
+      "sketchId": "20652",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 0,
+      "extra": {
+        "sketchName": "large-hpbz"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "benthicHabitatMapping",
+      "classId": "benthicHabitatSeagrass",
+      "sketchId": "20652",
+      "groupId": null,
+      "value": 1780974.190846,
+      "extra": {
+        "sketchName": "large-hpbz"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "benthicHabitatMapping",
+      "classId": "benthicHabitatSeagrass",
+      "sketchId": "20652",
+      "groupId": "HIGH_PROTECTION",
+      "value": 1780974.190846,
+      "extra": {
+        "sketchName": "large-hpbz"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "benthicHabitatMapping",
+      "classId": "benthicHabitatSeagrass",
+      "sketchId": "20652",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 0,
+      "extra": {
+        "sketchName": "large-hpbz"
+      }
+    }
+  ]
+}

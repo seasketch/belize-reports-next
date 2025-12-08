@@ -82,6 +82,22 @@
   {
     "geographyId": "belize_ocean_space",
     "metricId": "area",
+    "classId": "benthicHabitatSeagrass-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 6300615.3236723365
+  },
+  {
+    "geographyId": "belize_ocean_space",
+    "metricId": "area",
+    "classId": "benthicHabitatCoral-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 198837860.2406472
+  },
+  {
+    "geographyId": "belize_ocean_space",
+    "metricId": "area",
     "classId": "canyons-total",
     "sketchId": null,
     "groupId": null,
@@ -298,6 +314,46 @@
   {
     "geographyId": "belize_ocean_space",
     "metricId": "area",
+    "classId": "sportfishing_all-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 5601412854.402972
+  },
+  {
+    "geographyId": "belize_ocean_space",
+    "metricId": "area",
+    "classId": "sportfishing_eco-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 1630282296.249683
+  },
+  {
+    "geographyId": "belize_ocean_space",
+    "metricId": "area",
+    "classId": "sportfishing_flats-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 1804289191.49185
+  },
+  {
+    "geographyId": "belize_ocean_space",
+    "metricId": "area",
+    "classId": "sportfishing_offshore-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 3969202142.220447
+  },
+  {
+    "geographyId": "belize_ocean_space",
+    "metricId": "area",
+    "classId": "sportfishing_reef-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 1878150820.407575
+  },
+  {
+    "geographyId": "belize_ocean_space",
+    "metricId": "area",
     "classId": "tourism-total",
     "sketchId": null,
     "groupId": "band-0",
@@ -382,6 +438,14 @@
     "sketchId": null,
     "groupId": null,
     "value": 4
+  },
+  {
+    "geographyId": "belize_ocean_space",
+    "metricId": "count",
+    "classId": "benthicHabitatSeagrass-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 39510
   },
   {
     "geographyId": "belize_ocean_space",
@@ -602,6 +666,46 @@
   {
     "geographyId": "belize_ocean_space",
     "metricId": "count",
+    "classId": "sportfishing_all-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 4437268
+  },
+  {
+    "geographyId": "belize_ocean_space",
+    "metricId": "count",
+    "classId": "sportfishing_eco-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 2221634
+  },
+  {
+    "geographyId": "belize_ocean_space",
+    "metricId": "count",
+    "classId": "sportfishing_flats-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 1423879
+  },
+  {
+    "geographyId": "belize_ocean_space",
+    "metricId": "count",
+    "classId": "sportfishing_offshore-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 3254126
+  },
+  {
+    "geographyId": "belize_ocean_space",
+    "metricId": "count",
+    "classId": "sportfishing_reef-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 1985085
+  },
+  {
+    "geographyId": "belize_ocean_space",
+    "metricId": "count",
     "classId": "tourism-total",
     "sketchId": null,
     "groupId": "band-0",
@@ -666,6 +770,46 @@
   {
     "geographyId": "belize_ocean_space",
     "metricId": "sum",
+    "classId": "sportfishing_all-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 2807587.957742
+  },
+  {
+    "geographyId": "belize_ocean_space",
+    "metricId": "sum",
+    "classId": "sportfishing_eco-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 1899496.015454
+  },
+  {
+    "geographyId": "belize_ocean_space",
+    "metricId": "sum",
+    "classId": "sportfishing_flats-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 1489541.726448
+  },
+  {
+    "geographyId": "belize_ocean_space",
+    "metricId": "sum",
+    "classId": "sportfishing_offshore-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 644496.905697
+  },
+  {
+    "geographyId": "belize_ocean_space",
+    "metricId": "sum",
+    "classId": "sportfishing_reef-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 1611249.867783
+  },
+  {
+    "geographyId": "belize_ocean_space",
+    "metricId": "sum",
     "classId": "tourism-total",
     "sketchId": null,
     "groupId": "band-0",
@@ -726,6 +870,46 @@
     "sketchId": null,
     "groupId": "band-0",
     "value": 1420941
+  },
+  {
+    "geographyId": "belize_ocean_space",
+    "metricId": "valid",
+    "classId": "sportfishing_all-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 2277239
+  },
+  {
+    "geographyId": "belize_ocean_space",
+    "metricId": "valid",
+    "classId": "sportfishing_eco-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 637906
+  },
+  {
+    "geographyId": "belize_ocean_space",
+    "metricId": "valid",
+    "classId": "sportfishing_flats-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 709674
+  },
+  {
+    "geographyId": "belize_ocean_space",
+    "metricId": "valid",
+    "classId": "sportfishing_offshore-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 1576386
+  },
+  {
+    "geographyId": "belize_ocean_space",
+    "metricId": "valid",
+    "classId": "sportfishing_reef-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 745299
   },
   {
     "geographyId": "belize_ocean_space",

@@ -1,0 +1,70 @@
+{
+  "metrics": [
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "benthicHabitatMapping",
+      "classId": "benthicHabitatCoral",
+      "sketchId": "23569",
+      "groupId": null,
+      "value": 5488251.814994,
+      "extra": {
+        "sketchName": "littoral-medium"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "benthicHabitatMapping",
+      "classId": "benthicHabitatCoral",
+      "sketchId": "23569",
+      "groupId": "HIGH_PROTECTION",
+      "value": 0,
+      "extra": {
+        "sketchName": "littoral-medium"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "benthicHabitatMapping",
+      "classId": "benthicHabitatCoral",
+      "sketchId": "23569",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 5488251.814994,
+      "extra": {
+        "sketchName": "littoral-medium"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "benthicHabitatMapping",
+      "classId": "benthicHabitatSeagrass",
+      "sketchId": "23569",
+      "groupId": null,
+      "value": 124192.475053,
+      "extra": {
+        "sketchName": "littoral-medium"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "benthicHabitatMapping",
+      "classId": "benthicHabitatSeagrass",
+      "sketchId": "23569",
+      "groupId": "HIGH_PROTECTION",
+      "value": 0,
+      "extra": {
+        "sketchName": "littoral-medium"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "benthicHabitatMapping",
+      "classId": "benthicHabitatSeagrass",
+      "sketchId": "23569",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 124192.475053,
+      "extra": {
+        "sketchName": "littoral-medium"
+      }
+    }
+  ]
+}

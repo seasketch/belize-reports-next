@@ -29,6 +29,7 @@
     "src/functions/size.ts",
     "src/functions/marlin.ts",
     "src/functions/oceanWealth.ts",
-    "src/functions/mangroveTourism.ts"
+    "src/functions/mangroveTourism.ts",
+    "src/functions/sportfishingOUS.ts"
   ]
 }

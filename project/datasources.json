@@ -423,5 +423,91 @@
     "src": "data/src/Data_Received/MappingOceanWealth/Belize_Mangrove_Tourism_Clipped.fgb",
     "propertiesToKeep": [],
     "explodeMulti": true
+  },
+  {
+    "datasourceId": "sportfishing_all",
+    "geo_type": "raster",
+    "formats": ["tif"],
+    "precalc": true,
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": 0,
+    "created": "2025-12-05T19:16:03.705Z",
+    "lastUpdated": "2025-12-05T19:16:03.705Z",
+    "src": "data/src/sports-fishing-survey/heatmaps/all.tif"
+  },
+  {
+    "datasourceId": "sportfishing_eco",
+    "geo_type": "raster",
+    "formats": ["tif"],
+    "precalc": true,
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": 0,
+    "created": "2025-12-05T19:16:21.408Z",
+    "lastUpdated": "2025-12-05T19:16:21.408Z",
+    "src": "data/src/sports-fishing-survey/heatmaps/ecological_information.tif"
+  },
+  {
+    "datasourceId": "sportfishing_flats",
+    "geo_type": "raster",
+    "formats": ["tif"],
+    "precalc": true,
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": 0,
+    "created": "2025-12-05T19:17:06.346Z",
+    "lastUpdated": "2025-12-05T19:17:06.346Z",
+    "src": "data/src/sports-fishing-survey/heatmaps/flats.tif"
+  },
+  {
+    "datasourceId": "sportfishing_offshore",
+    "geo_type": "raster",
+    "formats": ["tif"],
+    "precalc": true,
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": 0,
+    "created": "2025-12-05T19:17:24.983Z",
+    "lastUpdated": "2025-12-05T19:17:24.983Z",
+    "src": "data/src/sports-fishing-survey/heatmaps/offshore.tif"
+  },
+  {
+    "datasourceId": "sportfishing_reef",
+    "geo_type": "raster",
+    "formats": ["tif"],
+    "precalc": true,
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": 0,
+    "created": "2025-12-05T19:18:39.133Z",
+    "lastUpdated": "2025-12-05T19:18:39.133Z",
+    "src": "data/src/sports-fishing-survey/heatmaps/reef.tif"
+  },
+  {
+    "datasourceId": "benthicHabitatSeagrass",
+    "geo_type": "vector",
+    "formats": ["fgb"],
+    "precalc": true,
+    "layerName": "10m_Seagrass_Dissolved",
+    "classKeys": [],
+    "created": "2025-12-05T22:05:18.558Z",
+    "lastUpdated": "2025-12-05T22:05:18.558Z",
+    "src": "data/src/Data_Received/BenthicHabitatMapping/10m_Seagrass_Dissolved.fgb",
+    "propertiesToKeep": [],
+    "explodeMulti": true
+  },
+  {
+    "datasourceId": "benthicHabitatCoral",
+    "geo_type": "vector",
+    "formats": ["fgb"],
+    "precalc": true,
+    "layerName": "10m_Coral_Dissolved_Subdivided",
+    "classKeys": [],
+    "created": "2025-12-05T23:01:45.977Z",
+    "lastUpdated": "2025-12-06T00:29:08.347Z",
+    "src": "data/src/Data_Received/BenthicHabitatMapping/10m_Coral_Dissolved_Subdivided.fgb",
+    "propertiesToKeep": [],
+    "explodeMulti": true
   }
 ]

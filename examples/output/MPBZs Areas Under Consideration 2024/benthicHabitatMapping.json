@@ -1,0 +1,252 @@
+{
+  "metrics": [
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "benthicHabitatMapping",
+      "classId": "benthicHabitatCoral",
+      "sketchId": "79926",
+      "groupId": null,
+      "value": 25783569.688048,
+      "extra": {
+        "sketchName": "MPBZs Areas Under Consideration 2024",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "benthicHabitatMapping",
+      "classId": "benthicHabitatCoral",
+      "sketchId": "79926",
+      "groupId": "HIGH_PROTECTION",
+      "value": 0,
+      "extra": {
+        "sketchName": "MPBZs Areas Under Consideration 2024",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "benthicHabitatMapping",
+      "classId": "benthicHabitatCoral",
+      "sketchId": "79926",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 25783569.688048,
+      "extra": {
+        "sketchName": "MPBZs Areas Under Consideration 2024",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "benthicHabitatMapping",
+      "classId": "benthicHabitatCoral",
+      "sketchId": "79927",
+      "groupId": null,
+      "value": 4604.970758,
+      "extra": {
+        "sketchName": "Glover's Reef Atoll Marine Reserve Expansion"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "benthicHabitatMapping",
+      "classId": "benthicHabitatCoral",
+      "sketchId": "79927",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 4604.970758,
+      "extra": {
+        "sketchName": "Glover's Reef Atoll Marine Reserve Expansion"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "benthicHabitatMapping",
+      "classId": "benthicHabitatCoral",
+      "sketchId": "79928",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Lighthouse Reef Atoll Marine Reserve- General Use II"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "benthicHabitatMapping",
+      "classId": "benthicHabitatCoral",
+      "sketchId": "79928",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 0,
+      "extra": {
+        "sketchName": "Lighthouse Reef Atoll Marine Reserve- General Use II"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "benthicHabitatMapping",
+      "classId": "benthicHabitatCoral",
+      "sketchId": "79929",
+      "groupId": null,
+      "value": 301.997339,
+      "extra": {
+        "sketchName": "Bacalar Chico Marine Reserve- General Use Zone(Expansion)"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "benthicHabitatMapping",
+      "classId": "benthicHabitatCoral",
+      "sketchId": "79929",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 301.997339,
+      "extra": {
+        "sketchName": "Bacalar Chico Marine Reserve- General Use Zone(Expansion)"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "benthicHabitatMapping",
+      "classId": "benthicHabitatCoral",
+      "sketchId": "79930",
+      "groupId": null,
+      "value": 25778662.71995,
+      "extra": {
+        "sketchName": "Lighthouse Reef Atoll Marine Reserve- General Use I"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "benthicHabitatMapping",
+      "classId": "benthicHabitatCoral",
+      "sketchId": "79930",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 25778662.71995,
+      "extra": {
+        "sketchName": "Lighthouse Reef Atoll Marine Reserve- General Use I"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "benthicHabitatMapping",
+      "classId": "benthicHabitatSeagrass",
+      "sketchId": "79926",
+      "groupId": null,
+      "value": 462993.987802,
+      "extra": {
+        "sketchName": "MPBZs Areas Under Consideration 2024",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "benthicHabitatMapping",
+      "classId": "benthicHabitatSeagrass",
+      "sketchId": "79926",
+      "groupId": "HIGH_PROTECTION",
+      "value": 0,
+      "extra": {
+        "sketchName": "MPBZs Areas Under Consideration 2024",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "benthicHabitatMapping",
+      "classId": "benthicHabitatSeagrass",
+      "sketchId": "79926",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 462993.987802,
+      "extra": {
+        "sketchName": "MPBZs Areas Under Consideration 2024",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "benthicHabitatMapping",
+      "classId": "benthicHabitatSeagrass",
+      "sketchId": "79927",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Glover's Reef Atoll Marine Reserve Expansion"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "benthicHabitatMapping",
+      "classId": "benthicHabitatSeagrass",
+      "sketchId": "79927",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 0,
+      "extra": {
+        "sketchName": "Glover's Reef Atoll Marine Reserve Expansion"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "benthicHabitatMapping",
+      "classId": "benthicHabitatSeagrass",
+      "sketchId": "79928",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Lighthouse Reef Atoll Marine Reserve- General Use II"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "benthicHabitatMapping",
+      "classId": "benthicHabitatSeagrass",
+      "sketchId": "79928",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 0,
+      "extra": {
+        "sketchName": "Lighthouse Reef Atoll Marine Reserve- General Use II"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "benthicHabitatMapping",
+      "classId": "benthicHabitatSeagrass",
+      "sketchId": "79929",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Bacalar Chico Marine Reserve- General Use Zone(Expansion)"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "benthicHabitatMapping",
+      "classId": "benthicHabitatSeagrass",
+      "sketchId": "79929",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 0,
+      "extra": {
+        "sketchName": "Bacalar Chico Marine Reserve- General Use Zone(Expansion)"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "benthicHabitatMapping",
+      "classId": "benthicHabitatSeagrass",
+      "sketchId": "79930",
+      "groupId": null,
+      "value": 462993.987802,
+      "extra": {
+        "sketchName": "Lighthouse Reef Atoll Marine Reserve- General Use I"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "benthicHabitatMapping",
+      "classId": "benthicHabitatSeagrass",
+      "sketchId": "79930",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 462993.987802,
+      "extra": {
+        "sketchName": "Lighthouse Reef Atoll Marine Reserve- General Use I"
+      }
+    }
+  ]
+}

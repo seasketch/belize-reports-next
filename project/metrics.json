@@ -561,5 +561,59 @@
         "layerId": "2J028YJRb"
       }
     ]
+  },
+  {
+    "metricId": "sportfishingOUS",
+    "type": "valueOverlap",
+    "classes": [
+      {
+        "classId": "eco",
+        "display": "Ecological Value",
+        "datasourceId": "sportfishing_eco",
+        "layerId": "y6AmBjrqJ"
+      },
+      {
+        "classId": "all",
+        "display": "Fishing Value: All",
+        "datasourceId": "sportfishing_all",
+        "layerId": "jC1LBCjmU"
+      },
+      {
+        "classId": "flats",
+        "display": "Fishing Value: Flats",
+        "datasourceId": "sportfishing_flats",
+        "layerId": "QknOtYz4x"
+      },
+      {
+        "classId": "offshore",
+        "display": "Fishing Value: Offshore",
+        "datasourceId": "sportfishing_offshore",
+        "layerId": "GmYaGrQns"
+      },
+      {
+        "classId": "reef",
+        "display": "Fishing Value: Reef",
+        "datasourceId": "sportfishing_reef",
+        "layerId": "TTaCMHerL"
+      }
+    ]
+  },
+  {
+    "metricId": "benthicHabitatMapping",
+    "type": "areaOverlap",
+    "classes": [
+      {
+        "classId": "benthicHabitatSeagrass",
+        "display": "Seagrass",
+        "datasourceId": "benthicHabitatSeagrass",
+        "layerId": "buTzn2s2J"
+      },
+      {
+        "classId": "benthicHabitatCoral",
+        "display": "Coral",
+        "datasourceId": "benthicHabitatCoral",
+        "layerId": "2UUFlcE5Y"
+      }
+    ]
   }
 ]

@@ -27,6 +27,7 @@ import { Mangroves } from "../components/Mangroves.js";
 import { LittoralForest } from "../components/LittoralForest.js";
 import { Seagrass } from "../components/Seagrass.js";
 import { MarlinCard } from "../components/MarlinCard.js";
+import { SportfishingOUS } from "../components/SportfishingOUS.js";
 
 const BaseReport = () => {
   const { t } = useTranslation();
@@ -138,6 +139,7 @@ const BaseReport = () => {
           <MangroveTourism printing={isPrinting} />
           <OusCard printing={isPrinting} />
           <OusDemographics printing={isPrinting} />
+          <SportfishingOUS printing={isPrinting} />
           {!isPrinting && <SketchAttributesCard autoHide />}
         </ReportPage>
 
