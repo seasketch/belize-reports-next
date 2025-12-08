@@ -132,8 +132,8 @@ export const SportfishingOUS: React.FunctionComponent<{
                       <p>
                         ℹ️ Overview: This report summarizes the results of the
                         Belize Sports Fishing Survey. The survey focused on
-                        identifying the fishing pressure distribution of lat and
-                        reef fishing around San Pedro, this includes areas
+                        identifying the fishing pressure distribution of flat
+                        and reef fishing around San Pedro, this includes areas
                         within and outside of the marine protected areas (Hol
                         Chan Marine Reserve and Bacalar Chico Marine Reserve).
                       </p>
