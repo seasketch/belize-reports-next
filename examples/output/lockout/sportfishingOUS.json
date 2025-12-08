@@ -1,0 +1,59 @@
+{
+  "metrics": [
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "sportfishingOUS",
+      "classId": "all",
+      "sketchId": "77206",
+      "groupId": null,
+      "value": 28843.344738,
+      "extra": {
+        "sketchName": "lockout"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "sportfishingOUS",
+      "classId": "eco",
+      "sketchId": "77206",
+      "groupId": null,
+      "value": 15881.311145,
+      "extra": {
+        "sketchName": "lockout"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "sportfishingOUS",
+      "classId": "flats",
+      "sketchId": "77206",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "lockout"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "sportfishingOUS",
+      "classId": "offshore",
+      "sketchId": "77206",
+      "groupId": null,
+      "value": 23029.487301,
+      "extra": {
+        "sketchName": "lockout"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "sportfishingOUS",
+      "classId": "reef",
+      "sketchId": "77206",
+      "groupId": null,
+      "value": 17961.275757,
+      "extra": {
+        "sketchName": "lockout"
+      }
+    }
+  ]
+}

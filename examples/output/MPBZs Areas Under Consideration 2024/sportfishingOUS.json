@@ -1,0 +1,624 @@
+{
+  "metrics": [
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "sportfishingOUS",
+      "classId": "all",
+      "sketchId": "79926",
+      "groupId": null,
+      "value": 58659.819386,
+      "extra": {
+        "sketchName": "MPBZs Areas Under Consideration 2024",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "sportfishingOUS",
+      "classId": "all",
+      "sketchId": "79926",
+      "groupId": "HIGH_PROTECTION",
+      "value": 0,
+      "extra": {
+        "sketchName": "MPBZs Areas Under Consideration 2024",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "sportfishingOUS",
+      "classId": "all",
+      "sketchId": "79926",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 58659.819386,
+      "extra": {
+        "sketchName": "MPBZs Areas Under Consideration 2024",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "sportfishingOUS",
+      "classId": "all",
+      "sketchId": "79927",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Glover's Reef Atoll Marine Reserve Expansion"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "sportfishingOUS",
+      "classId": "all",
+      "sketchId": "79927",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 0,
+      "extra": {
+        "sketchName": "Glover's Reef Atoll Marine Reserve Expansion"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "sportfishingOUS",
+      "classId": "all",
+      "sketchId": "79928",
+      "groupId": null,
+      "value": 7668.76833,
+      "extra": {
+        "sketchName": "Lighthouse Reef Atoll Marine Reserve- General Use II"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "sportfishingOUS",
+      "classId": "all",
+      "sketchId": "79928",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 7668.76833,
+      "extra": {
+        "sketchName": "Lighthouse Reef Atoll Marine Reserve- General Use II"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "sportfishingOUS",
+      "classId": "all",
+      "sketchId": "79929",
+      "groupId": null,
+      "value": 43810.361351,
+      "extra": {
+        "sketchName": "Bacalar Chico Marine Reserve- General Use Zone(Expansion)"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "sportfishingOUS",
+      "classId": "all",
+      "sketchId": "79929",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 43810.361351,
+      "extra": {
+        "sketchName": "Bacalar Chico Marine Reserve- General Use Zone(Expansion)"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "sportfishingOUS",
+      "classId": "all",
+      "sketchId": "79930",
+      "groupId": null,
+      "value": 7187.619846,
+      "extra": {
+        "sketchName": "Lighthouse Reef Atoll Marine Reserve- General Use I"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "sportfishingOUS",
+      "classId": "all",
+      "sketchId": "79930",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 7187.619846,
+      "extra": {
+        "sketchName": "Lighthouse Reef Atoll Marine Reserve- General Use I"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "sportfishingOUS",
+      "classId": "eco",
+      "sketchId": "79926",
+      "groupId": null,
+      "value": 10656.662209,
+      "extra": {
+        "sketchName": "MPBZs Areas Under Consideration 2024",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "sportfishingOUS",
+      "classId": "eco",
+      "sketchId": "79926",
+      "groupId": "HIGH_PROTECTION",
+      "value": 0,
+      "extra": {
+        "sketchName": "MPBZs Areas Under Consideration 2024",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "sportfishingOUS",
+      "classId": "eco",
+      "sketchId": "79926",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 10656.662209,
+      "extra": {
+        "sketchName": "MPBZs Areas Under Consideration 2024",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "sportfishingOUS",
+      "classId": "eco",
+      "sketchId": "79927",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Glover's Reef Atoll Marine Reserve Expansion"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "sportfishingOUS",
+      "classId": "eco",
+      "sketchId": "79927",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 0,
+      "extra": {
+        "sketchName": "Glover's Reef Atoll Marine Reserve Expansion"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "sportfishingOUS",
+      "classId": "eco",
+      "sketchId": "79928",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Lighthouse Reef Atoll Marine Reserve- General Use II"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "sportfishingOUS",
+      "classId": "eco",
+      "sketchId": "79928",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 0,
+      "extra": {
+        "sketchName": "Lighthouse Reef Atoll Marine Reserve- General Use II"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "sportfishingOUS",
+      "classId": "eco",
+      "sketchId": "79929",
+      "groupId": null,
+      "value": 10656.662209,
+      "extra": {
+        "sketchName": "Bacalar Chico Marine Reserve- General Use Zone(Expansion)"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "sportfishingOUS",
+      "classId": "eco",
+      "sketchId": "79929",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 10656.662209,
+      "extra": {
+        "sketchName": "Bacalar Chico Marine Reserve- General Use Zone(Expansion)"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "sportfishingOUS",
+      "classId": "eco",
+      "sketchId": "79930",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Lighthouse Reef Atoll Marine Reserve- General Use I"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "sportfishingOUS",
+      "classId": "eco",
+      "sketchId": "79930",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 0,
+      "extra": {
+        "sketchName": "Lighthouse Reef Atoll Marine Reserve- General Use I"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "sportfishingOUS",
+      "classId": "flats",
+      "sketchId": "79926",
+      "groupId": null,
+      "value": 3740.703437,
+      "extra": {
+        "sketchName": "MPBZs Areas Under Consideration 2024",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "sportfishingOUS",
+      "classId": "flats",
+      "sketchId": "79926",
+      "groupId": "HIGH_PROTECTION",
+      "value": 0,
+      "extra": {
+        "sketchName": "MPBZs Areas Under Consideration 2024",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "sportfishingOUS",
+      "classId": "flats",
+      "sketchId": "79926",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 3740.703437,
+      "extra": {
+        "sketchName": "MPBZs Areas Under Consideration 2024",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "sportfishingOUS",
+      "classId": "flats",
+      "sketchId": "79927",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Glover's Reef Atoll Marine Reserve Expansion"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "sportfishingOUS",
+      "classId": "flats",
+      "sketchId": "79927",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 0,
+      "extra": {
+        "sketchName": "Glover's Reef Atoll Marine Reserve Expansion"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "sportfishingOUS",
+      "classId": "flats",
+      "sketchId": "79928",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Lighthouse Reef Atoll Marine Reserve- General Use II"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "sportfishingOUS",
+      "classId": "flats",
+      "sketchId": "79928",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 0,
+      "extra": {
+        "sketchName": "Lighthouse Reef Atoll Marine Reserve- General Use II"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "sportfishingOUS",
+      "classId": "flats",
+      "sketchId": "79929",
+      "groupId": null,
+      "value": 3740.703437,
+      "extra": {
+        "sketchName": "Bacalar Chico Marine Reserve- General Use Zone(Expansion)"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "sportfishingOUS",
+      "classId": "flats",
+      "sketchId": "79929",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 3740.703437,
+      "extra": {
+        "sketchName": "Bacalar Chico Marine Reserve- General Use Zone(Expansion)"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "sportfishingOUS",
+      "classId": "flats",
+      "sketchId": "79930",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Lighthouse Reef Atoll Marine Reserve- General Use I"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "sportfishingOUS",
+      "classId": "flats",
+      "sketchId": "79930",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 0,
+      "extra": {
+        "sketchName": "Lighthouse Reef Atoll Marine Reserve- General Use I"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "sportfishingOUS",
+      "classId": "offshore",
+      "sketchId": "79926",
+      "groupId": null,
+      "value": 57259.043009,
+      "extra": {
+        "sketchName": "MPBZs Areas Under Consideration 2024",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "sportfishingOUS",
+      "classId": "offshore",
+      "sketchId": "79926",
+      "groupId": "HIGH_PROTECTION",
+      "value": 0,
+      "extra": {
+        "sketchName": "MPBZs Areas Under Consideration 2024",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "sportfishingOUS",
+      "classId": "offshore",
+      "sketchId": "79926",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 57259.043009,
+      "extra": {
+        "sketchName": "MPBZs Areas Under Consideration 2024",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "sportfishingOUS",
+      "classId": "offshore",
+      "sketchId": "79927",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Glover's Reef Atoll Marine Reserve Expansion"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "sportfishingOUS",
+      "classId": "offshore",
+      "sketchId": "79927",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 0,
+      "extra": {
+        "sketchName": "Glover's Reef Atoll Marine Reserve Expansion"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "sportfishingOUS",
+      "classId": "offshore",
+      "sketchId": "79928",
+      "groupId": null,
+      "value": 12206.090837,
+      "extra": {
+        "sketchName": "Lighthouse Reef Atoll Marine Reserve- General Use II"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "sportfishingOUS",
+      "classId": "offshore",
+      "sketchId": "79928",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 12206.090837,
+      "extra": {
+        "sketchName": "Lighthouse Reef Atoll Marine Reserve- General Use II"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "sportfishingOUS",
+      "classId": "offshore",
+      "sketchId": "79929",
+      "groupId": null,
+      "value": 30783.005203,
+      "extra": {
+        "sketchName": "Bacalar Chico Marine Reserve- General Use Zone(Expansion)"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "sportfishingOUS",
+      "classId": "offshore",
+      "sketchId": "79929",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 30783.005203,
+      "extra": {
+        "sketchName": "Bacalar Chico Marine Reserve- General Use Zone(Expansion)"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "sportfishingOUS",
+      "classId": "offshore",
+      "sketchId": "79930",
+      "groupId": null,
+      "value": 14278.46267,
+      "extra": {
+        "sketchName": "Lighthouse Reef Atoll Marine Reserve- General Use I"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "sportfishingOUS",
+      "classId": "offshore",
+      "sketchId": "79930",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 14278.46267,
+      "extra": {
+        "sketchName": "Lighthouse Reef Atoll Marine Reserve- General Use I"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "sportfishingOUS",
+      "classId": "reef",
+      "sketchId": "79926",
+      "groupId": null,
+      "value": 38931.24408,
+      "extra": {
+        "sketchName": "MPBZs Areas Under Consideration 2024",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "sportfishingOUS",
+      "classId": "reef",
+      "sketchId": "79926",
+      "groupId": "HIGH_PROTECTION",
+      "value": 0,
+      "extra": {
+        "sketchName": "MPBZs Areas Under Consideration 2024",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "sportfishingOUS",
+      "classId": "reef",
+      "sketchId": "79926",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 38931.24408,
+      "extra": {
+        "sketchName": "MPBZs Areas Under Consideration 2024",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "sportfishingOUS",
+      "classId": "reef",
+      "sketchId": "79927",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Glover's Reef Atoll Marine Reserve Expansion"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "sportfishingOUS",
+      "classId": "reef",
+      "sketchId": "79927",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 0,
+      "extra": {
+        "sketchName": "Glover's Reef Atoll Marine Reserve Expansion"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "sportfishingOUS",
+      "classId": "reef",
+      "sketchId": "79928",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Lighthouse Reef Atoll Marine Reserve- General Use II"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "sportfishingOUS",
+      "classId": "reef",
+      "sketchId": "79928",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 0,
+      "extra": {
+        "sketchName": "Lighthouse Reef Atoll Marine Reserve- General Use II"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "sportfishingOUS",
+      "classId": "reef",
+      "sketchId": "79929",
+      "groupId": null,
+      "value": 38931.24408,
+      "extra": {
+        "sketchName": "Bacalar Chico Marine Reserve- General Use Zone(Expansion)"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "sportfishingOUS",
+      "classId": "reef",
+      "sketchId": "79929",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 38931.24408,
+      "extra": {
+        "sketchName": "Bacalar Chico Marine Reserve- General Use Zone(Expansion)"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "sportfishingOUS",
+      "classId": "reef",
+      "sketchId": "79930",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Lighthouse Reef Atoll Marine Reserve- General Use I"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "sportfishingOUS",
+      "classId": "reef",
+      "sketchId": "79930",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 0,
+      "extra": {
+        "sketchName": "Lighthouse Reef Atoll Marine Reserve- General Use I"
+      }
+    }
+  ]
+}

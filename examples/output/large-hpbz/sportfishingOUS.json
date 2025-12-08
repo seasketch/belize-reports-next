@@ -1,0 +1,169 @@
+{
+  "metrics": [
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "sportfishingOUS",
+      "classId": "all",
+      "sketchId": "20652",
+      "groupId": null,
+      "value": 92327.911897,
+      "extra": {
+        "sketchName": "large-hpbz"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "sportfishingOUS",
+      "classId": "all",
+      "sketchId": "20652",
+      "groupId": "HIGH_PROTECTION",
+      "value": 92327.911897,
+      "extra": {
+        "sketchName": "large-hpbz"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "sportfishingOUS",
+      "classId": "all",
+      "sketchId": "20652",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 0,
+      "extra": {
+        "sketchName": "large-hpbz"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "sportfishingOUS",
+      "classId": "eco",
+      "sketchId": "20652",
+      "groupId": null,
+      "value": 37510.89079,
+      "extra": {
+        "sketchName": "large-hpbz"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "sportfishingOUS",
+      "classId": "eco",
+      "sketchId": "20652",
+      "groupId": "HIGH_PROTECTION",
+      "value": 37510.89079,
+      "extra": {
+        "sketchName": "large-hpbz"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "sportfishingOUS",
+      "classId": "eco",
+      "sketchId": "20652",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 0,
+      "extra": {
+        "sketchName": "large-hpbz"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "sportfishingOUS",
+      "classId": "flats",
+      "sketchId": "20652",
+      "groupId": null,
+      "value": 6000.906108,
+      "extra": {
+        "sketchName": "large-hpbz"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "sportfishingOUS",
+      "classId": "flats",
+      "sketchId": "20652",
+      "groupId": "HIGH_PROTECTION",
+      "value": 6000.906108,
+      "extra": {
+        "sketchName": "large-hpbz"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "sportfishingOUS",
+      "classId": "flats",
+      "sketchId": "20652",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 0,
+      "extra": {
+        "sketchName": "large-hpbz"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "sportfishingOUS",
+      "classId": "offshore",
+      "sketchId": "20652",
+      "groupId": null,
+      "value": 159791.40535,
+      "extra": {
+        "sketchName": "large-hpbz"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "sportfishingOUS",
+      "classId": "offshore",
+      "sketchId": "20652",
+      "groupId": "HIGH_PROTECTION",
+      "value": 159791.40535,
+      "extra": {
+        "sketchName": "large-hpbz"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "sportfishingOUS",
+      "classId": "offshore",
+      "sketchId": "20652",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 0,
+      "extra": {
+        "sketchName": "large-hpbz"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "sportfishingOUS",
+      "classId": "reef",
+      "sketchId": "20652",
+      "groupId": null,
+      "value": 18160.087976,
+      "extra": {
+        "sketchName": "large-hpbz"
+      }
+    },
+    {
+      "geographyId": "belize_ocean_space",
+      "metricId": "sportfishingOUS",
+      "classId": "reef",
+      "sketchId": "20652",
+      "groupId": "HIGH_PROTECTION",
+      "value": 18160.087976,
+      "extra": {
+        "sketchName": "large-hpbz"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "sportfishingOUS",
+      "classId": "reef",
+      "sketchId": "20652",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 0,
+      "extra": {
+        "sketchName": "large-hpbz"
+      }
+    }
+  ]
+}
