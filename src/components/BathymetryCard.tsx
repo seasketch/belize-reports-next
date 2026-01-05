@@ -20,7 +20,8 @@ import { styled } from "styled-components";
 import { roundDecimal } from "@seasketch/geoprocessing/client-core";
 import * as d3 from "d3";
 
-const formatDepth = (val: number) => (val ? `${roundDecimal(val, 0)}m` : `0m`);
+const formatDepth = (val: number | null) =>
+  val ? `${roundDecimal(val, 0)}m` : `0m`;
 
 export const BathymetryCard: React.FunctionComponent<{ printing: boolean }> = (
   props,
@@ -33,10 +34,11 @@ export const BathymetryCard: React.FunctionComponent<{ printing: boolean }> = (
   return (
     <div style={{ breakInside: "avoid" }}>
       <ResultsCard title={t("Depth")} functionName="bathymetry" useChildCard>
-        {(data: BathymetryResults[]) => {
+        {(bathyResults: BathymetryResults[]) => {
           const overallStats = isCollection
-            ? data.find((s) => s.isCollection)
-            : data[0];
+            ? bathyResults.find((s) => s.isCollection)
+            : bathyResults[0];
+          if (!overallStats) throw new Error("Bathymetry calculation failed");
 
           return (
             <ToolbarCard
@@ -46,7 +48,7 @@ export const BathymetryCard: React.FunctionComponent<{ printing: boolean }> = (
                   <LayerToggle label={mapLabel} layerId={mg.layerId} simple />
                   <DataDownload
                     filename="depth"
-                    data={[data]}
+                    data={[bathyResults]}
                     formats={["csv", "json"]}
                     placement="left-start"
                     titleElement={
@@ -66,20 +68,20 @@ export const BathymetryCard: React.FunctionComponent<{ printing: boolean }> = (
                   style={{ display: "flex", justifyContent: "space-around" }}
                 >
                   <span>
-                    {t("Min")}: <b>{formatDepth(overallStats!.max)}</b>
+                    {t("Min")}: <b>{formatDepth(overallStats.max)}</b>
                   </span>
-                  {overallStats!.mean && (
+                  {overallStats.mean && (
                     <span>
-                      {t("Avg")}: <b>{formatDepth(overallStats!.mean)}</b>
+                      {t("Avg")}: <b>{formatDepth(overallStats.mean)}</b>
                     </span>
                   )}
                   <span>
-                    {t("Max")}: <b>{formatDepth(overallStats!.min)}</b>
+                    {t("Max")}: <b>{formatDepth(overallStats.min)}</b>
                   </span>
                 </KeySection>
               )}
 
-              {isCollection && <DepthChart bathyResults={data} />}
+              {isCollection && <DepthChart bathyResults={bathyResults} />}
 
               {isCollection && (
                 <Collapse
@@ -87,7 +89,7 @@ export const BathymetryCard: React.FunctionComponent<{ printing: boolean }> = (
                   key={props.printing + "Bathy MPA"}
                   collapsed={!props.printing}
                 >
-                  {genBathymetryTable(data, props.printing)}
+                  {genBathymetryTable(bathyResults, props.printing)}
                 </Collapse>
               )}
 
@@ -225,6 +227,7 @@ const DepthChart: React.FC<{ bathyResults: BathymetryResults[] }> = ({
     const [bMin, bMax] = [Math.min(start, end), Math.max(start, end)];
 
     const count = sketchDepths.reduce((acc, d) => {
+      if (d.min === null || d.max === null) return acc;
       const [dMin, dMax] = [Math.min(d.min, d.max), Math.max(d.min, d.max)];
       return dMin <= bMax && dMax >= bMin ? acc + 1 : acc;
     }, 0);
@@ -276,28 +279,31 @@ const DepthChart: React.FC<{ bathyResults: BathymetryResults[] }> = ({
         {[
           { val: minDepth, label: `Min: ${minDepth}m`, anchor: "start" },
           { val: maxDepth, label: `Max: ${maxDepth}m`, anchor: "end" },
-        ].map(({ val, label, anchor }) => (
-          <g key={val}>
-            <line
-              x1={xScale(val)}
-              x2={xScale(val)}
-              y1={-15}
-              y2={innerHeight}
-              stroke="grey"
-              strokeWidth={1}
-              strokeDasharray="2,2"
-            />
-            <text
-              x={xScale(val) + (anchor === "start" ? 2 : -2)}
-              y={-4}
-              textAnchor={anchor as any}
-              fontSize={12}
-              fill="grey"
-            >
-              {label}
-            </text>
-          </g>
-        ))}
+        ].map(({ val, label, anchor }) => {
+          if (val === null) return null;
+          return (
+            <g key={val}>
+              <line
+                x1={xScale(val)}
+                x2={xScale(val)}
+                y1={-15}
+                y2={innerHeight}
+                stroke="grey"
+                strokeWidth={1}
+                strokeDasharray="2,2"
+              />
+              <text
+                x={xScale(val) + (anchor === "start" ? 2 : -2)}
+                y={-4}
+                textAnchor={anchor as any}
+                fontSize={12}
+                fill="grey"
+              >
+                {label}
+              </text>
+            </g>
+          );
+        })}
 
         {/* X-axis */}
         <line

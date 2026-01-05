@@ -19,6 +19,7 @@ import {
 } from "@seasketch/geoprocessing";
 import { sortMetrics } from "@seasketch/geoprocessing/client-core";
 import project from "../../project/projectClient.js";
+import { InvocationResponse } from "@aws-sdk/client-lambda";
 import { ousDemographicOverlapWorker } from "./ousDemographicOverlapWorker.js";
 
 export interface OusFeatureProperties {
@@ -97,7 +98,7 @@ export async function ousDemographicOverlap(
     const parsedResult =
       process.env.NODE_ENV === "test"
         ? (result as { stats: OusStats; metrics: Metric[] })
-        : (parseLambdaResponse(result) as unknown as {
+        : (parseLambdaResponse(result as InvocationResponse) as unknown as {
             stats: OusStats;
             metrics: Metric[];
           });
