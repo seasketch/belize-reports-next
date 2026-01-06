@@ -1,7 +1,7 @@
 {
   "metrics": [
     {
-      "geographyId": "belize_ocean_space",
+      "geographyId": null,
       "metricId": "coral",
       "classId": "coral",
       "sketchId": "23569",
@@ -23,7 +23,7 @@
       }
     },
     {
-      "geographyId": "belize_ocean_space",
+      "geographyId": null,
       "metricId": "coral",
       "classId": "coral",
       "sketchId": "23569",

@@ -21,10 +21,7 @@ import {
 } from "../util/ProtectionLevelOverlapReports.js";
 
 /**
- * LittoralForest component
- *
- * @param props - geographyId
- * @returns A react component which displays an overlap report
+ * Littoral Forest component
  */
 export const LittoralForest: React.FunctionComponent<{
   geographyId?: string;
@@ -55,7 +52,6 @@ export const LittoralForest: React.FunctionComponent<{
       <ResultsCard
         title={titleLabel}
         functionName="littoralForest"
-        extraParams={{ geographyIds: [curGeography.geographyId] }}
         useChildCard
       >
         {(data: ReportResult) => {

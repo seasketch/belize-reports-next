@@ -1,7 +1,7 @@
 {
   "metrics": [
     {
-      "geographyId": "belize_ocean_space",
+      "geographyId": null,
       "metricId": "littoralForest",
       "classId": "Littoral",
       "sketchId": "77206",

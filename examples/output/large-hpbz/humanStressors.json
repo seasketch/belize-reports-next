@@ -1,7 +1,7 @@
 {
   "metrics": [
     {
-      "geographyId": "belize_ocean_space",
+      "geographyId": null,
       "metricId": "humanStressors",
       "classId": "ag_runoff",
       "sketchId": "20652",
@@ -12,7 +12,7 @@
       }
     },
     {
-      "geographyId": "belize_ocean_space",
+      "geographyId": null,
       "metricId": "humanStressors",
       "classId": "ag_runoff",
       "sketchId": "20652",
@@ -34,7 +34,7 @@
       }
     },
     {
-      "geographyId": "belize_ocean_space",
+      "geographyId": null,
       "metricId": "humanStressors",
       "classId": "coastal_dev",
       "sketchId": "20652",
@@ -45,7 +45,7 @@
       }
     },
     {
-      "geographyId": "belize_ocean_space",
+      "geographyId": null,
       "metricId": "humanStressors",
       "classId": "coastal_dev",
       "sketchId": "20652",
@@ -67,7 +67,7 @@
       }
     },
     {
-      "geographyId": "belize_ocean_space",
+      "geographyId": null,
       "metricId": "humanStressors",
       "classId": "marine_dredging",
       "sketchId": "20652",
@@ -78,7 +78,7 @@
       }
     },
     {
-      "geographyId": "belize_ocean_space",
+      "geographyId": null,
       "metricId": "humanStressors",
       "classId": "marine_dredging",
       "sketchId": "20652",
@@ -100,7 +100,7 @@
       }
     },
     {
-      "geographyId": "belize_ocean_space",
+      "geographyId": null,
       "metricId": "humanStressors",
       "classId": "marine_trans",
       "sketchId": "20652",
@@ -111,7 +111,7 @@
       }
     },
     {
-      "geographyId": "belize_ocean_space",
+      "geographyId": null,
       "metricId": "humanStressors",
       "classId": "marine_trans",
       "sketchId": "20652",

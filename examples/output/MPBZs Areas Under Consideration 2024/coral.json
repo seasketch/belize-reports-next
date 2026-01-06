@@ -1,7 +1,7 @@
 {
   "metrics": [
     {
-      "geographyId": "belize_ocean_space",
+      "geographyId": null,
       "metricId": "coral",
       "classId": "coral",
       "sketchId": "79926",
@@ -37,7 +37,7 @@
       }
     },
     {
-      "geographyId": "belize_ocean_space",
+      "geographyId": null,
       "metricId": "coral",
       "classId": "coral",
       "sketchId": "79927",
@@ -48,7 +48,7 @@
       }
     },
     {
-      "geographyId": "belize_ocean_space",
+      "geographyId": null,
       "metricId": "coral",
       "classId": "coral",
       "sketchId": "79927",
@@ -59,7 +59,7 @@
       }
     },
     {
-      "geographyId": "belize_ocean_space",
+      "geographyId": null,
       "metricId": "coral",
       "classId": "coral",
       "sketchId": "79928",
@@ -70,7 +70,7 @@
       }
     },
     {
-      "geographyId": "belize_ocean_space",
+      "geographyId": null,
       "metricId": "coral",
       "classId": "coral",
       "sketchId": "79928",
@@ -81,7 +81,7 @@
       }
     },
     {
-      "geographyId": "belize_ocean_space",
+      "geographyId": null,
       "metricId": "coral",
       "classId": "coral",
       "sketchId": "79929",
@@ -92,7 +92,7 @@
       }
     },
     {
-      "geographyId": "belize_ocean_space",
+      "geographyId": null,
       "metricId": "coral",
       "classId": "coral",
       "sketchId": "79929",
@@ -103,7 +103,7 @@
       }
     },
     {
-      "geographyId": "belize_ocean_space",
+      "geographyId": null,
       "metricId": "coral",
       "classId": "coral",
       "sketchId": "79930",
@@ -114,7 +114,7 @@
       }
     },
     {
-      "geographyId": "belize_ocean_space",
+      "geographyId": null,
       "metricId": "coral",
       "classId": "coral",
       "sketchId": "79930",

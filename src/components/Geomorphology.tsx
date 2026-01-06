@@ -21,9 +21,6 @@ import { Download } from "@styled-icons/bootstrap/Download";
 
 /**
  * Geomorphology component
- *
- * @param props - geographyId
- * @returns A react component which displays an overlap report
  */
 export const Geomorphology: React.FunctionComponent<{
   geographyId?: string;

@@ -1,7 +1,6 @@
 import {
   GeoprocessingHandler,
   getFeaturesForSketchBBoxes,
-  getFirstFromParam,
   overlapPolygonArea,
 } from "@seasketch/geoprocessing";
 import project from "../../project/projectClient.js";
@@ -16,7 +15,6 @@ import {
   Feature,
   isVectorDatasource,
   MetricGroup,
-  Geography,
 } from "@seasketch/geoprocessing/client-core";
 import {
   getMpaProtectionLevels,
@@ -24,12 +22,6 @@ import {
 } from "../util/getMpaProtectionLevel.js";
 import { overlapFeaturesGroupMetrics } from "./coral.js";
 
-/**
- * geomorphologyWorker: A geoprocessing function that calculates overlap metrics for vector datasources
- * @param sketch - A sketch or collection of sketches
- * @param extraParams
- * @returns Calculated metrics and a null sketch
- */
 export async function geomorphologyWorker(
   sketch:
     | Sketch<Polygon | MultiPolygon>
@@ -37,7 +29,6 @@ export async function geomorphologyWorker(
   extraParams: {
     metricGroup: MetricGroup;
     classId: string;
-    geography: Geography;
   },
 ): Promise<Metric[]> {
   const lockoutArea = String(sketch.properties.sketchClassId) === "1555";
@@ -46,7 +37,6 @@ export async function geomorphologyWorker(
   const curClass = metricGroup.classes.find(
     (c) => c.classId === extraParams.classId,
   )!;
-  const curGeography = extraParams.geography;
 
   const featuresByClass: Record<string, Feature<Polygon>[]> = {};
 
@@ -56,11 +46,7 @@ export async function geomorphologyWorker(
   if (!isVectorDatasource(ds))
     throw new Error(`Expected vector datasource for ${ds.datasourceId}`);
   const url = project.getDatasourceUrl(ds);
-
-  // Fetch features overlapping with sketch, if not already fetched
   const features = await getFeaturesForSketchBBoxes<Polygon>(sketch, url);
-
-  // Get classKey for current data class
   const classKey = project.getMetricGroupClassKey(metricGroup, {
     classId: curClass.classId,
   });
@@ -91,13 +77,12 @@ export async function geomorphologyWorker(
     (metric): Metric => ({
       ...metric,
       classId: curClass.classId,
-      geographyId: curGeography.geographyId,
     }),
   );
 
   if (lockoutArea) return sortMetrics(rekeyMetrics(metrics));
 
-  // Calculate group metrics - from individual sketch metrics
+  // Calculate group metrics
   const sketchCategoryMap = getMpaProtectionLevels(sketch);
   const metricToGroup = (sketchMetric: Metric) =>
     sketchCategoryMap[sketchMetric.sketchId!];
@@ -117,7 +102,7 @@ export async function geomorphologyWorker(
 export default new GeoprocessingHandler(geomorphologyWorker, {
   title: "geomorphologyWorker",
   description: "",
-  timeout: 500, // seconds
-  memory: 4096, // megabytes
+  timeout: 500,
+  memory: 4096,
   executionMode: "sync",
 });

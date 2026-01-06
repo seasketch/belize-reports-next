@@ -20,10 +20,7 @@ import {
 } from "../util/ProtectionLevelOverlapReports.js";
 
 /**
- * HumanStressorsCard component
- *
- * @param props - geographyId
- * @returns A react component which displays an overlap report
+ * Human Stressors component
  */
 export const HumanStressorsCard: React.FunctionComponent<{
   geographyId?: string;
@@ -51,7 +48,6 @@ export const HumanStressorsCard: React.FunctionComponent<{
       <ResultsCard
         title={titleLabel}
         functionName="humanStressors"
-        extraParams={{ geographyIds: [curGeography.geographyId] }}
         useChildCard
       >
         {(data: ReportResult) => {

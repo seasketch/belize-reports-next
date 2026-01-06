@@ -4,7 +4,6 @@ import {
   Polygon,
   MultiPolygon,
   GeoprocessingHandler,
-  getFirstFromParam,
   DefaultExtraParams,
   runLambdaWorker,
   parseLambdaResponse,
@@ -20,12 +19,6 @@ import {
 } from "@seasketch/geoprocessing/client-core";
 import { geomorphologyWorker } from "./geomorphologyWorker.js";
 
-/**
- * geomorphology: A geoprocessing function that calculates overlap metrics
- * @param sketch - A sketch or collection of sketches
- * @param extraParams
- * @returns Calculated metrics and a null sketch
- */
 export async function geomorphology(
   sketch:
     | Sketch<Polygon | MultiPolygon>
@@ -35,18 +28,11 @@ export async function geomorphology(
 ): Promise<ReportResult> {
   const metricGroup = project.getMetricGroup("geomorphology");
 
-  // Check for client-provided geography, fallback to first geography assigned as default-boundary in metrics.json
-  const geographyId = getFirstFromParam("geographyIds", extraParams);
-  const curGeography = project.getGeographyById(geographyId, {
-    fallbackGroup: "default-boundary",
-  });
-
   const metrics = (
     await Promise.all(
       metricGroup.classes.map(async (curClass) => {
         const parameters = {
           ...extraParams,
-          geography: curGeography,
           metricGroup,
           classId: curClass.classId,
         };
@@ -80,11 +66,10 @@ export async function geomorphology(
 
 export default new GeoprocessingHandler(geomorphology, {
   title: "geomorphology",
-  description: "Overlap with human stressors",
-  timeout: 900, // seconds
-  memory: 1024, // megabytes
+  description: "Overlap with geomorphology",
+  timeout: 900,
+  memory: 1024,
   executionMode: "async",
-  // Specify any Sketch Class form attributes that are required
   requiresProperties: [],
   workers: ["geomorphologyWorker"],
 });

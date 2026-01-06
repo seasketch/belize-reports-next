@@ -22,9 +22,6 @@ import {
 
 /**
  * Coral component
- *
- * @param props - geographyId
- * @returns A react component which displays an overlap report
  */
 export const Coral: React.FunctionComponent<{
   geographyId?: string;
@@ -53,12 +50,7 @@ export const Coral: React.FunctionComponent<{
 
   return (
     <div style={{ breakInside: "avoid" }}>
-      <ResultsCard
-        title={titleLabel}
-        functionName="coral"
-        extraParams={{ geographyIds: [curGeography.geographyId] }}
-        useChildCard
-      >
+      <ResultsCard title={titleLabel} functionName="coral" useChildCard>
         {(data: ReportResult) => {
           return (
             <ReportError>

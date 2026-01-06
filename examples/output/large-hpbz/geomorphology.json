@@ -1,7 +1,7 @@
 {
   "metrics": [
     {
-      "geographyId": "belize_ocean_space",
+      "geographyId": null,
       "metricId": "geomorphology",
       "classId": "abyss",
       "sketchId": "20652",
@@ -12,7 +12,7 @@
       }
     },
     {
-      "geographyId": "belize_ocean_space",
+      "geographyId": null,
       "metricId": "geomorphology",
       "classId": "abyss",
       "sketchId": "20652",
@@ -34,7 +34,7 @@
       }
     },
     {
-      "geographyId": "belize_ocean_space",
+      "geographyId": null,
       "metricId": "geomorphology",
       "classId": "basins",
       "sketchId": "20652",
@@ -45,7 +45,7 @@
       }
     },
     {
-      "geographyId": "belize_ocean_space",
+      "geographyId": null,
       "metricId": "geomorphology",
       "classId": "basins",
       "sketchId": "20652",
@@ -67,7 +67,7 @@
       }
     },
     {
-      "geographyId": "belize_ocean_space",
+      "geographyId": null,
       "metricId": "geomorphology",
       "classId": "canyons",
       "sketchId": "20652",
@@ -78,7 +78,7 @@
       }
     },
     {
-      "geographyId": "belize_ocean_space",
+      "geographyId": null,
       "metricId": "geomorphology",
       "classId": "canyons",
       "sketchId": "20652",
@@ -100,7 +100,7 @@
       }
     },
     {
-      "geographyId": "belize_ocean_space",
+      "geographyId": null,
       "metricId": "geomorphology",
       "classId": "escarpments",
       "sketchId": "20652",
@@ -111,7 +111,7 @@
       }
     },
     {
-      "geographyId": "belize_ocean_space",
+      "geographyId": null,
       "metricId": "geomorphology",
       "classId": "escarpments",
       "sketchId": "20652",
@@ -133,7 +133,7 @@
       }
     },
     {
-      "geographyId": "belize_ocean_space",
+      "geographyId": null,
       "metricId": "geomorphology",
       "classId": "plateaus",
       "sketchId": "20652",
@@ -144,7 +144,7 @@
       }
     },
     {
-      "geographyId": "belize_ocean_space",
+      "geographyId": null,
       "metricId": "geomorphology",
       "classId": "plateaus",
       "sketchId": "20652",
@@ -166,7 +166,7 @@
       }
     },
     {
-      "geographyId": "belize_ocean_space",
+      "geographyId": null,
       "metricId": "geomorphology",
       "classId": "rises",
       "sketchId": "20652",
@@ -177,7 +177,7 @@
       }
     },
     {
-      "geographyId": "belize_ocean_space",
+      "geographyId": null,
       "metricId": "geomorphology",
       "classId": "rises",
       "sketchId": "20652",
@@ -199,7 +199,7 @@
       }
     },
     {
-      "geographyId": "belize_ocean_space",
+      "geographyId": null,
       "metricId": "geomorphology",
       "classId": "shelf",
       "sketchId": "20652",
@@ -210,7 +210,7 @@
       }
     },
     {
-      "geographyId": "belize_ocean_space",
+      "geographyId": null,
       "metricId": "geomorphology",
       "classId": "shelf",
       "sketchId": "20652",
@@ -232,7 +232,7 @@
       }
     },
     {
-      "geographyId": "belize_ocean_space",
+      "geographyId": null,
       "metricId": "geomorphology",
       "classId": "shelf_valleys",
       "sketchId": "20652",
@@ -243,7 +243,7 @@
       }
     },
     {
-      "geographyId": "belize_ocean_space",
+      "geographyId": null,
       "metricId": "geomorphology",
       "classId": "shelf_valleys",
       "sketchId": "20652",
@@ -265,7 +265,7 @@
       }
     },
     {
-      "geographyId": "belize_ocean_space",
+      "geographyId": null,
       "metricId": "geomorphology",
       "classId": "sills",
       "sketchId": "20652",
@@ -276,7 +276,7 @@
       }
     },
     {
-      "geographyId": "belize_ocean_space",
+      "geographyId": null,
       "metricId": "geomorphology",
       "classId": "sills",
       "sketchId": "20652",
@@ -298,7 +298,7 @@
       }
     },
     {
-      "geographyId": "belize_ocean_space",
+      "geographyId": null,
       "metricId": "geomorphology",
       "classId": "slope",
       "sketchId": "20652",
@@ -309,7 +309,7 @@
       }
     },
     {
-      "geographyId": "belize_ocean_space",
+      "geographyId": null,
       "metricId": "geomorphology",
       "classId": "slope",
       "sketchId": "20652",
