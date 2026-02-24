@@ -548,5 +548,44 @@
     "src": "data/src/Data_Received/BenthicHabitatMapping/10m_Coral_Dissolved_Subdivided.fgb",
     "propertiesToKeep": [],
     "explodeMulti": true
+  },
+  {
+    "datasourceId": "hra_coral",
+    "geo_type": "vector",
+    "formats": ["fgb"],
+    "precalc": true,
+    "layerName": "TOTAL_RISK_CORAL_2025",
+    "classKeys": ["Risk"],
+    "created": "2026-02-24T18:50:42.879Z",
+    "lastUpdated": "2026-02-24T18:50:42.879Z",
+    "src": "data/src/Data_Received/HabitatRiskAssessment/TOTAL_RISK_CORAL_2025.shp",
+    "propertiesToKeep": ["Risk"],
+    "explodeMulti": true
+  },
+  {
+    "datasourceId": "hra_mangrove",
+    "geo_type": "vector",
+    "formats": ["fgb"],
+    "precalc": true,
+    "layerName": "TOTAL_RISK_MANGROVE_2025",
+    "classKeys": ["Risk"],
+    "created": "2026-02-24T18:51:00.382Z",
+    "lastUpdated": "2026-02-24T18:51:00.382Z",
+    "src": "data/src/Data_Received/HabitatRiskAssessment/TOTAL_RISK_MANGROVE_2025.shp",
+    "propertiesToKeep": ["Risk"],
+    "explodeMulti": true
+  },
+  {
+    "src": "data/src/Data_Received/HabitatRiskAssessment/TOTAL_RISK_SEAGRASS_2025.shp",
+    "layerName": "TOTAL_RISK_SEAGRASS_2025",
+    "geo_type": "vector",
+    "datasourceId": "hra_seagrass",
+    "formats": ["fgb"],
+    "classKeys": ["Risk"],
+    "created": "2026-02-24T18:51:16.878Z",
+    "lastUpdated": "2026-02-24T18:51:16.878Z",
+    "propertiesToKeep": ["Risk"],
+    "explodeMulti": true,
+    "precalc": true
   }
 ]

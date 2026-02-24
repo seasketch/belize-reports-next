@@ -633,5 +633,60 @@
         "layerId": "2UUFlcE5Y"
       }
     ]
+  },
+  {
+    "metricId": "habitatRiskCoral",
+    "type": "areaOverlap",
+    "datasourceId": "hra_coral",
+    "classKey": "Risk",
+    "layerId": "abjXVGeps",
+    "classes": [
+      {
+        "classId": "High",
+        "display": "High Risk"
+      },
+      {
+        "classId": "Medium",
+        "display": "Medium Risk"
+      }
+    ]
+  },
+  {
+    "metricId": "habitatRiskMangrove",
+    "type": "areaOverlap",
+    "datasourceId": "hra_mangrove",
+    "classKey": "Risk",
+    "layerId": "IftdW3LSD",
+    "classes": [
+      {
+        "classId": "High",
+        "display": "High Risk"
+      },
+      {
+        "classId": "Medium",
+        "display": "Medium Risk"
+      }
+    ]
+  },
+  {
+    "metricId": "habitatRiskSeagrass",
+    "type": "areaOverlap",
+    "datasourceId": "hra_seagrass",
+    "classKey": "Risk",
+    "layerId": "gOQPBR1WR",
+    "classes": [
+      {
+        "classId": "Low",
+        "display": "Low Risk"
+      },
+      {
+        "classId": "Medium",
+        "display": "Medium Risk"
+      },
+      {
+        "classId": "High",
+        "display": "High Risk"
+      }
+    ]
   }
 ]

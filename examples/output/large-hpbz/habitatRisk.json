@@ -1,0 +1,235 @@
+{
+  "metrics": [
+    {
+      "geographyId": null,
+      "metricId": "habitatRiskCoral",
+      "classId": "High",
+      "sketchId": "20652",
+      "groupId": null,
+      "value": 39211444.568262,
+      "extra": {
+        "sketchName": "large-hpbz"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "habitatRiskCoral",
+      "classId": "High",
+      "sketchId": "20652",
+      "groupId": "HIGH_PROTECTION",
+      "value": 39211444.568262,
+      "extra": {
+        "sketchName": "large-hpbz"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "habitatRiskCoral",
+      "classId": "High",
+      "sketchId": "20652",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 0,
+      "extra": {
+        "sketchName": "large-hpbz"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "habitatRiskCoral",
+      "classId": "Medium",
+      "sketchId": "20652",
+      "groupId": null,
+      "value": 435946641.720985,
+      "extra": {
+        "sketchName": "large-hpbz"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "habitatRiskCoral",
+      "classId": "Medium",
+      "sketchId": "20652",
+      "groupId": "HIGH_PROTECTION",
+      "value": 435946641.720985,
+      "extra": {
+        "sketchName": "large-hpbz"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "habitatRiskCoral",
+      "classId": "Medium",
+      "sketchId": "20652",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 0,
+      "extra": {
+        "sketchName": "large-hpbz"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "habitatRiskMangrove",
+      "classId": "High",
+      "sketchId": "20652",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "large-hpbz"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "habitatRiskMangrove",
+      "classId": "High",
+      "sketchId": "20652",
+      "groupId": "HIGH_PROTECTION",
+      "value": 0,
+      "extra": {
+        "sketchName": "large-hpbz"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "habitatRiskMangrove",
+      "classId": "High",
+      "sketchId": "20652",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 0,
+      "extra": {
+        "sketchName": "large-hpbz"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "habitatRiskMangrove",
+      "classId": "Medium",
+      "sketchId": "20652",
+      "groupId": null,
+      "value": 33344188.172181,
+      "extra": {
+        "sketchName": "large-hpbz"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "habitatRiskMangrove",
+      "classId": "Medium",
+      "sketchId": "20652",
+      "groupId": "HIGH_PROTECTION",
+      "value": 33344188.172181,
+      "extra": {
+        "sketchName": "large-hpbz"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "habitatRiskMangrove",
+      "classId": "Medium",
+      "sketchId": "20652",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 0,
+      "extra": {
+        "sketchName": "large-hpbz"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "habitatRiskSeagrass",
+      "classId": "High",
+      "sketchId": "20652",
+      "groupId": null,
+      "value": 87278871.919275,
+      "extra": {
+        "sketchName": "large-hpbz"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "habitatRiskSeagrass",
+      "classId": "High",
+      "sketchId": "20652",
+      "groupId": "HIGH_PROTECTION",
+      "value": 87278871.919275,
+      "extra": {
+        "sketchName": "large-hpbz"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "habitatRiskSeagrass",
+      "classId": "High",
+      "sketchId": "20652",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 0,
+      "extra": {
+        "sketchName": "large-hpbz"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "habitatRiskSeagrass",
+      "classId": "Low",
+      "sketchId": "20652",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "large-hpbz"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "habitatRiskSeagrass",
+      "classId": "Low",
+      "sketchId": "20652",
+      "groupId": "HIGH_PROTECTION",
+      "value": 0,
+      "extra": {
+        "sketchName": "large-hpbz"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "habitatRiskSeagrass",
+      "classId": "Low",
+      "sketchId": "20652",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 0,
+      "extra": {
+        "sketchName": "large-hpbz"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "habitatRiskSeagrass",
+      "classId": "Medium",
+      "sketchId": "20652",
+      "groupId": null,
+      "value": 729460610.42058,
+      "extra": {
+        "sketchName": "large-hpbz"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "habitatRiskSeagrass",
+      "classId": "Medium",
+      "sketchId": "20652",
+      "groupId": "HIGH_PROTECTION",
+      "value": 729460610.42058,
+      "extra": {
+        "sketchName": "large-hpbz"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "habitatRiskSeagrass",
+      "classId": "Medium",
+      "sketchId": "20652",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 0,
+      "extra": {
+        "sketchName": "large-hpbz"
+      }
+    }
+  ]
+}

@@ -1,0 +1,235 @@
+{
+  "metrics": [
+    {
+      "geographyId": null,
+      "metricId": "habitatRiskCoral",
+      "classId": "High",
+      "sketchId": "23569",
+      "groupId": null,
+      "value": 11295430.16315,
+      "extra": {
+        "sketchName": "littoral-medium"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "habitatRiskCoral",
+      "classId": "High",
+      "sketchId": "23569",
+      "groupId": "HIGH_PROTECTION",
+      "value": 0,
+      "extra": {
+        "sketchName": "littoral-medium"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "habitatRiskCoral",
+      "classId": "High",
+      "sketchId": "23569",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 11295430.16315,
+      "extra": {
+        "sketchName": "littoral-medium"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "habitatRiskCoral",
+      "classId": "Medium",
+      "sketchId": "23569",
+      "groupId": null,
+      "value": 35975086.743722,
+      "extra": {
+        "sketchName": "littoral-medium"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "habitatRiskCoral",
+      "classId": "Medium",
+      "sketchId": "23569",
+      "groupId": "HIGH_PROTECTION",
+      "value": 0,
+      "extra": {
+        "sketchName": "littoral-medium"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "habitatRiskCoral",
+      "classId": "Medium",
+      "sketchId": "23569",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 35975086.743722,
+      "extra": {
+        "sketchName": "littoral-medium"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "habitatRiskMangrove",
+      "classId": "High",
+      "sketchId": "23569",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "littoral-medium"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "habitatRiskMangrove",
+      "classId": "High",
+      "sketchId": "23569",
+      "groupId": "HIGH_PROTECTION",
+      "value": 0,
+      "extra": {
+        "sketchName": "littoral-medium"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "habitatRiskMangrove",
+      "classId": "High",
+      "sketchId": "23569",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 0,
+      "extra": {
+        "sketchName": "littoral-medium"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "habitatRiskMangrove",
+      "classId": "Medium",
+      "sketchId": "23569",
+      "groupId": null,
+      "value": 5828025.052877,
+      "extra": {
+        "sketchName": "littoral-medium"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "habitatRiskMangrove",
+      "classId": "Medium",
+      "sketchId": "23569",
+      "groupId": "HIGH_PROTECTION",
+      "value": 0,
+      "extra": {
+        "sketchName": "littoral-medium"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "habitatRiskMangrove",
+      "classId": "Medium",
+      "sketchId": "23569",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 5828025.052877,
+      "extra": {
+        "sketchName": "littoral-medium"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "habitatRiskSeagrass",
+      "classId": "High",
+      "sketchId": "23569",
+      "groupId": null,
+      "value": 13624252.613499,
+      "extra": {
+        "sketchName": "littoral-medium"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "habitatRiskSeagrass",
+      "classId": "High",
+      "sketchId": "23569",
+      "groupId": "HIGH_PROTECTION",
+      "value": 0,
+      "extra": {
+        "sketchName": "littoral-medium"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "habitatRiskSeagrass",
+      "classId": "High",
+      "sketchId": "23569",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 13624252.613499,
+      "extra": {
+        "sketchName": "littoral-medium"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "habitatRiskSeagrass",
+      "classId": "Low",
+      "sketchId": "23569",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "littoral-medium"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "habitatRiskSeagrass",
+      "classId": "Low",
+      "sketchId": "23569",
+      "groupId": "HIGH_PROTECTION",
+      "value": 0,
+      "extra": {
+        "sketchName": "littoral-medium"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "habitatRiskSeagrass",
+      "classId": "Low",
+      "sketchId": "23569",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 0,
+      "extra": {
+        "sketchName": "littoral-medium"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "habitatRiskSeagrass",
+      "classId": "Medium",
+      "sketchId": "23569",
+      "groupId": null,
+      "value": 46401910.314578,
+      "extra": {
+        "sketchName": "littoral-medium"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "habitatRiskSeagrass",
+      "classId": "Medium",
+      "sketchId": "23569",
+      "groupId": "HIGH_PROTECTION",
+      "value": 0,
+      "extra": {
+        "sketchName": "littoral-medium"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "habitatRiskSeagrass",
+      "classId": "Medium",
+      "sketchId": "23569",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 46401910.314578,
+      "extra": {
+        "sketchName": "littoral-medium"
+      }
+    }
+  ]
+}

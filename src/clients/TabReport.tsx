@@ -28,6 +28,7 @@ import { LittoralForest } from "../components/LittoralForest.js";
 import { Seagrass } from "../components/Seagrass.js";
 import { MarlinCard } from "../components/MarlinCard.js";
 import { SportfishingOUS } from "../components/SportfishingOUS.js";
+import { HabitatRisk } from "../components/HabitatRisk.js";
 
 const BaseReport = () => {
   const { t } = useTranslation();
@@ -137,6 +138,7 @@ const BaseReport = () => {
           <HumanStressorsCard printing={isPrinting} />
           <OceanWealth printing={isPrinting} />
           <MangroveTourism printing={isPrinting} />
+          <HabitatRisk printing={isPrinting} />
           <OusCard printing={isPrinting} />
           <OusDemographics printing={isPrinting} />
           <SportfishingOUS printing={isPrinting} />

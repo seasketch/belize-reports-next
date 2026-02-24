@@ -21,6 +21,7 @@ import { protection } from "./protection.js";
 import { seagrass } from "./seagrass.js";
 import { size } from "./size.js";
 import { sportfishingOUS } from "./sportfishingOUS.js";
+import { habitatRisk } from "./habitatRisk.js";
 
 // Create standard smoke tests
 function createSmokeTest(
@@ -67,6 +68,7 @@ const tests = [
   { name: "size", func: size },
   { name: "seagrass", func: seagrass },
   { name: "sportfishingOUS", func: sportfishingOUS },
+  { name: "habitatRisk", func: habitatRisk },
 ];
 
 tests.forEach(({ name, func }) => {

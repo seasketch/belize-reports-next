@@ -170,6 +170,110 @@
   {
     "geographyId": "belize_ocean_space",
     "metricId": "area",
+    "classId": "hra_coral-High",
+    "sketchId": null,
+    "groupId": null,
+    "value": 1262578628.4735456
+  },
+  {
+    "geographyId": "belize_ocean_space",
+    "metricId": "area",
+    "classId": "hra_coral-Medium",
+    "sketchId": null,
+    "groupId": null,
+    "value": 1365330104.4852326
+  },
+  {
+    "geographyId": "belize_ocean_space",
+    "metricId": "area",
+    "classId": "hra_coral-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 2627908732.9587793
+  },
+  {
+    "geographyId": "belize_ocean_space",
+    "metricId": "area",
+    "classId": "hra_mangrove-High",
+    "sketchId": null,
+    "groupId": null,
+    "value": 183885262.86530334
+  },
+  {
+    "geographyId": "belize_ocean_space",
+    "metricId": "area",
+    "classId": "hra_mangrove-Low",
+    "sketchId": null,
+    "groupId": null,
+    "value": 199581397.1186976
+  },
+  {
+    "geographyId": "belize_ocean_space",
+    "metricId": "area",
+    "classId": "hra_mangrove-Medium",
+    "sketchId": null,
+    "groupId": null,
+    "value": 372170608.5756629
+  },
+  {
+    "geographyId": "belize_ocean_space",
+    "metricId": "area",
+    "classId": "hra_mangrove-No Risk",
+    "sketchId": null,
+    "groupId": null,
+    "value": 503393.72430559027
+  },
+  {
+    "geographyId": "belize_ocean_space",
+    "metricId": "area",
+    "classId": "hra_mangrove-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 756140662.2839695
+  },
+  {
+    "geographyId": "belize_ocean_space",
+    "metricId": "area",
+    "classId": "hra_seagrass-High",
+    "sketchId": null,
+    "groupId": null,
+    "value": 1668785844.9984946
+  },
+  {
+    "geographyId": "belize_ocean_space",
+    "metricId": "area",
+    "classId": "hra_seagrass-Low",
+    "sketchId": null,
+    "groupId": null,
+    "value": 43211.750691840294
+  },
+  {
+    "geographyId": "belize_ocean_space",
+    "metricId": "area",
+    "classId": "hra_seagrass-Medium",
+    "sketchId": null,
+    "groupId": null,
+    "value": 6521904822.823353
+  },
+  {
+    "geographyId": "belize_ocean_space",
+    "metricId": "area",
+    "classId": "hra_seagrass-No Risk",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "belize_ocean_space",
+    "metricId": "area",
+    "classId": "hra_seagrass-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 8190733879.5725355
+  },
+  {
+    "geographyId": "belize_ocean_space",
+    "metricId": "area",
     "classId": "mangroves_priority-total",
     "sketchId": null,
     "groupId": null,
@@ -542,6 +646,110 @@
     "sketchId": null,
     "groupId": "band-0",
     "value": 2982882
+  },
+  {
+    "geographyId": "belize_ocean_space",
+    "metricId": "count",
+    "classId": "hra_coral-High",
+    "sketchId": null,
+    "groupId": null,
+    "value": 178
+  },
+  {
+    "geographyId": "belize_ocean_space",
+    "metricId": "count",
+    "classId": "hra_coral-Medium",
+    "sketchId": null,
+    "groupId": null,
+    "value": 167
+  },
+  {
+    "geographyId": "belize_ocean_space",
+    "metricId": "count",
+    "classId": "hra_coral-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 345
+  },
+  {
+    "geographyId": "belize_ocean_space",
+    "metricId": "count",
+    "classId": "hra_mangrove-High",
+    "sketchId": null,
+    "groupId": null,
+    "value": 118
+  },
+  {
+    "geographyId": "belize_ocean_space",
+    "metricId": "count",
+    "classId": "hra_mangrove-Low",
+    "sketchId": null,
+    "groupId": null,
+    "value": 56
+  },
+  {
+    "geographyId": "belize_ocean_space",
+    "metricId": "count",
+    "classId": "hra_mangrove-Medium",
+    "sketchId": null,
+    "groupId": null,
+    "value": 187
+  },
+  {
+    "geographyId": "belize_ocean_space",
+    "metricId": "count",
+    "classId": "hra_mangrove-No Risk",
+    "sketchId": null,
+    "groupId": null,
+    "value": 2
+  },
+  {
+    "geographyId": "belize_ocean_space",
+    "metricId": "count",
+    "classId": "hra_mangrove-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 363
+  },
+  {
+    "geographyId": "belize_ocean_space",
+    "metricId": "count",
+    "classId": "hra_seagrass-High",
+    "sketchId": null,
+    "groupId": null,
+    "value": 103
+  },
+  {
+    "geographyId": "belize_ocean_space",
+    "metricId": "count",
+    "classId": "hra_seagrass-Low",
+    "sketchId": null,
+    "groupId": null,
+    "value": 1
+  },
+  {
+    "geographyId": "belize_ocean_space",
+    "metricId": "count",
+    "classId": "hra_seagrass-Medium",
+    "sketchId": null,
+    "groupId": null,
+    "value": 128
+  },
+  {
+    "geographyId": "belize_ocean_space",
+    "metricId": "count",
+    "classId": "hra_seagrass-No Risk",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "belize_ocean_space",
+    "metricId": "count",
+    "classId": "hra_seagrass-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 232
   },
   {
     "geographyId": "belize_ocean_space",
