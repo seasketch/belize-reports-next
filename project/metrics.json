@@ -667,6 +667,11 @@
         "classId": "Medium",
         "display": "Medium Risk",
         "layerId": "IftdW3LSD"
+      },
+      {
+        "classId": "Low",
+        "display": "Low Risk",
+        "layerId": "IftdW3LSD"
       }
     ]
   },
@@ -677,8 +682,8 @@
     "classKey": "Risk",
     "classes": [
       {
-        "classId": "Low",
-        "display": "Low Risk",
+        "classId": "High",
+        "display": "High Risk",
         "layerId": "gOQPBR1WR"
       },
       {
@@ -687,8 +692,8 @@
         "layerId": "gOQPBR1WR"
       },
       {
-        "classId": "High",
-        "display": "High Risk",
+        "classId": "Low",
+        "display": "Low Risk",
         "layerId": "gOQPBR1WR"
       }
     ]
