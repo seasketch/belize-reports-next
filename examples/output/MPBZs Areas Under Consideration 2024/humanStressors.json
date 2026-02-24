@@ -130,7 +130,7 @@
       "classId": "coastal_dev",
       "sketchId": "79926",
       "groupId": null,
-      "value": 0,
+      "value": 597906.987448,
       "extra": {
         "sketchName": "MPBZs Areas Under Consideration 2024",
         "isCollection": true
@@ -154,7 +154,7 @@
       "classId": "coastal_dev",
       "sketchId": "79926",
       "groupId": "MEDIUM_PROTECTION",
-      "value": 0,
+      "value": 597906.987448,
       "extra": {
         "sketchName": "MPBZs Areas Under Consideration 2024",
         "isCollection": true
@@ -232,7 +232,7 @@
       "classId": "coastal_dev",
       "sketchId": "79930",
       "groupId": null,
-      "value": 0,
+      "value": 597906.987448,
       "extra": {
         "sketchName": "Lighthouse Reef Atoll Marine Reserve- General Use I"
       }
@@ -241,6 +241,254 @@
       "geographyId": null,
       "metricId": "humanStressors",
       "classId": "coastal_dev",
+      "sketchId": "79930",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 597906.987448,
+      "extra": {
+        "sketchName": "Lighthouse Reef Atoll Marine Reserve- General Use I"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "humanStressors",
+      "classId": "fishing",
+      "sketchId": "79926",
+      "groupId": null,
+      "value": 460044.254436,
+      "extra": {
+        "sketchName": "MPBZs Areas Under Consideration 2024",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "humanStressors",
+      "classId": "fishing",
+      "sketchId": "79926",
+      "groupId": "HIGH_PROTECTION",
+      "value": 0,
+      "extra": {
+        "sketchName": "MPBZs Areas Under Consideration 2024",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "humanStressors",
+      "classId": "fishing",
+      "sketchId": "79926",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 460044.254436,
+      "extra": {
+        "sketchName": "MPBZs Areas Under Consideration 2024",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "humanStressors",
+      "classId": "fishing",
+      "sketchId": "79927",
+      "groupId": null,
+      "value": 5497.606808,
+      "extra": {
+        "sketchName": "Glover's Reef Atoll Marine Reserve Expansion"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "humanStressors",
+      "classId": "fishing",
+      "sketchId": "79927",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 5497.606808,
+      "extra": {
+        "sketchName": "Glover's Reef Atoll Marine Reserve Expansion"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "humanStressors",
+      "classId": "fishing",
+      "sketchId": "79928",
+      "groupId": null,
+      "value": 304824.452864,
+      "extra": {
+        "sketchName": "Lighthouse Reef Atoll Marine Reserve- General Use II"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "humanStressors",
+      "classId": "fishing",
+      "sketchId": "79928",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 304824.452864,
+      "extra": {
+        "sketchName": "Lighthouse Reef Atoll Marine Reserve- General Use II"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "humanStressors",
+      "classId": "fishing",
+      "sketchId": "79929",
+      "groupId": null,
+      "value": 2907.876489,
+      "extra": {
+        "sketchName": "Bacalar Chico Marine Reserve- General Use Zone(Expansion)"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "humanStressors",
+      "classId": "fishing",
+      "sketchId": "79929",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 2907.876489,
+      "extra": {
+        "sketchName": "Bacalar Chico Marine Reserve- General Use Zone(Expansion)"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "humanStressors",
+      "classId": "fishing",
+      "sketchId": "79930",
+      "groupId": null,
+      "value": 146814.318286,
+      "extra": {
+        "sketchName": "Lighthouse Reef Atoll Marine Reserve- General Use I"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "humanStressors",
+      "classId": "fishing",
+      "sketchId": "79930",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 146814.318286,
+      "extra": {
+        "sketchName": "Lighthouse Reef Atoll Marine Reserve- General Use I"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "humanStressors",
+      "classId": "flooding",
+      "sketchId": "79926",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "MPBZs Areas Under Consideration 2024",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "humanStressors",
+      "classId": "flooding",
+      "sketchId": "79926",
+      "groupId": "HIGH_PROTECTION",
+      "value": 0,
+      "extra": {
+        "sketchName": "MPBZs Areas Under Consideration 2024",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "humanStressors",
+      "classId": "flooding",
+      "sketchId": "79926",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 0,
+      "extra": {
+        "sketchName": "MPBZs Areas Under Consideration 2024",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "humanStressors",
+      "classId": "flooding",
+      "sketchId": "79927",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Glover's Reef Atoll Marine Reserve Expansion"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "humanStressors",
+      "classId": "flooding",
+      "sketchId": "79927",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 0,
+      "extra": {
+        "sketchName": "Glover's Reef Atoll Marine Reserve Expansion"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "humanStressors",
+      "classId": "flooding",
+      "sketchId": "79928",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Lighthouse Reef Atoll Marine Reserve- General Use II"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "humanStressors",
+      "classId": "flooding",
+      "sketchId": "79928",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 0,
+      "extra": {
+        "sketchName": "Lighthouse Reef Atoll Marine Reserve- General Use II"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "humanStressors",
+      "classId": "flooding",
+      "sketchId": "79929",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Bacalar Chico Marine Reserve- General Use Zone(Expansion)"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "humanStressors",
+      "classId": "flooding",
+      "sketchId": "79929",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 0,
+      "extra": {
+        "sketchName": "Bacalar Chico Marine Reserve- General Use Zone(Expansion)"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "humanStressors",
+      "classId": "flooding",
+      "sketchId": "79930",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "Lighthouse Reef Atoll Marine Reserve- General Use I"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "humanStressors",
+      "classId": "flooding",
       "sketchId": "79930",
       "groupId": "MEDIUM_PROTECTION",
       "value": 0,
@@ -378,7 +626,7 @@
       "classId": "marine_trans",
       "sketchId": "79926",
       "groupId": null,
-      "value": 489380447.893619,
+      "value": 577905314.419038,
       "extra": {
         "sketchName": "MPBZs Areas Under Consideration 2024",
         "isCollection": true
@@ -402,7 +650,7 @@
       "classId": "marine_trans",
       "sketchId": "79926",
       "groupId": "MEDIUM_PROTECTION",
-      "value": 489380447.893619,
+      "value": 577905314.419038,
       "extra": {
         "sketchName": "MPBZs Areas Under Consideration 2024",
         "isCollection": true
@@ -414,7 +662,7 @@
       "classId": "marine_trans",
       "sketchId": "79927",
       "groupId": null,
-      "value": 88887432.76437,
+      "value": 88911715.51552,
       "extra": {
         "sketchName": "Glover's Reef Atoll Marine Reserve Expansion"
       }
@@ -425,7 +673,7 @@
       "classId": "marine_trans",
       "sketchId": "79927",
       "groupId": "MEDIUM_PROTECTION",
-      "value": 88887432.76437,
+      "value": 88911715.51552,
       "extra": {
         "sketchName": "Glover's Reef Atoll Marine Reserve Expansion"
       }
@@ -436,7 +684,7 @@
       "classId": "marine_trans",
       "sketchId": "79928",
       "groupId": null,
-      "value": 292268665.978056,
+      "value": 359333973.153368,
       "extra": {
         "sketchName": "Lighthouse Reef Atoll Marine Reserve- General Use II"
       }
@@ -447,7 +695,7 @@
       "classId": "marine_trans",
       "sketchId": "79928",
       "groupId": "MEDIUM_PROTECTION",
-      "value": 292268665.978056,
+      "value": 359333973.153368,
       "extra": {
         "sketchName": "Lighthouse Reef Atoll Marine Reserve- General Use II"
       }
@@ -458,7 +706,7 @@
       "classId": "marine_trans",
       "sketchId": "79929",
       "groupId": null,
-      "value": 56741491.688436,
+      "value": 71084241.644114,
       "extra": {
         "sketchName": "Bacalar Chico Marine Reserve- General Use Zone(Expansion)"
       }
@@ -469,7 +717,7 @@
       "classId": "marine_trans",
       "sketchId": "79929",
       "groupId": "MEDIUM_PROTECTION",
-      "value": 56741491.688436,
+      "value": 71084241.644114,
       "extra": {
         "sketchName": "Bacalar Chico Marine Reserve- General Use Zone(Expansion)"
       }
@@ -480,7 +728,7 @@
       "classId": "marine_trans",
       "sketchId": "79930",
       "groupId": null,
-      "value": 51507238.142914,
+      "value": 58667131.908975,
       "extra": {
         "sketchName": "Lighthouse Reef Atoll Marine Reserve- General Use I"
       }
@@ -491,7 +739,131 @@
       "classId": "marine_trans",
       "sketchId": "79930",
       "groupId": "MEDIUM_PROTECTION",
-      "value": 51507238.142914,
+      "value": 58667131.908975,
+      "extra": {
+        "sketchName": "Lighthouse Reef Atoll Marine Reserve- General Use I"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "humanStressors",
+      "classId": "recreation",
+      "sketchId": "79926",
+      "groupId": null,
+      "value": 612946542.364287,
+      "extra": {
+        "sketchName": "MPBZs Areas Under Consideration 2024",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "humanStressors",
+      "classId": "recreation",
+      "sketchId": "79926",
+      "groupId": "HIGH_PROTECTION",
+      "value": 0,
+      "extra": {
+        "sketchName": "MPBZs Areas Under Consideration 2024",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "humanStressors",
+      "classId": "recreation",
+      "sketchId": "79926",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 612946542.364287,
+      "extra": {
+        "sketchName": "MPBZs Areas Under Consideration 2024",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "humanStressors",
+      "classId": "recreation",
+      "sketchId": "79927",
+      "groupId": null,
+      "value": 123477133.594786,
+      "extra": {
+        "sketchName": "Glover's Reef Atoll Marine Reserve Expansion"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "humanStressors",
+      "classId": "recreation",
+      "sketchId": "79927",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 123477133.594786,
+      "extra": {
+        "sketchName": "Glover's Reef Atoll Marine Reserve Expansion"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "humanStressors",
+      "classId": "recreation",
+      "sketchId": "79928",
+      "groupId": null,
+      "value": 215571198.126195,
+      "extra": {
+        "sketchName": "Lighthouse Reef Atoll Marine Reserve- General Use II"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "humanStressors",
+      "classId": "recreation",
+      "sketchId": "79928",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 215571198.126195,
+      "extra": {
+        "sketchName": "Lighthouse Reef Atoll Marine Reserve- General Use II"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "humanStressors",
+      "classId": "recreation",
+      "sketchId": "79929",
+      "groupId": null,
+      "value": 34102447.465009,
+      "extra": {
+        "sketchName": "Bacalar Chico Marine Reserve- General Use Zone(Expansion)"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "humanStressors",
+      "classId": "recreation",
+      "sketchId": "79929",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 34102447.465009,
+      "extra": {
+        "sketchName": "Bacalar Chico Marine Reserve- General Use Zone(Expansion)"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "humanStressors",
+      "classId": "recreation",
+      "sketchId": "79930",
+      "groupId": null,
+      "value": 239805896.872004,
+      "extra": {
+        "sketchName": "Lighthouse Reef Atoll Marine Reserve- General Use I"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "humanStressors",
+      "classId": "recreation",
+      "sketchId": "79930",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 239805896.872004,
       "extra": {
         "sketchName": "Lighthouse Reef Atoll Marine Reserve- General Use I"
       }

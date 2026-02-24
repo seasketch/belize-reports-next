@@ -39,7 +39,7 @@
       "classId": "coastal_dev",
       "sketchId": "23569",
       "groupId": null,
-      "value": 0,
+      "value": 132701.951284,
       "extra": {
         "sketchName": "littoral-medium"
       }
@@ -59,6 +59,72 @@
       "geographyId": null,
       "metricId": "humanStressors",
       "classId": "coastal_dev",
+      "sketchId": "23569",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 132701.951284,
+      "extra": {
+        "sketchName": "littoral-medium"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "humanStressors",
+      "classId": "fishing",
+      "sketchId": "23569",
+      "groupId": null,
+      "value": 110747.018607,
+      "extra": {
+        "sketchName": "littoral-medium"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "humanStressors",
+      "classId": "fishing",
+      "sketchId": "23569",
+      "groupId": "HIGH_PROTECTION",
+      "value": 0,
+      "extra": {
+        "sketchName": "littoral-medium"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "humanStressors",
+      "classId": "fishing",
+      "sketchId": "23569",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 110747.018607,
+      "extra": {
+        "sketchName": "littoral-medium"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "humanStressors",
+      "classId": "flooding",
+      "sketchId": "23569",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "littoral-medium"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "humanStressors",
+      "classId": "flooding",
+      "sketchId": "23569",
+      "groupId": "HIGH_PROTECTION",
+      "value": 0,
+      "extra": {
+        "sketchName": "littoral-medium"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "humanStressors",
+      "classId": "flooding",
       "sketchId": "23569",
       "groupId": "MEDIUM_PROTECTION",
       "value": 0,
@@ -105,7 +171,7 @@
       "classId": "marine_trans",
       "sketchId": "23569",
       "groupId": null,
-      "value": 27633650.606018,
+      "value": 27732017.199206,
       "extra": {
         "sketchName": "littoral-medium"
       }
@@ -127,7 +193,40 @@
       "classId": "marine_trans",
       "sketchId": "23569",
       "groupId": "MEDIUM_PROTECTION",
-      "value": 27633650.606018,
+      "value": 27732017.199206,
+      "extra": {
+        "sketchName": "littoral-medium"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "humanStressors",
+      "classId": "recreation",
+      "sketchId": "23569",
+      "groupId": null,
+      "value": 111936534.068605,
+      "extra": {
+        "sketchName": "littoral-medium"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "humanStressors",
+      "classId": "recreation",
+      "sketchId": "23569",
+      "groupId": "HIGH_PROTECTION",
+      "value": 0,
+      "extra": {
+        "sketchName": "littoral-medium"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "humanStressors",
+      "classId": "recreation",
+      "sketchId": "23569",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 111936534.068605,
       "extra": {
         "sketchName": "littoral-medium"
       }

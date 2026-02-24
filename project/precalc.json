@@ -82,18 +82,18 @@
   {
     "geographyId": "belize_ocean_space",
     "metricId": "area",
-    "classId": "benthicHabitatSeagrass-total",
-    "sketchId": null,
-    "groupId": null,
-    "value": 6300615.3236723365
-  },
-  {
-    "geographyId": "belize_ocean_space",
-    "metricId": "area",
     "classId": "benthicHabitatCoral-total",
     "sketchId": null,
     "groupId": null,
     "value": 198837860.2406472
+  },
+  {
+    "geographyId": "belize_ocean_space",
+    "metricId": "area",
+    "classId": "benthicHabitatSeagrass-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 6300615.3236723365
   },
   {
     "geographyId": "belize_ocean_space",
@@ -109,7 +109,7 @@
     "classId": "coastal_dev-total",
     "sketchId": null,
     "groupId": null,
-    "value": 7868671.642850474
+    "value": 21057915.838121384
   },
   {
     "geographyId": "belize_ocean_space",
@@ -142,6 +142,22 @@
     "sketchId": null,
     "groupId": "band-0",
     "value": 31752190769.100334
+  },
+  {
+    "geographyId": "belize_ocean_space",
+    "metricId": "area",
+    "classId": "fishing-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 4799575634.836826
+  },
+  {
+    "geographyId": "belize_ocean_space",
+    "metricId": "area",
+    "classId": "flooding-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 242581284.92829707
   },
   {
     "geographyId": "belize_ocean_space",
@@ -213,7 +229,7 @@
     "classId": "marine_dredging-total",
     "sketchId": null,
     "groupId": null,
-    "value": 783494554.4666576
+    "value": 556382877.1237749
   },
   {
     "geographyId": "belize_ocean_space",
@@ -221,7 +237,7 @@
     "classId": "marine_trans-total",
     "sketchId": null,
     "groupId": null,
-    "value": 7730346258.865444
+    "value": 16769519169.665918
   },
   {
     "geographyId": "belize_ocean_space",
@@ -238,6 +254,14 @@
     "sketchId": null,
     "groupId": null,
     "value": 230646798.56120652
+  },
+  {
+    "geographyId": "belize_ocean_space",
+    "metricId": "area",
+    "classId": "recreation-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 4941759848.98087
   },
   {
     "geographyId": "belize_ocean_space",
@@ -461,7 +485,7 @@
     "classId": "coastal_dev-total",
     "sketchId": null,
     "groupId": null,
-    "value": 2734
+    "value": 2869
   },
   {
     "geographyId": "belize_ocean_space",
@@ -494,6 +518,22 @@
     "sketchId": null,
     "groupId": "band-0",
     "value": 3657704
+  },
+  {
+    "geographyId": "belize_ocean_space",
+    "metricId": "count",
+    "classId": "fishing-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 168
+  },
+  {
+    "geographyId": "belize_ocean_space",
+    "metricId": "count",
+    "classId": "flooding-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 66
   },
   {
     "geographyId": "belize_ocean_space",
@@ -565,7 +605,7 @@
     "classId": "marine_dredging-total",
     "sketchId": null,
     "groupId": null,
-    "value": 25
+    "value": 17
   },
   {
     "geographyId": "belize_ocean_space",
@@ -573,7 +613,7 @@
     "classId": "marine_trans-total",
     "sketchId": null,
     "groupId": null,
-    "value": 4
+    "value": 8
   },
   {
     "geographyId": "belize_ocean_space",
@@ -590,6 +630,14 @@
     "sketchId": null,
     "groupId": null,
     "value": 1
+  },
+  {
+    "geographyId": "belize_ocean_space",
+    "metricId": "count",
+    "classId": "recreation-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 32
   },
   {
     "geographyId": "belize_ocean_space",

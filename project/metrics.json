@@ -45,10 +45,28 @@
         "layerId": "ChVZwiIrm"
       },
       {
+        "classId": "fishing",
+        "display": "Fishing",
+        "datasourceId": "fishing",
+        "layerId": "TpiORi4XX"
+      },
+      {
+        "classId": "flooding",
+        "display": "Flooding",
+        "datasourceId": "flooding",
+        "layerId": "NBk6VHsHo"
+      },
+      {
         "classId": "marine_dredging",
         "display": "Marine Dredging",
         "datasourceId": "marine_dredging",
         "layerId": "TpiORi4XX"
+      },
+      {
+        "classId": "recreation",
+        "display": "Recreation",
+        "datasourceId": "recreation",
+        "layerId": "cqS3ixG7b"
       },
       {
         "classId": "marine_trans",

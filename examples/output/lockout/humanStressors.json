@@ -17,7 +17,29 @@
       "classId": "coastal_dev",
       "sketchId": "77206",
       "groupId": null,
-      "value": 49683.705855,
+      "value": 508388.176739,
+      "extra": {
+        "sketchName": "lockout"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "humanStressors",
+      "classId": "fishing",
+      "sketchId": "77206",
+      "groupId": null,
+      "value": 616796237.252143,
+      "extra": {
+        "sketchName": "lockout"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "humanStressors",
+      "classId": "flooding",
+      "sketchId": "77206",
+      "groupId": null,
+      "value": 641475.688202,
       "extra": {
         "sketchName": "lockout"
       }
@@ -28,7 +50,7 @@
       "classId": "marine_dredging",
       "sketchId": "77206",
       "groupId": null,
-      "value": 40063206.869705,
+      "value": 0,
       "extra": {
         "sketchName": "lockout"
       }
@@ -39,7 +61,18 @@
       "classId": "marine_trans",
       "sketchId": "77206",
       "groupId": null,
-      "value": 539495319.291277,
+      "value": 628302763.613951,
+      "extra": {
+        "sketchName": "lockout"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "humanStressors",
+      "classId": "recreation",
+      "sketchId": "77206",
+      "groupId": null,
+      "value": 1443864579.648534,
       "extra": {
         "sketchName": "lockout"
       }

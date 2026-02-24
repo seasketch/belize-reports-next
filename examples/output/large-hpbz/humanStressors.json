@@ -39,7 +39,7 @@
       "classId": "coastal_dev",
       "sketchId": "20652",
       "groupId": null,
-      "value": 6681.004732,
+      "value": 171681.333657,
       "extra": {
         "sketchName": "large-hpbz"
       }
@@ -50,7 +50,7 @@
       "classId": "coastal_dev",
       "sketchId": "20652",
       "groupId": "HIGH_PROTECTION",
-      "value": 6681.004732,
+      "value": 171681.333657,
       "extra": {
         "sketchName": "large-hpbz"
       }
@@ -69,10 +69,76 @@
     {
       "geographyId": null,
       "metricId": "humanStressors",
+      "classId": "fishing",
+      "sketchId": "20652",
+      "groupId": null,
+      "value": 714005559.837928,
+      "extra": {
+        "sketchName": "large-hpbz"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "humanStressors",
+      "classId": "fishing",
+      "sketchId": "20652",
+      "groupId": "HIGH_PROTECTION",
+      "value": 714005559.837928,
+      "extra": {
+        "sketchName": "large-hpbz"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "humanStressors",
+      "classId": "fishing",
+      "sketchId": "20652",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 0,
+      "extra": {
+        "sketchName": "large-hpbz"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "humanStressors",
+      "classId": "flooding",
+      "sketchId": "20652",
+      "groupId": null,
+      "value": 527108.135024,
+      "extra": {
+        "sketchName": "large-hpbz"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "humanStressors",
+      "classId": "flooding",
+      "sketchId": "20652",
+      "groupId": "HIGH_PROTECTION",
+      "value": 527108.135024,
+      "extra": {
+        "sketchName": "large-hpbz"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "humanStressors",
+      "classId": "flooding",
+      "sketchId": "20652",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 0,
+      "extra": {
+        "sketchName": "large-hpbz"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "humanStressors",
       "classId": "marine_dredging",
       "sketchId": "20652",
       "groupId": null,
-      "value": 30739679.415805,
+      "value": 0,
       "extra": {
         "sketchName": "large-hpbz"
       }
@@ -83,7 +149,7 @@
       "classId": "marine_dredging",
       "sketchId": "20652",
       "groupId": "HIGH_PROTECTION",
-      "value": 30739679.415805,
+      "value": 0,
       "extra": {
         "sketchName": "large-hpbz"
       }
@@ -105,7 +171,7 @@
       "classId": "marine_trans",
       "sketchId": "20652",
       "groupId": null,
-      "value": 1378222441.515989,
+      "value": 6198117624.216223,
       "extra": {
         "sketchName": "large-hpbz"
       }
@@ -116,7 +182,7 @@
       "classId": "marine_trans",
       "sketchId": "20652",
       "groupId": "HIGH_PROTECTION",
-      "value": 1378222441.515989,
+      "value": 6198117624.216223,
       "extra": {
         "sketchName": "large-hpbz"
       }
@@ -125,6 +191,39 @@
       "geographyId": null,
       "metricId": "humanStressors",
       "classId": "marine_trans",
+      "sketchId": "20652",
+      "groupId": "MEDIUM_PROTECTION",
+      "value": 0,
+      "extra": {
+        "sketchName": "large-hpbz"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "humanStressors",
+      "classId": "recreation",
+      "sketchId": "20652",
+      "groupId": null,
+      "value": 1908302087.808789,
+      "extra": {
+        "sketchName": "large-hpbz"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "humanStressors",
+      "classId": "recreation",
+      "sketchId": "20652",
+      "groupId": "HIGH_PROTECTION",
+      "value": 1908302087.808789,
+      "extra": {
+        "sketchName": "large-hpbz"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "humanStressors",
+      "classId": "recreation",
       "sketchId": "20652",
       "groupId": "MEDIUM_PROTECTION",
       "value": 0,
