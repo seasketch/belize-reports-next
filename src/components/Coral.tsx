@@ -6,6 +6,7 @@ import {
   LayerToggle,
   ReportError,
   ResultsCard,
+  Skeleton,
   ToolbarCard,
   useSketchProperties,
 } from "@seasketch/geoprocessing/client-ui";
@@ -52,6 +53,7 @@ export const Coral: React.FunctionComponent<{
     <div style={{ breakInside: "avoid" }}>
       <ResultsCard title={titleLabel} functionName="coral" useChildCard>
         {(data: ReportResult) => {
+          if (!data) return <Skeleton />;
           return (
             <ReportError>
               <ToolbarCard

@@ -4,6 +4,7 @@ import {
   Collapse,
   DataDownload,
   LayerToggle,
+  Skeleton,
   ReportError,
   ResultsCard,
   ToolbarCard,
@@ -55,6 +56,7 @@ export const LittoralForest: React.FunctionComponent<{
         useChildCard
       >
         {(data: ReportResult) => {
+          if (!data) return <Skeleton />;
           return (
             <ReportError>
               <ToolbarCard

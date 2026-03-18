@@ -5,6 +5,7 @@ import {
   DataDownload,
   ReportError,
   ResultsCard,
+  Skeleton,
   ToolbarCard,
   useSketchProperties,
 } from "@seasketch/geoprocessing/client-ui";
@@ -50,115 +51,118 @@ export const MangroveTourism: React.FunctionComponent<{
         extraParams={{ geographyIds: [curGeography.geographyId] }}
         useChildCard
       >
-        {(data: ReportResult) => (
-          <ReportError>
-            <ToolbarCard
-              title={t("Mangrove Tourism")}
-              items={
-                <DataDownload
-                  filename="MangroveTourism"
-                  data={data.metrics}
-                  formats={["csv", "json"]}
-                  placement="left-start"
-                  titleElement={
-                    <Download
-                      size={18}
-                      color="#999"
-                      style={{ cursor: "pointer" }}
-                    />
-                  }
-                />
-              }
-            >
-              <p>
-                <Trans i18nKey="MangroveTourism Card 1">
-                  This report summarizes the number of mangrove tourism sites
-                  within the plan.
-                </Trans>
-              </p>
-
-              <Translator>
-                {isCollection
-                  ? groupedCollectionReport(
-                      data.metrics,
-                      precalcMetrics,
-                      metricGroup,
-                      t,
-                    )
-                  : groupedSketchReport(
-                      data.metrics,
-                      precalcMetrics,
-                      metricGroup,
-                      t,
-                    )}
-
-                {isCollection && (
-                  <>
-                    <Collapse
-                      title={t("Show by Protection Level")}
-                      collapsed={!props.printing}
-                      key={String(props.printing) + "Protection"}
-                    >
-                      {genGroupLevelTable(
-                        data.metrics,
-                        precalcMetrics,
-                        metricGroup,
-                        t,
-                        props.printing,
-                        "count",
-                      )}
-                    </Collapse>
-                    <Collapse
-                      title={t("Show by MPA")}
-                      collapsed={!props.printing}
-                      key={String(props.printing) + "MPA"}
-                    >
-                      {genAreaSketchTable(
-                        data.metrics,
-                        precalcMetrics,
-                        metricGroup,
-                        t,
-                        childProperties || [],
-                        props.printing,
-                        "count",
-                      )}
-                    </Collapse>
-                  </>
-                )}
-              </Translator>
-
-              {!props.printing && (
-                <Collapse title={t("Learn more")}>
-                  <Trans i18nKey="MangroveTourism Card - learn more">
-                    <p>
-                      ℹ️ Overview: This layer represents the number of mangrove
-                      tourism sites in the Belize Ocean Space.
-                    </p>
-                    <p>
-                      🗺️ Source Data:{" "}
-                      <a
-                        href="https://www.sciencedirect.com/science/article/pii/S0308597X18306602"
-                        target="_blank"
-                      >
-                        Spalding and Parrett (2019) Global patterns in mangrove
-                        recreation and tourism
-                      </a>
-                    </p>
-                    <p>
-                      📈 Report: This report counts the number of mangrove
-                      tourism locations within the plan. The percentage of
-                      mangrove tourism locations within the plan is cauclated by
-                      taking this count and dividing it by the total number of
-                      mangrove tourism locations within the Belize Ocean Space.
-                      If the plan includes multiple areas that overlap, the
-                      overlap is only counted once.
-                    </p>
+        {(data: ReportResult) => {
+          if (!data) return <Skeleton />;
+          return (
+            <ReportError>
+              <ToolbarCard
+                title={t("Mangrove Tourism")}
+                items={
+                  <DataDownload
+                    filename="MangroveTourism"
+                    data={data.metrics}
+                    formats={["csv", "json"]}
+                    placement="left-start"
+                    titleElement={
+                      <Download
+                        size={18}
+                        color="#999"
+                        style={{ cursor: "pointer" }}
+                      />
+                    }
+                  />
+                }
+              >
+                <p>
+                  <Trans i18nKey="MangroveTourism Card 1">
+                    This report summarizes the number of mangrove tourism sites
+                    within the plan.
                   </Trans>
-                </Collapse>
-              )}
-            </ToolbarCard>
-          </ReportError>
-        )}
+                </p>
+
+                <Translator>
+                  {isCollection
+                    ? groupedCollectionReport(
+                        data.metrics,
+                        precalcMetrics,
+                        metricGroup,
+                        t,
+                      )
+                    : groupedSketchReport(
+                        data.metrics,
+                        precalcMetrics,
+                        metricGroup,
+                        t,
+                      )}
+
+                  {isCollection && (
+                    <>
+                      <Collapse
+                        title={t("Show by Protection Level")}
+                        collapsed={!props.printing}
+                        key={String(props.printing) + "Protection"}
+                      >
+                        {genGroupLevelTable(
+                          data.metrics,
+                          precalcMetrics,
+                          metricGroup,
+                          t,
+                          props.printing,
+                          "count",
+                        )}
+                      </Collapse>
+                      <Collapse
+                        title={t("Show by MPA")}
+                        collapsed={!props.printing}
+                        key={String(props.printing) + "MPA"}
+                      >
+                        {genAreaSketchTable(
+                          data.metrics,
+                          precalcMetrics,
+                          metricGroup,
+                          t,
+                          childProperties || [],
+                          props.printing,
+                          "count",
+                        )}
+                      </Collapse>
+                    </>
+                  )}
+                </Translator>
+
+                {!props.printing && (
+                  <Collapse title={t("Learn more")}>
+                    <Trans i18nKey="MangroveTourism Card - learn more">
+                      <p>
+                        ℹ️ Overview: This layer represents the number of
+                        mangrove tourism sites in the Belize Ocean Space.
+                      </p>
+                      <p>
+                        🗺️ Source Data:{" "}
+                        <a
+                          href="https://www.sciencedirect.com/science/article/pii/S0308597X18306602"
+                          target="_blank"
+                        >
+                          Spalding and Parrett (2019) Global patterns in
+                          mangrove recreation and tourism
+                        </a>
+                      </p>
+                      <p>
+                        📈 Report: This report counts the number of mangrove
+                        tourism locations within the plan. The percentage of
+                        mangrove tourism locations within the plan is cauclated
+                        by taking this count and dividing it by the total number
+                        of mangrove tourism locations within the Belize Ocean
+                        Space. If the plan includes multiple areas that overlap,
+                        the overlap is only counted once.
+                      </p>
+                    </Trans>
+                  </Collapse>
+                )}
+              </ToolbarCard>
+            </ReportError>
+          );
+        }}
       </ResultsCard>
     </div>
   );

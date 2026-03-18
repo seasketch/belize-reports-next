@@ -5,6 +5,7 @@ import {
   DataDownload,
   ReportError,
   ResultsCard,
+  Skeleton,
   ToolbarCard,
   useSketchProperties,
 } from "@seasketch/geoprocessing/client-ui";
@@ -56,121 +57,124 @@ export const Mangroves: React.FunctionComponent<{
         extraParams={{ geographyIds: [curGeography.geographyId] }}
         useChildCard
       >
-        {(data: ReportResult) => (
-          <ReportError>
-            <ToolbarCard
-              title={t("Mangroves")}
-              items={
-                <DataDownload
-                  filename="mangroves"
-                  data={data.metrics}
-                  formats={["csv", "json"]}
-                  placement="left-start"
-                  titleElement={
-                    <Download
-                      size={18}
-                      color="#999"
-                      style={{ cursor: "pointer" }}
-                    />
-                  }
-                />
-              }
-            >
-              <p>
-                {lockoutArea ? (
-                  <>
-                    This report summarizes the percentage of mangroves found in
-                    this lockout area.
-                  </>
-                ) : (
-                  <Trans i18nKey="Mangroves Card 1">
-                    This report summarizes the amount of mangroves within this
-                    plan, measuring progress to the 30x30 target of 30% mangrove
-                    protection.
-                  </Trans>
-                )}
-              </p>
+        {(data: ReportResult) => {
+          if (!data) return <Skeleton />;
+          return (
+            <ReportError>
+              <ToolbarCard
+                title={t("Mangroves")}
+                items={
+                  <DataDownload
+                    filename="mangroves"
+                    data={data.metrics}
+                    formats={["csv", "json"]}
+                    placement="left-start"
+                    titleElement={
+                      <Download
+                        size={18}
+                        color="#999"
+                        style={{ cursor: "pointer" }}
+                      />
+                    }
+                  />
+                }
+              >
+                <p>
+                  {lockoutArea ? (
+                    <>
+                      This report summarizes the percentage of mangroves found
+                      in this lockout area.
+                    </>
+                  ) : (
+                    <Trans i18nKey="Mangroves Card 1">
+                      This report summarizes the amount of mangroves within this
+                      plan, measuring progress to the 30x30 target of 30%
+                      mangrove protection.
+                    </Trans>
+                  )}
+                </p>
 
-              <Translator>
-                {isCollection
-                  ? groupedCollectionReport(
-                      data.metrics,
-                      precalcMetrics,
-                      metricGroup,
-                      t,
-                    )
-                  : groupedSketchReport(
-                      data.metrics,
-                      precalcMetrics,
-                      metricGroup,
-                      t,
-                    )}
-
-                {isCollection && (
-                  <>
-                    <Collapse
-                      title={t("Show by Protection Level")}
-                      collapsed={!props.printing}
-                      key={String(props.printing) + "Protection"}
-                    >
-                      {genGroupLevelTable(
+                <Translator>
+                  {isCollection
+                    ? groupedCollectionReport(
+                        data.metrics,
+                        precalcMetrics,
+                        metricGroup,
+                        t,
+                      )
+                    : groupedSketchReport(
                         data.metrics,
                         precalcMetrics,
                         metricGroup,
                         t,
                       )}
-                    </Collapse>
-                    <Collapse
-                      title={t("Show by MPA")}
-                      collapsed={!props.printing}
-                      key={String(props.printing) + "MPA"}
-                    >
-                      {genAreaSketchTable(
-                        data.metrics,
-                        precalcMetrics,
-                        metricGroup,
-                        t,
-                        childProperties || [],
-                        props.printing,
-                      )}
-                    </Collapse>
-                  </>
-                )}
-              </Translator>
 
-              {!props.printing && (
-                <Collapse title={t("Learn more")}>
-                  <Trans i18nKey="Mangroves Card - learn more">
-                    <p>
-                      ℹ️ Overview: Mangrove Priority Areas identified under the
-                      updated mangrove regulations of 2018. Mangroves were
-                      identified comparing data from 1980 and 2019.
-                    </p>
-                    <p>
-                      🎯 Planning Objective: 30% mangroves protected and 4000
-                      hectares mangroves restored by 2035.
-                    </p>
-                    <p>
-                      🗺️ Source Data: Mangrove Priority Areas from the mangrove
-                      regulations of 2018. Mangrove and Cleared Mangrove data
-                      from Cherrington & Griffin (2020).
-                    </p>
-                    <p>
-                      📈 Report: Only features within the Belize Ocean Space are
-                      counted. The percentage of each feature type within this
-                      plan is calculated by finding the overlap of each feature
-                      type with the plan, summing its area, then dividing it by
-                      the total area of each feature type found within the
-                      selected nearshore planning area. If the plan includes
-                      multiple areas that overlap, the overlap is only counted
-                      once.
-                    </p>
-                  </Trans>
-                </Collapse>
-              )}
-            </ToolbarCard>
-          </ReportError>
-        )}
+                  {isCollection && (
+                    <>
+                      <Collapse
+                        title={t("Show by Protection Level")}
+                        collapsed={!props.printing}
+                        key={String(props.printing) + "Protection"}
+                      >
+                        {genGroupLevelTable(
+                          data.metrics,
+                          precalcMetrics,
+                          metricGroup,
+                          t,
+                        )}
+                      </Collapse>
+                      <Collapse
+                        title={t("Show by MPA")}
+                        collapsed={!props.printing}
+                        key={String(props.printing) + "MPA"}
+                      >
+                        {genAreaSketchTable(
+                          data.metrics,
+                          precalcMetrics,
+                          metricGroup,
+                          t,
+                          childProperties || [],
+                          props.printing,
+                        )}
+                      </Collapse>
+                    </>
+                  )}
+                </Translator>
+
+                {!props.printing && (
+                  <Collapse title={t("Learn more")}>
+                    <Trans i18nKey="Mangroves Card - learn more">
+                      <p>
+                        ℹ️ Overview: Mangrove Priority Areas identified under
+                        the updated mangrove regulations of 2018. Mangroves were
+                        identified comparing data from 1980 and 2019.
+                      </p>
+                      <p>
+                        🎯 Planning Objective: 30% mangroves protected and 4000
+                        hectares mangroves restored by 2035.
+                      </p>
+                      <p>
+                        🗺️ Source Data: Mangrove Priority Areas from the
+                        mangrove regulations of 2018. Mangrove and Cleared
+                        Mangrove data from Cherrington & Griffin (2020).
+                      </p>
+                      <p>
+                        📈 Report: Only features within the Belize Ocean Space
+                        are counted. The percentage of each feature type within
+                        this plan is calculated by finding the overlap of each
+                        feature type with the plan, summing its area, then
+                        dividing it by the total area of each feature type found
+                        within the selected nearshore planning area. If the plan
+                        includes multiple areas that overlap, the overlap is
+                        only counted once.
+                      </p>
+                    </Trans>
+                  </Collapse>
+                )}
+              </ToolbarCard>
+            </ReportError>
+          );
+        }}
       </ResultsCard>
     </div>
   );

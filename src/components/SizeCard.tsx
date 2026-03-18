@@ -11,6 +11,7 @@ import {
   ToolbarCard,
   LayerToggle,
   DataDownload,
+  Skeleton,
 } from "@seasketch/geoprocessing/client-ui";
 import {
   ReportResult,
@@ -69,6 +70,8 @@ export const SizeCard: React.FunctionComponent<{ printing: boolean }> = (
     <div style={{ breakInside: "avoid" }}>
       <ResultsCard title={t("Size")} functionName="size" useChildCard>
         {(data: ReportResult) => {
+          if (!data) return <Skeleton />;
+
           // Get overall area of sketch metric
           const areaMetric = firstMatchingMetric(
             data.metrics,

@@ -5,6 +5,7 @@ import {
   DataDownload,
   ReportError,
   ResultsCard,
+  Skeleton,
   ToolbarCard,
   useSketchProperties,
 } from "@seasketch/geoprocessing/client-ui";
@@ -50,119 +51,123 @@ export const OceanWealth: React.FunctionComponent<{
         extraParams={{ geographyIds: [curGeography.geographyId] }}
         useChildCard
       >
-        {(data: ReportResult) => (
-          <ReportError>
-            <ToolbarCard
-              title={titleLabel}
-              items={
-                <DataDownload
-                  filename="OceanWealth"
-                  data={data.metrics}
-                  formats={["csv", "json"]}
-                  placement="left-start"
-                  titleElement={
-                    <Download
-                      size={18}
-                      color="#999"
-                      style={{ cursor: "pointer" }}
-                    />
-                  }
-                />
-              }
-            >
-              <p>
-                <Trans i18nKey="OceanWealth Card 1">
-                  This report summarizes the amount of on-reef and reef-adjacent
-                  value within this plan.
-                </Trans>
-              </p>
-
-              <Translator>
-                {isCollection
-                  ? groupedCollectionReport(
-                      data.metrics,
-                      precalcMetrics,
-                      metricGroup,
-                      t,
-                    )
-                  : groupedSketchReport(
-                      data.metrics,
-                      precalcMetrics,
-                      metricGroup,
-                      t,
-                    )}
-
-                {isCollection && (
-                  <>
-                    <Collapse
-                      title={t("Show by Protection Level")}
-                      collapsed={!props.printing}
-                      key={String(props.printing) + "Protection"}
-                    >
-                      {genGroupLevelTable(
-                        data.metrics,
-                        precalcMetrics,
-                        metricGroup,
-                        t,
-                        props.printing,
-                        "dollar",
-                      )}
-                    </Collapse>
-                    <Collapse
-                      title={t("Show by MPA")}
-                      collapsed={!props.printing}
-                      key={String(props.printing) + "MPA"}
-                    >
-                      {genAreaSketchTable(
-                        data.metrics,
-                        precalcMetrics,
-                        metricGroup,
-                        t,
-                        childProperties || [],
-                        props.printing,
-                        "dollar",
-                      )}
-                    </Collapse>
-                  </>
-                )}
-              </Translator>
-
-              {!props.printing && (
-                <Collapse title={t("Learn more")}>
-                  <Trans i18nKey="OceanWealth Card - learn more">
-                    <p>
-                      ℹ️ Overview: Dollar value was attributed to each tract of
-                      reef to the tourism sector. On-reef value includes
-                      activities such as scuba and snorking. Reef-adjacent value
-                      includes benefits such as protected beach and fresh
-                      seafood. These values are summed to get the total reef
-                      value.
-                    </p>
-                    <p>
-                      🗺️ Source Data:{" "}
-                      <a
-                        href="https://www.sciencedirect.com/science/article/pii/S0308597X17300635"
-                        target="_blank"
-                      >
-                        Spalding et al. (2017) Mapping the global value and
-                        distribution of coral reef tourism
-                      </a>
-                    </p>
-                    <p>
-                      📈 Report: Only features within the Belize Ocean Space are
-                      counted. The percentage of each feature type within this
-                      plan is calculated by finding the overlap of each feature
-                      type with the plan, summing its value, then dividing it by
-                      the total value of each feature type found within the
-                      Belize Ocean Space. If the plan includes multiple areas
-                      that overlap, the overlap is only counted once.
-                    </p>
+        {(data: ReportResult) => {
+          if (!data) return <Skeleton />;
+          return (
+            <ReportError>
+              <ToolbarCard
+                title={titleLabel}
+                items={
+                  <DataDownload
+                    filename="OceanWealth"
+                    data={data.metrics}
+                    formats={["csv", "json"]}
+                    placement="left-start"
+                    titleElement={
+                      <Download
+                        size={18}
+                        color="#999"
+                        style={{ cursor: "pointer" }}
+                      />
+                    }
+                  />
+                }
+              >
+                <p>
+                  <Trans i18nKey="OceanWealth Card 1">
+                    This report summarizes the amount of on-reef and
+                    reef-adjacent value within this plan.
                   </Trans>
-                </Collapse>
-              )}
-            </ToolbarCard>
-          </ReportError>
-        )}
+                </p>
+
+                <Translator>
+                  {isCollection
+                    ? groupedCollectionReport(
+                        data.metrics,
+                        precalcMetrics,
+                        metricGroup,
+                        t,
+                      )
+                    : groupedSketchReport(
+                        data.metrics,
+                        precalcMetrics,
+                        metricGroup,
+                        t,
+                      )}
+
+                  {isCollection && (
+                    <>
+                      <Collapse
+                        title={t("Show by Protection Level")}
+                        collapsed={!props.printing}
+                        key={String(props.printing) + "Protection"}
+                      >
+                        {genGroupLevelTable(
+                          data.metrics,
+                          precalcMetrics,
+                          metricGroup,
+                          t,
+                          props.printing,
+                          "dollar",
+                        )}
+                      </Collapse>
+                      <Collapse
+                        title={t("Show by MPA")}
+                        collapsed={!props.printing}
+                        key={String(props.printing) + "MPA"}
+                      >
+                        {genAreaSketchTable(
+                          data.metrics,
+                          precalcMetrics,
+                          metricGroup,
+                          t,
+                          childProperties || [],
+                          props.printing,
+                          "dollar",
+                        )}
+                      </Collapse>
+                    </>
+                  )}
+                </Translator>
+
+                {!props.printing && (
+                  <Collapse title={t("Learn more")}>
+                    <Trans i18nKey="OceanWealth Card - learn more">
+                      <p>
+                        ℹ️ Overview: Dollar value was attributed to each tract
+                        of reef to the tourism sector. On-reef value includes
+                        activities such as scuba and snorking. Reef-adjacent
+                        value includes benefits such as protected beach and
+                        fresh seafood. These values are summed to get the total
+                        reef value.
+                      </p>
+                      <p>
+                        🗺️ Source Data:{" "}
+                        <a
+                          href="https://www.sciencedirect.com/science/article/pii/S0308597X17300635"
+                          target="_blank"
+                        >
+                          Spalding et al. (2017) Mapping the global value and
+                          distribution of coral reef tourism
+                        </a>
+                      </p>
+                      <p>
+                        📈 Report: Only features within the Belize Ocean Space
+                        are counted. The percentage of each feature type within
+                        this plan is calculated by finding the overlap of each
+                        feature type with the plan, summing its value, then
+                        dividing it by the total value of each feature type
+                        found within the Belize Ocean Space. If the plan
+                        includes multiple areas that overlap, the overlap is
+                        only counted once.
+                      </p>
+                    </Trans>
+                  </Collapse>
+                )}
+              </ToolbarCard>
+            </ReportError>
+          );
+        }}
       </ResultsCard>
     </div>
   );

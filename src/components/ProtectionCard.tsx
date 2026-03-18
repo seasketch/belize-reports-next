@@ -11,6 +11,7 @@ import {
   RbcsIcon,
   GroupPill,
   useSketchProperties,
+  Skeleton,
 } from "@seasketch/geoprocessing/client-ui";
 import {
   ReportResult,
@@ -57,6 +58,7 @@ export const ProtectionCard: React.FunctionComponent<{ printing: boolean }> = (
     <div style={{ breakInside: "avoid" }}>
       <ResultsCard title={t("Protection Level")} functionName="protection">
         {(data: ReportResult) => {
+          if (!data) return <Skeleton />;
           return (
             <ReportError>
               {isCollection

@@ -6,6 +6,7 @@ import {
   LayerToggle,
   ReportError,
   ResultsCard,
+  Skeleton,
   ToolbarCard,
   useSketchProperties,
 } from "@seasketch/geoprocessing/client-ui";
@@ -59,6 +60,7 @@ export const Seagrass: React.FunctionComponent<{
         useChildCard
       >
         {(data: ReportResult) => {
+          if (!data) return <Skeleton />;
           return (
             <ReportError>
               <ToolbarCard

@@ -7,6 +7,7 @@ import {
   useSketchProperties,
   ToolbarCard,
   DataDownload,
+  Skeleton,
 } from "@seasketch/geoprocessing/client-ui";
 import {
   ReportResult,
@@ -64,6 +65,7 @@ export const OusDemographics: React.FunctionComponent<{
         useChildCard
       >
         {(data: ReportResult) => {
+          if (!data) return <Skeleton />;
           // Filter down to people count metrics for top-level sketch
           const singlePeopleCountMetrics = data.metrics.filter(
             (m) =>

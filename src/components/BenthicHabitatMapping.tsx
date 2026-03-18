@@ -6,6 +6,7 @@ import {
   LayerToggle,
   ReportError,
   ResultsCard,
+  Skeleton,
   ToolbarCard,
   useSketchProperties,
 } from "@seasketch/geoprocessing/client-ui";
@@ -60,6 +61,7 @@ export const BenthicHabitatMapping: React.FunctionComponent<{
         useChildCard
       >
         {(data: ReportResult) => {
+          if (!data) return <Skeleton />;
           return (
             <ReportError>
               <ToolbarCard
