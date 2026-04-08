@@ -64,7 +64,9 @@ export async function mangroveTourism(
         const url = project.getDatasourceUrl(ds);
 
         // Fetch features overlapping with sketch, if not already fetched
-        const features = await getFeaturesForSketchBBoxes<Point>(sketch, url);
+        const features = await getFeaturesForSketchBBoxes<Point>(sketch, url, {
+          uniqueIdProperty: "Attraction",
+        });
 
         // Get classKey for current data class
         const classKey = project.getMetricGroupClassKey(metricGroup, {
